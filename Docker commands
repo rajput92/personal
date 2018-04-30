@@ -1,0 +1,51 @@
+docker image ls
+docker image pull alpine:latest
+docker image pull -a alpine:latest : to pull all the images with different tags
+
+docker image ls --filter dangling=true
+
+docker image prune : removes dangling images
+
+docker image prune -a
+
+docker image ls --filter=reference="*:latest"
+
+docker search nigelpoulton
+
+docker search alpine --filter "is-official=true"
+
+docker search alpine --filter "is-automated=true"
+
+docker image inspect ubuntu:latest
+
+docker image ls --format "{{.Size}}"
+
+docker history command
+
+docker image rm $(docker image ls -q) -f
+
+service docker status
+
+systemctl is-active docker
+
+docker container ls
+
+docker container pause
+
+docker container run -it ubuntu:latest /bin/bash
+
+docker container exec -it 3027eb644874 bash
+
+docker container run --name percy -it ubuntu:latest /bin/bash
+
+docker container run --name neversaydie -it --restart always alpine sh
+
+docker container run -d –name webserver -p 80:8080 \ nigelpoulton/
+
+docker container rm $(docker container ls -aq) -f
+
+
+
+
+
+

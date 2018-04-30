@@ -1,0 +1,60 @@
+Project 1:AWS lambda - nodejs or python - check remote sFTP for new files and insert code snippet
+
+Id like to build a aws lambda that works as follows
+
+- Lambda runs and will FTP to a directory path that we give it
+- FTP creds will be stored in a s3 location as json structure that you specify (so its easy to manage and update without touching the lambda
+- in the FTP config file we will specify the path for this "watcher" to start from
+- we will be looking for specific html file types (like .htm, .html. .js etc..)
+- the lambda will scan the entire FTP dir for any files with a change date since the last time it ran
+-I propose we keep a digest in s3 logging which files it touched and the last time it ran. this way when it runs again it can use this s3 digest to keep its state
+- when it finds a new file matching our types it will insert a block of code. we will handle it like this. we will specify a block of code to find and then a block of code that should replace it. 
+
+for example in all .htm files lets look for this string < happy > and replace it with < glad > 
+
+after the change is made the lambda should set the file back to the ftp dir and then add it to the log. after the lambda is done running it will make a final entry to the log "Last ran" with a time date stamp. this will be used by the lambda next time it runs so it knows the date to now be checking for. 
+
+since lambdas have a timelimit we need to make sure the code is efficient in how it scans the ftp directory. ideally its not downloading things it doesnt need. 
+
+the FTP server is SFTP and runs on port 2222 so we will need to make sure the lambda and your node or python ftp client can handle that
+
+please give us timeline and questions
+
+Project 2: Install WebSphere App server, IHS web server, use AWS Load Balancer, API Gateway, take an source code of some servlet UI application with some static contents(Try to implement in form of containers)
+
+Project 3: Lambda function python
+Aws lambda function(python) to balance the solrcloud (collections, shards, nodes) when ever a node goes down lambda function should bring the nodes up and balance it
+
+This job was posted from a mobile device, so please pardon any typos or any missing details.
+
+
+Project 4 : Application requirement specifications
+
+1.	Create a RESTful web service using Java, spring boot and Amazon Web Services.
+The Service should constantly read published messages from AWS SQS queues in JSON format and publish into Amazon S3 buckets with Unique filenames.
+2.	Create a Restful web service using Java, Spring Boot, which can accept the unique filenames for objects published in S3 bucket (In point 1) and send the response back to UI (browser) in the form of a List (JSON format).
+3.	Create a Restful Web service that accepts a multipart image and stores it in amazon S3. A reference to this image is stored in Amazon Dynamo DB for future reference.
+4.	Create a Restful Web service that accepts the image name from user. Checks in DynamoDB if the entry exists for the image. If yes, return the image from S3, otherwise throw 401- Unauthorized error.
+
+-	All the services must use Java 8, Spring Boot. 
+-	Maven for dependency management.
+-	All services must be authenticated by a username and password
+
+Project 5 : API service using AWS Cognito and AWS API Gateway and Lambda
+Looking  for experienced developer to create API using AWS services like Cognito for authorisation, Lambda for running code and API Gateway for API service itself.
+
+API Is simple as possible!
+
+1. POST to API test.com/veryfy
+with form element in body data: 'WORD'
+and authentication token from Amazon Cognito
+2. If in database we found same WORD - RESPONSEL: OK (found, true, or something)
+3. If in database we dont find the requested WORD - RESPONSE: NOT OK (not found, false or etc)
+
+
+I can POST not only plain text, but also MD5 hash (privacy moments :D ).
+If we receive MD5 we compare data with our database records and same flow as 2 and 3.
+
+Project 6 : Take a source code java, try to implement sonar in bamboo
+
+

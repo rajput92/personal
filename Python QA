@@ -1,0 +1,7 @@
+What does this error means : slice step cannot be zero
+Can we use +/- in string concatenation with int, Which one is used
+Does split include the element that was split on
+If we want to represent same string as it it, then what to use, and what is specific with f-string
+How to align text to left, right, center(two ways)
+Slicing wil only iterate from left-->right
+

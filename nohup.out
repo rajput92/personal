@@ -1,0 +1,1777 @@
+[W 15:10:47.064 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:10:47.107 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 15:10:47.107 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 15:10:47.116 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 15:10:47.116 NotebookApp] 0 active kernels
+[I 15:10:47.116 NotebookApp] The Jupyter Notebook is running at:
+[I 15:10:47.116 NotebookApp] http://[all ip addresses on your system]:1024/
+[I 15:10:47.116 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:10:56.463 NotebookApp] 302 GET / (49.35.33.15) 0.58ms
+[I 15:10:56.533 NotebookApp] 302 GET /tree? (49.35.33.15) 1.02ms
+[I 15:12:02.280 NotebookApp] Interrupted...
+[I 15:12:02.280 NotebookApp] Shutting down 0 kernels
+[W 15:12:39.164 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:12:39.195 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 15:12:39.195 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 15:12:39.201 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 15:12:39.201 NotebookApp] 0 active kernels
+[I 15:12:39.201 NotebookApp] The Jupyter Notebook is running at:
+[I 15:12:39.201 NotebookApp] http://[all ip addresses on your system]:8000/
+[I 15:12:39.201 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:12:48.558 NotebookApp] 302 GET / (49.35.33.15) 0.56ms
+[I 15:12:48.663 NotebookApp] 302 GET /tree? (49.35.33.15) 1.18ms
+[I 15:13:02.758 NotebookApp] 302 GET / (49.35.33.15) 0.42ms
+[I 15:13:02.839 NotebookApp] 302 GET /tree? (49.35.33.15) 0.76ms
+[I 15:13:40.432 NotebookApp] Malformed HTTP message from 49.35.33.15: Malformed HTTP version in HTTP Request-Line: 'REÅÈ¿\x89ý*&à\x17æ\x07<³q@6\x15(ÊpË\x00"'
+[I 15:13:40.552 NotebookApp] Malformed HTTP message from 49.35.33.15: Malformed HTTP headers: '\n\x01\x00\x00eêê\x00\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00#\x00\x00\x00\r\x00\x14\x00'
+[I 15:14:02.169 NotebookApp] 302 GET / (49.44.87.106) 0.43ms
+[I 15:14:02.244 NotebookApp] 302 GET /tree? (49.44.87.106) 0.80ms
+[I 15:15:28.419 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.35.33.15) 1.14ms
+[I 15:15:28.512 NotebookApp] 302 GET /tree? (49.44.87.106) 0.72ms
+[I 15:15:34.649 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.35.33.15) 1.12ms
+[I 15:15:34.794 NotebookApp] 302 GET /tree? (49.44.87.106) 0.79ms
+[I 15:15:38.012 NotebookApp] 302 GET / (49.35.33.15) 0.42ms
+[I 15:15:38.113 NotebookApp] 302 GET /tree? (49.35.33.15) 0.78ms
+[I 15:15:49.149 NotebookApp] 302 GET / (49.35.33.15) 0.41ms
+[I 15:15:49.218 NotebookApp] 302 GET /tree? (49.35.33.15) 0.76ms
+[I 15:16:31.252 NotebookApp] 302 GET / (49.35.33.15) 0.43ms
+[I 15:16:31.327 NotebookApp] 302 GET /tree? (49.35.33.15) 0.72ms
+[C 15:17:30.025 NotebookApp] received signal 15, stopping
+[I 15:17:30.026 NotebookApp] Shutting down 0 kernels
+[I 15:18:33.454 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 15:18:33.455 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 15:18:33.464 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 15:18:33.464 NotebookApp] 0 active kernels
+[I 15:18:33.464 NotebookApp] The Jupyter Notebook is running at:
+[I 15:18:33.464 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 15:18:33.464 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:19:46.919 NotebookApp] 302 GET / (49.35.33.15) 0.62ms
+[I 15:19:47.029 NotebookApp] 302 GET /tree? (49.35.33.15) 1.11ms
+[I 15:19:51.183 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.35.33.15) 1.19ms
+[W 15:20:14.535 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:20:15.432 NotebookApp] Kernel started: 6a513ad4-6919-4d0b-b1a4-4d7882205587
+[I 15:20:18.434 NotebookApp] Adapting to protocol v5.1 for kernel 6a513ad4-6919-4d0b-b1a4-4d7882205587
+[I 15:22:15.597 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:22:15.598 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:23:11.307 NotebookApp] Kernel started: e6c465b9-40a6-485a-975d-03f17c1460ca
+[I 15:23:12.237 NotebookApp] Adapting to protocol v5.1 for kernel e6c465b9-40a6-485a-975d-03f17c1460ca
+[I 15:24:16.098 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:24:16.099 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[W 15:24:53.496 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 15:24:54.791 NotebookApp] Kernel started: 9ed5ac2d-3714-4922-89bc-93fda2cfdd7d
+[I 15:24:56.367 NotebookApp] Adapting to protocol v5.1 for kernel 9ed5ac2d-3714-4922-89bc-93fda2cfdd7d
+[I 15:25:12.162 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:26:55.688 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb
+[W 15:26:55.689 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 15:27:11.609 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:28:15.443 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:28:15.443 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[W 15:29:18.890 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/09-Functions and Methods Homework - Solutions.ipynb is not trusted
+[I 15:29:19.598 NotebookApp] Kernel started: 22fffa5d-4797-4ba5-a28b-5599addc4cba
+[I 15:29:20.936 NotebookApp] Adapting to protocol v5.1 for kernel 22fffa5d-4797-4ba5-a28b-5599addc4cba
+[I 15:30:15.990 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:30:15.991 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:31:12.042 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:32:15.511 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:32:15.512 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:34:15.456 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:34:15.457 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:36:15.496 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:36:15.496 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:38:15.620 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:38:15.621 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:39:11.605 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:40:15.614 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:40:15.615 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:45:11.589 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:49:12.054 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 15:50:15.972 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:50:15.972 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:52:16.121 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:52:16.121 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:54:16.045 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:54:16.045 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:56:15.971 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:56:15.972 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 15:58:16.031 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 15:58:16.031 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 16:00:16.075 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb
+[W 16:00:16.075 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 16:22:48.554 NotebookApp] Starting buffering for 6a513ad4-6919-4d0b-b1a4-4d7882205587:bf336ba6f622481e966ec4fd0131eaff
+[I 16:22:49.681 NotebookApp] Starting buffering for e6c465b9-40a6-485a-975d-03f17c1460ca:7d68afd54fa9400986c09a9e322a4139
+[I 16:22:50.811 NotebookApp] Starting buffering for 9ed5ac2d-3714-4922-89bc-93fda2cfdd7d:c2f8911d8af4480d8107f07879045472
+[I 16:22:52.666 NotebookApp] Starting buffering for 22fffa5d-4797-4ba5-a28b-5599addc4cba:35c37c807746406a93196eea617e55f3
+[W 04:36:26.959 NotebookApp] SSL Error on 10 ('72.14.190.168', 60484): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:27.471 NotebookApp] SSL Error on 10 ('72.14.190.168', 60618): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:27.975 NotebookApp] SSL Error on 10 ('72.14.190.168', 60704): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:28.480 NotebookApp] SSL Error on 10 ('72.14.190.168', 60824): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:28.974 NotebookApp] SSL Error on 10 ('72.14.190.168', 60950): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:29.473 NotebookApp] SSL Error on 10 ('72.14.190.168', 32790): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:29.974 NotebookApp] SSL Error on 10 ('72.14.190.168', 32892): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:30.478 NotebookApp] SSL Error on 10 ('72.14.190.168', 33020): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:30.974 NotebookApp] SSL Error on 10 ('72.14.190.168', 33108): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:31.462 NotebookApp] SSL Error on 10 ('72.14.190.168', 33202): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:31.954 NotebookApp] SSL Error on 10 ('72.14.190.168', 33320): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:32.460 NotebookApp] SSL Error on 10 ('72.14.190.168', 33436): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:32.962 NotebookApp] SSL Error on 10 ('72.14.190.168', 33524): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:33.458 NotebookApp] SSL Error on 10 ('72.14.190.168', 33608): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:36:33.946 NotebookApp] SSL Error on 10 ('72.14.190.168', 33704): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:36:37.152 NotebookApp] Malformed HTTP message from 72.14.190.168: Malformed HTTP request line
+[I 04:36:38.137 NotebookApp] 302 GET / (72.14.190.168) 0.61ms
+[I 04:51:02.585 NotebookApp] 302 GET / (122.15.228.208) 1.07ms
+[I 04:51:02.607 NotebookApp] 302 GET /tree? (122.15.228.208) 0.81ms
+[I 04:51:09.922 NotebookApp] 302 POST /login?next=%2Ftree%3F (122.15.228.208) 1.21ms
+[W 04:53:25.330 NotebookApp] Notebook Complete-Python-3-Bootcamp/04-Milestone Project - 1/01-Milestone Project 1 - Assignment.ipynb is not trusted
+[I 04:53:25.949 NotebookApp] Kernel started: 65da7e25-fdc1-4046-85ca-83ef0f84ee97
+[I 04:53:26.666 NotebookApp] Adapting to protocol v5.1 for kernel 65da7e25-fdc1-4046-85ca-83ef0f84ee97
+[W 04:53:41.768 NotebookApp] Notebook Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb is not trusted
+[I 04:53:42.571 NotebookApp] Kernel started: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 04:53:42.856 NotebookApp] Starting buffering for 65da7e25-fdc1-4046-85ca-83ef0f84ee97:a6ecbad36de94b48831cc824d78e1277
+[I 04:53:43.317 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 04:55:42.601 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:45:42.812 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:46:35.541 NotebookApp] Kernel started: a3688dbb-ab31-4b2e-842e-b7305d329a69
+[I 05:46:36.492 NotebookApp] Adapting to protocol v5.1 for kernel a3688dbb-ab31-4b2e-842e-b7305d329a69
+[I 05:47:42.737 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:49:42.726 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:51:42.715 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:55:42.722 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:13:42.873 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:15:42.767 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:17:42.803 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:19:42.786 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:21:42.782 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:22:23.981 NotebookApp] Adapting to protocol v5.1 for kernel e6c465b9-40a6-485a-975d-03f17c1460ca
+[I 06:23:43.147 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:24:23.464 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 06:26:23.466 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 06:27:42.796 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:28:24.146 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 06:29:42.824 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:30:24.178 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/Untitled.ipynb
+[I 06:31:42.793 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 06:33:43.236 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[W 08:19:06.494 NotebookApp] WebSocket ping timeout after 119980 ms.
+[I 08:19:11.496 NotebookApp] Starting buffering for a3688dbb-ab31-4b2e-842e-b7305d329a69:06295709aaaa4fd5a5a369406129b798
+[W 08:19:13.318 NotebookApp] WebSocket ping timeout after 119985 ms.
+[I 08:19:18.320 NotebookApp] Starting buffering for 4fcde5ea-befe-4cca-af6e-579b5086db66:380c5f9e4a0947e985ba400bb3da4665
+[W 08:19:23.982 NotebookApp] WebSocket ping timeout after 119959 ms.
+[I 08:19:28.982 NotebookApp] Starting buffering for e6c465b9-40a6-485a-975d-03f17c1460ca:3d170449b1fc44708fdc3679002038c0
+[I 08:41:27.411 NotebookApp] Adapting to protocol v5.1 for kernel e6c465b9-40a6-485a-975d-03f17c1460ca
+[I 08:41:27.413 NotebookApp] Restoring connection for e6c465b9-40a6-485a-975d-03f17c1460ca:3d170449b1fc44708fdc3679002038c0
+[I 08:41:27.490 NotebookApp] Adapting to protocol v5.1 for kernel a3688dbb-ab31-4b2e-842e-b7305d329a69
+[I 08:41:27.491 NotebookApp] Restoring connection for a3688dbb-ab31-4b2e-842e-b7305d329a69:06295709aaaa4fd5a5a369406129b798
+[I 08:41:27.493 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 08:41:27.493 NotebookApp] Restoring connection for 4fcde5ea-befe-4cca-af6e-579b5086db66:380c5f9e4a0947e985ba400bb3da4665
+[I 09:23:06.385 NotebookApp] Starting buffering for e6c465b9-40a6-485a-975d-03f17c1460ca:3d170449b1fc44708fdc3679002038c0
+[I 09:23:07.777 NotebookApp] Starting buffering for a3688dbb-ab31-4b2e-842e-b7305d329a69:06295709aaaa4fd5a5a369406129b798
+[I 09:23:08.727 NotebookApp] Starting buffering for 4fcde5ea-befe-4cca-af6e-579b5086db66:380c5f9e4a0947e985ba400bb3da4665
+[W 09:39:58.199 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 09:40:00.250 NotebookApp] Kernel started: 8383e6a0-5a49-400d-80a1-05a838b88735
+[I 09:40:01.001 NotebookApp] Adapting to protocol v5.1 for kernel 8383e6a0-5a49-400d-80a1-05a838b88735
+[I 09:40:17.920 NotebookApp] Creating new notebook in /Complete-Python-3-Bootcamp/05-Object Oriented Programming
+[I 09:40:19.185 NotebookApp] Kernel started: a375707c-d401-4b80-9471-0a856bf820b5
+[I 09:40:19.908 NotebookApp] Adapting to protocol v5.1 for kernel a375707c-d401-4b80-9471-0a856bf820b5
+[I 09:42:00.472 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb
+[W 09:42:00.474 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 09:42:19.215 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 09:44:19.225 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 09:46:19.244 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 09:48:21.230 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 10:04:19.380 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 10:06:20.032 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 10:08:19.262 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[I 10:10:19.285 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/Untitled.ipynb
+[W 12:39:19.909 NotebookApp] WebSocket ping timeout after 119982 ms.
+[I 12:39:24.910 NotebookApp] Starting buffering for a375707c-d401-4b80-9471-0a856bf820b5:b71f28063e9844ee9681955ea41660ed
+[W 12:39:31.002 NotebookApp] WebSocket ping timeout after 119986 ms.
+[I 12:39:36.003 NotebookApp] Starting buffering for 8383e6a0-5a49-400d-80a1-05a838b88735:195b39c441f143258c9b7bca80b4f553
+[I 12:40:48.940 NotebookApp] Adapting to protocol v5.1 for kernel a375707c-d401-4b80-9471-0a856bf820b5
+[I 12:40:48.940 NotebookApp] Restoring connection for a375707c-d401-4b80-9471-0a856bf820b5:b71f28063e9844ee9681955ea41660ed
+[W 12:47:48.940 NotebookApp] WebSocket ping timeout after 119974 ms.
+[I 12:47:53.942 NotebookApp] Starting buffering for a375707c-d401-4b80-9471-0a856bf820b5:b71f28063e9844ee9681955ea41660ed
+[I 12:51:44.013 NotebookApp] Adapting to protocol v5.1 for kernel a375707c-d401-4b80-9471-0a856bf820b5
+[I 12:51:44.013 NotebookApp] Restoring connection for a375707c-d401-4b80-9471-0a856bf820b5:b71f28063e9844ee9681955ea41660ed
+[I 13:10:26.572 NotebookApp] Starting buffering for a375707c-d401-4b80-9471-0a856bf820b5:b71f28063e9844ee9681955ea41660ed
+[I 15:57:48.571 NotebookApp] 302 GET / (49.35.46.192) 0.55ms
+[I 15:59:01.739 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 16:16:59.488 NotebookApp] Starting buffering for 4fcde5ea-befe-4cca-af6e-579b5086db66:2b72aec2490c4e388381209e2801ee27
+[W 17:53:27.392 NotebookApp] SSL Error on 10 ('5.39.216.134', 3276): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:30:05.098 NotebookApp] SSL Error on 10 ('185.35.63.105', 35358): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:02:01.487 NotebookApp] 302 GET / (122.15.228.208) 0.48ms
+[I 04:02:15.207 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 04:16:15.025 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 04:16:18.836 NotebookApp] Kernel interrupted: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 04:18:15.157 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 05:35:26.306 NotebookApp] Kernel started: 7080f220-d49a-4db4-aaa2-e395523b98a0
+[I 05:35:27.030 NotebookApp] Adapting to protocol v5.1 for kernel 7080f220-d49a-4db4-aaa2-e395523b98a0
+[I 05:37:26.373 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:41:26.307 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:43:26.492 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 08:12:15.208 NotebookApp] WebSocket ping timeout after 119922 ms.
+[I 08:12:20.209 NotebookApp] Starting buffering for 4fcde5ea-befe-4cca-af6e-579b5086db66:c4713ff591b04c8782a2b423a51e1e81
+[W 08:12:27.031 NotebookApp] WebSocket ping timeout after 119916 ms.
+[I 08:12:32.032 NotebookApp] Starting buffering for 7080f220-d49a-4db4-aaa2-e395523b98a0:08d4cace07e44916875d6231748e5186
+[I 08:18:06.576 NotebookApp] Adapting to protocol v5.1 for kernel 7080f220-d49a-4db4-aaa2-e395523b98a0
+[I 08:18:06.577 NotebookApp] Restoring connection for 7080f220-d49a-4db4-aaa2-e395523b98a0:08d4cace07e44916875d6231748e5186
+[I 08:18:06.579 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 08:18:06.579 NotebookApp] Restoring connection for 4fcde5ea-befe-4cca-af6e-579b5086db66:c4713ff591b04c8782a2b423a51e1e81
+[I 10:05:01.216 NotebookApp] Starting buffering for 4fcde5ea-befe-4cca-af6e-579b5086db66:c4713ff591b04c8782a2b423a51e1e81
+[I 10:05:01.241 NotebookApp] Starting buffering for 7080f220-d49a-4db4-aaa2-e395523b98a0:08d4cace07e44916875d6231748e5186
+[I 14:46:39.324 NotebookApp] 302 GET / (49.35.57.177) 0.50ms
+[I 14:47:12.265 NotebookApp] Adapting to protocol v5.1 for kernel 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 14:51:10.118 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 14:53:10.198 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 14:54:46.536 NotebookApp] Kernel interrupted: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 14:55:10.104 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 14:57:10.083 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 14:59:10.106 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 15:00:30.067 NotebookApp] Creating new notebook in /Complete-Python-3-Bootcamp/04-Milestone Project - 1
+[I 15:00:37.033 NotebookApp] Kernel started: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:00:42.521 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:01:10.900 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 15:02:37.153 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:12:37.661 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:14:37.154 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:16:37.129 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:18:37.887 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:20:25.756 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:20:37.163 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:20:51.416 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:21:59.780 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:22:22.580 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:22:37.902 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:22:52.684 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:22:56.926 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:23:05.180 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:23:28.616 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:23:46.600 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:24:37.134 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:24:48.188 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:25:57.920 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:26:37.183 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:26:48.860 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:27:01.272 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:27:09.823 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:27:10.031 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:27:10.978 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 15:27:11.688 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:27:11.689 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:27:11.689 NotebookApp] Replaying 3 buffered messages
+[I 15:28:37.853 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:30:11.533 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:30:11.535 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:30:12.805 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:30:12.806 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:30:37.137 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:30:48.216 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:32:37.173 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:33:04.480 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:34:37.998 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:35:40.380 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:35:54.476 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:36:04.450 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:36:04.456 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:36:05.839 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:36:05.839 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:36:05.839 NotebookApp] Replaying 3 buffered messages
+[I 15:36:37.162 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:36:52.684 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:37:31.280 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:38:37.289 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:39:10.886 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 15:40:37.154 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:40:42.488 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:41:05.596 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:41:09.520 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:41:09.530 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:41:11.010 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:41:11.010 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:41:11.010 NotebookApp] Replaying 3 buffered messages
+[I 15:42:34.037 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:42:39.063 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:42:39.542 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:42:40.609 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:42:40.610 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:42:51.674 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:43:08.303 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:43:08.306 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:43:09.559 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:43:09.560 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:43:09.560 NotebookApp] Replaying 3 buffered messages
+[I 15:43:28.374 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:43:28.378 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:43:29.959 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:43:29.960 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:44:37.146 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:46:37.453 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:48:37.164 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:49:54.075 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:49:54.078 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:49:55.422 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:49:55.422 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:49:55.422 NotebookApp] Replaying 3 buffered messages
+[I 15:50:24.342 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:50:24.551 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:50:25.897 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:50:25.898 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:50:25.898 NotebookApp] Replaying 5 buffered messages
+[I 15:50:37.145 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:51:47.843 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:51:48.051 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:51:49.439 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:51:49.440 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:51:49.440 NotebookApp] Replaying 5 buffered messages
+[I 15:52:37.229 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 15:53:35.081 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:53:35.092 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:53:36.368 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 15:53:36.368 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 15:53:36.368 NotebookApp] Replaying 3 buffered messages
+[I 15:54:37.902 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 16:45:09.335 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 16:45:14.357 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 16:45:16.477 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 16:45:16.478 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 16:46:37.226 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 16:48:37.268 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 16:58:37.923 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:00:09.688 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:00:37.348 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:00:46.188 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:01:20.308 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:02:37.255 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:03:05.844 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:03:10.865 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:03:13.561 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:03:13.562 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:03:13.562 NotebookApp] Replaying 3 buffered messages
+[I 17:03:37.935 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:03:37.938 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:03:39.726 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:03:39.727 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:03:39.727 NotebookApp] Replaying 3 buffered messages
+[I 17:03:55.328 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:04:37.204 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:05:10.284 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 17:05:46.540 NotebookApp] Kernel interrupted: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 17:07:10.114 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 17:08:37.151 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:08:38.553 NotebookApp] Starting buffering for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:08:43.575 NotebookApp] Kernel restarted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:08:45.286 NotebookApp] Adapting to protocol v5.1 for kernel 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:08:45.287 NotebookApp] Restoring connection for 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef:4c94c5db36f74fcb8cd129f13dd5a5fe
+[I 17:08:45.287 NotebookApp] Replaying 3 buffered messages
+[I 17:08:56.780 NotebookApp] Kernel interrupted: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:09:10.969 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb
+[I 17:10:37.875 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[C 17:22:48.221 NotebookApp] received signal 15, stopping
+[I 17:22:48.222 NotebookApp] Shutting down 11 kernels
+[I 17:22:48.324 NotebookApp] Kernel shutdown: 6a513ad4-6919-4d0b-b1a4-4d7882205587
+[I 17:22:48.324 NotebookApp] Kernel shutdown: e6c465b9-40a6-485a-975d-03f17c1460ca
+[I 17:22:48.325 NotebookApp] Kernel shutdown: 9ed5ac2d-3714-4922-89bc-93fda2cfdd7d
+[I 17:22:48.325 NotebookApp] Kernel shutdown: 22fffa5d-4797-4ba5-a28b-5599addc4cba
+[I 17:22:48.325 NotebookApp] Kernel shutdown: 65da7e25-fdc1-4046-85ca-83ef0f84ee97
+[I 17:22:48.325 NotebookApp] Kernel shutdown: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[I 17:22:48.325 NotebookApp] Kernel shutdown: a3688dbb-ab31-4b2e-842e-b7305d329a69
+[I 17:22:48.326 NotebookApp] Kernel shutdown: 8383e6a0-5a49-400d-80a1-05a838b88735
+[I 17:22:48.326 NotebookApp] Kernel shutdown: a375707c-d401-4b80-9471-0a856bf820b5
+[I 17:22:48.326 NotebookApp] Kernel shutdown: 7080f220-d49a-4db4-aaa2-e395523b98a0
+[I 17:22:48.326 NotebookApp] Kernel shutdown: 3fa09b83-f3fe-4301-97d8-6be71bb3a9ef
+[I 17:25:28.728 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 17:25:28.730 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 17:25:28.739 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 17:25:28.739 NotebookApp] 0 active kernels
+[I 17:25:28.739 NotebookApp] The Jupyter Notebook is running at:
+[I 17:25:28.739 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 17:25:28.739 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:25:48.810 NotebookApp] 404 GET /api/kernels/4fcde5ea-befe-4cca-af6e-579b5086db66/channels?session_id=61b581f62c384b708b2468b53d0f4553 (49.35.57.177): Kernel does not exist: 4fcde5ea-befe-4cca-af6e-579b5086db66
+[W 17:25:48.817 NotebookApp] 404 GET /api/kernels/4fcde5ea-befe-4cca-af6e-579b5086db66/channels?session_id=61b581f62c384b708b2468b53d0f4553 (49.35.57.177) 17.12ms referer=None
+[I 17:26:07.077 NotebookApp] Kernel started: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:26:08.081 NotebookApp] Kernel started: 1f7bf54f-a056-4c33-8dbd-6566ac443811
+[I 17:26:08.202 NotebookApp] Adapting to protocol v5.1 for kernel 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:26:13.665 NotebookApp] Adapting to protocol v5.1 for kernel 1f7bf54f-a056-4c33-8dbd-6566ac443811
+[I 17:26:35.413 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:28:07.919 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:30:09.097 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:31:19.780 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:31:34.300 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:32:07.220 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:32:33.104 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:33:21.040 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:34:08.007 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:37:06.100 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:38:08.474 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:40:07.901 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:42:07.313 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:43:54.468 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:44:07.346 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:45:04.200 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:45:51.400 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:46:07.401 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:46:47.486 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:47:16.268 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:47:51.988 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:48:07.334 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:48:43.460 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:49:23.168 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:50:07.356 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:50:15.468 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:50:49.528 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 17:52:07.380 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:54:07.378 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:56:07.432 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 17:58:07.399 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:00:07.431 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:02:08.040 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:02:11.392 NotebookApp] Creating new notebook in /Complete-Python-3-Bootcamp
+[I 18:02:24.963 NotebookApp] Kernel started: 641f9faa-96c1-498b-911d-d052dd85e3e4
+[I 18:02:25.740 NotebookApp] Adapting to protocol v5.1 for kernel 641f9faa-96c1-498b-911d-d052dd85e3e4
+[I 18:04:25.061 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 18:06:25.272 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[W 18:07:04.113 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/07-Sets and Booleans.ipynb is not trusted
+[I 18:07:05.232 NotebookApp] Kernel started: cb82cde2-7034-4cbe-abba-38c7fbddca4d
+[I 18:07:06.965 NotebookApp] Adapting to protocol v5.1 for kernel cb82cde2-7034-4cbe-abba-38c7fbddca4d
+[I 18:08:25.883 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 18:09:05.973 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/07-Sets and Booleans.ipynb
+[W 18:09:05.974 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/07-Sets and Booleans.ipynb is not trusted
+[I 18:10:07.206 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:12:07.201 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:14:07.231 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:14:49.476 NotebookApp] Kernel interrupted: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 18:16:07.208 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:18:07.180 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:20:07.181 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:22:07.159 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:24:07.191 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:26:07.180 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/04-Milestone Project - 1/Untitled.ipynb
+[I 18:34:32.218 NotebookApp] Starting buffering for 1f7bf54f-a056-4c33-8dbd-6566ac443811:5c0e74dca06349859abcf817b4b993d2
+[I 18:34:32.423 NotebookApp] Starting buffering for 629b325b-5898-4b4f-a2ec-1efbade82c2f:ac03fc33f6994b4c94bb5d0070a985af
+[I 18:34:32.427 NotebookApp] Starting buffering for cb82cde2-7034-4cbe-abba-38c7fbddca4d:9143d5050b0847a891dfa6693b1dc39d
+[I 18:34:32.437 NotebookApp] Starting buffering for 641f9faa-96c1-498b-911d-d052dd85e3e4:01d720e6dcf04d088b2642ea18614458
+[I 18:34:52.680 NotebookApp] 302 GET / (49.35.57.177) 0.53ms
+[W 19:01:21.624 NotebookApp] SSL Error on 10 ('107.170.193.95', 39742): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:15:26.825 NotebookApp] SSL Error on 10 ('185.35.63.181', 45987): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 09:35:34.989 NotebookApp] 302 GET / (122.15.228.208) 0.50ms
+[W 09:35:47.191 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 09:35:48.920 NotebookApp] Kernel started: 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 09:35:49.665 NotebookApp] Adapting to protocol v5.1 for kernel 8726cbb4-f218-4dc1-8621-2e62a53101de
+[W 09:38:17.615 NotebookApp] SSL Error on 10 ('203.145.103.171', 58257): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 09:50:47.603 NotebookApp] Starting buffering for 8726cbb4-f218-4dc1-8621-2e62a53101de:6c1c5f75734b47df8025db099849320a
+[W 14:09:34.543 NotebookApp] SSL Error on 10 ('77.72.83.225', 1740): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:16:17.248 NotebookApp] 302 GET / (49.35.192.250) 0.48ms
+[W 14:18:01.207 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 14:18:04.141 NotebookApp] Adapting to protocol v5.1 for kernel 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 14:30:05.062 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb
+[W 14:30:05.063 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 14:32:04.385 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb
+[W 14:32:04.386 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[W 14:43:37.998 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/03-Object Oriented Programming Homework - Solution.ipynb is not trusted
+[I 14:43:38.538 NotebookApp] Kernel started: e412ddeb-6072-48bd-9313-7db4cc265baf
+[I 14:43:39.344 NotebookApp] Adapting to protocol v5.1 for kernel e412ddeb-6072-48bd-9313-7db4cc265baf
+[W 14:43:45.102 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb is not trusted
+[I 14:43:46.094 NotebookApp] Kernel started: ab0416fc-7526-4db3-8478-34446c6559fe
+[I 14:43:47.738 NotebookApp] Adapting to protocol v5.1 for kernel ab0416fc-7526-4db3-8478-34446c6559fe
+[I 14:45:40.668 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/03-Object Oriented Programming Homework - Solution.ipynb
+[W 14:45:40.668 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/03-Object Oriented Programming Homework - Solution.ipynb is not trusted
+[I 14:45:46.657 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[W 14:45:46.657 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb is not trusted
+[I 15:03:40.403 NotebookApp] Starting buffering for e412ddeb-6072-48bd-9313-7db4cc265baf:0e72eca3861d4ea2896be457e949f24d
+[W 15:04:03.150 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/03-Object Oriented Programming Homework - Solution.ipynb is not trusted
+[I 15:04:04.874 NotebookApp] Adapting to protocol v5.1 for kernel e412ddeb-6072-48bd-9313-7db4cc265baf
+[I 15:04:08.622 NotebookApp] Starting buffering for e412ddeb-6072-48bd-9313-7db4cc265baf:2278a20c7e704600934721c180ca6fcb
+[W 15:04:21.345 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 15:04:21.818 NotebookApp] Kernel started: 729a8668-bd99-4c26-a06f-387745bd2e9b
+[I 15:04:22.665 NotebookApp] Adapting to protocol v5.1 for kernel 729a8668-bd99-4c26-a06f-387745bd2e9b
+[I 15:05:26.602 NotebookApp] Starting buffering for ab0416fc-7526-4db3-8478-34446c6559fe:81ff37f602fb4c2a9c259e3cb75fa28f
+[I 15:05:26.619 NotebookApp] Starting buffering for 729a8668-bd99-4c26-a06f-387745bd2e9b:b6f0bdc278ac41c28b76d16e1ee39640
+[I 15:05:26.633 NotebookApp] Starting buffering for 8726cbb4-f218-4dc1-8621-2e62a53101de:c988267accc74e2b94e4150ac212be43
+[W 15:23:25.357 NotebookApp] SSL Error on 10 ('107.170.200.208', 38668): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:56:26.246 NotebookApp] SSL Error on 10 ('107.170.200.97', 38616): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:10:49.195 NotebookApp] 302 GET / (49.35.192.250) 0.52ms
+[I 07:10:51.042 NotebookApp] 302 GET / (49.35.192.250) 0.53ms
+[W 07:11:21.368 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:11:23.020 NotebookApp] Adapting to protocol v5.1 for kernel 729a8668-bd99-4c26-a06f-387745bd2e9b
+[I 07:13:22.849 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:13:22.850 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:17:22.816 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:17:22.816 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:19:22.175 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:19:22.175 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:21:22.073 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:21:22.074 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[W 07:22:21.031 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/03-Object Oriented Programming Homework - Solution.ipynb is not trusted
+[I 07:22:22.327 NotebookApp] Adapting to protocol v5.1 for kernel e412ddeb-6072-48bd-9313-7db4cc265baf
+[I 07:23:22.040 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:23:22.040 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[W 07:25:56.961 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 07:25:59.695 NotebookApp] Adapting to protocol v5.1 for kernel 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 07:27:22.044 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:27:22.045 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:29:22.850 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[W 07:29:22.850 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb is not trusted
+[I 07:31:22.086 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[I 07:31:41.452 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[I 07:31:41.565 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb
+[I 07:31:43.963 NotebookApp] Starting buffering for 729a8668-bd99-4c26-a06f-387745bd2e9b:e586fbf3111f46209897c10dae72affa
+[I 07:31:44.593 NotebookApp] Starting buffering for e412ddeb-6072-48bd-9313-7db4cc265baf:49b62da1026248d18ce31f98a3316d45
+[I 07:31:46.803 NotebookApp] Starting buffering for 8726cbb4-f218-4dc1-8621-2e62a53101de:9a2f7d08eb96435387704589de8904eb
+[W 07:31:59.069 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb is not trusted
+[I 07:32:00.462 NotebookApp] Adapting to protocol v5.1 for kernel ab0416fc-7526-4db3-8478-34446c6559fe
+[I 07:33:59.638 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[W 07:33:59.638 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb is not trusted
+[I 07:35:59.675 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[W 07:35:59.675 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb is not trusted
+[I 07:37:59.894 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[I 07:41:59.618 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[W 07:42:41.278 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/05-OOP Challenge - Solution.ipynb is not trusted
+[I 07:42:41.706 NotebookApp] Kernel started: 09ef557e-a27a-45b8-af50-11b1d3430a03
+[I 07:42:42.675 NotebookApp] Adapting to protocol v5.1 for kernel 09ef557e-a27a-45b8-af50-11b1d3430a03
+[I 07:43:59.607 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[I 07:44:42.791 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/05-OOP Challenge - Solution.ipynb
+[W 07:44:42.791 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/05-OOP Challenge - Solution.ipynb is not trusted
+[I 07:45:59.899 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/05-Object Oriented Programming/04-OOP Challenge.ipynb
+[I 07:53:13.002 NotebookApp] Starting buffering for 09ef557e-a27a-45b8-af50-11b1d3430a03:c31b38754ecf411e8334fdbb2a1f80a5
+[I 07:53:13.466 NotebookApp] Starting buffering for ab0416fc-7526-4db3-8478-34446c6559fe:1c73a441950e4d488b4d55aafd730610
+[W 07:53:24.927 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 07:53:27.403 NotebookApp] Adapting to protocol v5.1 for kernel 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 08:15:42.028 NotebookApp] Starting buffering for 8726cbb4-f218-4dc1-8621-2e62a53101de:eaaca391c9bf4eb4891842a7bf05ac61
+[W 08:27:05.736 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 08:27:08.952 NotebookApp] Adapting to protocol v5.1 for kernel 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 10:06:10.751 NotebookApp] Starting buffering for 8726cbb4-f218-4dc1-8621-2e62a53101de:3d5f1e6b867d4dd9b35b42beb07492a8
+[W 17:41:03.583 NotebookApp] SSL Error on 10 ('107.170.196.192', 44002): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:35:07.238 NotebookApp] SSL Error on 10 ('178.158.243.57', 56399): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:37:41.794 NotebookApp] SSL Error on 10 ('67.205.185.184', 56862): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:27:52.034 NotebookApp] SSL Error on 10 ('103.236.252.88', 4163): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:27:52.659 NotebookApp] SSL Error on 10 ('103.236.252.88', 4303): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:27:53.267 NotebookApp] SSL Error on 10 ('103.236.252.88', 4374): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:27:53.871 NotebookApp] SSL Error on 10 ('103.236.252.88', 4431): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:18:12.316 NotebookApp] SSL Error on 10 ('82.202.249.225', 2419): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:40:07.986 NotebookApp] SSL Error on 10 ('89.248.168.14', 65535): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 16:49:57.423 NotebookApp] received signal 15, stopping
+[I 16:49:57.424 NotebookApp] Shutting down 9 kernels
+[I 16:49:57.445 NotebookApp] Kernel shutdown: 629b325b-5898-4b4f-a2ec-1efbade82c2f
+[I 16:49:57.445 NotebookApp] Kernel shutdown: 1f7bf54f-a056-4c33-8dbd-6566ac443811
+[I 16:49:57.446 NotebookApp] Kernel shutdown: 641f9faa-96c1-498b-911d-d052dd85e3e4
+[I 16:49:57.448 NotebookApp] Kernel shutdown: cb82cde2-7034-4cbe-abba-38c7fbddca4d
+[I 16:49:57.448 NotebookApp] Kernel shutdown: 8726cbb4-f218-4dc1-8621-2e62a53101de
+[I 16:49:57.449 NotebookApp] Kernel shutdown: e412ddeb-6072-48bd-9313-7db4cc265baf
+[I 16:49:57.449 NotebookApp] Kernel shutdown: ab0416fc-7526-4db3-8478-34446c6559fe
+[I 16:49:57.449 NotebookApp] Kernel shutdown: 729a8668-bd99-4c26-a06f-387745bd2e9b
+[I 16:49:57.449 NotebookApp] Kernel shutdown: 09ef557e-a27a-45b8-af50-11b1d3430a03
+[I 14:30:24.742 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 14:30:24.743 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 14:30:24.752 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 14:30:24.752 NotebookApp] 0 active kernels
+[I 14:30:24.752 NotebookApp] The Jupyter Notebook is running at:
+[I 14:30:24.752 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 14:30:24.753 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 14:30:49.306 NotebookApp] 302 GET / (49.35.63.68) 0.64ms
+[I 14:30:49.417 NotebookApp] 302 GET /tree? (49.35.63.68) 1.04ms
+[I 14:30:57.705 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.35.63.68) 1.19ms
+[W 14:35:12.835 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 14:35:15.630 NotebookApp] Kernel started: a55e9a6d-3457-4db7-a83e-b338c3cb93cd
+[I 14:35:16.655 NotebookApp] Adapting to protocol v5.1 for kernel a55e9a6d-3457-4db7-a83e-b338c3cb93cd
+[I 14:46:23.033 NotebookApp] Starting buffering for a55e9a6d-3457-4db7-a83e-b338c3cb93cd:ca525d00d7cb45738d73795305f0a6a7
+[I 14:46:30.382 NotebookApp] Kernel started: bf78c7ee-7cd2-403d-afb7-157bc44c1e4d
+[I 14:46:31.318 NotebookApp] Adapting to protocol v5.1 for kernel bf78c7ee-7cd2-403d-afb7-157bc44c1e4d
+[I 14:56:00.662 NotebookApp] Starting buffering for bf78c7ee-7cd2-403d-afb7-157bc44c1e4d:1aef40709044433a8ac7362fa35d9821
+[W 14:56:01.148 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 14:56:02.090 NotebookApp] Kernel started: a4a33ea0-0a4b-46ee-b204-38d98e48ac7f
+[I 14:56:02.834 NotebookApp] Adapting to protocol v5.1 for kernel a4a33ea0-0a4b-46ee-b204-38d98e48ac7f
+[I 14:58:03.152 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 14:58:03.152 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 17:51:45.872 NotebookApp] Starting buffering for a4a33ea0-0a4b-46ee-b204-38d98e48ac7f:9bbd504233f54fb6a7ffbff7a505b685
+[W 21:08:18.660 NotebookApp] SSL Error on 10 ('13.127.57.114', 59740): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:08:18.769 NotebookApp] SSL Error on 10 ('13.127.57.114', 59742): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:08:18.879 NotebookApp] SSL Error on 10 ('13.127.57.114', 59744): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:56:49.400 NotebookApp] SSL Error on 10 ('196.52.43.99', 54874): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 05:25:33.407 NotebookApp] received signal 15, stopping
+[I 05:25:33.408 NotebookApp] Shutting down 3 kernels
+[I 05:25:33.509 NotebookApp] Kernel shutdown: a55e9a6d-3457-4db7-a83e-b338c3cb93cd
+[I 05:25:33.509 NotebookApp] Kernel shutdown: bf78c7ee-7cd2-403d-afb7-157bc44c1e4d
+[I 05:25:33.509 NotebookApp] Kernel shutdown: a4a33ea0-0a4b-46ee-b204-38d98e48ac7f
+[I 05:35:45.442 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 05:35:45.443 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 05:35:45.451 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 05:35:45.451 NotebookApp] 0 active kernels
+[I 05:35:45.452 NotebookApp] The Jupyter Notebook is running at:
+[I 05:35:45.452 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 05:35:45.452 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:35:58.004 NotebookApp] 302 GET / (122.15.228.208) 0.64ms
+[I 05:35:58.022 NotebookApp] 302 GET /tree? (122.15.228.208) 0.95ms
+[I 05:36:03.645 NotebookApp] 302 POST /login?next=%2Ftree%3F (122.15.228.208) 1.25ms
+[W 05:36:41.957 NotebookApp] Notebook Complete-Python-3-Bootcamp/07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb is not trusted
+[I 05:36:42.309 NotebookApp] Kernel started: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:36:43.054 NotebookApp] Adapting to protocol v5.1 for kernel 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[W 05:38:23.356 NotebookApp] Notebook Complete-Python-3-Bootcamp/07-Errors and Exception Handling/03-Errors and Exceptions Homework - Solution.ipynb is not trusted
+[I 05:38:23.655 NotebookApp] Kernel started: bf06fd21-16e8-4a94-b77d-09aa23ec0250
+[I 05:38:24.387 NotebookApp] Adapting to protocol v5.1 for kernel bf06fd21-16e8-4a94-b77d-09aa23ec0250
+[I 05:38:42.322 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb
+[I 05:40:24.492 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/03-Errors and Exceptions Homework - Solution.ipynb
+[I 05:40:42.324 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb
+[I 05:42:13.513 NotebookApp] Kernel interrupted: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:42:23.512 NotebookApp] Kernel interrupted: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:42:33.562 NotebookApp] Kernel interrupted: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:42:42.367 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb
+[I 05:42:51.451 NotebookApp] Starting buffering for 6f355085-6d17-4e86-89c2-ee9a6cf08b44:beadd39ea3534789b6c0bea91cbdb15a
+[I 05:42:56.482 NotebookApp] Kernel restarted: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:42:57.422 NotebookApp] Adapting to protocol v5.1 for kernel 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:42:57.422 NotebookApp] Restoring connection for 6f355085-6d17-4e86-89c2-ee9a6cf08b44:beadd39ea3534789b6c0bea91cbdb15a
+[I 05:42:57.422 NotebookApp] Replaying 3 buffered messages
+[I 05:43:12.867 NotebookApp] Kernel restarted: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[W 05:43:12.871 NotebookApp] zmq message arrived on closed channel
+[I 05:43:12.872 NotebookApp] Starting buffering for 6f355085-6d17-4e86-89c2-ee9a6cf08b44:beadd39ea3534789b6c0bea91cbdb15a
+[I 05:43:13.787 NotebookApp] Adapting to protocol v5.1 for kernel 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 05:43:13.788 NotebookApp] Restoring connection for 6f355085-6d17-4e86-89c2-ee9a6cf08b44:beadd39ea3534789b6c0bea91cbdb15a
+[I 05:43:13.788 NotebookApp] Replaying 4 buffered messages
+[W 05:44:18.023 NotebookApp] Notebook Complete-Python-3-Bootcamp/07-Errors and Exception Handling/04-Unit Testing.ipynb is not trusted
+[I 05:44:18.762 NotebookApp] Kernel started: e8bfca2b-724b-4739-82cd-ce38697b6823
+[I 05:44:19.537 NotebookApp] Adapting to protocol v5.1 for kernel e8bfca2b-724b-4739-82cd-ce38697b6823
+[I 05:44:42.571 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb
+[I 05:46:18.841 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/07-Errors and Exception Handling/04-Unit Testing.ipynb
+[I 06:01:51.242 NotebookApp] Starting buffering for e8bfca2b-724b-4739-82cd-ce38697b6823:42a270fbc9474674819eebaa2ba0ba76
+[I 06:01:51.576 NotebookApp] Starting buffering for 6f355085-6d17-4e86-89c2-ee9a6cf08b44:beadd39ea3534789b6c0bea91cbdb15a
+[I 06:01:52.003 NotebookApp] Starting buffering for bf06fd21-16e8-4a94-b77d-09aa23ec0250:22567bef96f54b1eaee2ce221f114d18
+[W 06:55:53.077 NotebookApp] Notebook Complete-Python-3-Bootcamp/10-Python Decorators/02-Decorators Homework.ipynb is not trusted
+[I 06:55:53.314 NotebookApp] Kernel started: b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2
+[I 06:55:54.071 NotebookApp] Adapting to protocol v5.1 for kernel b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2
+[I 06:57:53.579 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/10-Python Decorators/02-Decorators Homework.ipynb
+[I 06:58:21.791 NotebookApp] Starting buffering for b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2:fad230e186e14a1c93e0e128c1cac9d6
+[I 10:05:14.659 NotebookApp] Adapting to protocol v5.1 for kernel b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2
+[I 10:05:26.511 NotebookApp] 302 GET / (122.15.228.208) 0.54ms
+[I 10:05:26.558 NotebookApp] Starting buffering for b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2:5f136e3ce30040369e7e9fa9b9ab2e84
+[W 10:05:32.479 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[I 10:05:32.997 NotebookApp] Kernel started: 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 10:05:33.753 NotebookApp] Adapting to protocol v5.1 for kernel 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 10:07:33.021 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[W 10:07:33.022 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[I 10:11:33.031 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[W 10:11:33.031 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[I 10:15:33.039 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[W 10:15:33.039 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[I 10:17:33.168 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[W 10:17:33.169 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[W 11:29:06.309 NotebookApp] SSL Error on 10 ('139.162.79.87', 45182): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:29:06.551 NotebookApp] SSL Error on 10 ('139.162.79.87', 45562): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:29:06.790 NotebookApp] SSL Error on 10 ('139.162.79.87', 45770): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:29:27.265 NotebookApp] SSL Error on 10 ('139.162.79.87', 40656): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:37:03.754 NotebookApp] WebSocket ping timeout after 119978 ms.
+[I 11:37:08.755 NotebookApp] Starting buffering for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[I 11:40:48.920 NotebookApp] Adapting to protocol v5.1 for kernel 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 11:40:48.921 NotebookApp] Restoring connection for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[W 11:47:48.921 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 11:47:53.922 NotebookApp] Starting buffering for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[I 11:51:50.908 NotebookApp] Adapting to protocol v5.1 for kernel 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 11:51:50.909 NotebookApp] Restoring connection for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[W 11:58:20.909 NotebookApp] WebSocket ping timeout after 119979 ms.
+[I 11:58:25.910 NotebookApp] Starting buffering for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[I 12:02:13.652 NotebookApp] Adapting to protocol v5.1 for kernel 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 12:02:13.653 NotebookApp] Restoring connection for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[W 12:09:43.654 NotebookApp] WebSocket ping timeout after 119869 ms.
+[I 12:09:48.655 NotebookApp] Starting buffering for 1a6c905a-0d4e-4cda-8d8b-26fcca86338f:bbd6713e175a41718e921fd68cab67bf
+[I 14:50:25.486 NotebookApp] 302 GET / (157.33.12.133) 0.50ms
+[I 14:50:25.706 NotebookApp] 302 GET /tree? (157.33.12.133) 0.89ms
+[I 14:50:52.807 NotebookApp] 302 POST /login?next=%2Ftree%3F (157.33.12.133) 1.23ms
+[W 14:51:25.709 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[I 14:51:29.236 NotebookApp] Adapting to protocol v5.1 for kernel 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 14:53:27.375 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[W 14:53:27.376 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb is not trusted
+[W 14:54:29.154 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/03-Iterators and Generators Homework - Solution.ipynb is not trusted
+[I 14:54:29.784 NotebookApp] Kernel started: b00785d4-cddd-4595-9de9-e4e6ecf0ed2f
+[I 14:54:30.882 NotebookApp] Adapting to protocol v5.1 for kernel b00785d4-cddd-4595-9de9-e4e6ecf0ed2f
+[I 14:55:27.230 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[I 14:56:30.151 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/03-Iterators and Generators Homework - Solution.ipynb
+[W 14:56:30.152 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/03-Iterators and Generators Homework - Solution.ipynb is not trusted
+[I 14:57:26.995 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/02-Iterators and Generators Homework.ipynb
+[C 15:05:28.673 NotebookApp] received signal 15, stopping
+[I 15:05:28.673 NotebookApp] Shutting down 6 kernels
+[I 15:05:28.687 NotebookApp] Kernel shutdown: 6f355085-6d17-4e86-89c2-ee9a6cf08b44
+[I 15:05:28.687 NotebookApp] Kernel shutdown: bf06fd21-16e8-4a94-b77d-09aa23ec0250
+[I 15:05:28.688 NotebookApp] Kernel shutdown: e8bfca2b-724b-4739-82cd-ce38697b6823
+[I 15:05:28.688 NotebookApp] Kernel shutdown: b4f9ac9d-8bdf-4252-8817-f7f6de3d9aa2
+[I 15:05:28.688 NotebookApp] Kernel shutdown: 1a6c905a-0d4e-4cda-8d8b-26fcca86338f
+[I 15:05:28.689 NotebookApp] Kernel shutdown: b00785d4-cddd-4595-9de9-e4e6ecf0ed2f
+[I 06:33:42.250 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 06:33:42.251 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 06:33:42.261 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 06:33:42.261 NotebookApp] 0 active kernels
+[I 06:33:42.261 NotebookApp] The Jupyter Notebook is running at:
+[I 06:33:42.261 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 06:33:42.261 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 06:33:55.296 NotebookApp] 302 GET / (61.246.57.5) 0.74ms
+[I 06:33:55.323 NotebookApp] 302 GET /tree? (61.246.57.5) 0.96ms
+[I 06:33:59.106 NotebookApp] 302 POST /login?next=%2Ftree%3F (61.246.57.5) 1.36ms
+[I 06:34:14.688 NotebookApp] Kernel started: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 06:34:15.488 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 06:36:14.716 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 06:38:15.269 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 08:54:15.490 NotebookApp] WebSocket ping timeout after 119975 ms.
+[I 08:54:20.494 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:4ca8bbe8090e4e2c8e0c93b623bb3bac
+[I 08:56:54.707 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 08:56:54.708 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:4ca8bbe8090e4e2c8e0c93b623bb3bac
+[I 09:10:15.699 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 10:21:04.580 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 10:21:05.155 NotebookApp] Kernel started: a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 10:21:05.976 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 10:23:05.837 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb
+[W 10:23:05.837 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[W 11:00:48.824 NotebookApp] SSL Error on 11 ('139.162.79.87', 51470): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:00:49.079 NotebookApp] SSL Error on 11 ('139.162.79.87', 51748): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:00:49.322 NotebookApp] SSL Error on 11 ('139.162.79.87', 51938): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:01:09.815 NotebookApp] SSL Error on 11 ('139.162.79.87', 45402): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:07:50.620 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:4ca8bbe8090e4e2c8e0c93b623bb3bac
+[I 11:07:50.955 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:67f86e8c466f462386703663d365edc6
+[W 03:26:24.915 NotebookApp] SSL Error on 10 ('169.54.233.123', 46047): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:10:20.154 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 05:10:20.926 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 05:10:25.548 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:4847e807372f4b3fb4320213f47ec409
+[W 05:10:50.109 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/05-Useful-Operators.ipynb is not trusted
+[I 05:10:50.898 NotebookApp] Kernel started: d6995304-2b6c-4ea7-8b4c-c9408c23c7e3
+[I 05:10:51.657 NotebookApp] Adapting to protocol v5.1 for kernel d6995304-2b6c-4ea7-8b4c-c9408c23c7e3
+[I 05:11:37.441 NotebookApp] Starting buffering for d6995304-2b6c-4ea7-8b4c-c9408c23c7e3:7b30e89062af4816a8345188e2996d4c
+[W 05:11:59.023 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/01-Map.ipynb is not trusted
+[I 05:11:59.555 NotebookApp] Kernel started: fe85fd6b-a97c-4d21-bf3c-818a3648dbc3
+[I 05:12:00.285 NotebookApp] Adapting to protocol v5.1 for kernel fe85fd6b-a97c-4d21-bf3c-818a3648dbc3
+[W 05:13:42.242 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/02-Reduce.ipynb is not trusted
+[I 05:13:42.589 NotebookApp] Kernel started: 64f776ff-6eca-4171-976e-29b2039744f3
+[I 05:13:43.386 NotebookApp] Adapting to protocol v5.1 for kernel 64f776ff-6eca-4171-976e-29b2039744f3
+[I 05:14:00.083 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/09-Built-in Functions/01-Map.ipynb
+[W 05:14:00.084 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/01-Map.ipynb is not trusted
+[W 05:14:52.239 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/03-Filter.ipynb is not trusted
+[I 05:14:52.587 NotebookApp] Kernel started: fbdc8310-6dbc-4791-a434-353d55183eac
+[I 05:14:53.313 NotebookApp] Adapting to protocol v5.1 for kernel fbdc8310-6dbc-4791-a434-353d55183eac
+[I 05:15:43.178 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/09-Built-in Functions/02-Reduce.ipynb
+[W 05:15:43.179 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/02-Reduce.ipynb is not trusted
+[I 05:16:53.107 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/09-Built-in Functions/03-Filter.ipynb
+[W 05:16:53.108 NotebookApp] Notebook Complete-Python-3-Bootcamp/09-Built-in Functions/03-Filter.ipynb is not trusted
+[I 05:32:25.388 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 05:34:25.143 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:35:55.944 NotebookApp] Starting buffering for fe85fd6b-a97c-4d21-bf3c-818a3648dbc3:b61dca523bcc412fae4ebb219f0b9fe6
+[I 05:35:56.292 NotebookApp] Starting buffering for 64f776ff-6eca-4171-976e-29b2039744f3:de52e2e88bdd4dfba9634c0037056d77
+[I 05:40:25.083 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:42:25.156 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 06:06:25.168 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 06:08:25.240 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 06:30:36.084 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 06:30:36.736 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 07:12:25.450 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:12:36.584 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb
+[W 07:12:36.584 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 07:13:18.343 NotebookApp] Kernel interrupted: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 07:14:25.342 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:48:25.327 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:50:25.415 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 08:08:21.469 NotebookApp] Kernel started: 89044d2b-6986-4041-9bf7-2021555bbdab
+[I 08:08:22.213 NotebookApp] Adapting to protocol v5.1 for kernel 89044d2b-6986-4041-9bf7-2021555bbdab
+[W 09:13:22.214 NotebookApp] WebSocket ping timeout after 119982 ms.
+[W 09:13:23.315 NotebookApp] WebSocket ping timeout after 119975 ms.
+[W 09:13:25.389 NotebookApp] WebSocket ping timeout after 119981 ms.
+[I 09:13:27.216 NotebookApp] Starting buffering for 89044d2b-6986-4041-9bf7-2021555bbdab:a0f5338c110d41f48e3bfd673f354245
+[I 09:13:28.316 NotebookApp] Starting buffering for fbdc8310-6dbc-4791-a434-353d55183eac:a8e1de3e6423436a8b2d3694ff45ff30
+[I 09:13:30.390 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:75647399e10e4403844e4cc117b594d0
+[W 09:13:36.737 NotebookApp] WebSocket ping timeout after 119965 ms.
+[I 09:13:41.738 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:4756158246e5429088a2e2b316a3659f
+[I 09:50:59.522 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 09:50:59.522 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:75647399e10e4403844e4cc117b594d0
+[I 09:50:59.524 NotebookApp] Adapting to protocol v5.1 for kernel 89044d2b-6986-4041-9bf7-2021555bbdab
+[I 09:50:59.525 NotebookApp] Restoring connection for 89044d2b-6986-4041-9bf7-2021555bbdab:a0f5338c110d41f48e3bfd673f354245
+[I 09:50:59.531 NotebookApp] Adapting to protocol v5.1 for kernel fbdc8310-6dbc-4791-a434-353d55183eac
+[I 09:50:59.532 NotebookApp] Restoring connection for fbdc8310-6dbc-4791-a434-353d55183eac:a8e1de3e6423436a8b2d3694ff45ff30
+[I 09:50:59.540 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 09:50:59.541 NotebookApp] Restoring connection for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:4756158246e5429088a2e2b316a3659f
+[I 10:48:41.251 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:4756158246e5429088a2e2b316a3659f
+[I 10:49:27.327 NotebookApp] Starting buffering for 89044d2b-6986-4041-9bf7-2021555bbdab:a0f5338c110d41f48e3bfd673f354245
+[I 10:59:23.887 NotebookApp] Starting buffering for fbdc8310-6dbc-4791-a434-353d55183eac:a8e1de3e6423436a8b2d3694ff45ff30
+[W 10:59:34.595 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 10:59:35.957 NotebookApp] Kernel started: b6a7a141-551a-40fe-9f64-6bbdf979d19d
+[I 10:59:36.678 NotebookApp] Adapting to protocol v5.1 for kernel b6a7a141-551a-40fe-9f64-6bbdf979d19d
+[I 11:01:06.001 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:02:25.576 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:06:25.463 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:10:25.571 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:12:25.582 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:37:11.970 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:75647399e10e4403844e4cc117b594d0
+[I 11:37:11.970 NotebookApp] Starting buffering for b6a7a141-551a-40fe-9f64-6bbdf979d19d:3768c550b7874cc483d2d32232822236
+[I 15:21:15.195 NotebookApp] 302 GET /tree (157.33.59.79) 0.98ms
+[I 15:21:20.275 NotebookApp] 302 POST /login?next=%2Ftree (157.33.59.79) 1.44ms
+[I 15:21:38.989 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 15:23:38.742 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:33:41.318 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:2600b5d902a34badbfd9c471fd0a06ef
+[I 17:38:06.991 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 17:40:06.270 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 18:34:03.702 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:849be88a53a54dc48d33f925f5c6b10f
+[W 22:58:27.380 NotebookApp] SSL Error on 10 ('139.162.79.87', 53406): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:58:27.625 NotebookApp] SSL Error on 10 ('139.162.79.87', 53632): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:58:27.870 NotebookApp] SSL Error on 10 ('139.162.79.87', 53876): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:58:48.361 NotebookApp] SSL Error on 10 ('139.162.79.87', 46860): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:58:49.895 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 05:00:49.771 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:02:49.683 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:06:49.679 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:08:49.696 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:10:49.732 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 05:12:49.748 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 08:57:49.896 NotebookApp] WebSocket ping timeout after 119973 ms.
+[I 08:57:54.897 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 09:10:44.139 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 09:10:44.140 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 09:52:49.976 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:54:49.905 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:56:49.915 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:58:49.936 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:00:49.940 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:02:49.923 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:04:49.940 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:10:50.125 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:14:49.946 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:16:49.955 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:18:49.935 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:20:49.994 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:22:49.950 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:28:50.137 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:32:49.964 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:34:49.974 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:36:49.961 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:36:56.288 NotebookApp] Kernel started: 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 10:36:57.027 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 10:38:57.016 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 10:40:49.975 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:42:49.977 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:44:49.993 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:45:56.512 NotebookApp] Kernel interrupted: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 10:46:50.007 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 10:47:05.147 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 10:47:09.066 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 9132b35e-1ad0-4b19-9476-8da8aa677837 restarted
+[I 10:48:49.986 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:49:43.468 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 10:49:43.676 NotebookApp] Kernel restarted: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 10:49:44.535 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 10:49:44.536 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 10:49:44.536 NotebookApp] Replaying 3 buffered messages
+[I 10:49:52.469 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:8611658aa69143f9b449890ff5d9605e
+[I 10:49:53.021 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 13:17:14.536 NotebookApp] WebSocket ping timeout after 119969 ms.
+[I 13:17:19.538 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 13:20:51.301 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 13:20:51.302 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[W 13:27:51.303 NotebookApp] WebSocket ping timeout after 119892 ms.
+[I 13:27:56.304 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:b0b3bb4d194d4f939f6cbb384dbfde2a
+[I 15:23:01.328 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 15:23:08.347 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:2001b3ce9ff04635baddf07a90dbe0f4
+[I 15:23:29.951 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[W 15:23:39.630 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[E 15:23:48.726 NotebookApp] Uncaught exception GET /api/kernels/9132b35e-1ad0-4b19-9476-8da8aa677837/channels?session_id=04aef84e95b74df7824ac12372f33c40 (49.35.33.155)
+    HTTPServerRequest(protocol='https', host='ec2-13-127-193-49.ap-south-1.compute.amazonaws.com:8000', method='GET', uri='/api/kernels/9132b35e-1ad0-4b19-9476-8da8aa677837/channels?session_id=04aef84e95b74df7824ac12372f33c40', version='HTTP/1.1', remote_ip='49.35.33.155', headers={'Host': 'ec2-13-127-193-49.ap-south-1.compute.amazonaws.com:8000', 'Connection': 'Upgrade', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Upgrade': 'websocket', 'Origin': 'https://ec2-13-127-193-49.ap-south-1.compute.amazonaws.com:8000', 'Sec-Websocket-Version': '13', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'username-ec2-13-127-193-49-ap-south-1-compute-amazonaws-com-8000="2|1:0|10:1522768880|64:username-ec2-13-127-193-49-ap-south-1-compute-amazonaws-com-8000|44:YWJkODMyMjg3YWNlNGNlYThkODc2MjVlNGNiM2E1MGQ=|22a61e3d1859dee9ca1455d3ebc08590610fbb06f9d0d70861a29cd4d219c105"; _xsrf=2|2a70bded|1f2290531444fd45731aa9e1c9e8d7e8|1522855371', 'Sec-Websocket-Key': 'Npa8LKGiZsG1bxTYTBERhQ==', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits'})
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/tornado/web.py", line 1468, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 313, in _on_zmq_reply
+        msg = self.session.deserialize(fed_msg_list)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyter_client/session.py", line 933, in deserialize
+        message['content'] = self.unpack(msg_list[4])
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyter_client/session.py", line 105, in <lambda>
+        json_unpacker = lambda s: jsonapi.loads(s)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/zmq/utils/jsonapi.py", line 56, in loads
+        return jsonmod.loads(s, **kwargs)
+      File "/home/ec2-user/anaconda3/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/home/ec2-user/anaconda3/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/home/ec2-user/anaconda3/lib/python3.6/json/decoder.py", line 355, in raw_decode
+        obj, end = self.scan_once(s, idx)
+    MemoryError
+[I 15:23:50.071 NotebookApp] Kernel interrupted: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 15:23:50.077 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 9132b35e-1ad0-4b19-9476-8da8aa677837 restarted
+[I 15:25:26.722 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:27:26.667 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:29:26.757 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:33:26.849 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:35:26.804 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:37:26.844 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:39:27.419 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:41:27.319 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:43:27.354 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:47:26.874 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:49:26.709 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:51:26.629 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:05:10.899 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:04aef84e95b74df7824ac12372f33c40
+[W 23:04:48.984 NotebookApp] SSL Error on 14 ('196.52.43.57', 41685): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:11:49.853 NotebookApp] SSL Error on 14 ('185.222.211.18', 2132): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:17:38.104 NotebookApp] SSL Error on 14 ('196.52.43.54', 59334): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:06:09.396 NotebookApp] SSL Error on 14 ('146.0.75.216', 2053): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:07:35.174 NotebookApp] SSL Error on 14 ('139.162.79.87', 54158): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:07:35.417 NotebookApp] SSL Error on 14 ('139.162.79.87', 54390): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:07:35.703 NotebookApp] SSL Error on 14 ('139.162.79.87', 54562): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:07:56.198 NotebookApp] SSL Error on 14 ('139.162.79.87', 47636): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:28:52.149 NotebookApp] SSL Error on 14 ('185.222.211.18', 1983): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:08:41.710 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 10:10:41.451 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 10:38:40.939 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 10:40:40.946 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 10:42:41.413 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[W 10:45:41.711 NotebookApp] WebSocket ping timeout after 119840 ms.
+[I 10:45:46.712 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:496dd1aa9c8449eb932878534c9f1bc6
+[I 10:46:11.208 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 10:46:11.209 NotebookApp] Restoring connection for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:496dd1aa9c8449eb932878534c9f1bc6
+[W 11:55:41.209 NotebookApp] WebSocket ping timeout after 119841 ms.
+[I 11:55:46.210 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:496dd1aa9c8449eb932878534c9f1bc6
+[W 14:57:19.712 NotebookApp] SSL Error on 14 ('5.39.216.134', 799): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:01:15.292 NotebookApp] SSL Error on 14 ('185.92.73.90', 5666): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:01:15.561 NotebookApp] SSL Error on 14 ('185.92.73.90', 10605): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:29:07.714 NotebookApp] SSL Error on 14 ('185.222.211.18', 847): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:58:34.774 NotebookApp] SSL Error on 14 ('168.1.128.36', 58719): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:04:33.874 NotebookApp] 302 GET / (199.247.21.222) 0.60ms
+[I 15:04:34.538 NotebookApp] 302 GET /tree? (199.247.21.222) 1.10ms
+[I 06:45:15.009 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 06:45:45.183 NotebookApp] Creating new notebook in /Complete-Python-3-Bootcamp
+[I 06:45:46.417 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:ba7044f0cdc34da39d14c15c1e516328
+[I 06:45:46.704 NotebookApp] Kernel started: 4c9f05e1-f8e8-4ef2-8246-38b862bb3fa1
+[I 06:45:47.963 NotebookApp] Adapting to protocol v5.1 for kernel 4c9f05e1-f8e8-4ef2-8246-38b862bb3fa1
+[I 06:47:47.375 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled2.ipynb
+[W 09:49:07.464 NotebookApp] SSL Error on 14 ('109.248.9.113', 54922): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:03:58.185 NotebookApp] Starting buffering for 4c9f05e1-f8e8-4ef2-8246-38b862bb3fa1:ea21f8bd9423426885e452354801e7da
+[I 17:00:58.098 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 17:02:49.655 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:57:34.186 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:37cf59430609434cb9abe8bec78cfe7f
+[I 11:08:40.045 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 11:10:39.701 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 11:10:45.615 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 11:10:49.879 NotebookApp] Kernel started: c4c58a65-065e-4894-9662-d5702b50c546
+[I 11:10:50.901 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 11:18:39.437 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:20:39.415 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:24:39.452 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:26:39.485 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:28:39.490 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:29:56.221 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 12:36:50.902 NotebookApp] WebSocket ping timeout after 119977 ms.
+[I 12:36:55.903 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[W 12:37:10.047 NotebookApp] WebSocket ping timeout after 119948 ms.
+[I 12:37:15.048 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 12:40:47.879 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 12:40:47.880 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 12:40:48.224 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 12:40:48.224 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[W 12:47:47.880 NotebookApp] WebSocket ping timeout after 119875 ms.
+[W 12:47:48.225 NotebookApp] WebSocket ping timeout after 119943 ms.
+[I 12:47:52.881 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 12:47:53.226 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 12:51:46.794 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 12:51:46.794 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 12:51:47.576 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 12:51:47.577 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[W 12:58:16.795 NotebookApp] WebSocket ping timeout after 119978 ms.
+[W 12:58:17.577 NotebookApp] WebSocket ping timeout after 119976 ms.
+[I 12:58:21.796 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 12:58:22.578 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 13:02:22.765 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 13:02:22.765 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 13:02:23.094 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 13:02:23.094 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[W 13:09:22.766 NotebookApp] WebSocket ping timeout after 119961 ms.
+[W 13:09:23.094 NotebookApp] WebSocket ping timeout after 119967 ms.
+[I 13:09:27.767 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 13:09:28.095 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 13:12:59.089 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 13:12:59.090 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 13:12:59.836 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 13:12:59.837 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[W 13:19:59.090 NotebookApp] WebSocket ping timeout after 119946 ms.
+[W 13:19:59.837 NotebookApp] WebSocket ping timeout after 119903 ms.
+[I 13:20:04.091 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 13:20:04.838 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 13:22:14.367 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 13:22:14.368 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 13:22:59.548 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 13:22:59.548 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 14:32:22.114 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:cb59c7b4afa047198c73c387ac856c13
+[I 14:32:23.110 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:3d9a1bb0c68c474da08c108a8d4ff210
+[I 15:25:04.846 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[W 15:25:26.271 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180402063341 (157.33.3.20) 11.28ms referer=https://ec2-13-127-193-49.ap-south-1.compute.amazonaws.com:8000/notebooks/Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:41:01.226 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:52:38.234 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:ad3cb94bab974010b4036254631c1e1a
+[I 16:18:11.751 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 16:20:11.143 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 16:23:29.547 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/07-Statements Assessment Test.ipynb is not trusted
+[I 16:23:30.323 NotebookApp] Kernel started: 86800524-5798-4a6f-866e-e6e328df5239
+[I 16:23:31.556 NotebookApp] Adapting to protocol v5.1 for kernel 86800524-5798-4a6f-866e-e6e328df5239
+[W 16:24:00.359 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/03-for Loops.ipynb is not trusted
+[I 16:24:01.954 NotebookApp] Kernel started: c011c453-ee57-4b8c-be66-c158a2e4d9fc
+[I 16:24:02.932 NotebookApp] Adapting to protocol v5.1 for kernel c011c453-ee57-4b8c-be66-c158a2e4d9fc
+[I 16:24:42.860 NotebookApp] Starting buffering for c011c453-ee57-4b8c-be66-c158a2e4d9fc:3a6973b614ad4a688abaa6e2997fb03c
+[I 16:24:43.266 NotebookApp] Starting buffering for 86800524-5798-4a6f-866e-e6e328df5239:6013182c68264c9381f983fe5b0ef49c
+[W 16:28:00.769 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[I 16:28:02.103 NotebookApp] Kernel started: 98569193-7b6f-4b85-bcc0-569303cdeb0c
+[I 16:28:03.117 NotebookApp] Adapting to protocol v5.1 for kernel 98569193-7b6f-4b85-bcc0-569303cdeb0c
+[I 16:28:26.375 NotebookApp] Starting buffering for 98569193-7b6f-4b85-bcc0-569303cdeb0c:840024baa61a4dc480e5216e72513ed4
+[I 16:28:27.515 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:4a3aa219e3184a7e849f3ab10fc69641
+[W 17:20:37.384 NotebookApp] SSL Error on 14 ('139.162.79.87', 46928): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:20:37.619 NotebookApp] SSL Error on 14 ('139.162.79.87', 47188): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:20:37.879 NotebookApp] SSL Error on 14 ('139.162.79.87', 47494): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:20:58.346 NotebookApp] SSL Error on 14 ('139.162.79.87', 40424): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:32:04.666 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 17:34:03.899 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/cache.py", line 116, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 233, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 434, in complete_request
+    matches = self.do_complete(code, cursor_pos)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 262, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 287, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 1791, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 1844, in _completions
+    signature = _make_signature(jm)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 989, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/cache.py", line 118, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/api/classes.py", line 347, in params
+    raise AttributeError()
+AttributeError
+[I 17:36:03.689 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/cache.py", line 116, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 233, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 434, in complete_request
+    matches = self.do_complete(code, cursor_pos)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 262, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 287, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 1791, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 1844, in _completions
+    signature = _make_signature(jm)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/IPython/core/completer.py", line 989, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/cache.py", line 118, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jedi/api/classes.py", line 347, in params
+    raise AttributeError()
+AttributeError
+[I 17:38:03.699 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:42:03.779 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:44:03.684 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:45:35.029 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:46:23.569 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:6f66ea1579244c7c8869cc33b0f16c13
+[W 17:46:48.647 NotebookApp] SSL Error on 14 ('158.85.81.124', 49622): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:58:37.678 NotebookApp] SSL Error on 14 ('220.255.252.179', 7224): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:29:21.695 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 07:31:21.567 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:33:21.567 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:37:21.608 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:39:22.555 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 08:45:22.668 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 08:51:21.811 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 08:53:22.703 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 09:11:56.707 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 09:11:58.790 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[W 09:12:28.847 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 09:12:30.318 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 10:41:28.629 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:3a3ff30d6f194b67876261cb256160a6
+[I 10:41:29.112 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:5f151780e7024490b03875e99afd95ef
+[I 10:41:32.535 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:27f09fdd24384759850ab2a4e6a5efbb
+[W 10:57:11.724 NotebookApp] SSL Error on 14 ('139.162.79.87', 53842): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:57:11.958 NotebookApp] SSL Error on 14 ('139.162.79.87', 54094): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:57:12.202 NotebookApp] SSL Error on 14 ('139.162.79.87', 54256): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:57:32.674 NotebookApp] SSL Error on 14 ('139.162.79.87', 47548): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:09:27.028 NotebookApp] 302 GET / (49.35.81.39) 0.63ms
+[I 15:11:08.673 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 15:13:07.223 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:15:08.573 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:23:08.138 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:37:07.711 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 16:36:08.674 NotebookApp] WebSocket ping timeout after 119739 ms.
+[I 16:36:13.675 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:67e6cc827f984b3e8064a216ef8340dc
+[I 16:39:17.243 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 16:39:17.243 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:67e6cc827f984b3e8064a216ef8340dc
+[I 16:54:11.981 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:67e6cc827f984b3e8064a216ef8340dc
+[W 18:07:13.561 NotebookApp] SSL Error on 14 ('13.250.1.54', 49542): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:49:33.973 NotebookApp] SSL Error on 14 ('83.92.97.44', 7217): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:20:11.249 NotebookApp] 302 GET / (122.15.228.208) 0.55ms
+[I 06:20:18.199 NotebookApp] Creating new notebook in 
+[I 06:20:19.426 NotebookApp] Kernel started: 332b3b06-7b23-437f-b1b7-567504c94bba
+[I 06:20:23.566 NotebookApp] Creating new file in 
+[I 06:20:30.546 NotebookApp] Adapting to protocol v5.1 for kernel 332b3b06-7b23-437f-b1b7-567504c94bba
+[I 06:20:39.307 NotebookApp] Saving file at /Untitled.ipynb
+[I 06:23:09.186 NotebookApp] Starting buffering for 332b3b06-7b23-437f-b1b7-567504c94bba:66460f444bf74dad9f57bbac4f89a3f4
+[I 06:24:48.945 NotebookApp] Adapting to protocol v5.1 for kernel 332b3b06-7b23-437f-b1b7-567504c94bba
+[I 06:25:06.857 NotebookApp] Starting buffering for 332b3b06-7b23-437f-b1b7-567504c94bba:3e835504c5d04ef49083c76ccbfad53a
+[I 06:25:16.214 NotebookApp] Kernel shutdown: 332b3b06-7b23-437f-b1b7-567504c94bba
+[W 06:25:16.216 NotebookApp] delete /Docker Installation.ipynb
+[I 06:25:18.601 NotebookApp] Creating new file in 
+[I 08:52:38.167 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 08:54:38.611 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 08:58:37.670 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:00:38.634 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:01:41.366 NotebookApp] Kernel restarted: 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 09:01:41.375 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:848f222f9d264cc3a24816308f5f884c
+[I 09:01:42.293 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 09:01:42.294 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:848f222f9d264cc3a24816308f5f884c
+[I 09:01:42.294 NotebookApp] Replaying 3 buffered messages
+[I 09:02:37.678 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:04:37.688 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:06:38.011 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:08:37.677 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:10:37.682 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:12:37.714 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:14:37.723 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:16:37.702 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:18:37.706 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:20:37.709 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:24:38.677 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:26:37.743 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:28:37.748 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:30:37.734 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:32:37.737 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:34:37.746 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:36:38.761 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:40:38.262 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:42:37.905 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 11:29:42.294 NotebookApp] WebSocket ping timeout after 119989 ms.
+[I 11:29:47.295 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:848f222f9d264cc3a24816308f5f884c
+[I 15:35:19.516 NotebookApp] 302 GET / (49.35.119.139) 0.66ms
+[I 15:36:03.276 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 15:38:03.261 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 15:39:34.341 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 15:39:36.298 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 15:40:03.204 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:42:03.528 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:44:03.472 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:46:02.880 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:48:03.510 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:50:03.447 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:56:03.287 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 15:58:03.260 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 16:00:03.328 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 16:02:03.712 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 16:04:03.508 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 16:06:03.357 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 16:08:03.508 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 16:15:27.163 NotebookApp] Replacing stale connection: 9132b35e-1ad0-4b19-9476-8da8aa677837:f23aa4e3cbf84468b3862ad2283a62b5
+[I 16:15:32.164 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:f23aa4e3cbf84468b3862ad2283a62b5
+[I 16:15:32.165 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 16:15:32.166 NotebookApp] Restoring connection for 9132b35e-1ad0-4b19-9476-8da8aa677837:f23aa4e3cbf84468b3862ad2283a62b5
+[W 16:15:32.548 NotebookApp] Replacing stale connection: c4c58a65-065e-4894-9662-d5702b50c546:90b1dfccb1114806a6c5d0231fa789ae
+[W 16:15:36.299 NotebookApp] WebSocket ping timeout after 119722 ms.
+[I 16:15:37.550 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:90b1dfccb1114806a6c5d0231fa789ae
+[I 16:15:37.551 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 16:15:37.551 NotebookApp] Restoring connection for c4c58a65-065e-4894-9662-d5702b50c546:90b1dfccb1114806a6c5d0231fa789ae
+[I 16:40:03.734 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 17:23:06.606 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:90b1dfccb1114806a6c5d0231fa789ae
+[I 17:42:33.651 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:f23aa4e3cbf84468b3862ad2283a62b5
+[I 17:43:36.987 NotebookApp] Saving file at /Docker Installation
+[I 05:36:29.017 NotebookApp] 302 GET / (122.15.228.208) 0.56ms
+[I 05:41:08.220 NotebookApp] Saving file at /Docker Installation
+[I 08:40:29.401 NotebookApp] 302 GET / (122.15.228.208) 0.56ms
+[W 09:03:18.632 NotebookApp] SSL Error on 14 ('158.85.81.121', 43242): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:30:12.751 NotebookApp] Saving file at /Docker Installation
+[I 11:15:01.213 NotebookApp] Saving file at /Docker Installation
+[I 11:25:32.125 NotebookApp] Saving file at /Docker Installation
+[W 19:06:10.098 NotebookApp] SSL Error on 14 ('107.170.234.251', 49084): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:54:15.732 NotebookApp] SSL Error on 14 ('139.162.79.87', 53988): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:54:15.967 NotebookApp] SSL Error on 14 ('139.162.79.87', 54260): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:54:16.201 NotebookApp] SSL Error on 14 ('139.162.79.87', 54448): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:54:36.669 NotebookApp] SSL Error on 14 ('139.162.79.87', 48134): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:34.493 NotebookApp] SSL Error on 14 ('139.162.79.87', 55956): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:34.755 NotebookApp] SSL Error on 14 ('139.162.79.87', 56356): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:34.994 NotebookApp] SSL Error on 14 ('139.162.79.87', 56666): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:55.462 NotebookApp] SSL Error on 14 ('139.162.79.87', 50430): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:40:54.609 NotebookApp] 302 GET / (122.15.228.208) 2.61ms
+[I 07:48:36.535 NotebookApp] 302 GET / (122.15.228.208) 0.61ms
+[I 10:54:28.595 NotebookApp] Saving file at /Docker Installation
+[I 16:43:24.895 NotebookApp] 302 GET / (49.35.40.53) 0.59ms
+[W 03:50:34.360 NotebookApp] SSL Error on 14 ('158.69.226.161', 53460): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:34.750 NotebookApp] SSL Error on 14 ('158.69.226.161', 53482): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:35.137 NotebookApp] SSL Error on 14 ('158.69.226.161', 53506): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:35.523 NotebookApp] SSL Error on 14 ('158.69.226.161', 53546): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:35.908 NotebookApp] SSL Error on 14 ('158.69.226.161', 53574): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:36.302 NotebookApp] SSL Error on 14 ('158.69.226.161', 53594): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:36.687 NotebookApp] SSL Error on 14 ('158.69.226.161', 53620): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:37.071 NotebookApp] SSL Error on 14 ('158.69.226.161', 53656): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:37.461 NotebookApp] SSL Error on 14 ('158.69.226.161', 53672): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:37.853 NotebookApp] SSL Error on 14 ('158.69.226.161', 53684): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:38.241 NotebookApp] SSL Error on 14 ('158.69.226.161', 53750): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:38.629 NotebookApp] SSL Error on 14 ('158.69.226.161', 53796): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 03:50:45.420 NotebookApp] Malformed HTTP message from 158.69.226.161: Malformed HTTP request line
+[I 03:50:46.201 NotebookApp] 302 GET / (158.69.226.161) 0.71ms
+[W 03:50:46.983 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.80ms referer=None
+[I 03:50:47.764 NotebookApp] Malformed HTTP message from 158.69.226.161: Malformed HTTP version in HTTP Request-Line: 'RTSP/1.0'
+[W 03:51:35.714 NotebookApp] 404 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak (158.69.226.161) 5.27ms referer=None
+[I 03:51:47.697 NotebookApp] Malformed HTTP message from 158.69.226.161: Malformed HTTP version in HTTP Request-Line: 'SIP/2.0'
+[W 03:52:41.278 NotebookApp] SSL Error on 165 ('158.69.226.161', 34646): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:52:41.279 NotebookApp] SSL Error on 164 ('158.69.226.161', 34642): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:52:41.279 NotebookApp] SSL Error on 125 ('158.69.226.161', 361): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:52:41.279 NotebookApp] SSL Error on 167 ('158.69.226.161', 34644): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 03:52:41.279 NotebookApp] SSL Error on 166 ('158.69.226.161', 34632): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 03:52:41.672 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.90ms referer=None
+[W 03:52:41.674 NotebookApp] 404 GET /.git/HEAD (158.69.226.161) 1.86ms referer=None
+[W 03:52:41.676 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.47ms referer=None
+[I 03:52:41.680 NotebookApp] 302 GET / (158.69.226.161) 0.44ms
+[W 03:52:41.681 NotebookApp] SSL Error on 29 ('158.69.226.161', 34668): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:52:42.124 NotebookApp] SSL Error on 29 ('158.69.226.161', 34698): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:52:42.473 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.78ms referer=None
+[I 03:52:42.571 NotebookApp] 302 GET / (158.69.226.161) 0.69ms
+[W 03:52:43.271 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.74ms referer=None
+[W 03:52:44.065 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.77ms referer=None
+[W 03:52:44.860 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.77ms referer=None
+[W 03:52:45.630 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.78ms referer=None
+[W 03:52:46.410 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.74ms referer=None
+[W 03:52:47.189 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.76ms referer=None
+[W 03:52:47.971 NotebookApp] 405 OPTIONS / (158.69.226.161) 0.74ms referer=None
+[W 06:02:20.452 NotebookApp] SSL Error on 14 ('139.162.79.87', 38242): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:02:20.686 NotebookApp] SSL Error on 14 ('139.162.79.87', 38494): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:02:20.920 NotebookApp] SSL Error on 14 ('139.162.79.87', 38672): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:02:41.402 NotebookApp] SSL Error on 14 ('139.162.79.87', 60394): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:06:52.321 NotebookApp] 302 GET / (122.15.228.208) 0.58ms
+[W 12:49:38.272 NotebookApp] SSL Error on 14 ('169.54.233.124', 42000): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:51:14.980 NotebookApp] SSL Error on 14 ('115.236.53.94', 6723): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:45:57.358 NotebookApp] SSL Error on 14 ('107.170.193.135', 59376): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:53:29.894 NotebookApp] SSL Error on 14 ('115.236.53.94', 57315): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:14:51.956 NotebookApp] SSL Error on 14 ('77.81.30.75', 7024): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:01:50.294 NotebookApp] SSL Error on 14 ('115.236.53.94', 10397): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:07:22.005 NotebookApp] 302 GET / (122.15.228.208) 0.55ms
+[I 05:07:31.565 NotebookApp] Creating new file in 
+[W 05:09:01.769 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 05:09:03.450 NotebookApp] Adapting to protocol v5.1 for kernel b6a7a141-551a-40fe-9f64-6bbdf979d19d
+[I 05:13:03.118 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb
+[W 05:13:03.119 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 05:13:55.556 NotebookApp] Creating new file in /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics
+[I 05:15:03.244 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb
+[W 05:15:03.246 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 05:16:56.987 NotebookApp] Starting buffering for b6a7a141-551a-40fe-9f64-6bbdf979d19d:00da06395dce4475928ccdeb48fc0b33
+[I 05:17:19.510 NotebookApp] Adapting to protocol v5.1 for kernel 89044d2b-6986-4041-9bf7-2021555bbdab
+[W 05:17:27.066 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/02-Strings.ipynb is not trusted
+[I 05:17:28.401 NotebookApp] Adapting to protocol v5.1 for kernel b6a7a141-551a-40fe-9f64-6bbdf979d19d
+[I 05:17:35.424 NotebookApp] Starting buffering for b6a7a141-551a-40fe-9f64-6bbdf979d19d:71bfe54ab6ba4146af00c29a42f6a49a
+[I 05:17:35.743 NotebookApp] Kernel shutdown: b6a7a141-551a-40fe-9f64-6bbdf979d19d
+[I 05:18:46.021 NotebookApp] Starting buffering for 89044d2b-6986-4041-9bf7-2021555bbdab:1c9f05159d4243e5833cfab10306c7f9
+[I 05:18:50.814 NotebookApp] Adapting to protocol v5.1 for kernel 89044d2b-6986-4041-9bf7-2021555bbdab
+[I 05:52:25.842 NotebookApp] Starting buffering for 89044d2b-6986-4041-9bf7-2021555bbdab:51d6d38160e1487f8b7996229b4d3e45
+[I 05:52:26.059 NotebookApp] Kernel shutdown: 89044d2b-6986-4041-9bf7-2021555bbdab
+[W 05:52:28.736 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/04-Lists.ipynb is not trusted
+[I 05:52:29.707 NotebookApp] Kernel started: 42f5135a-626c-4c6f-8d04-02b8ff8df2be
+[I 05:52:31.247 NotebookApp] Adapting to protocol v5.1 for kernel 42f5135a-626c-4c6f-8d04-02b8ff8df2be
+[I 05:54:29.764 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/04-Lists.ipynb
+[W 05:54:29.765 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/04-Lists.ipynb is not trusted
+[I 06:03:10.863 NotebookApp] Starting buffering for 42f5135a-626c-4c6f-8d04-02b8ff8df2be:ff5a83680ac441a98663146d09849ba0
+[W 06:03:17.455 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/05-Dictionaries.ipynb is not trusted
+[I 06:03:17.998 NotebookApp] Kernel started: 32951fb9-b849-4067-9557-c0df95fc1b4e
+[I 06:03:18.760 NotebookApp] Adapting to protocol v5.1 for kernel 32951fb9-b849-4067-9557-c0df95fc1b4e
+[I 06:05:18.327 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/05-Dictionaries.ipynb
+[W 06:05:18.328 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/05-Dictionaries.ipynb is not trusted
+[I 06:31:01.420 NotebookApp] Kernel shutdown: 32951fb9-b849-4067-9557-c0df95fc1b4e
+[W 06:31:06.544 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/06-Tuples.ipynb is not trusted
+[I 06:31:06.973 NotebookApp] Kernel started: 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4
+[I 06:31:08.133 NotebookApp] Adapting to protocol v5.1 for kernel 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4
+[I 06:33:07.416 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/06-Tuples.ipynb
+[W 06:33:07.417 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/06-Tuples.ipynb is not trusted
+[I 07:12:18.088 NotebookApp] Starting buffering for 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4:f0858918d1f848c583a9f7de5b56f1be
+[W 07:12:23.627 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/07-Sets and Booleans.ipynb is not trusted
+[I 07:12:24.047 NotebookApp] Kernel started: 4c514681-26b7-4ff4-8cea-222fea678d3f
+[I 07:12:24.883 NotebookApp] Adapting to protocol v5.1 for kernel 4c514681-26b7-4ff4-8cea-222fea678d3f
+[I 07:13:06.377 NotebookApp] Starting buffering for 4c514681-26b7-4ff4-8cea-222fea678d3f:087d6fae8fb64820bc245069dc45b1a2
+[W 07:13:10.640 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/08-Files.ipynb is not trusted
+[I 07:13:11.385 NotebookApp] Kernel started: 3c0f9ee6-3a1b-4efb-9d66-54f16227c87b
+[I 07:13:12.285 NotebookApp] Adapting to protocol v5.1 for kernel 3c0f9ee6-3a1b-4efb-9d66-54f16227c87b
+[I 07:15:11.420 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/08-Files.ipynb
+[W 07:15:11.421 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/08-Files.ipynb is not trusted
+[I 07:40:08.426 NotebookApp] Kernel shutdown: 3c0f9ee6-3a1b-4efb-9d66-54f16227c87b
+[W 07:40:08.430 NotebookApp] zmq message arrived on closed channel
+[W 07:40:16.818 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/09-Objects and Data Structures Assessment Test.ipynb is not trusted
+[I 07:40:17.992 NotebookApp] Kernel started: f308b94a-e2f5-43cd-bb28-897b0083bf12
+[I 07:40:18.752 NotebookApp] Adapting to protocol v5.1 for kernel f308b94a-e2f5-43cd-bb28-897b0083bf12
+[W 07:41:15.746 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/10-Objects and Data Structures Assessment Test-Solution.ipynb is not trusted
+[I 07:41:16.994 NotebookApp] Kernel started: edf6ffe4-d201-4efb-b9b3-c3d6dd100bc6
+[I 07:41:17.783 NotebookApp] Adapting to protocol v5.1 for kernel edf6ffe4-d201-4efb-b9b3-c3d6dd100bc6
+[I 07:42:18.526 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/09-Objects and Data Structures Assessment Test.ipynb
+[I 07:43:16.985 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/10-Objects and Data Structures Assessment Test-Solution.ipynb
+[W 07:43:16.986 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/10-Objects and Data Structures Assessment Test-Solution.ipynb is not trusted
+[I 07:45:17.042 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/10-Objects and Data Structures Assessment Test-Solution.ipynb
+[W 07:45:17.043 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/10-Objects and Data Structures Assessment Test-Solution.ipynb is not trusted
+[I 07:48:05.717 NotebookApp] Starting buffering for edf6ffe4-d201-4efb-b9b3-c3d6dd100bc6:7d9e57ec895f48358f90845456710859
+[I 07:48:08.154 NotebookApp] Starting buffering for f308b94a-e2f5-43cd-bb28-897b0083bf12:9f2f5912dc0848f1987076d719b1038f
+[W 07:48:23.715 NotebookApp] Notebook Complete-Python-3-Bootcamp/01-Python Comparison Operators/01-Comparison Operators.ipynb is not trusted
+[I 07:48:24.442 NotebookApp] Kernel started: ad99d546-5bfe-4fe1-b1e5-983a7f021df9
+[I 07:48:25.472 NotebookApp] Adapting to protocol v5.1 for kernel ad99d546-5bfe-4fe1-b1e5-983a7f021df9
+[W 07:48:25.810 NotebookApp] Notebook Complete-Python-3-Bootcamp/01-Python Comparison Operators/02-Chained Comparison Operators.ipynb is not trusted
+[I 07:48:26.242 NotebookApp] Kernel started: 3c51290a-d850-4631-8180-77c0a65046c4
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 07:48:29.240 NotebookApp] KernelRestarter: restarting kernel (1/5), new random ports
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 07:48:32.251 NotebookApp] KernelRestarter: restarting kernel (2/5), new random ports
+[I 07:48:32.697 NotebookApp] Starting buffering for ad99d546-5bfe-4fe1-b1e5-983a7f021df9:0d7d8782a00a4cfb922f8a77d1303f78
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 07:48:35.258 NotebookApp] KernelRestarter: restarting kernel (3/5), new random ports
+[W 07:48:36.533 NotebookApp] Timeout waiting for kernel_info reply from 3c51290a-d850-4631-8180-77c0a65046c4
+[W 07:48:37.256 NotebookApp] Notebook Complete-Python-3-Bootcamp/01-Python Comparison Operators/01-Comparison Operators.ipynb is not trusted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[W 07:48:38.124 NotebookApp] Notebook Complete-Python-3-Bootcamp/01-Python Comparison Operators/02-Chained Comparison Operators.ipynb is not trusted
+[I 07:48:38.235 NotebookApp] Adapting to protocol v5.1 for kernel ad99d546-5bfe-4fe1-b1e5-983a7f021df9
+[I 07:48:38.265 NotebookApp] KernelRestarter: restarting kernel (4/5), new random ports
+kernel 3c51290a-d850-4631-8180-77c0a65046c4 restarted
+[E 07:48:38.265 NotebookApp] KernelRestarter: restart callback <bound method ZMQChannelsHandler.on_kernel_restarted of ZMQChannelsHandler(3c51290a-d850-4631-8180-77c0a65046c4)> failed
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyter_client/restarter.py", line 86, in _fire_callbacks
+        callback()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 466, in on_kernel_restarted
+        self._send_status_message('restarting')
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 462, in _send_status_message
+        self.write_message(json.dumps(msg, default=date_default))
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[I 07:48:40.505 NotebookApp] Starting buffering for ad99d546-5bfe-4fe1-b1e5-983a7f021df9:e3c69cfd96704aa1890e931bfce3d094
+[I 07:48:41.041 NotebookApp] Kernel shutdown: ad99d546-5bfe-4fe1-b1e5-983a7f021df9
+[I 07:48:47.892 NotebookApp] Starting buffering for 3c51290a-d850-4631-8180-77c0a65046c4:da0e983c61d149ea8790e616fe33af2c
+[I 07:48:48.109 NotebookApp] Kernel shutdown: 3c51290a-d850-4631-8180-77c0a65046c4
+[I 08:24:26.048 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/Python QA
+[I 08:34:31.609 NotebookApp] Saving file at /Need to Implement
+[W 08:57:18.609 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 08:57:19.318 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 09:42:44.853 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 09:42:46.458 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:8c79777b2cc74aa09b34beb4320b222d
+[I 09:44:44.568 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:46:44.537 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:54:44.620 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 09:56:44.838 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:00:44.832 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[W 10:15:05.309 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/06-Tuples.ipynb is not trusted
+[I 10:15:06.000 NotebookApp] Adapting to protocol v5.1 for kernel 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4
+[I 10:15:08.910 NotebookApp] Starting buffering for 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4:ed149be7b24c4f6987aaaee05ff2613e
+[W 10:17:31.059 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/06-Tuples.ipynb is not trusted
+[I 10:17:31.835 NotebookApp] Adapting to protocol v5.1 for kernel 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4
+[I 10:30:44.633 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 10:32:44.953 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:02:44.815 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:04:45.108 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:06:45.025 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 11:31:54.558 NotebookApp] Saving file at /Docker Installation
+[I 11:31:59.972 NotebookApp] Starting buffering for 2d409f0a-d50c-4937-b6d3-fb18a80bfcf4:d8fb2738f79e40a4bf8be8976f706afd
+[I 11:41:03.888 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:aa5ca379cc164cbaa3b06d03d9c69eb8
+[W 17:05:18.512 NotebookApp] SSL Error on 16 ('79.136.40.217', 57447): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:37:13.812 NotebookApp] SSL Error on 16 ('31.131.251.196', 741): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:43:56.760 NotebookApp] SSL Error on 16 ('54.255.249.74', 34642): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:45.499 NotebookApp] SSL Error on 16 ('182.48.105.210', 16053): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:46.659 NotebookApp] SSL Error on 16 ('182.48.105.210', 16135): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:47.373 NotebookApp] SSL Error on 16 ('182.48.105.210', 16183): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:48.070 NotebookApp] SSL Error on 16 ('182.48.105.210', 16232): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:48.764 NotebookApp] SSL Error on 16 ('182.48.105.210', 16278): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:49.457 NotebookApp] SSL Error on 16 ('182.48.105.210', 16326): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:17:44.847 NotebookApp] 302 GET / (122.15.228.208) 1.97ms
+[I 05:17:56.215 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 05:19:55.996 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:21:56.652 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:27:56.052 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:29:57.129 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:31:56.030 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:33:56.562 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:35:56.029 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:37:56.542 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:53:56.157 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:55:56.623 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:59:56.089 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 06:01:56.084 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 06:03:56.082 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[W 06:05:35.343 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/01-Iterators and Generators.ipynb is not trusted
+[I 06:05:36.108 NotebookApp] Kernel started: d687fc1c-0335-476a-a21e-b73c3c3d2065
+[I 06:05:38.132 NotebookApp] Adapting to protocol v5.1 for kernel d687fc1c-0335-476a-a21e-b73c3c3d2065
+[I 06:05:56.644 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 06:07:36.610 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/11-Python Generators/01-Iterators and Generators.ipynb
+[W 06:07:36.612 NotebookApp] Notebook Complete-Python-3-Bootcamp/11-Python Generators/01-Iterators and Generators.ipynb is not trusted
+[W 06:11:15.818 NotebookApp] SSL Error on 16 ('58.248.203.21', 21152): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:14:56.161 NotebookApp] Kernel interrupted: 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 06:15:56.659 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 06:30:01.248 NotebookApp] Starting buffering for d687fc1c-0335-476a-a21e-b73c3c3d2065:d40bc5f8d4504188808a5892ceb2eb0d
+[I 06:30:03.938 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:4e8eb5720d1242b88073aeba77091c0d
+[I 07:52:53.724 NotebookApp] 302 GET / (122.15.228.208) 0.53ms
+[W 07:55:38.386 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/05-Useful-Operators.ipynb is not trusted
+[I 07:55:39.493 NotebookApp] Adapting to protocol v5.1 for kernel d6995304-2b6c-4ea7-8b4c-c9408c23c7e3
+[I 07:56:03.802 NotebookApp] Creating new file in /Complete-Python-3-Bootcamp
+[I 07:59:39.306 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/02-Python Statements/05-Useful-Operators.ipynb
+[W 07:59:39.307 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/05-Useful-Operators.ipynb is not trusted
+[I 08:01:50.937 NotebookApp] Starting buffering for d6995304-2b6c-4ea7-8b4c-c9408c23c7e3:ae3c87b6f0a9459cbc97176762fa0eab
+[W 08:01:54.901 NotebookApp] Notebook Complete-Python-3-Bootcamp/02-Python Statements/06-List Comprehensions.ipynb is not trusted
+[I 08:01:55.529 NotebookApp] Adapting to protocol v5.1 for kernel a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 08:04:26.131 NotebookApp] Starting buffering for a659191e-a4e3-4e67-89f6-2aea7a1e11c9:96d8c577c6544aa3814b300590d09c07
+[I 08:04:26.454 NotebookApp] Kernel shutdown: a659191e-a4e3-4e67-89f6-2aea7a1e11c9
+[I 08:06:37.186 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Functions
+[I 08:06:39.669 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Python QA
+[W 08:07:11.050 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/01-Methods.ipynb is not trusted
+[I 08:07:11.473 NotebookApp] Kernel started: db53774b-7329-4923-8d62-62913c2fd243
+[I 08:07:13.091 NotebookApp] Adapting to protocol v5.1 for kernel db53774b-7329-4923-8d62-62913c2fd243
+[I 08:09:11.869 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/01-Methods.ipynb
+[W 08:09:11.870 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/01-Methods.ipynb is not trusted
+[I 08:55:51.883 NotebookApp] Kernel shutdown: db53774b-7329-4923-8d62-62913c2fd243
+[W 08:55:53.724 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 08:55:54.498 NotebookApp] Kernel started: dc7d131a-7b0e-406b-8d6c-4d498a9b2341
+[I 08:55:56.154 NotebookApp] Adapting to protocol v5.1 for kernel dc7d131a-7b0e-406b-8d6c-4d498a9b2341
+[I 08:57:54.551 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb
+[W 08:57:54.551 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 09:03:54.552 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb
+[W 09:03:54.554 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 09:50:23.409 NotebookApp] Saving file at /Need to Implement
+[I 09:52:01.599 NotebookApp] Starting buffering for dc7d131a-7b0e-406b-8d6c-4d498a9b2341:2c9ac598a48a4f1083121354d2204431
+[I 09:52:02.104 NotebookApp] Kernel shutdown: dc7d131a-7b0e-406b-8d6c-4d498a9b2341
+[W 18:00:29.313 NotebookApp] SSL Error on 12 ('139.162.79.87', 45460): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:00:29.556 NotebookApp] SSL Error on 12 ('139.162.79.87', 45914): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:00:29.809 NotebookApp] SSL Error on 12 ('139.162.79.87', 46136): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:00:50.320 NotebookApp] SSL Error on 12 ('139.162.79.87', 39748): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:02:17.757 NotebookApp] SSL Error on 12 ('158.85.81.124', 59250): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:45:17.597 NotebookApp] SSL Error on 12 ('185.92.73.90', 23198): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:45:17.837 NotebookApp] SSL Error on 12 ('185.92.73.90', 25461): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:50:54.116 NotebookApp] 302 GET / (49.35.12.189) 2.92ms
+[I 15:50:54.218 NotebookApp] 302 GET / (49.35.12.189) 0.52ms
+[I 16:03:01.066 NotebookApp] Saving file at /Need to Implement
+[I 06:33:45.745 NotebookApp] 302 GET / (49.35.12.189) 3.01ms
+[I 06:33:46.195 NotebookApp] 302 GET / (49.35.12.189) 0.53ms
+[W 06:38:29.012 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 06:38:31.058 NotebookApp] Kernel started: c27f8c52-bc21-4c5c-9065-ab7b91a233f0
+[I 06:38:32.767 NotebookApp] Adapting to protocol v5.1 for kernel c27f8c52-bc21-4c5c-9065-ab7b91a233f0
+[I 06:39:10.112 NotebookApp] Saving file at /Functions
+[I 06:41:22.718 NotebookApp] Starting buffering for c27f8c52-bc21-4c5c-9065-ab7b91a233f0:d82dda65065048d18ef0080e084ca35f
+[I 06:41:23.024 NotebookApp] Kernel shutdown: c27f8c52-bc21-4c5c-9065-ab7b91a233f0
+[W 06:42:36.057 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 06:42:38.437 NotebookApp] Adapting to protocol v5.1 for kernel c4c58a65-065e-4894-9662-d5702b50c546
+[I 06:43:41.394 NotebookApp] Saving file at /Functions
+[I 06:57:21.762 NotebookApp] Starting buffering for c4c58a65-065e-4894-9662-d5702b50c546:89b17c3785814c29819d139676398084
+[I 06:57:22.656 NotebookApp] Kernel shutdown: c4c58a65-065e-4894-9662-d5702b50c546
+[W 06:57:41.638 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 06:57:43.012 NotebookApp] Kernel started: aaab234e-1366-4637-b661-dda9ffcee680
+[W 06:57:44.259 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/07-args and kwargs.ipynb is not trusted
+[I 06:57:44.598 NotebookApp] Adapting to protocol v5.1 for kernel aaab234e-1366-4637-b661-dda9ffcee680
+[I 06:57:46.824 NotebookApp] Kernel started: d4b9fa1f-6e04-4ccf-8d2e-f1d34d7474cf
+[I 06:57:49.399 NotebookApp] Adapting to protocol v5.1 for kernel d4b9fa1f-6e04-4ccf-8d2e-f1d34d7474cf
+[W 06:58:01.298 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 06:58:02.593 NotebookApp] Kernel started: ab3713fd-c072-4578-9e5f-04703053fcdc
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:08.591 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[W 06:58:14.130 NotebookApp] Timeout waiting for kernel_info reply from ab3713fd-c072-4578-9e5f-04703053fcdc
+[I 06:58:14.604 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:20.613 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:26.625 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:32.648 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:35.664 NotebookApp] KernelRestarter: restarting kernel (2/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:41.677 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:47.693 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:53.713 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:58:59.726 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel ab3713fd-c072-4578-9e5f-04703053fcdc restarted
+Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/src/thread.cpp:110)
+[I 06:59:03.188 NotebookApp] Kernel shutdown: ab3713fd-c072-4578-9e5f-04703053fcdc
+[I 06:59:45.949 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/07-args and kwargs.ipynb
+[W 06:59:45.950 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/07-args and kwargs.ipynb is not trusted
+[I 07:03:43.196 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:03:43.196 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 07:05:43.161 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:05:43.163 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 07:07:43.236 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:07:43.237 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 07:09:43.975 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:09:43.976 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 07:33:43.581 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:33:43.581 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 07:35:42.961 NotebookApp] Starting buffering for aaab234e-1366-4637-b661-dda9ffcee680:3f8f6a91ecc2444d96ba337dabfb8c7f
+[I 07:35:43.282 NotebookApp] Kernel shutdown: aaab234e-1366-4637-b661-dda9ffcee680
+[I 07:35:43.744 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb
+[W 07:35:43.745 NotebookApp] Notebook Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[I 08:23:51.102 NotebookApp] Starting buffering for d4b9fa1f-6e04-4ccf-8d2e-f1d34d7474cf:1ef968b4d6c148a2861c0b69009dceb9
+[I 08:23:51.914 NotebookApp] Kernel shutdown: d4b9fa1f-6e04-4ccf-8d2e-f1d34d7474cf
+[I 08:28:42.845 NotebookApp] Saving file at /Functions
+[I 08:28:46.070 NotebookApp] Saving file at /Python QA
+[W 08:51:28.931 NotebookApp] SSL Error on 12 ('5.188.10.146', 7749): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:51:29.215 NotebookApp] SSL Error on 12 ('5.188.10.146', 13511): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:36.049 NotebookApp] Notebook Complete-Python-3-Bootcamp/05-Object Oriented Programming/01-Object Oriented Programming.ipynb is not trusted
+[I 10:31:38.018 NotebookApp] Kernel started: 5a07886b-5f25-493a-bb43-b2de8948fa0f
+[I 10:31:39.656 NotebookApp] Adapting to protocol v5.1 for kernel 5a07886b-5f25-493a-bb43-b2de8948fa0f
+[W 11:33:09.658 NotebookApp] WebSocket ping timeout after 119765 ms.
+[I 11:33:14.659 NotebookApp] Starting buffering for 5a07886b-5f25-493a-bb43-b2de8948fa0f:0e3dd54b535d495fb0af7eae92fc413b
+[W 12:23:33.520 NotebookApp] SSL Error on 12 ('61.191.215.120', 1410): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:23:34.307 NotebookApp] SSL Error on 12 ('61.191.215.120', 1424): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:23:35.072 NotebookApp] SSL Error on 12 ('61.191.215.120', 1453): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:23:35.821 NotebookApp] SSL Error on 12 ('61.191.215.120', 1485): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:16:34.866 NotebookApp] 302 GET / (49.35.12.189) 0.63ms
+[W 14:18:13.225 NotebookApp] SSL Error on 12 ('13.57.130.40', 48600): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:15:01.782 NotebookApp] 302 GET / (49.35.12.189) 1.26ms
+[I 15:15:02.121 NotebookApp] 302 GET / (49.35.12.189) 0.59ms
+[I 15:15:18.114 NotebookApp] Creating new file in 
+[I 16:58:01.715 NotebookApp] Saving file at /Python Certification
+[W 19:57:35.494 NotebookApp] SSL Error on 12 ('107.170.233.103', 46656): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:27:44.508 NotebookApp] SSL Error on 12 ('60.191.38.77', 54765): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:29:36.439 NotebookApp] 302 GET / (122.15.228.208) 2.75ms
+[I 06:15:13.202 NotebookApp] Adapting to protocol v5.1 for kernel 9132b35e-1ad0-4b19-9476-8da8aa677837
+[I 06:17:13.046 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 06:19:13.936 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled.ipynb
+[I 07:31:05.021 NotebookApp] Starting buffering for 9132b35e-1ad0-4b19-9476-8da8aa677837:456ffec304a84a5d805e41c6ca94ef50
+[I 07:34:09.044 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 07:36:08.681 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[W 07:37:00.819 NotebookApp] Notebook Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/08-Files.ipynb is not trusted
+[I 07:37:01.826 NotebookApp] Kernel started: 654d386b-0770-4a7b-84e4-b1fe14adbf0f
+[I 07:37:03.793 NotebookApp] Adapting to protocol v5.1 for kernel 654d386b-0770-4a7b-84e4-b1fe14adbf0f
+[I 07:38:08.658 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 07:40:08.700 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 07:42:09.021 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 11:29:23.875 NotebookApp] Starting buffering for 654d386b-0770-4a7b-84e4-b1fe14adbf0f:79eca7fa4b204982afed871fd17b3ca3
+[I 11:29:24.737 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:88b22b012abf42928f1393895d815fb6
+[I 14:48:23.760 NotebookApp] 302 GET / (157.33.23.34) 4.64ms
+[I 14:48:23.853 NotebookApp] 302 GET / (157.33.23.34) 0.59ms
+[I 14:51:43.950 NotebookApp] 302 POST /login?next=%2F (157.33.23.34) 1.45ms
+[I 14:51:44.279 NotebookApp] 302 GET / (157.33.23.34) 0.64ms
+[I 14:57:19.788 NotebookApp] Saving file at /Python Certification
+[I 15:06:21.129 NotebookApp] Adapting to protocol v5.1 for kernel 4451ecc7-acc8-4670-96e7-fcbbb8c15550
+[I 15:08:19.572 NotebookApp] Saving file at /Python Certification
+[I 15:08:20.762 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 15:10:33.536 NotebookApp] Saving file at /Python Certification
+[I 15:28:03.343 NotebookApp] Saving file at /Functions
+[I 15:39:45.293 NotebookApp] Saving file at /Python Certification
+[I 15:44:20.347 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 15:44:30.323 NotebookApp] Saving file at /Python Certification
+[I 15:44:30.447 NotebookApp] Saving file at /Python Certification
+[I 15:44:30.557 NotebookApp] Saving file at /Python Certification
+[I 15:44:30.657 NotebookApp] Saving file at /Python Certification
+[I 15:52:20.006 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 15:53:13.901 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 15:53:14.189 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 15:53:15.334 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 16:37:12.829 NotebookApp] Saving file at /Python Certification
+[I 16:52:09.062 NotebookApp] Saving file at /Python Certification
+[I 16:52:09.395 NotebookApp] Saving file at /Python Certification
+[I 16:52:09.675 NotebookApp] Saving file at /Python Certification
+[I 16:52:09.890 NotebookApp] Saving file at /Python Certification
+[I 16:52:10.070 NotebookApp] Saving file at /Python Certification
+[I 17:03:07.428 NotebookApp] Saving file at /Python Certification
+[I 17:03:07.632 NotebookApp] Saving file at /Python Certification
+[I 17:40:22.687 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 17:45:43.010 NotebookApp] Starting buffering for 4451ecc7-acc8-4670-96e7-fcbbb8c15550:adf732778c50472ab3f1b2cf4fd70a79
+[I 17:45:56.349 NotebookApp] Saving file at /Python Certification
+[I 17:46:27.721 NotebookApp] 302 GET /edit/Python%20Certification (157.33.126.206) 1.09ms
+[I 17:46:33.132 NotebookApp] 302 POST /login?next=%2Fedit%2FPython%2520Certification (157.33.126.206) 2.07ms
+[I 05:27:19.124 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 05:27:19.125 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 05:27:19.136 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 05:27:19.136 NotebookApp] 0 active kernels
+[I 05:27:19.136 NotebookApp] The Jupyter Notebook is running at:
+[I 05:27:19.136 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 05:27:19.136 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:27:27.404 NotebookApp] 302 GET / (122.15.228.208) 0.74ms
+[I 05:27:27.427 NotebookApp] 302 GET /tree? (122.15.228.208) 0.93ms
+[I 05:27:29.990 NotebookApp] 302 POST /login?next=%2Ftree%3F (122.15.228.208) 1.38ms
+[I 05:29:52.581 NotebookApp] Saving file at /Python Certification
+[I 05:30:30.466 NotebookApp] Kernel started: 15e88bbd-2ccd-453e-b7a9-f7ede278df8a
+[I 05:30:31.226 NotebookApp] Adapting to protocol v5.1 for kernel 15e88bbd-2ccd-453e-b7a9-f7ede278df8a
+[I 05:32:30.953 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:42:30.681 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:44:31.338 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 05:50:02.357 NotebookApp] Saving file at /Python Certification
+[I 05:50:03.178 NotebookApp] Saving file at /Python Certification
+[I 06:26:07.654 NotebookApp] Saving file at /Need to Implement
+[I 06:26:08.435 NotebookApp] Saving file at /Need to Implement
+[I 06:26:08.620 NotebookApp] Saving file at /Need to Implement
+[I 06:26:08.806 NotebookApp] Saving file at /Need to Implement
+[I 06:26:08.960 NotebookApp] Saving file at /Need to Implement
+[I 06:26:09.135 NotebookApp] Saving file at /Need to Implement
+[I 07:48:31.320 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 09:28:32.278 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 09:40:31.326 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 09:41:59.295 NotebookApp] Saving file at /Need to Implement
+[I 09:41:59.433 NotebookApp] Saving file at /Need to Implement
+[I 09:41:59.621 NotebookApp] Saving file at /Need to Implement
+[I 09:56:20.486 NotebookApp] Saving file at /Python Certification
+[W 09:59:01.267 NotebookApp] SSL Error on 13 ('169.53.184.28', 39415): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:13:44.528 NotebookApp] Saving file at /Need to Implement
+[I 11:13:44.743 NotebookApp] Saving file at /Need to Implement
+[I 11:13:44.934 NotebookApp] Saving file at /Need to Implement
+[I 11:13:45.103 NotebookApp] Saving file at /Need to Implement
+[I 11:13:45.251 NotebookApp] Saving file at /Need to Implement
+[I 11:13:46.236 NotebookApp] Saving file at /Python Certification
+[I 11:13:46.406 NotebookApp] Saving file at /Python Certification
+[I 11:13:46.607 NotebookApp] Saving file at /Python Certification
+[I 12:26:18.076 NotebookApp] Saving file at /Python Certification
+[I 12:26:20.959 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 12:50:32.085 NotebookApp] Saving file at /Complete-Python-3-Bootcamp/Untitled1.ipynb
+[I 13:09:56.949 NotebookApp] Saving file at /Python Certification
+[I 13:10:02.748 NotebookApp] 302 GET /edit/Python%20Certification (122.15.228.208) 1.00ms
+[I 13:10:05.644 NotebookApp] 302 POST /login?next=%2Fedit%2FPython%2520Certification (122.15.228.208) 1.40ms
+[I 13:10:13.646 NotebookApp] Saving file at /Python Certification
+[I 13:10:19.185 NotebookApp] Starting buffering for 15e88bbd-2ccd-453e-b7a9-f7ede278df8a:bdeff7d6cff9411282976ccb7e8c9d24
+[W 14:17:56.482 NotebookApp] SSL Error on 10 ('139.162.79.87', 56980): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:17:56.731 NotebookApp] SSL Error on 10 ('139.162.79.87', 57294): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:17:56.978 NotebookApp] SSL Error on 10 ('139.162.79.87', 57476): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:18:17.458 NotebookApp] SSL Error on 10 ('139.162.79.87', 50900): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:09:56.521 NotebookApp] 302 GET /edit/Python%20Certification (157.33.39.76) 0.97ms
+[I 15:10:03.922 NotebookApp] 302 POST /login?next=%2Fedit%2FPython%2520Certification (157.33.39.76) 1.38ms
+[I 17:10:41.062 NotebookApp] Saving file at /Python Certification
+[I 17:10:41.626 NotebookApp] Saving file at /Python Certification
+[I 17:10:41.846 NotebookApp] Saving file at /Python Certification
+[I 17:10:42.017 NotebookApp] Saving file at /Python Certification
+[I 17:10:42.252 NotebookApp] Saving file at /Python Certification
+[I 17:10:42.431 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.091 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.205 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.381 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.436 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.545 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.636 NotebookApp] Saving file at /Python Certification
+[I 17:10:43.831 NotebookApp] Saving file at /Python Certification
+[I 17:10:44.012 NotebookApp] Saving file at /Python Certification
+[I 17:10:44.255 NotebookApp] Saving file at /Python Certification
+[I 18:12:47.809 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (157.33.122.33) 0.85ms
+[I 02:36:14.784 NotebookApp] 302 GET /edit/Python%20Certification (157.33.39.76) 0.97ms
+[I 02:36:21.082 NotebookApp] 302 POST /login?next=%2Fedit%2FPython%2520Certification (157.33.122.33) 1.35ms
+[I 09:28:31.151 NotebookApp] 302 GET / (122.15.228.208) 0.59ms
+[I 10:00:21.985 NotebookApp] Saving file at /Docker Installation
+[W 23:11:28.108 NotebookApp] SSL Error on 10 ('139.162.79.87', 37220): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:11:28.369 NotebookApp] SSL Error on 10 ('139.162.79.87', 37658): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:11:28.641 NotebookApp] SSL Error on 10 ('139.162.79.87', 37868): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:11:49.156 NotebookApp] SSL Error on 10 ('139.162.79.87', 59452): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:16:56.257 NotebookApp] SSL Error on 10 ('212.92.114.98', 50136): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:21:43.900 NotebookApp] SSL Error on 10 ('77.72.83.21', 13758): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:21:44.173 NotebookApp] SSL Error on 10 ('77.72.83.21', 18804): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:35:23.499 NotebookApp] SSL Error on 10 ('212.92.114.98', 64626): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:59:31.623 NotebookApp] 302 GET / (122.15.228.208) 0.52ms
+[I 09:38:16.305 NotebookApp] Saving file at /Docker Installation
+[I 09:45:16.334 NotebookApp] Creating new file in 
+[I 10:34:17.688 NotebookApp] Saving file at /Docker commands
+[I 10:34:19.248 NotebookApp] Saving file at /Docker Installation
+[I 12:29:08.271 NotebookApp] Saving file at /Docker commands
+[I 12:29:40.791 NotebookApp] Saving file at /Docker Installation
+[I 12:29:41.741 NotebookApp] Saving file at /Docker Installation
+[I 12:29:41.982 NotebookApp] Saving file at /Docker Installation
+[I 12:29:42.150 NotebookApp] Saving file at /Docker Installation
+[I 12:29:42.389 NotebookApp] Saving file at /Docker Installation
+[I 12:29:42.567 NotebookApp] Saving file at /Docker Installation
+[I 12:30:35.221 NotebookApp] Saving file at /Docker commands
+[I 12:30:37.759 NotebookApp] Saving file at /Docker Installation
+[I 15:16:35.629 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (157.33.62.5) 0.84ms
+[I 15:18:44.488 NotebookApp] Saving file at /Need to Implement
+[W 16:44:12.371 NotebookApp] SSL Error on 10 ('107.170.232.56', 41394): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:46:43.333 NotebookApp] Saving file at /Need to Implement
+[W 17:50:48.981 NotebookApp] SSL Error on 10 ('45.33.14.179', 43896): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:49.486 NotebookApp] SSL Error on 10 ('45.33.14.179', 44024): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:49.977 NotebookApp] SSL Error on 10 ('45.33.14.179', 44126): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:50.478 NotebookApp] SSL Error on 10 ('45.33.14.179', 44244): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:50.985 NotebookApp] SSL Error on 10 ('45.33.14.179', 44358): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:51.488 NotebookApp] SSL Error on 10 ('45.33.14.179', 44418): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:52.024 NotebookApp] SSL Error on 10 ('45.33.14.179', 44516): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:52.529 NotebookApp] SSL Error on 10 ('45.33.14.179', 44608): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:53.034 NotebookApp] SSL Error on 10 ('45.33.14.179', 44686): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:53.538 NotebookApp] SSL Error on 10 ('45.33.14.179', 44790): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:54.032 NotebookApp] SSL Error on 10 ('45.33.14.179', 44884): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:54.533 NotebookApp] SSL Error on 10 ('45.33.14.179', 44968): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:55.041 NotebookApp] SSL Error on 10 ('45.33.14.179', 45048): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:55.542 NotebookApp] SSL Error on 10 ('45.33.14.179', 45126): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:50:56.043 NotebookApp] SSL Error on 10 ('45.33.14.179', 45208): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:50:59.301 NotebookApp] Malformed HTTP message from 45.33.14.179: Malformed HTTP request line
+[I 17:51:00.311 NotebookApp] 302 GET / (45.33.14.179) 0.71ms
+[W 18:33:29.768 NotebookApp] SSL Error on 10 ('82.221.105.6', 49108): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:01:11.223 NotebookApp] SSL Error on 10 ('212.92.114.98', 57888): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:19:40.135 NotebookApp] SSL Error on 10 ('212.92.114.98', 54115): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:27:13.848 NotebookApp] 302 GET / (122.15.228.208) 0.54ms
+[I 08:28:55.612 NotebookApp] Saving file at /Docker Installation
+[I 08:29:36.561 NotebookApp] Saving file at /Docker commands
+[I 09:24:29.463 NotebookApp] Saving file at /Docker Installation
+[I 09:24:29.493 NotebookApp] Saving file at /Docker Installation
+[I 09:28:44.743 NotebookApp] Saving file at /Docker Installation
+[I 09:39:51.188 NotebookApp] Saving file at /Docker Installation
+[I 09:45:46.273 NotebookApp] Saving file at /Docker commands
+[I 10:14:41.033 NotebookApp] Saving file at /Docker commands
+[I 10:14:43.035 NotebookApp] Saving file at /Docker Installation
+[I 11:02:15.106 NotebookApp] Saving file at /Docker Installation
+[I 11:02:20.944 NotebookApp] Saving file at /Docker Installation
+[I 11:02:21.308 NotebookApp] Saving file at /Docker Installation
+[I 11:02:21.518 NotebookApp] Saving file at /Docker Installation
+[I 11:02:21.687 NotebookApp] Saving file at /Docker Installation
+[I 11:02:23.440 NotebookApp] Saving file at /Docker commands
+[I 11:02:23.650 NotebookApp] Saving file at /Docker commands
+[I 11:02:23.822 NotebookApp] Saving file at /Docker commands
+[I 11:02:23.990 NotebookApp] Saving file at /Docker commands
+[I 14:21:42.647 NotebookApp] 302 GET / (45.77.138.130) 0.56ms
+[I 14:21:43.328 NotebookApp] 302 GET /tree? (45.77.138.130) 1.09ms
+[I 15:28:31.828 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.34.237) 0.85ms
+[W 12:47:16.831 NotebookApp] SSL Error on 10 ('196.52.43.93', 45462): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 16:07:43.185 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.238.62) 0.85ms
+[I 16:14:44.749 NotebookApp] Saving file at /Docker Installation
+[I 18:04:27.385 NotebookApp] Saving file at /Docker commands
+[I 18:04:29.370 NotebookApp] Saving file at /Docker Installation
+[I 04:45:56.377 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.238.62) 0.89ms
+[W 05:27:45.943 NotebookApp] SSL Error on 10 ('139.162.79.87', 48584): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:27:46.188 NotebookApp] SSL Error on 10 ('139.162.79.87', 48788): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:27:46.423 NotebookApp] SSL Error on 10 ('139.162.79.87', 48972): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:28:06.904 NotebookApp] SSL Error on 10 ('139.162.79.87', 39326): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:27:31.051 NotebookApp] Saving file at /Docker commands
+[I 07:27:34.626 NotebookApp] Saving file at /Docker Installation
+[I 07:40:14.891 NotebookApp] Saving file at /Docker commands
+[I 13:16:31.708 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.238.62) 0.90ms
+[I 13:22:20.119 NotebookApp] Saving file at /Docker commands
+[I 13:22:21.990 NotebookApp] Saving file at /Docker Installation
+[I 13:26:28.958 NotebookApp] Saving file at /Docker Installation
+[I 13:26:30.543 NotebookApp] Saving file at /Docker commands
+[I 06:36:59.822 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.95.85) 0.87ms
+[I 06:36:59.915 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.95.85) 0.79ms
+[I 06:37:22.303 NotebookApp] Creating new file in 

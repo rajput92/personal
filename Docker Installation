@@ -1,0 +1,171 @@
+	
+/var is a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
+
+Among the various subdirectories within /var are /var/cache (contains cached data from application programs), /var/games (contains variable data relating to games in /usr), /var/lib (contains dynamic data libraries and files), /var/lock (contains lock files created by programs to indicate that they are using a particular file or device), /var/log (contains log files), /var/run (contains PIDs and other system information that is valid until the system is booted again) and /var/spool (contains mail, news and printer queues).
+
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+    
+    
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo apt-key fingerprint 0EBFCD88
+
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+   
+sudo apt-get install docker-ce
+
+Try to access folder of windows from guest OS
+What is deafult gateway:
+The "default gateway" is simply the IP of the next hop for traffic that is not explicitly routed anywhere else. This will, almost certainly, be an IP address on an interface of a local router. However, it may not be an address on which you can manage the router.
+
+If this is for a "home-type network", the inside IP (your default gateway) and the management address will probably be one and the same, but in a "large/corporate-type network" I wouldn't be so sure.
+
+neststat -rn In computing, netstat (network statistics) is a command-line network utility tool that displays network connections for the Transmission Control Protocol (both incoming and outgoing), routing tables, and a number of network interface (network interface controller or software-defined network interface) and network ...
+
+
+ps - list processes
+-e - show all processes, not just those belonging to the user
+-f - show processes in full format (more detailed than default)
+command 1 | command 2 - pass output of command 1 as input to command 2
+grep find lines containing a pattern
+processname - the pattern for grep to search for in the output of ps -ef
+
+
+
+How you solved mirror error for alpine : RUN echo " efbj" >> /etc/apk/repository
+
+Components of Docker Daemon:
+
+runc :
+    create containers
+ 
+containerd :
+    executiung container
+    push and pull images
+Shim :
+    stdin and stdout for containers
+    update exit status to daemon 
+    
+ 
+When you type commands like this into the Docker CLI, the Docker client converts them into the appropriate API payload and POSTs them to the correct API endpoint. The API is implemented in the daemon. It is the same rich, versioned, REST API that has become a hallmark of Docker, and is accepted in the industry as the de facto container API. Once the daemon receives the command to create a new container, it makes a call to containerd.
+
+When you type commands like this into the Docker CLI, the Docker client converts them into the appropriate API payload and POSTs them to the correct API endpoint. The API is implemented in the daemon. It is the same rich, versioned, REST API that has become a hallmark of Docker, and is accepted in the industry as the de facto container API. Once the daemon receives the command to create a new container, it makes a call to containerd.
+
+to perform maintenance and upgrades on the Docker daemon without impacting running containers!
+
+We mentioned earlier that containerd uses runc to create new containers. In fact, it forks a new instance of runc for every container it creates. However, once each container is created, its parent runc process exits. This means we can run hundreds of containers without having to run hundreds of runc instances. Once a container’s parent runc process exits, the associated containerd-shim process becomes the container’s parent. Some of the responsibilities the shim performs as a container’s parent include: Keeping any STDIN and STDOUT streams open so that when the daemon is restarted, the container doesn’t terminate due to pipes being closed etc. Reports the container’s exit status back to the daemon.
+
+some of the major functionality that still exists in the daemon includes; image management, image builds, the REST API, authentication, security, core networking, and orchestration.
+
+some of the major functionality that still exists in the daemon includes; image management, image builds, the REST API, authentication, security, core networking, and orchestration.
+
+If you want to pull images from 3rd party registries (not Docker Hub), you need to prepend the repository name with the DNS name of the registry.
+
+dangling: Accepts true or false, and returns only dangling images (true), or non-dangling images (false). 
+before: Requires an image name or ID as argument, and returns all images created before it. 
+since: Same as above, but returns images created after the specified image.
+label: Filters images based on the presence of a label or label and value. The docker image ls command does not display labels in its output.
+
+By default, Docker will only display 25 lines of results. However, you can use the --limit flag to increase that to a maximum of 100.
+
+The docker history command shows the build history of an image and is not a strict list of layers in the image. For example, some Dockerfile instructions used to build an image do not result in layers being created. These include; “ENV”, “EXPOSE”, “CMD”, and “ENTRYPOINT”. Instead of these creating new layers, they add metadata to the image.
+
+Docker employs a storage driver (snapshotter in newer versions) that is responsible for stacking layers and presenting them as a single unified filesystem. Examples of storage drivers on Linux include AUFS, overlay2, devicemapper, btrfs and zfs.
+ 
+
+Multiple images can, and do, share layers. This leads to efficiencies in space and performance.
+
+Pulling images by Digest/hash:
+
+So far, we’ve shown you how to pull images by tag, and this is by far the most common way. But it has a problem — tags are mutable! This means it’s possible to accidentally tag an image with the wrong tag. Sometimes it’s even possible to tag an image with the same tag as an existing, but different, image. This can cause problems!
+
+At the time of writing, there is no native Docker command that will retrieve the digest of an image from a remote registry such as Docker Hub. This means the only way to determine the digest of an image is to pull it by tag and then make a note of its digest. This will no doubt change in the future.
+
+The layers are where the data lives (files etc.). Each one is fully independent, and has no concept of being part of a collective image.
+
+when you push an image layer to Docker Hub, Docker Hub will attempt to verify that the image arrived without being tampered with en-route. To do this, it runs a hash against the layer and checks to see if it matches the hash that was sent. Because the layer was compressed (changed) the hash verification will fail.
+
+To get around this, each layer also gets something called a distribution hash. This is a hash of the compressed version of the layer. When a layer is pushed and pulled from the registry, its distribution hash is included, and this is what is used to verify that the layer arrived without being tampered with.
+
+Multi-architecture images
+
+
+when new platforms and architectures, such as Windows, ARM, and s390x were added. All of a sudden we have to think about whether the image we’re pulling is built for the architecture we’re running on. This breaks the smooth experience.
+
+Docker (image and registry specs) now supports multi-architecture images. This means a single image (repository:tag) can have an image for Linux on x64, Linux on PowerPC, Windows x64, ARM etc. Let me be clear, we’re talking about a single image tag supporting multiple platforms and architectures.
+
+To make this happen, the Registry API supports two important constructs: 
+manifest lists (new) 
+manifests
+
+When you pull an image, your Docker client makes the relevant calls to the Docker Registry API running on Docker Hub. If a manifest list exists for the image, it will be parsed to see if an entry exists for Linux on ARM. If an ARM entry exists, the manifest for that image is retrieved and parsed for the crypto ID’s of the layers that make up the image. Each layer is then pulled from Docker Hub’s blob store.
+
+Creating images that run on multiple architectures requires additional effort from the image publisher. Also, some software is not cross-platform. With this in mind, manifest lists are optional — if one doesn’t exist for an image, the Registry will return the normal manifest.
+
+However, if an image layer is shared by more than one image, that layer will not be deleted until all images that reference it have been deleted.
+
+At a high level, we can say that hypervisors perform hardware virtualization — they carve up physical hardware resources into virtual versions. On the other hand, containers perform OS virtualization — they carve up OS resources into virtual versions.
+
+The only thing that has an impact on container start time is the time it takes to start the application it’s running.
+
+//Run this command on Linux systems not using Systemd
+$ service docker status
+docker start/running, process 29393
+
+//Run this command on Linux systems that are using Systemd
+$ systemctl is-active docker
+active
+
+When we hit Return, the Docker client made the appropriate API calls to the Docker daemon. The Docker daemon accepted the command and searched the Docker host’s local cache to see if it already had a copy of the requested image. In the example cited, it didn’t, so it went to Docker Hub to see if it could find it there. It could, so it pulled it locally and stored it in its local cache.
+
+Try executing some basic commands inside of the container. You might notice that some commands do not work. This is because the images we used, like almost all container images, are highly optimized for containers.
+
+When we started the Ubuntu container in the previous section, we told it to run the Bash shell (/bin/bash). This makes the Bash shell the one and only process running inside of the container.
+
+This means that if you type exit, to exit the Bash shell, the container will also exit (terminate). The reason for this is that a container cannot exist without a running process — killing the Bash shell kills the container’s only process, resulting in the container also being killed. This is also true of Windows containers — killing the main process in the container will also kill the container.
+
+Press Ctrl-PQ to exit the container without terminating it.
+
+It is possible to delete a running container with a single command by passing the -f flag to docker container rm.
+
+And even then, if you’re storing container data in a volume, that data’s going to persist even after the container has gone.
+
+In our previous example the container was running the /bin/bash app. When you kill a running container with docker container rm <container> -f, the container will be killed without warning. The procedure is quite violent — a bit like sneaking up behind the container and shooting it in the back of the head. You’re literally giving the container, and the app it’s running, no chance to straighten its affairs before being killed. However, the docker container stop command is far more polite (like pointing a gun to the containers head and saying “you’ve got 10 seconds to say any final words”). It gives the process inside of the container a heads-up that it’s about to be stopped, giving it a chance to get things in order before the end comes. Once the docker stop command returns, you can then delete the container with docker container rm. The magic behind the scenes here can be explained with Linux/POSIX signals. docker container stop sends a SIGTERM signal to the PID 1 process inside of the container. As we just said, this gives the process a chance to clean things up and gracefully shut itself down. If it doesn’t exit within 10 seconds, it will receive a SIGKILL. This is effectively the bullet to the head. But hey, it got 10 seconds to sort itself out first! docker container rm <container> -f doesn’t bother asking nicely with a SIGTERM, it goes straight to the SIGKILL. Like we said a second ago, this is like creeping up from behind and smashing it over the head. I’m not a violent person by the way!
+
+It’s often a good idea to run containers with a restart policy. It’s a form of self-healing that enables Docker to automatically restart them after certain events or failures have occurred.
+
+writing, the following restart policies exist: 
+always 
+unless-stopped 
+on-failed
+
+always :
+Typing exit from the shell will kill the container’s PID 1 process and therefore kill the container. However, Docker will automatically restart it because it was started with the --restart always policy. If you issue a docker container ls command, you will see that the container’s uptime will be less than the time since it was created.
+
+unless -stopped:
+The main difference between the always and unless-stopped policies is that containers with the --restart unless-stopped policy will not be restarted when the daemon restarts if they were in the Stopped (Exited) state. That might be a confusing sentence, so let’s walk through an example.
+
+on-failed:
+The on-failure policy will restart a container if it exits with a non-zero exit code. It will also restart containers when the Docker daemon restarts, even containers that were in the stopped state.
+
+We know docker container run starts a new container. But this time we give it the -d flag instead of -it. -d stands for daemon mode, and tells the container to run in the background. After that, we name the container and then give it -p 80:8080. The -p flag maps ports on the Docker host to ports inside the container. This time we’re mapping port 80 on the Docker host to port 8080 inside the container.
+
+
+
+
+
+
+
+
+
+
+
+
