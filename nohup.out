@@ -1775,3 +1775,20 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [I 06:36:59.822 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.95.85) 0.87ms
 [I 06:36:59.915 NotebookApp] 302 GET /login?next=%2Fedit%2FPython%2520Certification (49.35.95.85) 0.79ms
 [I 06:37:22.303 NotebookApp] Creating new file in 
+[W 11:55:24.170 NotebookApp] SSL Error on 10 ('199.102.184.187', 42156): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:12:35.252 NotebookApp] SSL Error on 10 ('107.170.233.157', 39388): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:03:35.158 NotebookApp] SSL Error on 10 ('168.1.128.35', 60336): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:04:02.728 NotebookApp] SSL Error on 10 ('185.222.211.18', 294): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 06:58:50.072 NotebookApp] received signal 15, stopping
+[I 06:58:50.082 NotebookApp] Shutting down 1 kernel
+[I 06:58:50.087 NotebookApp] Kernel shutdown: 15e88bbd-2ccd-453e-b7a9-f7ede278df8a
+[I 06:09:47.017 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 06:09:47.018 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 06:09:47.023 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 06:09:47.023 NotebookApp] 0 active kernels
+[I 06:09:47.023 NotebookApp] The Jupyter Notebook is running at:
+[I 06:09:47.024 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 06:09:47.024 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 06:09:50.398 NotebookApp] 302 GET / (122.15.228.208) 0.59ms
+[I 06:10:07.982 NotebookApp] Creating new file in 
+[I 06:11:05.832 NotebookApp] Saving file at /General Errors:
