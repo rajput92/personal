@@ -1792,3 +1792,34 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [I 06:09:50.398 NotebookApp] 302 GET / (122.15.228.208) 0.59ms
 [I 06:10:07.982 NotebookApp] Creating new file in 
 [I 06:11:05.832 NotebookApp] Saving file at /General Errors:
+[I 06:14:07.238 NotebookApp] Saving file at /General Errors:
+[I 08:21:39.388 NotebookApp] Saving file at /Docker Installation
+[I 08:33:53.386 NotebookApp] Saving file at /Docker commands
+[I 08:33:54.855 NotebookApp] Saving file at /Docker Installation
+[I 08:34:36.361 NotebookApp] Saving file at /Docker Installation
+[I 08:41:00.515 NotebookApp] Saving file at /Docker Installation
+[I 11:19:35.390 NotebookApp] Saving file at /Docker commands
+[I 11:19:36.735 NotebookApp] Saving file at /Docker Installation
+[W 18:11:26.524 NotebookApp] SSL Error on 10 ('107.170.236.4', 47804): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:00:23.281 NotebookApp] SSL Error on 10 ('2.50.171.152', 37045): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:57:17.478 NotebookApp] Saving file at /Docker Installation
+[I 05:58:13.335 NotebookApp] Saving file at /Docker Installation
+[I 06:04:53.355 NotebookApp] Saving file at /Docker Installation
+[I 06:05:52.309 NotebookApp] Saving file at /Docker commands
+[I 06:17:54.972 NotebookApp] Saving file at /Docker Installation
+[I 06:19:47.831 NotebookApp] Saving file at /Docker Installation
+[I 06:21:32.991 NotebookApp] Saving file at /Docker Installation
+[I 06:21:39.448 NotebookApp] Saving file at /Docker commands
+[I 09:05:11.726 NotebookApp] Saving file at /Docker Installation
+[I 09:10:51.803 NotebookApp] Saving file at /Docker commands
+[I 09:10:51.807 NotebookApp] Saving file at /Docker commands
+[I 09:10:51.810 NotebookApp] Saving file at /Docker commands
+[I 09:10:51.813 NotebookApp] Saving file at /Docker commands
+[I 09:10:51.817 NotebookApp] Saving file at /Docker commands
+[I 09:10:51.820 NotebookApp] Saving file at /Docker Installation
+[I 09:23:17.378 NotebookApp] Saving file at /Docker Installation
+[I 09:23:19.453 NotebookApp] Saving file at /Docker Installation
+[I 09:24:20.325 NotebookApp] Saving file at /Docker Installation
+[I 09:24:21.668 NotebookApp] Saving file at /Docker commands
+[I 10:05:28.742 NotebookApp] Saving file at /Docker Installation
+[I 05:18:51.835 NotebookApp] 302 GET / (61.246.57.5) 0.50ms

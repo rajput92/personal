@@ -44,6 +44,15 @@ docker container run -d –name webserver -p 80:8080 \ nigelpoulton/
 
 docker container rm $(docker container ls -aq) -f
 
+docker image build -t web:latest .
+
+docker image tag web:latest nigelpoulton/web:latest
+
+docker image push nigelpoulton/web:latest
+
+docker image history web:latest
+
+
 
 
 
