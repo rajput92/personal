@@ -41,15 +41,17 @@ service docker status
 
 systemctl is-active docker
 
-docker container ls
+docker container ls (only running container)
+
+docker container ls -a (all ones)
 
 docker container pause ...
 
-docker container stop ...
+docker container stop ... (we can pass more than one container in stop command)
 
 docker container run -it ubuntu:latest /bin/bash
 
-docker container exec -it 3027eb644874 bash
+docker container exec -it 3027eb644874 bash : try to run with -t or -i not -it
 
 docker container run --name percy -it ubuntu:latest /bin/bash
 

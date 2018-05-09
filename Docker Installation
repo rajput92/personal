@@ -164,6 +164,7 @@ At a high level, we can say that hypervisors perform hardware virtualization —
 
 The only thing that has an impact on container start time is the time it takes to start the application it’s running.
 
+Checking the Docker daemon:
 //Run this command on Linux systems not using Systemd
 $ service docker status
 docker start/running, process 29393
@@ -171,6 +172,10 @@ docker start/running, process 29393
 //Run this command on Linux systems that are using Systemd
 $ systemctl is-active docker
 active
+
+Checking the Docker daemon The first thing I always do when I log on to a Docker host is check that Docker is running. $ docker version
+
+If you’re running Linux, and your user account doesn’t have permission to access the daemon, you need to make sure it’s a member of the local docker Unix group. If it isn’t, you can add it with usermod -aG docker <user> and then you’ll have to logout and log back in to your shell for the changes to take effect.
 
 When we hit Return, the Docker client made the appropriate API calls to the Docker daemon. The Docker daemon accepted the command and searched the Docker host’s local cache to see if it already had a copy of the requested image. In the example cited, it didn’t, so it went to Docker Hub to see if it could find it there. It could, so it pulled it locally and stored it in its local cache.
 
@@ -182,11 +187,13 @@ This means that if you type exit, to exit the Bash shell, the container will als
 
 Press Ctrl-PQ to exit the container without terminating it.
 
-It is possible to delete a running container with a single command by passing the -f flag to docker container rm.
+It is possible to delete a running container with a single command by passing the -f(forcefully) flag to docker container rm.
+
+While this example illustrates the persistent nature of containers, I should point out that volumes are the preferred way to store persistent data in containers. But at this stage of our journey I think this is an effective example of the persistent nature of containers.
 
 And even then, if you’re storing container data in a volume, that data’s going to persist even after the container has gone.
 
-In our previous example the container was running the /bin/bash app. When you kill a running container with docker container rm <container> -f, the container will be killed without warning. The procedure is quite violent — a bit like sneaking up behind the container and shooting it in the back of the head. You’re literally giving the container, and the app it’s running, no chance to straighten its affairs before being killed. However, the docker container stop command is far more polite (like pointing a gun to the containers head and saying “you’ve got 10 seconds to say any final words”). It gives the process inside of the container a heads-up that it’s about to be stopped, giving it a chance to get things in order before the end comes. Once the docker stop command returns, you can then delete the container with docker container rm. The magic behind the scenes here can be explained with Linux/POSIX signals. docker container stop sends a SIGTERM signal to the PID 1 process inside of the container. As we just said, this gives the process a chance to clean things up and gracefully shut itself down. If it doesn’t exit within 10 seconds, it will receive a SIGKILL. This is effectively the bullet to the head. But hey, it got 10 seconds to sort itself out first! docker container rm <container> -f doesn’t bother asking nicely with a SIGTERM, it goes straight to the SIGKILL. Like we said a second ago, this is like creeping up from behind and smashing it over the head. I’m not a violent person by the way!
+In our previous example tshe container was running the /bin/bash app. When you kill a running container with docker container rm <container> -f, the container will be killed without warning. The procedure is quite violent — a bit like sneaking up behind the container and shooting it in the back of the head. You’re literally giving the container, and the app it’s running, no chance to straighten its affairs before being killed. However, the docker container stop command is far more polite (like pointing a gun to the containers head and saying “you’ve got 10 seconds to say any final words”). It gives the process inside of the container a heads-up that it’s about to be stopped, giving it a chance to get things in order before the end comes. Once the docker stop command returns, you can then delete the container with docker container rm. The magic behind the scenes here can be explained with Linux/POSIX signals. docker container stop sends a SIGTERM signal to the PID 1 process inside of the container. As we just said, this gives the process a chance to clean things up and gracefully shut itself down. If it doesn’t exit within 10 seconds, it will receive a SIGKILL. This is effectively the bullet to the head. But hey, it got 10 seconds to sort itself out first! docker container rm <container> -f doesn’t bother asking nicely with a SIGTERM, it goes straight to the SIGKILL. Like we said a second ago, this is like creeping up from behind and smashing it over the head. I’m not a violent person by the way!
 
 It’s often a good idea to run containers with a restart policy. It’s a form of self-healing that enables Docker to automatically restart them after certain events or failures have occurred.
 
@@ -196,7 +203,7 @@ unless-stopped
 on-failed
 
 always :
-Typing exit from the shell will kill the container’s PID 1 process and therefore kill the container. However, Docker will automatically restart it because it was started with the --restart always policy. If you issue a docker container ls command, you will see that the container’s uptime will be less than the time since it was created.
+Typing exit from the shell will kill the container’s PID 1 process and therefore kill the container. However, Docker will automatically restart it because it was started with the --restart always policy. If you issue a docker container ls command, you will see that the container’s uptime will be less than the time since it was created.even restart stopped container if docker restarts
 
 unless -stopped:
 The main difference between the always and unless-stopped policies is that containers with the --restart unless-stopped policy will not be restarted when the daemon restarts if they were in the Stopped (Exited) state. That might be a confusing sentence, so let’s walk through an example.
@@ -205,6 +212,10 @@ on-failed:
 The on-failure policy will restart a container if it exits with a non-zero exit code. It will also restart containers when the Docker daemon restarts, even containers that were in the stopped state.
 
 We know docker container run starts a new container. But this time we give it the -d flag instead of -it. -d stands for daemon mode, and tells the container to run in the background. After that, we name the container and then give it -p 80:8080. The -p flag maps ports on the Docker host to ports inside the container. This time we’re mapping port 80 on the Docker host to port 8080 inside the container.
+
+When building a Docker image, it’s possible to embed an instruction that lists the default app you want containers using the image to run. If we run a docker image inspect against the image we used to run our container, we’ll be able to see the app that the container will run when it starts.
+
+It’s common to build images with default commands like this, as it makes starting containers easier. It also forces a default behavior and is a form of self documentation for the image — i.e. we can inspect the image and know what app it’s supposed to run.
 
 The directory containing the application is referred to as the build context. It’s a common practice to keep your Dockerfile in the root directory of the build context. It’s also important that Dockerfile starts with a capital “D” and is all one word. “dockerfile” and “Docker file” are not valid.
 
