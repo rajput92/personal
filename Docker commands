@@ -1,28 +1,41 @@
 docker image ls
-docker image pull alpine:latest
-docker image pull -a alpine:latest : to pull all the images with different tags
+docker image pull alpine:latest : pull image alpine with latest tag
 
-docker image ls --filter dangling=true
+docker image pull -a nigelpoulton/tu-demo : pull image tu-demo with all tags
+
+docker image pull nigelpoulton/tu-demo:v2 : pull image tu-demo from nigelpoulton repo with v2 tag
+
+docker image ls --filter dangling=true : dangling images
 
 docker image prune : removes dangling images
 
-docker image prune -a
+docker image prune -a : Docker will also remove all unused images (those not in use by any containers).
 
-docker image ls --filter=reference="*:latest"
-
-docker search nigelpoulton
-
-docker search alpine --filter "is-official=true"
-
-docker search alpine --filter "is-automated=true"
-
-docker image inspect ubuntu:latest
+docker image ls --filter=reference="*:latest" or docker image ls --filter reference="*:latest"
 
 docker image ls --format "{{.Size}}"
 
-docker history command
+docker image ls --format "{{.Repository}}: {{.Tag}}: {{.Size}}"
 
-docker image rm $(docker image ls -q) -f
+docker search nigelpoulton
+
+docker search alpine --filter "is-official=true" or docker search alpine --filter is-official=true
+
+docker search alpine --filter "is-automated=true"
+
+docker image inspect ubuntu:latest : 
+
+doscker history ubuntu
+
+docker image ls --digests
+
+docker image ls --digests alpine
+
+docker image pull alpine@sha256:c0537...7c0a7726c88e2bb7584dc96
+
+docker container run --rm golang go version : run the container with go coomand and show version and remove it (--rm ) once exists 
+
+docker image rm $(docker image ls -q) -f   : -q : only ids(quiet) -f : filter format
 
 service docker status
 
@@ -30,7 +43,9 @@ systemctl is-active docker
 
 docker container ls
 
-docker container pause
+docker container pause ...
+
+docker container stop ...
 
 docker container run -it ubuntu:latest /bin/bash
 
@@ -42,7 +57,7 @@ docker container run --name neversaydie -it --restart always alpine sh
 
 docker container run -d –name webserver -p 80:8080 \ nigelpoulton/
 
-docker container rm $(docker container ls -aq) -f
+docker container rm $(docker container ls -aq) -f : here -f is filter, filter output based on condition
 
 docker image build -t web:latest .
 
@@ -52,7 +67,9 @@ docker image push nigelpoulton/web:latest
 
 docker image history web:latest
 
-
+docker container run -d alpine : why this command is not starting conatiner and exited after creating container, because we have not attached terminal (-t) to it.
+ 
+ 
 
 
 

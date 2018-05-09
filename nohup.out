@@ -1823,3 +1823,55 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [I 09:24:21.668 NotebookApp] Saving file at /Docker commands
 [I 10:05:28.742 NotebookApp] Saving file at /Docker Installation
 [I 05:18:51.835 NotebookApp] 302 GET / (61.246.57.5) 0.50ms
+[I 05:23:15.111 NotebookApp] 302 GET / (61.246.57.5) 0.50ms
+[I 05:38:26.534 NotebookApp] Saving file at /Docker commands
+[I 05:59:19.555 NotebookApp] Saving file at /Linux Commands
+[I 05:59:20.819 NotebookApp] Saving file at /Docker commands
+[I 06:01:13.636 NotebookApp] Saving file at /Docker commands
+[I 06:30:14.933 NotebookApp] Saving file at /Docker commands
+[I 06:30:17.868 NotebookApp] Saving file at /Linux Commands
+[I 06:30:18.537 NotebookApp] Saving file at /Linux Commands
+[W 14:18:49.278 NotebookApp] SSL Error on 10 ('185.158.113.167', 42176): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:35:48.475 NotebookApp] SSL Error on 10 ('196.52.43.125', 60814): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:16:47.729 NotebookApp] SSL Error on 10 ('139.162.79.87', 39744): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:16:47.998 NotebookApp] SSL Error on 10 ('139.162.79.87', 40016): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:16:48.267 NotebookApp] SSL Error on 10 ('139.162.79.87', 40366): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:17:08.827 NotebookApp] SSL Error on 10 ('139.162.79.87', 33548): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:42:11.820 NotebookApp] SSL Error on 10 ('107.170.230.110', 36592): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:06:05.880 NotebookApp] SSL Error on 10 ('158.85.81.125', 40566): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:29:24.158 NotebookApp] 302 GET / (122.15.228.208) 0.41ms
+[I 11:49:47.003 NotebookApp] Saving file at /Docker Installation
+[I 11:58:07.563 NotebookApp] Saving file at /Docker Installation
+[I 13:49:42.197 NotebookApp] Saving file at /Docker Installation
+[I 14:02:58.898 NotebookApp] Saving file at /Docker Installation
+[W 18:41:55.112 NotebookApp] SSL Error on 10 ('139.162.79.87', 55316): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:41:55.357 NotebookApp] SSL Error on 10 ('139.162.79.87', 55714): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:41:55.604 NotebookApp] SSL Error on 10 ('139.162.79.87', 55910): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:42:16.088 NotebookApp] SSL Error on 10 ('139.162.79.87', 49514): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:14:27.711 NotebookApp] SSL Error on 10 ('60.191.38.77', 62812): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:46:24.974 NotebookApp] 302 GET / (122.15.228.208) 0.50ms
+[I 04:46:25.365 NotebookApp] 302 GET / (122.15.228.208) 0.49ms
+[I 07:23:13.104 NotebookApp] Saving file at /Docker commands
+[I 07:38:56.978 NotebookApp] Saving file at /Docker commands
+[I 09:33:47.033 NotebookApp] Saving file at /Docker Installation
+[I 09:33:49.648 NotebookApp] Saving file at /Docker commands
+[I 09:36:30.904 NotebookApp] Saving file at /Docker Installation
+[I 09:39:11.831 NotebookApp] Saving file at /Docker commands
+[I 09:40:29.334 NotebookApp] Saving file at /Docker commands
+[I 09:40:29.830 NotebookApp] Saving file at /Docker commands
+[I 09:40:30.021 NotebookApp] Saving file at /Docker commands
+[I 09:40:30.213 NotebookApp] Saving file at /Docker commands
+[I 09:45:18.336 NotebookApp] Saving file at /Docker Installation
+[I 09:59:17.955 NotebookApp] Saving file at /Docker commands
+[I 10:15:44.013 NotebookApp] Saving file at /Docker Installation
+[I 10:57:24.080 NotebookApp] Saving file at /Docker commands
+[I 10:57:24.147 NotebookApp] Saving file at /Docker Installation
+[I 10:57:24.386 NotebookApp] Saving file at /Docker Installation
+[I 10:57:24.566 NotebookApp] Saving file at /Docker Installation
+[I 10:57:24.755 NotebookApp] Saving file at /Docker Installation
+[I 11:20:59.571 NotebookApp] Saving file at /Docker Installation
+[I 11:21:00.727 NotebookApp] Saving file at /Docker commands
+[I 11:21:05.416 NotebookApp] Saving file at /Docker Installation
+[I 14:51:27.057 NotebookApp] 302 GET / (157.33.70.126) 0.48ms
+[I 14:51:28.957 NotebookApp] 302 GET /tree? (157.33.70.126) 0.81ms
+[I 14:51:37.888 NotebookApp] 302 POST /login?next=%2Ftree%3F (157.33.5.55) 1.23ms
