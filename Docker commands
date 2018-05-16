@@ -67,13 +67,39 @@ docker image tag web:latest nigelpoulton/web:latest
 
 docker image push nigelpoulton/web:latest
 
-docker image history web:latest
+docker image history web:latest : to view the history of build of images layers eith commands
 
 docker container run -d alpine : why this command is not starting conatiner and exited after creating container, because we have not attached terminal (-t) to it.
- 
- 
 
+docker-compose up &
 
+docker-compose -f prod-equus-bass.yml up
 
+docker-compose -f prod-equus-bass.yml up -d
 
+docker network ls
+
+docker volume ls
+
+docker-compose down
+
+docker-compose up -d
+
+docker-compose ps
+
+docker-compose top : The PID numbers returned are the PID numbers as seen from the Docker host (not from within the containers).
+
+docker-compose restart
+
+docker-compose rm : to delete stopped container
+
+docker-compose down : stop and delete 
+
+docker vloume inspect : show the details like creations and location of mounting
+
+docker volume inspect | grep Mount
+
+docker service create --name uber-svc --network uber-net -p 80:80 --replicas 12 nigelpoulton/tu-demo:v1
+
+docker service update --image nigelpoulton/tu-demo:v2 --update-parallelism 2 --update-delay 20s uber-svc
 

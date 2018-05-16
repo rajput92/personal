@@ -223,8 +223,6 @@ All Dockerfiles start with the FROM instruction. This will be the base layer of 
 
 Next, the Dockerfile creates a LABEL that specifies “nigelpoulton@hotmail.com” as the maintainer of the image. Labels are simple key-value pairs and are an excellent way of adding custom metadata to an image. It’s considered a best practice to list a maintainer of an image so that other potential users have a point of contact when working with it.
 
-Next, the Dockerfile creates a LABEL that specifies “nigelpoulton@hotmail.com” as the maintainer of the image. Labels are simple key-value pairs and are an excellent way of adding custom metadata to an image. It’s considered a best practice to list a maintainer of an image so that other potential users have a point of contact when working with it.
-
 The COPY . /src instruction copies in the app files from the build context. It copies these files into the image as a new layer
 
 Next, the Dockerfile uses the WORKDIR instruction to set the working directory for the rest of the instructions in the file. This directory is relative to the image, and the info is added as metadata to the image config and not as a new layer.
@@ -251,6 +249,9 @@ The format of the command is docker image tag <current-tag> <new-tag> and it add
 docker container run -d --name c1 \
   -p 80:8080 \
   web:latest
+  
+If the test does not work, try the following: Make sure that the container is up and running with the docker container ls command. The container name is c1 and you should see the port mapping as 0.0.0.0:80->8080/tcp. Check that the firewall and other network security settings are not blocking traffic to port 80 on the Docker host.
+
 
 Comment lines in a Dockerfile start with the # character. All non-comment lines are Instructions. Instructions take the format INSTRUCTION argument. Instruction names are not case sensitive, but it is normal practice to write them in UPPERCASE. This makes reading the Dockerfile easier.
 
@@ -327,6 +328,112 @@ The EXPOSE instruction in a Dockerfile documents the network port that the appli
 The ENTRYPOINT instruction in a Dockerfile sets the default application to run when the image is started as a container.
 
 Other Dockerfile instructions include LABEL, ENV, ONBUILD, HEALTHCHECK, CMD and more…
+
+Docker Compose and Docker Stacks are very similar. In this chapter we’ll focus on Docker Compose, which deploys and manages multi-container applications on Docker nodes operating in single-engine mode. In a later chapter, we’ll focus on Docker Stacks. Stacks deploy and manage multi-container apps on Docker nodes operating in Swarm mode.
+
+In the beginning was Fig. Fig was a powerful tool, created by a company called Orchard, and it was the best way to manage multi-container Docker apps. It was a Python tool that sat on top of Docker, and allowed you to define entire multi-container apps in a single YAML file. You could then deploy the app with the fig command-line tool. Fig could even manage the entire life-cycle of the app.
+
+As things stand today, Compose is still an external Python binary that you have to install on a host running the Docker Engine. You define multi-container (multi-service) apps in a YAML file, pass the YAML file to the docker-compose binary, and Compose deploys it via the Docker Engine API.
+
+The default name for the Compose YAML file is docker-compose.yml. However, you can use the -f flag to specify custom filenames.
+
+The first thing to note is that the file has 4 top-level keys: 
+version 
+services
+networks 
+volumes
+
+The version key is mandatory, and it’s always the first line at the root of the file. This defines the version of the Compose file format (basically the API). You should normally use the latest version.
+
+The top-level services key is where we define the different application services. The example we’re using defines two services; a web front-end called web-fe, and an in-memory database called redis. Compose will deploy each of these services as its own container.
+
+The top-level networks key tells Docker to create new networks. By default, Compose will create bridge networks. These are single-host networks that can only connect containers on the same host. However, you can use the driver property to specify different network types.
+
+The following code can be used in your Compose file to create a new overlay network called over-net that allows standalone containers to connect to it (attachable). networks:
+  over-net:
+  driver: overlay
+  attachable: true
+
+The top-level volumes key is where we tell Docker to create new volumes.
+
+It’s important to understand that Compose will deploy each of these as a container, and it will use the name of the keys as part of the container names. In our example, we’ve defined two keys; web-fe and redis. This means Compose will deploy two containers, one will have web-fe in its name and the other will have redis.
+
+docker-compose up is the most common way to bring up a Compose app (we’re calling a multi-container app defined in a Compose file a Compose app). It builds all required images, creates all required networks and volumes, and starts all required containers.
+
+By default, docker-compose up expects the name of the Compose file to docker-compose.yml or docker-compose.yaml. If your Compose file has a different name, you need to specify it with the -f flag. The following example will deploy an application from a Compose file called prod-equus-bass.yml
+
+It’s also common to use the -d flag to bring the app up in the background.
+
+Our example brought the app up in the foreground (we didn’t use the -d flag), but we used the & to give us the terminal window back. This is not normal, but it will output logs directly in our terminal window which we’ll use later.
+
+Notice how Compose has named the newly built image as a combination of the project name (counter-app), and the resource name as specified in the Compose file (web-fe). Compose has removed the dash (-) from the project name. All resources deployed by Compose will follow this naming convention.
+
+The name of each is prefixed with the name of the project (name of the working directory). Also, each one has a numeric suffix that indicates the instance number — this is because Compose allows for scaling.
+
+Line 12 shows the counter-net network being removed, and line 13 shows the docker-compose up process exiting.
+
+It’s important to note that the counter-vol volume was not deleted. This is because volumes are intended to be long-term persistent data stores. As such, their lifecycle is entirely decoupled from the containers they serve. Running a docker volume ls will show that the volume is still present on the system. If you’d written any data to the volume it would still exist.
+
+Also, any images that were built or pulled as part of the docker-compose up operation will still remain on the system. This means future deployments of the app will be faster.
+
+You can delete a stopped Compose app with the docker-compose rm command. This will delete the containers and networks the app is using, but it will not delete volumes or images. Nor will it delete the application source code (app.py, Dockerfile, requirements.txt, and docker-compose.yml) in your project directory.
+
+Use the docker-compose top command to list the processes running inside of each service (container).
+
+Restart the app with the docker-compose restart command.
+
+docker-compose always works from where docker-compose.yaml presents
+
+Use the docker-compose down command to stop and delete the app with a single command.
+
+The app is now deleted. Only its images, volumes and source code remain.
+
+It’s also worth knowing that Compose builds networks and volumes before deploying services. This makes sense, as they are lower-level infrastructure objects that are consumed by services (containers). The following snippet shows Compose creating the network and volume as its first two tasks (even before building and pulling images).
+
+If we take another look at the service definition for web-fe, we’ll see that it’s mounting the counter-app volume into the service’s container at /code. We can also see from the Dockerfile that /code is where the app is installed and executed from. Net result, our app code resides on a Docker volume.
+
+Each Docker volume is exposed at a location within the Docker host’s filesystem, as well as a mount point in one or more containers. Use the following docker volume inspect command to find where the volume is exposed on the Docker host.
+
+Docker Swarm is two things: an enterprise-grade secure cluster of Docker hosts, and an engine for orchestrating microservices apps.
+
+On the clustering front, it groups one or more Docker nodes and lets you manage them as a cluster. Out-of-the-box you get an encrypted distributed cluster store, encrypted networks, mutual TLS, secure cluster join tokens, and a PKI that makes managing and rotating certificates a breeze! And you can non-disruptively add and remove nodes. It’s a beautiful thing!
+
+On the orchestration front, swarm exposes a rich API that allows you to deploy and manage complicated microservices apps with ease. You can define your apps in declarative manifest files, and deploy them with native Docker commands. You can even perform rolling updates, rollbacks, and scaling operations. Again, all with simple commands.
+
+In the past, Docker Swarm was a separate product that you layered on top of the Docker engine. Since Docker 1.12 it’s fully integrated into the Docker engine and can be enabled with a single command.
+
+On the clustering front, a swarm consists of one or more Docker nodes. These can be physical servers, VMs, Raspberry Pi’s, or cloud instances. The only requirement is that all nodes can communicate over reliable networks.
+
+Nodes are configured as managers or workers. Managers look after the control plane of the cluster, meaning things like the state of the cluster and dispatching tasks to workers. Workers accept tasks from managers and execute them.
+
+The configuration and state of the swarm is held in a distributed etcd database located on all managers. It’s kept in memory and is extremely up-to-date. But the best thing about it is the fact that it requires zero configuration — it’s installed as part of the swarm and just takes care of itself.
+
+On the application orchestration front, the atomic unit of scheduling on a swarm is the service. This is a new object in the API, introduced along with swarm, and is a higher level construct that wraps some advanced features around containers.
+
+When a container is wrapped in a service we call it a task or a replica, and the service construct adds things like scaling, rolling updates, and simple rollbacks.
+
+whats the error means :
+Error response from daemon: This node is not a swarm manager. Worker nodes can't be used to view or modify cluster state. Please run this command on a manager node or promote the current node to a manager.
+
+
+
+Docker has solutions for container-to-container networks, as well as connecting to existing networks and VLANs. The latter is important for containerized apps that need to communicate with functions and services on external systems such as VM’s and physicals.
+
+Docker networking is based on an open-source pluggable architecture called the Container Network Model (CNM). libnetwork is Docker’s real-world implementation of the CNM, and it provides all of Docker’s core networking capabilities. Drivers plug in to libnetwork to provide specific network topologies.
+
+To create a smooth out-of-the-box experience, Docker ships with a set of native drivers that deal with the most common networking requirements.
+
+At the highest level, Docker networking comprises three major components:
+The Container Network Model (CNM) 
+libnetwork 
+Drivers
+
+The CNM is the design specification. It outlines the fundamental building blocks of a Docker network. 
+
+libenetwork is a real-world implementation of the CNM, and is used by Docker. It’s written in Go, and implements the core components outlined in the CNM. 
+
+Drivers extend the model by implementing specific network topologies such as VXLAN-based overlay networks.
+
 
 
 

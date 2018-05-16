@@ -57,4 +57,8 @@ If we receive MD5 we compare data with our database records and same flow as 2 a
 
 Project 6 : Take a source code java, try to implement sonar in bamboo
 
+PROJECT 7 : with the help of multistage build in Docker, try to implement CI in in dockerfile and get the artifact
+
+
+
 

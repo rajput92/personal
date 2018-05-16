@@ -1,0 +1,122 @@
+/etc/apt , /etc/apk : all are packages repos folders 
+
+why we define enviornment variable at $PATH - bcz when we type commands, linux first search $PATH, if you want to run command from current directoyry than start with ./
+
+STDIN - keyboard redirection = < file descriptor =0
+STDOUT - keyboard redirection = > file descriptor =1
+STDOUT - keyboard redirection = 2> file descriptor =2
+
+So if you run a command, that command would expect input from the keyboard, and it would normally send its output to the monitor of your computer without making a difference between normal output and errors. Some commands, however, are started at the background and not from a current terminal session, so these commands do not have a monitor or console session to send their output to, and they do not listen to keyboard input to accept their standard input. That is where redirection comes in handy.
+
+Programs started from the command line have no idea what they are reading from or writing to. They just read from channel (file descriptor) 0 if they want to read from standard input, and they write to file descriptor number 1 to display output and to file descriptor 2 if they have error messages to be output. By default, these are connected to the keyboard and the screen. If you use redirection symbols such as <, >, and |, the shell connects the file descriptors to files or other commands. We first look at < and >. Later we discusspipes (using the | symbol).
+
+> same as 1>    Redirects to STDOUT, writes to files
+>> same as 1>>  Redirects to STDOUT, aappends to files
+2> redirect STDERR
+2>& 1  Redirects STDERR to the same destination as STDOUT.
+< redirect STDIN
+
+You can also redirect to device files. A device file on Linux is a file that is used to access specific hardware. Your hard disk for instance can be referred to as / dev/sda, the console of your server is known as /dev/console or /dev/tty1, if you want to discard a commands output, you can redirect to /dev/null.
+
+Where an I/O redirector is used to use alternatives for keyboard and computer monitor, a pipe can be used to catch the output of one command and use that as input for a second command. If a user runs the command ls, for instance, the output of the command is shown onscreen. If the user uses ls | less, the commands ls and less are started in parallel. The standard output of the ls command is connected to the standard input of less. Everything that ls writes to the standard output will become available for read from standard input in less.
+
+thing1 | thing2 does the same thing as thing1 > temp_file && thing2 < temp_file
+
+When a shell session is closed, the history of that session is updated to the history file. The name of this file is .bash_ history, and it is created in the home directory of the user who started a specific shell session. Notice that the history file is closed only when the shell session is closed; until that moment, all commands inthe history are kept in memory.
+
+Type history to show a list of all commands in the bash history.
+
+Type !number to execute a command with a specific number from history. 
+
+Type !sometext to execute the last command that starts with sometext. Notice that this is a potentially dangerous command because the command that was found is executed immediately!
+
+An important concept when working with vim is that it uses different modes. Two of them are particularly important: command mode and input mode. These modes often cause confusion because in command mode you can just enter a command and you cannot change the contents of a text file. To change the contents of a text file, you need to get to input mode.
+
+VIM COMMANDS:
+ESC : Switches from input mode to command mode. Use this before typing any command.
+
+i,a : Switches from command mode to input mode at (i) or after (a) the current cursor position.
+
+o : Opens a new line below the current cursor position and goes to input mode.
+
+:wq! : Writes the current file and quits.
+
+:q! : Writes the current file and quits.
+
+:w filename : Writes the current file with a new filename.
+
+dd : Deletes the current line.
+
+yy : Copies the current line.
+
+p : paste the current selection
+
+:%s/old/new/g : Replaces all occurrences of old with new.
+
+an environment is created to ensure that all that is happening is happening the right way. This environment consists of variables that define the user environment, such as the $PATH variable discussed earlier.
+
+The advantage for scripts and programs of working with variables is that the program only has to use the name of the variable without taking interest in the specific value that is assigned to the variable. Because the needs for different users are different, the variables that are set in a user environment will differ.
+
+When a user logs in, an environment is created for that user automatically. This happens based on four different files where some script code can be specified and where variables can be defined for use by one specific user: 
+
+■ /etc/profile: This is the generic file that is processed by all users upon login. 
+■ /etc/bashrc: This file is processed when subshells are started. 
+■ ~/.bash_profile: In this file, user-specific login shell variables can be defined. 
+■ ~/.bashrc: In this user-specific file, subshell variables can be defined.
+
+As you have seen, in these files a difference is made between a login shell and a subshell. A login shell is the first shell that is opened for a user after the user has logged in. From the login shell, a user may run scripts, which will start a subshell of that login shell. Bash allows for the creation of a different environment in the login shell and in the subshell but to synchronize settings; by default the subshell settings are included when entering a login shell.
+
+Bash offers an option to include messages in the /etc/motd and the /etc/issue files. Messages in /etc/motd display after a user has successfully logged in to a shell. (Notice that users in a graphical environment do not see its contents after a graphical login.) Using /etc/motd(message of the day) can be a convenient way for system administrators to inform users.
+
+Another way to send information to users is by using /etc/issue. The contents of this file display before the user logs in. This provides an excellent means of specifying specific login instructions to users who are not logged in yet.
+
+To find information in man pages, you can search the mandb database by using apropos or man -k. If the database is current, getting access to the information you need is easy. Just type man -k, followed by the keyword you want to search for.
+
+Instead of using man -k, you can use the apropos command. This command is equivalent to man -k.
+
+While using man -k to find specific information from the man pages, you’ll sometimes really get a lot of information. If that happens, it might help to filter down the results a bit by using grep. But if you want to do that, it is important that you know what you are looking for. 
+Man pages are categorized in different sections. The most relevant sections for system administrators are as follows 
+■ 1: Executable programs or shell commands 
+■ 5: File formats and conventions 
+■ 8: System administration commands 
+
+So, if you are looking for the configuration file that has something to do with passwords, use man -k password | grep 5, or if you are looking for the command that an administrator would use to create partitions, use man -k partition | grep 8.
+
+Another useful man option is -f. The command man -f <somecommand> displays a short description of the item as found in the man database.
+
+When using the man -k command, the mandb database is consulted. It can sometimes happen that you are looking for something that should obviously be documented but you cannot find anything anyway and all you get is “nothing appropriate.” If that happens, you might need to update the man database.
+
+Just run the mandb command as root without any arguments. It will see whether new man pages have been installed and update the man database accordingly.
+
+
+
+/        The root directory. This is where the file system tree starts. 
+
+/bin     In here, you find executable programs that are needed to repair a system in a minimal troubleshooting mode. This directory is              essential during boot. 
+
+/boot    Contains all files and directories that are needed to boot the Linux kernel. 
+
+/dev     Device files that are used for accessing physical devices. This directory is essential during boot. 
+
+/etc     Contains configuration files that are used by programs and services that are used on your server. This directory is essential              during boot. 
+
+/home    Used for local user home directories. 
+
+/lib, /lib64         Shared libraries that are used by programs in /boot, /bin and /sbin. 
+
+/media, /mnt         Directories that are used for mounting devices in the file system tree. 
+
+/opt     This directory is used for optional packages that may be installed on your server. 
+
+/proc    This directory is used by the proc file system. This is a file system structure that gives access to kernel information. 
+
+/root    The home directory of the root user. 
+
+/run      Contains process and user specific information that has been created since the last boot. 
+
+/sbin     Like /bin, but for system administration commands that are not necessarily needed by regular users.
+
+
+
+
+
