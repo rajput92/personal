@@ -1,6 +1,6 @@
-/etc/apt , /etc/apk : all are packages repos folders 
+/etc/apt , /etc/apk : all are packages repos folders (Answer 1)
 
-why we define enviornment variable at $PATH - bcz when we type commands, linux first search $PATH, if you want to run command from current directoyry than start with ./
+why we define enviornment variable at $PATH - bcz when we type commands, linux first search $PATH, if you want to run command from current directoyry than start with ./ (3)
 
 STDIN - keyboard redirection = < file descriptor =0
 STDOUT - keyboard redirection = > file descriptor =1
@@ -8,7 +8,11 @@ STDOUT - keyboard redirection = 2> file descriptor =2
 
 So if you run a command, that command would expect input from the keyboard, and it would normally send its output to the monitor of your computer without making a difference between normal output and errors. Some commands, however, are started at the background and not from a current terminal session, so these commands do not have a monitor or console session to send their output to, and they do not listen to keyboard input to accept their standard input. That is where redirection comes in handy.
 
-Programs started from the command line have no idea what they are reading from or writing to. They just read from channel (file descriptor) 0 if they want to read from standard input, and they write to file descriptor number 1 to display output and to file descriptor 2 if they have error messages to be output. By default, these are connected to the keyboard and the screen. If you use redirection symbols such as <, >, and |, the shell connects the file descriptors to files or other commands. We first look at < and >. Later we discusspipes (using the | symbol).
+Programs started from the command line have no idea what they are reading from or writing to. They just read from channel (file descriptor) 0 if they want to read from standard input, and they write to file descriptor number 1 to display output and to file descriptor 2 if they have error messages to be output. By default, these are connected to the keyboard and the screen(7). If you use redirection symbols such as <, >, and |, the shell connects the file descriptors to files or other commands. We first look at < and >. Later we discusspipes (using the | symbol).
+
+Redirection is wrting(i.e redirecting ) STDERROR or STDOUT to another files or STDOUT, its end result will always be STDOUT, while Pipes convert one STDOUT to STDIN for another command, that's why redirection is used with files and pipes with command(9)
+
+File descriptor is a channel through which command IN and OUT, it decides where to go, STDOUT or STDERROR(5)
 
 > same as 1>    Redirects to STDOUT, writes to files
 >> same as 1>>  Redirects to STDOUT, aappends to files
@@ -16,13 +20,19 @@ Programs started from the command line have no idea what they are reading from o
 2>& 1  Redirects STDERR to the same destination as STDOUT.
 < redirect STDIN
 
-You can also redirect to device files. A device file on Linux is a file that is used to access specific hardware. Your hard disk for instance can be referred to as / dev/sda, the console of your server is known as /dev/console or /dev/tty1, if you want to discard a commands output, you can redirect to /dev/null.
+STDOUT>FILE
+STDOUT 2> FILE --> Only redirects STDERRRO to FILE
+STDOUT 2>&1 FILE  --> will not write to FILE, instead TWO STDOUT, (12-18) 
+
+once filedescriptor goes to STDOUT, it will look for another STDIN from command line, if no STDIN than exists.
+
+You can also redirect to device files. A device file on Linux is a file that is used to access specific hardware. Your hard disk for instance can be referred to as / dev/sda, the console of your server is known as /dev/console or /dev/tty1, if you want to discard a commands output, you can redirect to /dev/null.(20)
 
 Where an I/O redirector is used to use alternatives for keyboard and computer monitor, a pipe can be used to catch the output of one command and use that as input for a second command. If a user runs the command ls, for instance, the output of the command is shown onscreen. If the user uses ls | less, the commands ls and less are started in parallel. The standard output of the ls command is connected to the standard input of less. Everything that ls writes to the standard output will become available for read from standard input in less.
 
-thing1 | thing2 does the same thing as thing1 > temp_file && thing2 < temp_file
+thing1 | thing2 does the same thing as thing1 > temp_file && thing2 < temp_file(22)
 
-When a shell session is closed, the history of that session is updated to the history file. The name of this file is .bash_ history, and it is created in the home directory of the user who started a specific shell session. Notice that the history file is closed only when the shell session is closed; until that moment, all commands inthe history are kept in memory.
+When a shell session is closed, the history of that session is updated to the history file. The name of this file is .bash_ history, and it is created in the home directory of the user who started a specific shell session. Notice that the history file is closed only when the shell session is closed; until that moment, all commands inthe history are kept in memory.(24)
 
 Type history to show a list of all commands in the bash history.
 
@@ -115,6 +125,135 @@ Just run the mandb command as root without any arguments. It will see whether ne
 /run      Contains process and user specific information that has been created since the last boot. 
 
 /sbin     Like /bin, but for system administration commands that are not necessarily needed by regular users.
+
+/srv      Directory that may be used for data that is used by services like NFS, FTP and HTTP . 
+
+/sys      Used as an interface to different hardware devices that is managed by the Linux kernel and associated processes. 
+
+/tmp      Contains temporary files that may be deleted without any warning during boot. 
+
+/usr      Directory that contains subdirectories with program files, libraries for these program files and documentation about them. Typically, many subdirectories exist in this directory that mimic the contents of the / directory. The contents of /usr are not required during boot. 
+
+/var      Directory that contains files which may change in size dynamically, such as log files, mail boxes, and spool files.
+
+A Linux file system is presented as one hierarchy, with the root directory (/) as its starting point. This hierarchy may be distributed over different devices and even computer systems that are mounted into the root directory.
+
+By configuring a device as a dedicated mount, it is also possible to use specific mount options that can restrict access to the device. Some directories are commonly mounted on dedicated devices:
+
+/boot: This directory is often mounted on a separate device because it required essential information your computer needs to boot. As the root directory (/) is often on a Logical Volume Manager (LVM) logical volume, from which Linux cannot boot, the kernel and associated files need to be stored separately on a dedicated /boot device. 
+
+/var: This directory is often on a dedicated device because it grows in a dynamic and uncontrolled way. By putting it on a dedicated device, you can ensure that it will not fill up all storage on your server. 
+
+/home: This directory often is on a dedicated device for security reasons. By putting it on a dedicated device, it can be mounted with specific options to enhance the security of the server. When reinstalling the operating system, it is an advantage to have home directories in a separate file system. The home directories can then survive the system reinstall. 
+
+/usr: This directory contains operating system files only, to which normal users normally do not need any write access. Putting it on a dedicated device allows administrators to configure it as a read-only mount.
+
+System programs are stored in /bin, user programs in /usr/bin
+
+The mount command gives an overview of all mounted devices. To get this information, the /proc/mounts file is read, where the kernel keeps information about all current mounts.
+
+The df -Th command was designed to show available disk space on mounted devices; it includes most of the system mounts. Because it will look on all mounted file systems, it is a convenient command to get an overview of current system mounts. The -h option summarizes the output of the command in a human-readable way, and the -T option shows which file system type is used on the different mounts.
+
+Mounted on: The directory the device currently is mounted on.
+
+The findmnt command shows mounts and the relation that exists between the different mounts. Because the output of the mount command is a bit overwhelming, you may like the output of findmnt.
+
+Wildcards:
+
+* Refers to an unlimited number of all characters. ls *, for instance, shows all files in the current directory (except those that have a name starting with a dot). 
+
+? Used to refer to one specific character that can be any character. ls c?t would match cat as well as cut. 
+
+[auo] Refers to one character that may be selected from the range that is specified between square brackets. ls c[auo]t would match cat, cut, and cot.
+
+An absolute filename, or absolute pathname, is a complete path reference to the file or directory you want to work with. This pathname starts with the root directory, followed by all subdirectories up to the actual filename. No matter what your current directory is, absolute filenames will always work. An example of an absolute filename is /home/lisa/file1.
+
+A relative filename is relative to the current directory as shown with the pwd command. It contains only the elements that are required to get from the current directory up to the item you need. Suppose that your current directory is /home (as shown by the pwd command). When you refer to the relative filename lisa/ file1, you are referring to the absolute filename /home/lisa/file1 .
+
+hierarchy. Imagine you are logged in as root and you want to copy the file / home/lisa/file1 to the directory /home/lara. A few solutions would work: 
+
+■ Use cp /home/lisa/file1 /home/lara. Because in this command you are using absolute pathnames, this command will work at all times. 
+
+■ Make sure your current directory is /home and use cp lisa/file1 lara. Notice that both the source file and the destination file are referred to as relative filenames and for that reason do not start with a /. 
+
+■ If the current directory is set to /home/lisa, you could also use cp file1 ../lara. In this command, the name of the target file uses .., which means go up one level. The .. is followed by /lara, so the total name of the target file would be interpreted as “go up one level” (so you would be in /home), and from there, look for the /lara subdirectory.
+
+ls -l Shows a long listing, which includes information about file properties, such as creation date and permissions. 
+
+ls -a Shows all files, including hidden files(.). 
+
+ls -lrt This is a very useful command. It shows commands sorted on modification date. You’ll see the most recently modified files last in the list. 
+
+ls -d Shows the names of directories, not the contents of all directories that match the wildcards that have been used with the ls command. 
+
+ls -R Shows the contents of the current directory, in addition to all of its subdirectories; that is, it Recursively descends all subdirectories.
+
+A hidden file on Linux is a file that has a name that starts with a dot. Try the following: touch .hidden. Next, type ls. You will not see it. Then type ls -a. You’ll see it.
+
+With the cp command, you can also copy an entire subdirectory, with its contents and everything beneath it. To do so, use the option -R, which stands for recursive.
+
+While using the cp command, permissions and other properties of the files are to be considered. Without extra options, you risk permissions not being copied. If you want to make sure that you keep the current permissions, use the -a option, which has cp work in archive mode. This option ensures that permissions and all other file properties will be kept while copying. So, to copy an exact state of your home directory and everything within it to the /tmp directory, use cp -a ~ /tmp.
+
+To move files, you use the mv command. This command removes the file from its current location and puts it in the new location. You can also use it to rename a file
+
+On RHEL 7, the rm command prompts for confirmation. If you do not like that, you can use the -f option. Make sure that you know what you are doing when using this option, because after using it, there is no way back but the backup tape!
+
+cp -a ../newfile/ .
+
+a file system is divided into two parts - the inodes and data blocks
+
+Linux stores administrative data about files in inodes. Every file on Linux has an inode, and in the inode, important information about the file is stored: 
+■ The data block where the file contents are stored 
+■ The creation, access, and modification date 
+■ Permissions 
+■ File owners Just one important piece of information is not stored in the inode: the name.
+
+You see, the directory is just a table that contains the filenames in the directory, and the matching inode. Think of it as a table, and the first two entries are always "." and ".." The first points to the inode of the current directory, and the second points to the inode of the parent directory. 
+
+When you create a hard link, it just created a new name in the table, along with the inode, without moving the file. When you move a file (or rename it), you don't copy the data. That would be Slow. You just create the (name,inode) entry in a new directory, and delete the old entry in the table inside the old directory entry. In other words, moving a gigabyte file takes very little time. In the same way, you can move/rename directories very easily. That's why "mv /usr /Old_usr" is so fast, even though "/usr" may contain (for example) 57981 files.
+
+You can see this "inode" stuff if you use the "ls -i" option. It lists the inode number. find(1) can use it as well. Let's also use the "-d" option to list information about the directory, rather than the contents of the directory.
+
+We are used to thinking about a directory containing files. This is really an illusion. Directories do not contain files. The data of the files is not stored in the directory.
+
+A directory is really just a file.
+
+When you create a file, you give it a name. Basically, this name is a hard link. On a Linux file system, multiple hard links can be created to a file. This can be useful, because it enables you to access the file from multiple different locations. Some restrictions apply to hard links though: 
+■ Hard links must exist all on the same device. 
+■ You cannot create hard links to directories. 
+■ The number of aliases the original file has. When the last name is removed, the contents are also removed.
+
+A symbolic link (also referred to as soft link) does not link directly to the inode but to the name of the file. This makes symbolic links much more flexible, but it also has some disadvantages. The advantage of symbolic links is that they can link to files on other devices, as well as on directories. The major disadvantage is that when the original file is removed, the symbolic link becomes invalid and does not work any longer.
+
+mv doesnt change the inode
+
+Hard link is copy with automatic sync(mv with replica and in sync), while copy will change the inode
+
+Soft link is pointing to the file so its obvious with automatic sync, inode changes
+
+In the output of the ls -l command, the first character is an l if the file is a symbolic link.
+
+Use the ln command to create links.
+
+Use rm link. This removes the link. (Do not use -r or -f to remove links, even if they are subdirectories.)
+
+c Creates an archive. 
+v Shows verbose output while tar is working. 
+f Used to specify the name of the tar archive that is to be used. Without using this option, the default destination is STDIN for -x and STDOUT for -c. 
+t Shows the contents of an archive. 
+z Compresses/decompresses the archive while creating it, by using gzip. 
+j Compresses/decompresses the archive by using bzip2. 
+x Extracts an archive. 
+u Updates an archive; only newer files will be written to the archive. 
+C Changes the working directory before performing the command. 
+r Appends files to an archive.
+
+To create an archive, you use the tar -cf archivename.tar /files-you-want-toarchive command. If you want to see what is happening, use the -v option as well.
+
+To add a file to an archive, you use the -r options. Use for instance tar -rvf /root/homes.tar /etc/hosts to add the /etc/hosts file to the archive.
+
+To update a currently existing archive file, you can use the -u option. So, use tar -uvf /root/homes.tar /home to write newer versions of all files in /home to the archive.
+
 
 
 

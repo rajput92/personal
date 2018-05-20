@@ -1,18 +1,30 @@
-Docker - DCA 
+Linux Admin - RHCSA 24 chapters
 
-AWS
+Docker - DCA 17 chapters
 
-Linux RHCSA
+Python - Python Notes, Hackerrank
 
-Jenkins
+AWS - Ryan Course 14 chapters
 
-Python
+Jenkins - Jenkins Book 13 chapters
 
-Git
+stackoverflow
 
-Maven
+GIT - GIT COmmands
 
-Stackoverflow
+Maven - Maven Commands
+
+IBM Udeploy, Bitbucket, Bamboo, 
+
+websphere
+
+Ansible
+
+Sonar
+
+Networking Basics
+
+Veracode
 
 
 

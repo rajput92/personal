@@ -1997,3 +1997,69 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [I 07:18:45.349 NotebookApp] Saving file at /Docker Installation
 [I 07:18:45.528 NotebookApp] Saving file at /Docker Installation
 [I 07:26:29.591 NotebookApp] Saving file at /Linux Basics
+[I 07:33:59.985 NotebookApp] Saving file at /Linux Basics
+[I 07:58:36.854 NotebookApp] Saving file at /Linux Basics
+[W 08:12:42.794 NotebookApp] SSL Error on 11 ('103.236.254.19', 60237): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:12:43.400 NotebookApp] SSL Error on 11 ('103.236.254.19', 60311): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:12:44.011 NotebookApp] SSL Error on 11 ('103.236.254.19', 60420): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 08:12:44.626 NotebookApp] SSL Error on 11 ('103.236.254.19', 60557): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 08:55:52.237 NotebookApp] SSL Error on 10 ('196.52.43.124', 47404): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:48:41.940 NotebookApp] Saving file at /Linux Basics
+[I 15:24:20.525 NotebookApp] 302 GET / (157.33.36.212) 0.50ms
+[I 15:24:20.830 NotebookApp] 302 GET / (157.33.36.212) 0.45ms
+[I 15:25:15.656 NotebookApp] Saving file at /untitled1.txt
+[I 15:25:16.141 NotebookApp] Saving file at /untitled1.txt
+[I 15:25:16.366 NotebookApp] Saving file at /untitled1.txt
+[I 15:25:16.536 NotebookApp] Saving file at /untitled1.txt
+[W 17:59:54.401 NotebookApp] SSL Error on 10 ('78.187.37.61', 54825): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:30:47.551 NotebookApp] SSL Error on 10 ('211.20.68.233', 3092): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:30:48.027 NotebookApp] SSL Error on 10 ('211.20.68.233', 3132): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:30:48.481 NotebookApp] SSL Error on 10 ('211.20.68.233', 3163): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:30:48.932 NotebookApp] SSL Error on 10 ('211.20.68.233', 3185): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:40:02.033 NotebookApp] 302 GET / (122.15.228.208) 0.53ms
+[I 04:40:02.063 NotebookApp] 302 GET / (122.15.228.208) 0.46ms
+[I 04:46:55.208 NotebookApp] Saving file at /Linux Basics
+[I 08:05:43.257 NotebookApp] Saving file at /Linux Basics
+[I 08:32:03.831 NotebookApp] Saving file at /Linux Basics
+[W 11:22:13.346 NotebookApp] SSL Error on 10 ('192.251.231.111', 65535): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:46:02.354 NotebookApp] Saving file at /Linux Basics
+[I 12:15:25.940 NotebookApp] Saving file at /Linux Basics
+[I 16:49:36.390 NotebookApp] 302 GET / (49.35.81.43) 0.53ms
+[I 16:49:36.500 NotebookApp] 302 GET / (49.35.81.43) 0.49ms
+[I 16:55:43.157 NotebookApp] Saving file at /untitled1.txt
+[I 16:57:33.427 NotebookApp] Saving file at /untitled1.txt
+[W 22:31:04.835 NotebookApp] SSL Error on 10 ('93.174.93.149', 55484): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:11:50.194 NotebookApp] 302 GET / (122.15.228.208) 0.49ms
+[I 05:11:50.494 NotebookApp] 302 GET / (122.15.228.208) 0.44ms
+[I 07:08:40.767 NotebookApp] Creating new file in 
+[W 08:59:32.277 NotebookApp] SSL Error on 10 ('71.6.146.185', 36484): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:45:56.279 NotebookApp] SSL Error on 10 ('123.186.209.49', 11672): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:58:02.694 NotebookApp] SSL Error on 10 ('198.20.70.114', 42567): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:35:39.974 NotebookApp] SSL Error on 10 ('139.162.79.87', 35908): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:35:40.231 NotebookApp] SSL Error on 10 ('139.162.79.87', 36306): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:35:40.487 NotebookApp] SSL Error on 10 ('139.162.79.87', 36492): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:36:00.994 NotebookApp] SSL Error on 10 ('139.162.79.87', 57640): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:20:21.855 NotebookApp] SSL Error on 10 ('107.170.230.48', 45464): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:30:24.151 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 08:30:24.151 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 08:30:24.160 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 08:30:24.160 NotebookApp] 0 active kernels
+[I 08:30:24.160 NotebookApp] The Jupyter Notebook is running at:
+[I 08:30:24.160 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 08:30:24.160 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 08:30:30.892 NotebookApp] 302 GET / (157.33.72.236) 0.55ms
+[W 10:15:51.732 NotebookApp] SSL Error on 10 ('93.33.215.98', 37609): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:12:04.057 NotebookApp] SSL Error on 10 ('176.40.14.84', 13832): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:12:05.737 NotebookApp] SSL Error on 10 ('139.162.79.87', 40134): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:12:05.992 NotebookApp] SSL Error on 10 ('139.162.79.87', 40414): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:12:06.246 NotebookApp] SSL Error on 10 ('139.162.79.87', 40606): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:12:26.759 NotebookApp] SSL Error on 10 ('139.162.79.87', 33696): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:43:32.461 NotebookApp] 302 GET / (157.33.51.61) 0.54ms
+[I 17:43:34.601 NotebookApp] 302 GET / (157.33.72.236) 0.48ms
+[W 22:47:08.716 NotebookApp] SSL Error on 10 ('123.186.209.49', 12606): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:33:23.658 NotebookApp] 302 GET / (157.33.72.236) 0.52ms
+[I 06:33:23.989 NotebookApp] 302 GET / (157.33.72.236) 0.46ms
+[I 06:34:23.557 NotebookApp] Creating new file in 
+[I 08:04:30.389 NotebookApp] Saving file at /Linux Basics
+[I 08:04:31.162 NotebookApp] Saving file at /Linux Q & A
+[I 12:15:05.365 NotebookApp] Saving file at /Linux Basics

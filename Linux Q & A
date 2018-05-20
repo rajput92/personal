@@ -1,0 +1,26 @@
+Where all the external packages which we download, are stored, in which directory?
+
+Why we define enviornment variable in $PATH variable, and how we can run command from current directory?
+
+What is file descriptor?, for IN, OUT, and ERROR?
+
+By default file descriptor is connected to which STDIN and STDOUT, and how redirection is useful in redirecting STDIN and STDOUT.
+
+Difference between redirection and pipes ?
+
+Please explain difference between below examples:
+ls m.txt > m.txt (m.txt present)
+ls m.txt 2> m.txt 
+ls m.txt 2>& 1 m.txt
+ls etc > m.txt (etc not present)
+ls etc 2> m.txt
+ls etc 2>& 1 m.txt
+ls etc > m.txt 2>&1 
+
+WHich directory is used to access device files, and what is used to discard command output?
+
+what is the alternative of thing1 | thing2
+
+
+
+
