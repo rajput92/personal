@@ -34,24 +34,24 @@ thing1 | thing2 does the same thing as thing1 > temp_file && thing2 < temp_file(
 
 When a shell session is closed, the history of that session is updated to the history file. The name of this file is .bash_ history, and it is created in the home directory of the user who started a specific shell session. Notice that the history file is closed only when the shell session is closed; until that moment, all commands inthe history are kept in memory.(24)
 
-Type history to show a list of all commands in the bash history.
+Type history to show a list of all commands in the bash history.(26)
 
-Type !number to execute a command with a specific number from history. 
+Type !number to execute a command with a specific number from history. (28)
 
-Type !sometext to execute the last command that starts with sometext. Notice that this is a potentially dangerous command because the command that was found is executed immediately!
+Type !sometext to execute the last command that starts with sometext. Notice that this is a potentially dangerous command because the command that was found is executed immediately!(28)
 
 An important concept when working with vim is that it uses different modes. Two of them are particularly important: command mode and input mode. These modes often cause confusion because in command mode you can just enter a command and you cannot change the contents of a text file. To change the contents of a text file, you need to get to input mode.
 
 VIM COMMANDS:
 ESC : Switches from input mode to command mode. Use this before typing any command.
 
-i,a : Switches from command mode to input mode at (i) or after (a) the current cursor position.
+i,a : Switches from command mode to input mode at (i) or after (a) the current cursor position.(30)
 
 o : Opens a new line below the current cursor position and goes to input mode.
 
 :wq! : Writes the current file and quits.
 
-:q! : Writes the current file and quits.
+:q! : quits.
 
 :w filename : Writes the current file with a new filename.
 
@@ -61,26 +61,48 @@ yy : Copies the current line.
 
 p : paste the current selection
 
+v : Enters visual mode, which allows you to select a block of text using the arrow keys. Use d to cut, or y to copy the selection. 
+
+u : Undoes the last command. Repeat as often as necessary. 
+
+Ctrl+r Redoes the last undo. 
+
+gg Goes to the first line in the document. 
+
+G Goes to the last line in the document.
+
+/text Searches for text from the current cursor position forward. 
+
+?text Searches for text from the current cursor position backward. 
+
+^ Goes to the first position in the current line. 
+
+$ Goes to the last position in the current line. 
+
+!ls Adds the output of ls (or any other command) in the current file.
+
 :%s/old/new/g : Replaces all occurrences of old with new.
 
 an environment is created to ensure that all that is happening is happening the right way. This environment consists of variables that define the user environment, such as the $PATH variable discussed earlier.
 
 The advantage for scripts and programs of working with variables is that the program only has to use the name of the variable without taking interest in the specific value that is assigned to the variable. Because the needs for different users are different, the variables that are set in a user environment will differ.
 
-When a user logs in, an environment is created for that user automatically. This happens based on four different files where some script code can be specified and where variables can be defined for use by one specific user: 
+When a user logs in, an environment is created for that user automatically. This happens based on four different files where some script code can be specified and where variables can be defined for use by one specific user: (56)
 
-■ /etc/profile: This is the generic file that is processed by all users upon login. 
-■ /etc/bashrc: This file is processed when subshells are started. 
+Non interactive shell : commands run in backend or through scripts
+
+■ /etc/profile: This is the generic file that is processed by all users upon login. (System wide variables)(only interactive)
+■ /etc/bashrc: This file is processed when subshells are started. (System wide command aliases and functions )(both inter and non interactive)
 ■ ~/.bash_profile: In this file, user-specific login shell variables can be defined. 
 ■ ~/.bashrc: In this user-specific file, subshell variables can be defined.
 
 As you have seen, in these files a difference is made between a login shell and a subshell. A login shell is the first shell that is opened for a user after the user has logged in. From the login shell, a user may run scripts, which will start a subshell of that login shell. Bash allows for the creation of a different environment in the login shell and in the subshell but to synchronize settings; by default the subshell settings are included when entering a login shell.
 
-Bash offers an option to include messages in the /etc/motd and the /etc/issue files. Messages in /etc/motd display after a user has successfully logged in to a shell. (Notice that users in a graphical environment do not see its contents after a graphical login.) Using /etc/motd(message of the day) can be a convenient way for system administrators to inform users.
+Bash offers an option to include messages in the /etc/motd and the /etc/issue files. Messages in /etc/motd display after a user has successfully logged in to a shell. (Notice that users in a graphical environment do not see its contents after a graphical login.) Using /etc/motd(message of the day) can be a convenient way for system administrators to inform users.(60)
 
 Another way to send information to users is by using /etc/issue. The contents of this file display before the user logs in. This provides an excellent means of specifying specific login instructions to users who are not logged in yet.
 
-To find information in man pages, you can search the mandb database by using apropos or man -k. If the database is current, getting access to the information you need is easy. Just type man -k, followed by the keyword you want to search for.
+To find information in man pages, you can search the mandb database by using apropos or man -k. If the database is current, getting access to the information you need is easy. Just type man -k, followed by the keyword you want to search for.(62)
 
 Instead of using man -k, you can use the apropos command. This command is equivalent to man -k.
 
@@ -92,11 +114,11 @@ Man pages are categorized in different sections. The most relevant sections for 
 
 So, if you are looking for the configuration file that has something to do with passwords, use man -k password | grep 5, or if you are looking for the command that an administrator would use to create partitions, use man -k partition | grep 8.
 
-Another useful man option is -f. The command man -f <somecommand> displays a short description of the item as found in the man database.
+Another useful man option is -f. The command man -f <somecommand> displays a short description of the item as found in the man database.(64)
 
 When using the man -k command, the mandb database is consulted. It can sometimes happen that you are looking for something that should obviously be documented but you cannot find anything anyway and all you get is “nothing appropriate.” If that happens, you might need to update the man database.
 
-Just run the mandb command as root without any arguments. It will see whether new man pages have been installed and update the man database accordingly.
+Just run the mandb command as root without any arguments. It will see whether new man pages have been installed and update the man database accordingly.(62)
 
 
 
@@ -116,7 +138,7 @@ Just run the mandb command as root without any arguments. It will see whether ne
 
 /media, /mnt         Directories that are used for mounting devices in the file system tree. 
 
-/opt     This directory is used for optional packages that may be installed on your server. 
+/opt     This directory is used for optional packages that may be installed on your server. (80)
 
 /proc    This directory is used by the proc file system. This is a file system structure that gives access to kernel information. 
 
@@ -135,6 +157,30 @@ Just run the mandb command as root without any arguments. It will see whether ne
 /usr      Directory that contains subdirectories with program files, libraries for these program files and documentation about them. Typically, many subdirectories exist in this directory that mimic the contents of the / directory. The contents of /usr are not required during boot. 
 
 /var      Directory that contains files which may change in size dynamically, such as log files, mail boxes, and spool files.
+
+/bin
+    This directory contains executable programs which are needed
+    in single user mode and to bring the system up or repair it.
+
+/sbin
+    Like /bin, this directory holds commands needed to boot the 
+    system, but which are usually not executed by normal users.
+
+/usr/bin
+    This is the primary directory for executable programs. Most
+    programs executed by normal users which are not needed for 
+    booting or for repairing the system and which are not
+    installed locally should be placed in this directory.
+
+/usr/local
+    This is where programs which are local to the site typically
+    go.
+
+/usr/local/bin
+    Binaries for programs local to the site.
+
+/usr/local/sbin
+    Locally installed programs for system administration.
 
 A Linux file system is presented as one hierarchy, with the root directory (/) as its starting point. This hierarchy may be distributed over different devices and even computer systems that are mounted into the root directory.
 
@@ -222,7 +268,7 @@ When you create a file, you give it a name. Basically, this name is a hard link.
 ■ Hard links must exist all on the same device. 
 ■ You cannot create hard links to directories. 
 ■ The number of aliases the original file has. When the last name is removed, the contents are also removed.
-
+ 
 A symbolic link (also referred to as soft link) does not link directly to the inode but to the name of the file. This makes symbolic links much more flexible, but it also has some disadvantages. The advantage of symbolic links is that they can link to files on other devices, as well as on directories. The major disadvantage is that when the original file is removed, the symbolic link becomes invalid and does not work any longer.
 
 mv doesnt change the inode
@@ -253,6 +299,72 @@ To create an archive, you use the tar -cf archivename.tar /files-you-want-toarch
 To add a file to an archive, you use the -r options. Use for instance tar -rvf /root/homes.tar /etc/hosts to add the /etc/hosts file to the archive.
 
 To update a currently existing archive file, you can use the -u option. So, use tar -uvf /root/homes.tar /home to write newer versions of all files in /home to the archive.
+
+tail -f /var/log/secure. This opens a trace on the file /var/log/secure, where you can monitor security events in real time.
+
+A convenient alternative to using the Alt+Function key sequences is offered by the chvt command. This command enables you to switch to a different virtual environment directly from the current environment.
+
+Virtual terminals are mentioned by tty and are found in /dev/
+
+For terminal windows that are started from a graphical environment, pseudo terminals are started. These pseudo terminals are referred to using numbers in the /dev/ pts directory. (131)
+
+To issue a proper reboot, the systemd process has to be alerted. The systemd process is the first process that was started when the server was started, and it is responsible for managing all other processes, directly or indirectly. As a result, on system reboots or halts, the systemd process needs to make sure that all these processes are stopped.
+
+systemctl reboot or reboot 
+■ systemctl halt or halt 
+■ systemctl poweroff or poweroff
+
+In some cases, these commands might not work. If that is the case, there is an emergency reset option as well. Using this option may prove useful if the machine is not physically accessible. To force a machine to reset, you can type echo b > /proc/sysrq-trigger. This command immediately resets the machine without saving anything. Notice that this command should be used only if there are no other options!
+
+On the remote server that you want to access, the sshd service must be running and offering services at port 22, and it should not be blocked by the firewall.
+
+If you have configured the sshd process to offer its services on a different port, use ssh -p followed by the port number you want to connect to.
+
+After connecting, you will be prompted for a password if a default configuration is used.
+
+An alternative way of specifying the user account is by using the option -l username.
+
+On some occasions, using ssh to get access to a server will be slow. If you want to know why, use the -v option with the ssh command.
+
+You have noticed that while using SSH to connect to the remote server a security message was displayed. This is because the remote server has never been contacted before and therefore there is no way to verify the identity of the remote server. After connecting to the remote server, a public key fingerprint is stored in the file ~/.ssh/ known_hosts .
+
+The next time you connect to the same server, this fingerprint is checked with the encryption key that was sent over by the remote server to initialize contact. If the fingerprint matches, you will not see this message anymore.
+
+In some cases, the remote host key fingerprint does not match the key fingerprint that is stored locally. That is a potentially dangerous situation. Instead of being connected to the intended server, you might be connected to the server of an evildoer. It does, however, also happen if you are connecting to an IP address that you have been connected to before, but this IP address is now in use by a different server. In that case, you just have to remove the key fingerprint from the ~/.ssh/known_hosts file on the client computer.
+
+As an administrator, you can also create a systemwide configuration that allows you to use “X forwarding,” which is starting graphical applications through an SSH session. As root, open the configuration file /etc/ssh/ssh_config and make sure it includes the following line: ForwardX11 yes
+
+If a host is running the sshd service, that service can also be used to securely transfer files between systems. To do that, you can use the scp command.
+
+You can also use scp to copy an entire subdirectory structure. To do so, use the -r command, as in the following command: scp -r server2:/etc/ /tmp
+
+Notice that the scp command can be configured to connect to a non-default SSH port also. It is a bit confusing, but to do this with the scp command, you need the -P option followed by the port number you want to connect to. Notice that ssh uses -p (lowercase) to specify the port it needs to connect to; the scp command uses an uppercase -P.
+
+The only thing you need to do to enable key-based login is to create a key pair. When using public/private key-based authentication, the user who wants to connect to a server generates a public/private key pair. The private key needs to be kept private and will never be distributed. The public key is stored in the home directory of the target user on the SSH server.
+
+When authenticating using key pairs, the user generates a hash derived from the private key. This hash is sent to the server, and if on the server it proves to match the public key that is stored on the server, the user is authenticated.
+
+When creating a public/private key pair, you are prompted for a passphrase. If you want maximal security, you should enter a passphrase.
+
+After copying over the public key to the remote host, it will be written to the ~/.ssh/ authorized_keys file on that host. Notice that if multiple users are using keys to log in with that specific account, the authorized_keys file may contain a lot of public keys. Make sure never to overwrite it because that will wipe all keys that are used by other users as well!
+
+To create a key pair, use the ssh-keygen command. The ssh-copy-id command is next used to copy the public key over to the target server.
+
+but the screen command is a useful command that allows you to open multiple terminal sessions, even if you are not in a graphical session. It does not just allow you to run multiple terminals but also allows you to share a session with other users, or to attach and detach to remote terminal sessions.
+
+The screen command is particularly useful when used from an SSH session. You can start a task that takes a long time from a screen session, detach from it, and attach to it later. The command continues running, even if you are going home and shut down your computer. The next day, you can easily attach to the screen session again to complete the task.
+
+If while trying to attach to a screen session you get a message that multiple screen sessions are currently running, you need to be more specific. To find out which screen sessions currently are running, use the screen -ls command. This command shows you all screen sessions that are currently running. In Listing 5.2 , you can see how multiple screen sessions are detached from, and how the screen -r command gives a list of all currently available screen sessions, from which you can select the screen session you want to connect to by adding the number of the screen session to the screen -r command.
+
+
+
+
+
+
+
+
+
+
 
 
 

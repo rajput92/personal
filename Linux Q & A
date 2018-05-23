@@ -21,6 +21,183 @@ WHich directory is used to access device files, and what is used to discard comm
 
 what is the alternative of thing1 | thing2
 
+When the shell is closed, where the history of command is stored(i.e in wbhich directory), and untill the shell is not closed where the commands are stored.
+
+History command will show command from .bash_history but not from memory?(TRUE or FALSE)
+
+How to execute command from history depending on number and some text?
+
+what is used to switch from input to command and from command to input
+
+Suppose you want to add a new line in a text with input mode, what is shortcut?
+
+How to write a file with a new name?
+
+How to delete the current line and paste thew current line?
+
+In input mode you are not able to select text with arrow keys, so what is the shortcut to select with cut and paste?
+
+How to undo command with as often as necessary?
+
+How to undo the undo ?
+
+How to go the first line and last of the document?
+
+How to search some text in a file (both forward and backward)
+
+How to go to the starting position of current line and ending position
+
+How to add the output of some command to a file
+
+How to replace all occurance of some text with new one.
+
+What is interactive shell and noninteractive shell.
+
+When a user logs in, an environment is created for that user automatically. This happens based on four different files, what are these files?
+
+When is etc/profile , etc/bashrc, ~/.bash_profile, ~/.basrc are called and executed.
+
+How to specify log in message to the user when they log in , and message before log in?
+
+How to find document of any command and configuration files?, if nothing found what is used to update its DB, what is the alternative of that command?
+
+If during mandb -k you get lot of info, how to filter the info depending on main 3 sections on man command,what is alternative -k for short description in man?
+
+Directory where the whole file system of linux starts ?
+
+where the system executable program files are stored, and where the user defined executable programs are stored
+
+Which directory is used to boot the kernel
+
+Which is directory is used to mount physical devices like hardisk, and which directory is used to mount cdrom, usb
+
+Which directory stores the configuration of executable programs
+
+You can have multiple terminals open on a console, but you cannothave multiple consoles open in one terminal(TRUE OR FALSE).
+
+Where are mostly the program files binaries that are needed during boot are stored, program files/commands required by sysadmin related to boot, program files executables which are not required during boot, but helps the users in using software, and program files where local users installed packages.
+
+Where the independent unbundled packages are stored.
+
+What is the directory where all kernel related process and all process ID PID are stored, Each directory contains information about one process, including: /proc/PID/cmdline, the command that originally started the process.
+
+What is the home directory for local users, and what is for root
+
+What is the use of /run, /srv and /sys
+
+what is the directory where the variable logs, data are stored
+
+IS /usr read-only
+
+which command is used to get the mountable devices and drives informmation, and which command is used to get the relation between the different mounts
+
+which command is used to get the available disk space on different mount
+
+What are three widcard with use cases
+
+Difference between relative file name and absolute file name
+
+If the current directory is set to /home/lisa, you could also use cp file1 ../lara.(please explain)
+
+How to list hidden file name, sort based on date modification in ascending, and to recursive directives.
+    
+How to copy directory and subdirectory with cp, and what to use if you want to copy permission and exact same thing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is used to monitor live sessions login and security in linux
+
+Which command is used to switch between various terminals
+
+What are virtual terminals and where you can find this in root directory?
+
+Use of W command
+
+What are pseudo terminals and how we can information about it and how to find how many users are logged in?
+
+Which process is first started when linux boot ups and which process has to make sure that all process has to be stopped before reboot
+
+What is the command to reboot with systemctl
+
+What is the command if reboot, halt, poweroff command didn't work, than how to reset the linux OS
+
+How to trouble shoot if ssh is not working
+
+If you have confiured ssh on different port than how to ssh into that machine
+
+What is the alternative way to login through ssh
+
+Can we login to localhost through ssh, and which terminal is opened, psudo or virtual
+
+How to use ssh in verbose 
+
+How SSH makes secured connection between client and remote server
+
+How to use SSH to initiate graphical enviornment, and how to appy it with default system wide configuration
+
+SCP will work if sshd is not running (TRUE or FALSE)
+
+How to use SCP command, and if during scp of directory if we have specified -r , will it give error
+
+How to mention customized port during SCP
+
+How to enable key pair authentication in SSH
+
+Where the public key is tored for particular user
+
+Please explain how authentication occurs with key value pair
+
+What security we can make on top of key pair authentication
+
+IN which directory on server public keys are written, can that file stores multiple keys from client
+
+if you have created private and public key on client, how you can send public to remote server, which command is used.
+
+What is used to detach working ssh session and reattach to it
+
+How to retach from mupltiple screen sessions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
