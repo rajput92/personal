@@ -174,6 +174,50 @@ What is used to detach working ssh session and reattach to it
 
 How to retach from mupltiple screen sessions
 
+How many types of users are available, and who is the default privileged user
+
+How to get the info of userid, groupid of any user
+
+Which three are methods are used to run users with elevated permission
+
+if just typed SU , whcih user logged in
+
+How to log in with separate enviornment as well, with the help of su command
+
+What to use if oridnary user wants to run root priviledge command
+
+WHat is wheel user group ?
+
+How to add any user with SUDO/SU commands
+
+Which file is used to check if wheel group .............
+
+How to login as root user in graphical interface
+
+Which two files are used to store all common properties of all users?
+
+Please tell me the format which was stored in etc/passwd
+
+How to protect user, so that no intruder can login into their shell or home directory, and how to specify message to intruder if they try to login
+
+what type of info is stored in etc/shadow file
+
+Can we add and delete directlry by editing etc/passwd and etc/shadow
+
+How to delete user with userdel including whole enviornment
+
+WHich command is used to edit etc/passwd and etc/shadow
+
+How to add user with homedirectory, userid, groups, username
+
+What is the use o skeleton directory and where its is located
+
+
+
+
+
+
+
 
 
 

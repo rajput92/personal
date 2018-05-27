@@ -3,6 +3,12 @@
 
 Among the various subdirectories within /var are /var/cache (contains cached data from application programs), /var/games (contains variable data relating to games in /usr), /var/lib (contains dynamic data libraries and files), /var/lock (contains lock files created by programs to indicate that they are using a particular file or device), /var/log (contains log files), /var/run (contains PIDs and other system information that is valid until the system is booted again) and /var/spool (contains mail, news and printer queues).
 
+Steps to install Docker:
+
+1. Download pakages for docker, apt-transport https(need to enable repository to connect with https), ca-certificates
+2. get key fingerprint through curl from docker site and add it to apt repository
+3. Add docker repository and whatever version you needed in apt repository
+4. than install docker0
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -28,7 +34,7 @@ The "default gateway" is simply the IP of the next hop for traffic that is not e
 
 If this is for a "home-type network", the inside IP (your default gateway) and the management address will probably be one and the same, but in a "large/corporate-type network" I wouldn't be so sure.
 
-neststat -rn In computing, netstat (network statistics) is a command-line network utility tool that displays network connections for the Transmission Control Protocol (both incoming and outgoing), routing tables, and a number of network interface (network interface controller or software-defined network interface) and network ...
+netstat -rn In computing, netstat (network statistics) is a command-line network utility tool that displays network connections for the Transmission Control Protocol (both incoming and outgoing), routing tables, and a number of network interface (network interface controller or software-defined network interface) and network ...
 
 
 ps - list processes
@@ -59,6 +65,8 @@ However, in projects like Kubernetes, it was beneficial for containerd to be abl
 When you type commands like this into the Docker CLI, the Docker client converts them into the appropriate API payload and POSTs them to the correct API endpoint. The API is implemented in the daemon. It is the same rich, versioned, REST API that has become a hallmark of Docker, and is accepted in the industry as the de facto container API. Once the daemon receives the command to create a new container, it makes a call to containerd.
 
 Despite its name, containerd cannot actually create containers. It uses runc to do that. It converts the required Docker image into an OCI bundle and tells runc to use this to create a new container. runc interfaces with the OS kernel to pull together all of the constructs necessary to create a container (namespaces, cgroups etc.). The container process is started as a child-process of runc, and as soon as it is started runc will exit.
+
+Docker CLI --> command executed --> POST to reset api endpoint --> daemon recieves command to create containre--> containerd called-->converts image into an OCI bundle --> call runc --> runc will get all the resources (kernel, namespace, cgroups) --> container started as a child process of runc--> runc exit
 
 to perform maintenance and upgrades on the Docker daemon without impacting running containers!
 

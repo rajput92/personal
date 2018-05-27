@@ -1,0 +1,42 @@
+What are the steps to install Docker ?(4 steps)
+
+How Docker container are run , when we execute command ?
+
+What are the responsibility of containerd(2) and shim(2)
+
+When you run a new contianer, a new instance of runc generated, TRUE/FALSE
+
+What are the functionality still exists by daemon? (7)
+
+What is the location where all images are stored in docker
+
+Difference between registory and images repo?
+
+WHat is official and unofficial images , how its represented using docker image ............... command
+
+How to download images from 3 rd party docker registory
+
+What is the use of tag in docker image
+
+Which command is used to filter images, what 4 filter options are availabble and which value are acquired to implement it
+
+Which option is used if we want to use filter other than above 4 
+
+How to search images based on some format
+
+By default how many images are show if we list them , and what to use to increade them
+
+Which command is used to show the history of docker images build history, and why can't we inspect layer based on it
+
+
+
+
+
+
+
+
+
+
+
+
+

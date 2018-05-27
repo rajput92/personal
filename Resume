@@ -1,0 +1,28 @@
+Container Image Maintainer
+Orchestration with Docker-Compose
+Deployment with Docker-Machine
+Clustering with Docker Swarm
+Clustering with AWS ECS
+App migrations to containers
+Production Container Deployments
+Jenkins Docker CI/CD
+
+Jenkins, DSL Deployment as code
+Jenkins full CI/CD configuration
+Gitlab, Github, Bitbucket mgmt
+Git Administration, and Git flow
+
+Deployment of Docker containers for development
+Deployment of Swarm Cluster for Jenkins build tooling
+Jenkins deployment and pipeline DSL job setup and configuration
+Automated deployments of full application stack using Jenkins/Docker
+Manage and maintain RHEL 6 / CentOS 7 servers that run various DevOps systems
+
+Architecture installation and configuration
+Adminstration of services such as Jira, FreeIPA, Docker clustering.
+Python scripting, programming
+Developed Tornado/Django based API for the backend platforms
+Jenkins, job setup, maintenance used for build/test/compile/package/deploy pipeline
+
+Jenkins implementation and configuration resulting in full CI/CD to integration environment on commit
+Apache and Nginx webserver Administration

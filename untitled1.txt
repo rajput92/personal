@@ -2,7 +2,7 @@ Linux Admin - RHCSA 24 chapters
 
 Docker - DCA 17 chapters
 
-Python - Python Notes, Hackerrank
+Python - Python Notes, Hackerrank script to automate
 
 AWS - Ryan Course 14 chapters
 
@@ -25,6 +25,11 @@ Sonar
 Networking Basics
 
 Veracode
+
+Terraform script 
+
+Cloudforation script to automate
+
 
 
 

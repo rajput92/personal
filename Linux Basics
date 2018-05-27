@@ -356,6 +356,61 @@ The screen command is particularly useful when used from an SSH session. You can
 
 If while trying to attach to a screen session you get a message that multiple screen sessions are currently running, you need to be more specific. To find out which screen sessions currently are running, use the screen -ls command. This command shows you all screen sessions that are currently running. In Listing 5.2 , you can see how multiple screen sessions are detached from, and how the screen -r command gives a list of all currently available screen sessions, from which you can select the screen session you want to connect to by adding the number of the screen session to the screen -r command.
 
+On Linux, there are two ways to look at system security. There are privileged users, and there are unprivileged users. The default privileged user is root.
+
+To get information about a user account, you can use the id command.
+
+You can also use it on other user accounts to get details about those accounts.
+
+Methods to Run Tasks with Elevated Permissions 
+
+su Opens a subshell as a different user, with the advantage that only in the subshell commands are executed as root 
+
+sudo Allows you to set up an environment where specific tasks are executed with administrative privileges 
+
+PolicyKit Allows you to set up graphical utilities to run with administrative privileges
+
+If just the command su is typed, the username root is implied. But su can be used to run tasks as another user as well. Type su linda to open a subshell as the user linda,
+
+When using su, a sub shell is started. This is an environment where you are able to work as the target user account, but environment settings for that user account have not been set. If you need complete access to the entire environment of the target user account, you can use su - to start a login shell. If you start a login shell, all scripts that make up the user environment are processed, which makes you work in an environment that is exactly the same as when logging in as that user.
+
+Instead of using the root user account, unprivileged users can be configured for using administrator permissions on specific tasks by using sudo. When sudo is configured, ordinary users have sudo privileges and to use these privileges, they will start the command using sudo. So, instead of using commands like useradd as the root user, you use an ordinary user account and type sudo useradd.
+
+The wheel group is a special user group used on some Unix systems to control access to the su or sudo command, which allows a user to masquerade as another user
+
+When creating Linux users during the installation process, you can select to grant administrator permissions to that specific user. If you select to do so, the user will be able to use all administrator commands using sudo. It is also possible to set up sudo privileges after installation. To do that in a very easy way, you have to accomplish a simple two-step procedure: 
+
+1. Make the administrative user account member of the group wheel by using usermod -aG wheel user. 
+2. Type visudo and make sure the line %wheel ALL=(ALL) ALL is included.
+
+Most administration programs with a graphical user interface use PolicyKit to authenticate as the root user. If a normal user who is not a member of the group wheel accesses such an application, he will be prompted for authentication. If a user who is a member of the group wheel opens a PolicyKit application, he will have to enter his own password.
+
+On a typical Linux environment, two kinds of user accounts exist. There are user accounts for the people who need to work on a server and who need limited access to the resources on that server. These user accounts typically have a password that is used for authenticating the user to the system. There are also system accounts that are used by the services the server is offering. Both user accounts share common properties, which are kept in the files /etc/passwd and /etc/shadow.
+
+etc/passwd format:
+
+username:password:UID:GID:comment field:homedirectory:shell
+
+This is the program that is started after the user has successfully connected to a server. For most users this will be /bin/bash, the default Linux shell. For system user accounts, it will typically be a shell like /sbin/nologin. The /sbin/nologin command is a specific command that silently denies access to users (to ensure that if by accident an intruder logs in to the server he cannot get any shell access). You can create a file with the name /etc/nologin.txt that contains a message that will be displayed when a user who has /sbin/ nologin as its shell tries to log in.
+
+etc/shadow show the properties for password 
+
+The settings in this file are used to define the validity of the password. Typical for /etc/shadow is that no one except the superuser root and processes running with root permissions, such as the authentication mechanisms on the server, have permissions to access it, which makes sense as it contains all the information that is required for connecting to a system.
+
+There are many solutions for creating users on a Linux server. To start, you can edit the contents of the /etc/passwd and /etc/shadow files directly (with the risk of making an error that could make logging in impossible to anyone; so better just do not). There is also useradd. useradd is the utility that you should use for creating users. To remove users, you can use the userdel command. Use userdel -r to remove a user, including the complete user environment.
+
+If you insist on modifying the configuration files directly, you should use vipw. This command opens an editor interface on your configuration files, and more important, it sets the appropriate locks on the configuration files to prevent corruption. It does not check syntax, however, so make sure that you know what you are doing because even by making a typo you might still severely mess up your server. If you want to use this tool to modify the /etc/shadow file, use vipw -s. To edit the contents of the /etc/group file where groups are defined, a similar command with the name vigr exists.
+
+Use, for instance, the command useradd -m -u 1201 -G sales,ops linda to create a user linda who is a member of the groups sales and ops with UID 1201 and add a home directory to the user account as well.
+
+If when creating user accounts you tell your server to add a home directory as well (for instance, by using useradd -m), the content of the “skeleton” directory is copied to the user home directory. The skeleton directory is /etc/skel, and it contains files that are copied to the user home directory at the moment this directory is created
+
+
+
+
+
+
+
 
 
 
