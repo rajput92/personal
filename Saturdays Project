@@ -1,0 +1,27 @@
+Try to create complicated docker file and run it on some customised port in laptop VMS. and than try to access from EC2
+
+Create two docker file docker.dev and docker.prod, docker.dev contains artifacts which needs to be deploy in instance with the help of docker.prod
+
+Try to implement above using Multi stage build
+
+Restrict access to subdirectories of S3 bucket
+
+Apply versioning with the AWS cli, upload the file, update it, delete, try to look into delete marker, restore it
+
+Take a Spring boot applications, convert it to Docker container:
+https://github.com/PacktPublishing/Spring-Microservices/tree/master/Chapter%202
+
+Use aws s3 cp to copy between twop buckets
+
+Apply life cycle policies from AWS CLI
+
+Apply CDN(cloudfront) with use of S3, EC2, try to apply all the options, get help from stack overflow
+
+You run a meme creation website that stores the original images in S3 and each meme's meta data in DynamoDB. If a meme object is lost, a Lambda function will automatically recreate it using the original file from S3 and the metadata from DynamoDB.
+
+
+
+
+
+
+

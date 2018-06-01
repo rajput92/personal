@@ -1,0 +1,38 @@
+Anthem Archtitectur
+
+Spring Boot API
+Angular API
+Java API
+
+MongoDB server
+
+Ldap Server
+
+AWS :
+
+installing websphere server in ec2
+IHS server in ec2
+integrate app server and web server
+
+deployment of agular api using lamda, python, bitbucket, ec2
+
+API gateway to redirect request based on app or web server
+
+Load balancer and auto scaling between two server
+
+docker containre with websphere image and ear running
+Angular app integration with Ldap
+bamboo to build ear using docker mutli stage build and deploy to docker container
+
+s3 for artifacts storage
+
+
+Freelancing:
+
+elasticbean stak
+ansible
+docker swarm cluster
+Python scripting
+rela projects
+
+

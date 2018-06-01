@@ -28,6 +28,110 @@ By default how many images are show if we list them , and what to use to incread
 
 Which command is used to show the history of docker images build history, and why can't we inspect layer based on it
 
+Give examples of INstructions which add metadata to an images instead of layers(4)
+
+Suppose there are 2 layers of images with 3 files in each layer, so if you update any of the file in any of the layer, will it create an extra layer?
+
+How multiple images manages which leads to efficient in space  and performance
+
+What is --digests of an docker image
+
+Whether each layer of images contains digest or only collective image?
+
+When you push the image to docker it checck of tampered images, and also as layer was compresed, a new digest/hash is generated for that image , so what is used to verify that the image came withought being tampereed
+
+How to pull images with the help of hash?
+
+How multi architectures images are maintained in Docker hub?
+
+WHat is manifest and manifests list 
+
+Suppose we are delting an image, but all the layers are not deleted, why?
+
+What is hardware virtualization and OS virtualization
+
+What is the only reason for container start time
+
+What is the command to check if docker is active or not
+
+When we start the container with /bin/bash command, why did the container also exists if we exist from /bin/bash command
+
+What is shortcut to exit from container withought stopping it
+
+Which command is used to forcefully remove the running container
+
+How to persist data even if container exists
+
+How SIGTERM help docker container to first stop and them remove
+
+What is the best way to self heal the docker container
+
+What are 3 restart policy and whats the difference between them
+
+Will on-failed restart policy restarts stopped container also when daemon restarts
+
+How to start container in daemon mode and map port to cutomized docker host port
+
+what is build context refers to and syntax for docker file
+
+Please explain docker instructions : FROM, LABEl, COPY, WORKDIR, RUN, EXPOSE.
+
+Which command is to verify the configuration/instruction in docker file
+
+What is 3 needed to push images, and what are the default values during push
+
+I have tagged image in a first level space format while i am having access to second level space in docker hub, so how to push
+
+Command to retag an image, and will it over write?
+
+How to trouble shoot if container is not available on specific port
+
+Difference between docker image history and docker image inspect command
+
+Please explain how images are build and differnt layers are added 
+
+Explain why we needed Multi stage build
+
+What happens if cache miss during imae build, how to write docker file to avoid it
+
+how to force build not to use cache during image build
+
+during rebuilding image, if COPY intruction copying directories, but the contents of the directories has been changed , than how docker validate with cache
+
+What to use if you want to squash all layers of image into single one and when its required and which flag is used
+
+What is use case for no-install
+
+What is flag used for tagging image, and which flag is used if you want to mentioned arbitory docker file
+
+What is the use of ENTRYPOINT instruction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

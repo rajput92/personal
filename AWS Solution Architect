@@ -1,0 +1,234 @@
+In traditional IT environments, two kinds of storage dominate: block storage and file storage.Block storage operates at a lower level—the raw storage device level—and manages data as a set of numbered, fixed-size blocks. File storage operates at a higher level—the operating system level—and manages data as a named hierarchy of files and folders.
+
+Block and file storage are often accessed over a network in the form of a Storage Area Network (SAN) for block storage, using protocols such as iSCSI or Fibre Channel, or as a Network Attached Storage (NAS) file server or “filer” for file storage, using protocols such as Common Internet File System (CIFS) or Network File System (NFS).
+
+Amazon S3 storage is independent of a server and is accessed over the Internet. Instead of managing data as blocks or files using SCSI, CIFS, or NFS protocols, data is managed as objects using an Application Program Interface (API) built on standard HTTP verbs.
+
+ways. In Amazon S3, you GET an object or PUT an object, operating on the whole object at once, instead of incrementally updating portions of the object as you would with a file. You can’t “mount” a bucket, “open” an object, install an operating system on Amazon S3, or run a database on it.
+
+Amazon S3 is highly-durable and highly-scalable object storage that is optimized for reads and is built with an intentionally minimalistic feature set.
+
+The Amazon EBS service provides block level storage for Amazon Elastic Compute Cloud (Amazon EC2) instances. Amazon Elastic File System (AWS EFS) provides network-attached shared file storage (NAS storage) using the NFS v4 protocol.
+
+A bucket is a container (web folder) for objects (files) stored in Amazon S3.
+
+This means that your bucket names must be unique across all AWS accounts, much like Domain Name System (DNS) domain names, not just within your own account.
+
+You can create and use buckets that are located close to a particular set of end users or customers in order to minimize latency, or located in a particular region to satisfy data locality and sovereignty concerns, or located far away from your primary facilities in order to satisfy disaster recovery and compliance needs.
+
+Objects can range in size from 0 bytes up to 5TB, and a single bucket can store an unlimited number of objects. This means that Amazon S3 can store a virtually unlimited amount of data. Each object consists of data (the file itself) and metadata (data about the file).
+
+The metadata associated with an Amazon S3 object is a set of name/value pairs that describe the object. There are two types of metadata: system metadata and user metadata. System metadata is created and used by Amazon S3 itself, and it includes things like the date last modified, object size, MD5 digest, and HTTP Content-Type. User metadata is optional, and it can only be specified at the time an object is created. You can use custom metadata to tag your data with attributes that are meaningful to you.
+
+Every object stored in an S3 bucket is identified by a unique identifier called a key. You can think of the key as a filename.
+
+The combination of bucket, key, and optional version ID uniquely identifies an Amazon S3 object.
+
+Amazon S3 is storage for the Internet, and every Amazon S3 object can be addressed by a unique URL formed using the web services endpoint, the bucket name, and the object key. 
+
+For example, with the URL: http://mybucket.s3.amazonaws.com/jack.doc 
+mybucket is the S3 bucket name, and jack.doc is the key or filename. 
+If another object is created, for instance: http://mybucket.s3.amazonaws.com/fee/fi/fo/fum/jack.doc 
+then the bucket name is still mybucket, but now the key or filename is the string fee/fi/fo/fum/jack.doc. 
+
+A key may contain delimiter characters like slashes or backslashes to help you name and logically organize your Amazon S3 objects, but to Amazon S3 it is simply a long key name in a flat namespace. There is no actual file and folder hierarchy. See the topic “Prefixes and Delimiters” in the “Amazon S3 Advanced Features” section that follows for more information.
+
+REST maps standard HTTP “verbs” (HTTP methods) to the familiar CRUD (Create, Read, Update, Delete) operations. Create is HTTP PUT (and sometimes POST); read is HTTP GET; delete is HTTP DELETE; and update is HTTP POST (or sometimes PUT).
+
+Durability addresses the question, “Will my data still be there in the future?” Availability addresses the question, “Can I access my data right now?”
+
+Amazon S3 standard storage is designed for 99.999999999% durability and 99.99% availability of objects over a given year.
+
+If you need to store non-critical or easily reproducible derived data (such as image thumbnails) that doesn’t require this high level of durability, you can choose to use Reduced Redundancy Storage (RRS) at a lower cost. RRS offers 99.99% durability with a lower cost of storage than traditional Amazon S3 storage.
+
+Even though Amazon S3 storage offers very high durability at the infrastructure level, it is still a best practice to protect against user-level accidental deletion or overwriting of data by using additional features such as versioning, cross-region replication, and MFA Delete.
+
+system. Because your data is automatically replicated across multiple servers and locations within a region, changes in your data may take some time to propagate to all locations.
+
+For PUTs to new objects, this is not a concern—in this case, Amazon S3 provides read-afterwrite consistency. However, for PUTs to existing objects (object overwrite to an existing key) and for object DELETEs, Amazon S3 provides eventual consistency.
+
+To allow you to give controlled access to others, Amazon S3 provides both coarse-grained access controls (Amazon S3 Access Control Lists [ACLs]), and fine-grained access controls (Amazon S3 bucket policies, AWS Identity and Access Management [IAM] policies, and query-string authentication).
+
+Amazon S3 bucket policies are very similar to IAM policies,but are subtly different in that: 
+
+They are associated with the bucket resource instead of an IAM principal. 
+
+They include an explicit reference to the IAM principal in the policy. This principal can be associated with a different AWS account, so Amazon S3 bucket policies allow you to assign cross-account access to Amazon S3 resources.
+
+Using an Amazon S3 bucket policy, you can specify who can access the bucket, from where (by Classless Inter-Domain Routing [CIDR] block or IP address), and during what time of day.
+
+Because every Amazon S3 object has a URL, it is relatively straightforward to turn a bucket into a website. To host a static website, you simply configure a bucket for website hosting and then upload the content of the static website to the bucket.
+
+To configure an Amazon S3 bucket for static website hosting: 
+1. Create a bucket with the same name as the desired website hostname. 
+2. Upload the static files to the bucket. 
+3. Make all the files public (world readable). 
+4. Enable static website hosting for the bucket. This includes specifying an Index document and an Error document. 
+5. The website will now be available at the S3 website URL: <bucket-name>.s3-website-<AWS-region>.amazonaws.com. 
+6. Create a friendly DNS name in your own domain for the website using a DNS CNAME, or an Amazon Route 53 alias that resolves to the Amazon S3 website URL. 
+7. The website will now be available at your website domain name.
+
+The REST API, wrapper SDKs, AWS CLI, and the Amazon Management Console all support the use of delimiters and prefixes. This feature lets you logically organize new data and easily maintain the hierarchical folder-and-file structure of existing data uploaded or backed up from traditional file systems. Used together with IAM or Amazon S3 bucket policies, prefixes and delimiters also allow you to create the equivalent of departmental “subdirectories” or user “home directories” within a single bucket, restricting or sharing access to these “subdirectories” (defined by prefixes) as needed.
+
+Amazon S3 Standard offers high durability, high availability, low latency, and high performance object storage for general purpose use. Because it delivers low first-byte latency and high throughput, Standard is well-suited for short-term or long-term storage of frequently accessed data.
+
+Amazon S3 Standard – Infrequent Access (Standard-IA) offers the same durability, low latency, and high throughput as Amazon S3 Standard, but is designed for long-lived, less frequently accessed data.
+
+Amazon S3 Reduced Redundancy Storage (RRS) offers slightly lower durability (4 nines) than Standard or Standard-IA at a reduced cost.
+
+Amazon Glacier storage class offers secure, durable, and extremely low-cost cloud storage for data that does not require real-time access, such as archives and long-term backups. To keep costs low, Amazon Glacier is optimized for infrequently accessed data where a retrieval time of several hours is suitable. To retrieve an Amazon Glacier object, you issue a restore command using one of the Amazon S3 APIs; three to five hours later, the Amazon Glacier object is copied to Amazon S3 RRS. Note that the restore simply creates a copy in Amazon S3 RRS; the original data object remains in Amazon Glacier until explicitly deleted. Also be aware that Amazon Glacier allows you to retrieve up to 5% of the Amazon S3 data stored in Amazon Glacier for free each month; restores beyond the daily restore allowance incur a restore fee.
+
+Using Amazon S3 lifecycle configuration rules, you can significantly reduce your storage costs by automatically transitioning data from one storage class to another or even automatically deleting data after a period of time. For example, the lifecycle rules for backup data might be:
+
+Store backup data initially in Amazon S3 Standard. 
+After 30 days, transition to Amazon Standard-IA. 
+After 90 days, transition to Amazon Glacier.
+After 3 years, delete.
+
+To encrypt your Amazon S3 data in flight, you can use the Amazon S3 Secure Sockets Layer (SSL) API endpoints. This ensures that all data sent to and from Amazon S3 is encrypted while in transit using the HTTPS protocol.
+
+To encrypt your Amazon S3 data at rest, you can use several variations of Server-Side Encryption (SSE). Amazon S3 encrypts your data at the object level as it writes it to disks in its data centers and decrypts it for you when you access it. All SSE performed by Amazon S3 and AWS Key Management Service (Amazon KMS) uses the 256-bit Advanced Encryption Standard (AES). You can also encrypt your Amazon S3 data at rest using Client-Side Encryption, encrypting your data on the client before sending it to Amazon S3.
+
+SSE-S3 (AWS-Managed Keys) This is a fully integrated “check-box-style” encryption solution where AWS handles the key management and key protection for Amazon S3. Every object is encrypted with a unique key. The actual object key itself is then further encrypted by a separate master key. A new master key is issued at least monthly, with AWS rotating the keys. Encrypted data, encryption keys, and master keys are all stored separately on secure hosts, further enhancing protection.
+
+SSE-KMS (AWS KMS Keys) This is a fully integrated solution where Amazon handles your key management and protection for Amazon S3, but where you manage the keys. SSE-KMS offers several additional benefits compared to SSE-S3. Using SSE-KMS, there are separate permissions for using the master key, which provide protection against unauthorized access to your objects stored in Amazon S3 and an additional layer of control. AWS KMS also provides auditing, so you can see who used your key to access which object and when they tried to access this object. AWS KMS also allows you to view any failed attempts to access data from users who did not have permission to decrypt the data.
+
+SSE-C (Customer-Provided Keys) This is used when you want to maintain your own encryption keys but don’t want to manage or implement your own client-side encryption library. With SSE-C, AWS will do the encryption/decryption of your objects while you maintain full control of the keys used to encrypt/decrypt the objects in Amazon S3.
+
+Client-Side Encryption Client-side encryption refers to encrypting data on the client side of your application before sending it to Amazon S3. You have the following two options for using data encryption keys:
+
+Use an AWS KMS-managed customer master key. Use a client-side master key.
+
+S3 handeled globally, so all the bucket shown at one place even if they are distribute across regions
+
+
+Versioning :
+
+once enabled, cant disabled, only suspended, only at bucket level
+
+In versioning, the ID is like commits, which sits on top of the current ID, even delete has its own delete marker ID(veriosn ID), so if we delete delete marke, object will restore to version next to it
+
+Apply MFA delete for more security on top of versioning
+
+We need to enble versioning on destination bucket if we want to apply cross region replication
+
+CROSS reigion also apply on different aws account
+
+Only new objects are allowwd acrosss CRR
+
+How to sync existing objects across CRR, using AWS CLI cp s3 command
+
+CRR cant be applied on same region
+
+Delet markers are replicated
+
+Deleting individual versions or delete markers will not be replicated(means restoration will not work )
+
+What to use for lowest storage class : life cycle management
+
+Life Cycle Managemnt : transition from standard to IA ( 30 days and 128 kb min.), and from IA to glacier ( 30 days )
+
+Edge location : where the content has been cached
+
+Origin : S3, ec2, elb, route 53( the files where stored and which needs to distributed across globe)
+
+Distribution : collections of edge location
+
+USERS --> EDGE Location --> cahed from CDN server--> users-->load from edge location untill TTL
+
+Edge location are not only read only , you can write also
+
+Cloud front : web distribution for websityes and RTMP for media streaming
+
+You can clear cached objects, but will be charged
+
+Clodfront can be used with On premises 
+
+Enable geo restriction to make cloudfront Accessible across some regions
+
+we have created CDN for s3, and s3 objects read public permission revoked, so we will get access denied, but if we access the same object with CDN we can access, in this way we can restrrict users to use CDN instead of direct s3 access
+
+Secure S3:
+
+Bucket policies( At bucket level)
+ACLS ( Object level, )
+
+Backup files:
+
+Storage gateway(VM ) on on-premise, connected to AWS Account, and can transfer data 
+
+1 File gateway( for flat files)
+2 Volume : stored (entire data on site, for oS files, virtual hardisk, backed up asynchronoulsy in form of EBS snapshots) cached ( if you want to keep on premise cache and whole data set into s3)
+3 Tape gateway
+
+How to make upload to s3 faster, : using transfer acceleration
+
+Transfer acceleration makes use of edge locations and CDN for that, whn users upload to s3, it will first go to edge location and from there it goes to S3
+
+for static website, make sure that DNS name and bucket must be same
+
+EC2:
+
+EC2 -  cloud virtual machines
+Throughput- Data transfer speed in megabytes per second is often termed as throughput. Earlier, it was measured in Kilobytes. But now the standard has become megabytes.
+
+IOPS- The time taken for a storage system to perform an Input/Output operation per second from start to finish constitutes IOPS.the performance of online transaction processing activity was entirely dependent on response time. The better the storage system IOPS was, the better was the online transaction processing rate.
+Types: On demand(charges hour /second basis ), Rserved(used mosly yearly basis, steay state or predictabel enviornment), Spot ( just like share market bidding), Dedicated Hosts(mostly used when we have already have licenses)
+
+On demand :
+
+short term , spiky unpredictable workload
+
+Reserved Instances :
+
+Standarad
+Convertible : One instance type to another
+Scheduled : available to launcbh within reserved time period
+
+Spot : user with urgent need, large amount of computing capacity
+
+Throughput- Data transfer speed in megabytes per second is often termed as throughput. Earlier, it was measured in Kilobytes. But now the standard has become megabytes.high throughput is also getting a lot of importance, especially, when it comes to high sequential data transfer workloads such as data warehouse queries, video or audio edition environments and for big data workloads. 
+
+IOPS- The time taken for a storage system to perform an Input/Output operation per second from start to finish constitutes IOPS.the performance of online transaction processing activity was entirely dependent on response time. The better the storage system IOPS was, the better was the online transaction processing rate.
+
+
+Instance Types :
+
+FIGHTDRMCPX
+
+FPGA, IOPS, Graphics, High Throughput, cheap, density, ram, main choice for general purpose, compute, graphics, xtreme memory
+
+EBS : virtual hard disk
+
+Genral purpose SSD : <10k IOPS
+Provisioned IOPS : upto 20k IOPS Relational and NO sql databases
+
+Throughput HDD : Big data, data warehouse, log processing, no boot
+COld HDD : for infrequent access, file server, no boot 
+
+Mgnetic Standard : can be boot
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -26,3 +26,66 @@ Jenkins, job setup, maintenance used for build/test/compile/package/deploy pipel
 
 Jenkins implementation and configuration resulting in full CI/CD to integration environment on commit
 Apache and Nginx webserver Administration
+
+Executed continuous improvement of project builds with custom Maven plugins and Atlassian tool set.
+Setup the Jenkins server with complete Maven and vSphere build jobs providing a continuous, automated scheduled QA build environment based on multiple SVN repositories for VMware open virtualization format (ovf) deployments.
+
+SUMMARY :
+
+Skilled DevOPs engineer with AWS and Microsoft Python certified having 3 years of experience in implementing CI-CD pipeline and scripting.As DevOps engineer, set up and managed AWS services, Docker, automate deployment process using Jenkins, Bitbucket and IBM Urban Code Deploy. Worked closely with clients to slash release time and automate the process using single commit.
+
+AWS :
+
+Proficient in AWS services like VPC, EC2, S3, ELB, AutoScalingGroups(ASG), EBS, RDS, IAM, CloudFormation, Route 53, CloudWatch, CloudFront, CloudTrail.
+Created NAT gateways and instances to allow communication from the private instances to the internet through bastion hosts.
+Python script in Lambda for deployment of Node JS application to IBM IHS server in EC2 server
+Orchestration using Ansible
+Experience in branching, tagging, and maintaining the version using SCM tools like GIT/Bitbucket
+Worked on continous integration process with Jenkins and Ansible
+Created S3 buckets and also managing policies for S3 for backup solutions
+Cloud watch alerts and using them in Autoscaling configurations
+Automated packaging and deployment using Ansible
+Use API Gateway integration for redirect website request 
+EC2 backup using snapshots and attaching the volume to ec2
+Troubleshoot CI and automated deployment and managemnt using Jenkins, Ansible, Maven, Docker
+Responsible for Continuous Integration and Continuous Delivery process implementation using Jenkins along with Python and Shell scripts to automate routine jobs.
+Implemented Continuous Integration using Jenkins and GIT from scratch.
+Created topics in SNS to send notifications to subscribers as per the requirement.
+Implemented Ansible to manage all existing servers and automate the build/configuration of new servers.
+Involved in setting up JIRA as defect tracking system and configured various workflows, customizations and plug-ins for the JIRA bug/issue tracker.
+Developed Cloud Formation scripts to build on demand EC2 instance formation.
+Utilized AWS CLI to automate backups of ephemeral data-stores to S3 buckets and EBS.
+Created nightly AMIs for mission critical production servers as backups.
+Maintained edge location to cache data with CDN using Cloud Front to deliver data with less latency.
+Worked on CI/CD tool Jenkins to automate the build process from version control tool into testing and production environment.
+Managed build results in Jenkins and deployed using workflows.
+
+Jenkins:
+
+Jenkins installation
+Intrgartion with bitbucket
+Master slave 6 agent installation and configuration
+Integration with LDAP server
+Build steps : source code checout, maven , soanr, artifactory deployment
+Notiffiaction and mesaaging
+
+
+Linux 
+
+Open ldap
+user permission managment
+Trouble shoot SYS admin issues
+Configuring IBM IHS server
+
+Docker :
+
+Docker swarm cluster management with nodes and managers
+Multistage build
+docker container management
+App migrations to containers
+Bamboo Docker CI/CD
+Deployment of Docker containers for development
+Deployment of Swarm Cluster for Jenkins build tooling
+bamboo deployment and pipeline job setup and configuration
+
+Executed continuous improvement of project builds with custom Maven plugins and Atlassian tool set.

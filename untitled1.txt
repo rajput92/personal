@@ -1,35 +1,44 @@
-Linux Admin - RHCSA 24 chapters
+Theoretical Part:
 
-Docker - DCA 17 chapters
+    Linux Admin - RHCSA 24 chapters
 
-Python - Python Notes, Hackerrank script to automate
+    Docker - DCA 17 chapters
 
-AWS - Ryan Course 14 chapters
+    AWS - Ryan Course 14 chapters
 
-Jenkins - Jenkins Book 13 chapters
+    Networking Basics
 
-stackoverflow
+    Veracode
 
-GIT - GIT COmmands
+    Core JAVA
 
-Maven - Maven Commands
+    Shell scripting
+    
+    AWS FAQS
 
-IBM Udeploy, Bitbucket, Bamboo, 
+Implementation Part :
 
-websphere
+        Python - Python Notes, Hackerrank script to automate
 
-Ansible
+        Jenkins - Jenkins Book 13 chapters
+        Jira
 
-Sonar
+        stackoverflow
 
-Networking Basics
+        GIT - GIT COmmands
 
-Veracode
+        Maven - Maven Commands
 
-Terraform script 
+        IBM Udeploy, Bitbucket, Bamboo, 
 
-Cloudforation script to automate
+        websphere
 
+        Ansible
 
+        Sonar
+
+        Terraform script 
+
+        Cloudforation script to automate
 
 
