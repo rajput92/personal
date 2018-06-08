@@ -2493,3 +2493,237 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [W 04:18:42.800 NotebookApp] SSL Error on 10 ('81.18.94.182', 48866): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
 [I 04:28:12.016 NotebookApp] 302 GET / (122.15.228.208) 0.42ms
 [I 04:28:12.036 NotebookApp] 302 GET / (122.15.228.208) 0.33ms
+[I 06:05:08.723 NotebookApp] Saving file at /Saturdays Project
+[W 06:17:16.174 NotebookApp] Forbidden
+[W 06:17:16.175 NotebookApp] 403 GET /api/sessions?_=1527827293883 (122.15.228.208) 1.02ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[W 06:17:16.176 NotebookApp] Forbidden
+[W 06:17:16.176 NotebookApp] 403 GET /api/terminals?_=1527827293884 (122.15.228.208) 0.65ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[W 07:30:45.108 NotebookApp] SSL Error on 10 ('14.135.120.39', 17972): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:45.688 NotebookApp] SSL Error on 10 ('14.135.120.39', 17961): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:46.273 NotebookApp] SSL Error on 10 ('14.135.120.39', 17960): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:46.859 NotebookApp] SSL Error on 10 ('14.135.120.39', 17927): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:47.435 NotebookApp] SSL Error on 10 ('14.135.120.39', 17958): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:47.991 NotebookApp] SSL Error on 10 ('14.135.120.39', 17937): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:30:48.566 NotebookApp] SSL Error on 10 ('14.135.120.39', 17941): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:30:55.717 NotebookApp] Malformed HTTP message from 14.135.120.39: Malformed HTTP request line
+[I 07:30:56.853 NotebookApp] 302 GET / (14.135.120.39) 0.58ms
+[I 07:30:59.276 NotebookApp] 302 GET / (14.135.120.39) 0.49ms
+[I 07:31:01.193 NotebookApp] 302 GET /tree? (14.135.120.39) 0.80ms
+[W 07:31:05.391 NotebookApp] SSL Error on 10 ('14.135.120.39', 17950): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:31:06.818 NotebookApp] SSL Error on 10 ('14.135.120.39', 17963): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:26:31.830 NotebookApp] Forbidden
+[W 08:26:31.830 NotebookApp] 403 GET /api/sessions?_=1527827293885 (122.15.228.208) 0.96ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[W 08:26:31.831 NotebookApp] Forbidden
+[W 08:26:31.831 NotebookApp] 403 GET /api/terminals?_=1527827293886 (122.15.228.208) 0.66ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[W 09:03:21.340 NotebookApp] Forbidden
+[W 09:03:21.341 NotebookApp] 403 GET /api/sessions?_=1527827293887 (122.15.228.208) 0.93ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[W 09:03:21.342 NotebookApp] Forbidden
+[W 09:03:21.342 NotebookApp] 403 GET /api/terminals?_=1527827293888 (122.15.228.208) 0.67ms referer=https://ec2-52-66-27-220.ap-south-1.compute.amazonaws.com:8000/tree?
+[I 09:53:38.063 NotebookApp] 302 GET / (122.15.228.208) 0.47ms
+[I 09:53:38.116 NotebookApp] 302 GET /tree? (122.15.228.208) 0.66ms
+[I 09:53:40.089 NotebookApp] 302 GET / (122.15.228.208) 0.46ms
+[I 09:53:40.124 NotebookApp] 302 GET /tree? (122.15.228.208) 0.65ms
+[I 09:58:53.664 NotebookApp] 302 GET / (122.15.228.208) 0.47ms
+[I 09:58:53.680 NotebookApp] 302 GET /tree? (122.15.228.208) 0.63ms
+[I 09:58:54.192 NotebookApp] 302 GET / (122.15.228.208) 0.48ms
+[I 09:58:54.222 NotebookApp] 302 GET /tree? (122.15.228.208) 0.71ms
+[I 09:58:56.637 NotebookApp] 302 POST /login?next=%2Ftree%3F (122.15.228.208) 1.25ms
+[W 14:15:51.419 NotebookApp] SSL Error on 10 ('139.162.79.87', 40386): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:15:51.664 NotebookApp] SSL Error on 10 ('139.162.79.87', 40562): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:15:51.940 NotebookApp] SSL Error on 10 ('139.162.79.87', 40738): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:16:12.467 NotebookApp] SSL Error on 10 ('139.162.79.87', 57158): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:14:47.937 NotebookApp] SSL Error on 10 ('71.6.165.200', 43727): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:10:00.332 NotebookApp] SSL Error on 10 ('158.85.81.116', 56030): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:15:25.633 NotebookApp] SSL Error on 10 ('185.222.211.18', 1729): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:01:06.886 NotebookApp] 302 GET / (122.15.228.208) 0.46ms
+[I 06:01:07.372 NotebookApp] 302 GET / (122.15.228.208) 0.48ms
+[I 07:34:00.967 NotebookApp] Saving file at /Resume
+[I 10:44:51.717 NotebookApp] Saving file at /Resume
+[I 11:10:05.127 NotebookApp] Saving file at /Saturdays Project
+[W 12:50:32.038 NotebookApp] SSL Error on 10 ('92.63.197.29', 38335): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:19:57.946 NotebookApp] SSL Error on 10 ('111.93.187.234', 52601): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:19:58.002 NotebookApp] SSL Error on 10 ('111.93.187.234', 52783): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:53:12.165 NotebookApp] 302 GET / (49.35.8.132) 0.48ms
+[W 15:36:27.585 NotebookApp] SSL Error on 10 ('217.147.169.230', 14156): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:56:20.036 NotebookApp] SSL Error on 10 ('107.170.249.248', 41828): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:58:48.177 NotebookApp] SSL Error on 10 ('185.222.211.18', 1038): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:40:18.912 NotebookApp] 302 GET / (49.35.8.132) 0.49ms
+[I 06:40:19.032 NotebookApp] 302 GET / (49.35.8.132) 0.45ms
+[W 23:00:45.476 NotebookApp] SSL Error on 10 ('83.91.124.22', 42790): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:38:32.420 NotebookApp] SSL Error on 10 ('123.186.215.246', 3464): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:43:26.703 NotebookApp] 302 GET / (122.15.228.208) 0.43ms
+[I 04:43:27.045 NotebookApp] 302 GET / (122.15.228.208) 0.33ms
+[I 06:30:05.311 NotebookApp] Saving file at /AWS Solution Architect
+[I 06:30:05.485 NotebookApp] Saving file at /AWS Solution Architect
+[I 06:30:05.686 NotebookApp] Saving file at /AWS Solution Architect
+[I 06:30:05.838 NotebookApp] Saving file at /AWS Solution Architect
+[I 07:35:24.333 NotebookApp] Saving file at /Saturdays Project
+[I 07:35:24.532 NotebookApp] Saving file at /Saturdays Project
+[I 07:35:27.994 NotebookApp] Saving file at /AWS Solution Architect
+[I 07:39:30.656 NotebookApp] Saving file at /AWS Solution Architect
+[I 07:39:30.858 NotebookApp] Saving file at /AWS Solution Architect
+[I 07:52:09.961 NotebookApp] Saving file at /Saturdays Project
+[I 07:56:13.238 NotebookApp] Saving file at /Saturdays Project
+[I 08:45:57.580 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:57.692 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:57.911 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:58.125 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:58.353 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:58.591 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:45:58.805 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:18:10.295 NotebookApp] Saving file at /Saturdays Project
+[I 09:24:49.430 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:24:49.482 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:24:49.492 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:25:22.931 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:25:23.142 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:25:23.317 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:25:23.496 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:22:06.814 NotebookApp] Saving file at /Saturdays Project
+[I 11:29:53.911 NotebookApp] Saving file at /Saturdays Project
+[W 21:03:03.434 NotebookApp] SSL Error on 10 ('91.233.204.66', 24000): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:15:55.249 NotebookApp] SSL Error on 10 ('98.192.81.94', 49905): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 03:44:31.507 NotebookApp] 302 GET / (122.15.228.208) 0.48ms
+[I 03:44:31.833 NotebookApp] 302 GET / (122.15.228.208) 0.38ms
+[I 04:56:06.824 NotebookApp] Saving file at /AWS Solution Architect
+[I 04:56:07.075 NotebookApp] Saving file at /AWS Solution Architect
+[I 04:56:07.268 NotebookApp] Saving file at /AWS Solution Architect
+[W 14:53:22.742 NotebookApp] SSL Error on 10 ('185.143.223.154', 3188): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:19:36.493 NotebookApp] SSL Error on 10 ('51.15.191.81', 42215): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:27:57.826 NotebookApp] SSL Error on 10 ('185.222.211.18', 444): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:27:57.942 NotebookApp] SSL Error on 10 ('185.222.211.18', 1757): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:36:12.753 NotebookApp] 302 GET / (122.15.228.208) 0.46ms
+[I 06:07:47.843 NotebookApp] Creating new file in 
+[I 06:39:17.926 NotebookApp] Saving file at /Saturdays Project
+[I 06:39:18.011 NotebookApp] Saving file at /Saturdays Project
+[I 06:39:18.211 NotebookApp] Saving file at /Saturdays Project
+[I 06:39:18.392 NotebookApp] Saving file at /Saturdays Project
+[I 06:39:18.568 NotebookApp] Saving file at /Saturdays Project
+[I 08:29:17.398 NotebookApp] Saving file at /Saturdays Project
+[I 08:29:20.870 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:29:21.056 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:46:51.393 NotebookApp] Saving file at /Stackoverflow Topics
+[I 08:51:22.630 NotebookApp] Saving file at /Saturdays Project
+[I 08:51:24.197 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:55.673 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:57:29.601 NotebookApp] Saving file at /Saturdays Project
+[I 08:57:29.804 NotebookApp] Saving file at /Saturdays Project
+[I 08:57:29.952 NotebookApp] Saving file at /Saturdays Project
+[I 08:57:30.107 NotebookApp] Saving file at /Saturdays Project
+[I 08:59:21.374 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:59:21.627 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:59:21.773 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:59:23.165 NotebookApp] Saving file at /Saturdays Project
+[I 08:59:23.359 NotebookApp] Saving file at /Saturdays Project
+[I 08:59:24.351 NotebookApp] Saving file at /Stackoverflow Topics
+[I 10:07:24.630 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:07:24.680 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:07:24.911 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:07:25.064 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:07:25.245 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:59:10.266 NotebookApp] Saving file at /AWS Solution Architect
+[I 10:59:11.432 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:11.751 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:11.957 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:12.147 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:12.707 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:12.975 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:14.174 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:14.412 NotebookApp] Saving file at /Saturdays Project
+[I 10:59:15.897 NotebookApp] Saving file at /Stackoverflow Topics
+[W 18:08:41.137 NotebookApp] SSL Error on 10 ('107.170.228.32', 59492): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:32:20.683 NotebookApp] SSL Error on 10 ('158.85.81.118', 33680): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:01:49.958 NotebookApp] 302 GET / (122.15.228.208) 0.47ms
+[W 08:08:23.723 NotebookApp] SSL Error on 10 ('185.143.223.154', 3248): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:30:07.178 NotebookApp] 302 GET / (122.15.228.208) 0.47ms
+[I 08:30:07.196 NotebookApp] 302 GET / (122.15.228.208) 0.39ms
+[I 08:32:05.678 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:32:05.844 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:36:44.319 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:37:11.090 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:37:47.019 NotebookApp] Saving file at /Saturdays Project
+[I 08:46:46.271 NotebookApp] Saving file at /Saturdays Project
+[I 08:47:44.424 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.370 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.781 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.803 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.835 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.861 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.896 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.926 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.960 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:34.992 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.027 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.057 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.091 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.125 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.160 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.190 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.225 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.257 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.289 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.322 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.356 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.388 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.420 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.456 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.488 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.521 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.555 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.586 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.619 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.656 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.686 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.724 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.751 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.784 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.821 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.851 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.883 NotebookApp] Saving file at /AWS Solution Architect
+[I 08:56:35.917 NotebookApp] Saving file at /AWS Solution Architect
+[I 09:16:32.176 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:32.325 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:32.497 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:32.688 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:32.872 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:33.031 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:51.551 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:51.789 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:51.983 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:52.158 NotebookApp] Saving file at /Saturdays Project
+[I 09:16:52.354 NotebookApp] Saving file at /Saturdays Project
+[I 09:17:18.942 NotebookApp] Saving file at /Saturdays Project
+[I 09:17:25.336 NotebookApp] Saving file at /Saturdays Project
+[I 09:17:31.145 NotebookApp] Saving file at /AWS Solution Architect
+[W 09:26:44.437 NotebookApp] delete /untitled.txt
+[I 09:29:16.308 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:26.647 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:26.810 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:27.185 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:27.541 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:27.862 NotebookApp] Saving file at /Saturdays Project
+[I 09:35:30.118 NotebookApp] Saving file at /untitled1.txt
+[I 11:20:58.078 NotebookApp] Saving file at /Saturdays Project
+[I 11:20:58.265 NotebookApp] Saving file at /Saturdays Project
+[I 11:20:58.465 NotebookApp] Saving file at /Saturdays Project
+[I 11:21:01.300 NotebookApp] Saving file at /untitled1.txt
+[I 11:21:01.535 NotebookApp] Saving file at /untitled1.txt
+[I 11:21:01.751 NotebookApp] Saving file at /untitled1.txt
+[I 11:21:01.945 NotebookApp] Saving file at /untitled1.txt
+[I 15:39:54.790 NotebookApp] 302 GET / (49.35.8.132) 0.44ms
+[I 16:39:03.736 NotebookApp] Saving file at /Linux Q & A
+[W 19:50:51.185 NotebookApp] SSL Error on 10 ('217.147.169.230', 46334): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:06:22.856 NotebookApp] SSL Error on 10 ('171.96.123.81', 54193): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:47:41.569 NotebookApp] 302 GET / (122.15.228.208) 0.44ms
+[I 05:47:42.278 NotebookApp] 302 GET / (122.15.228.208) 0.48ms
+[I 09:55:23.266 NotebookApp] Saving file at /Saturdays Project
+[I 09:55:23.314 NotebookApp] Saving file at /Saturdays Project
+[I 09:55:23.331 NotebookApp] Saving file at /Saturdays Project
+[I 10:19:53.891 NotebookApp] Saving file at /Saturdays Project
+[I 10:19:53.939 NotebookApp] Saving file at /Saturdays Project
+[I 10:19:54.047 NotebookApp] Saving file at /Saturdays Project
+[I 10:19:54.231 NotebookApp] Saving file at /Saturdays Project
+[I 10:24:08.920 NotebookApp] Saving file at /Saturdays Project
+[I 10:24:11.687 NotebookApp] Saving file at /AWS Solution Architect
+[I 12:56:25.612 NotebookApp] 302 GET / (49.35.10.80) 0.46ms
+[I 12:56:25.872 NotebookApp] 302 GET / (49.35.10.80) 0.50ms

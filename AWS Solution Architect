@@ -208,6 +208,95 @@ COld HDD : for infrequent access, file server, no boot
 
 Mgnetic Standard : can be boot
 
+EC2:
+System status checks : infrastructure issues, check in network packets in and out
+INstance status check : check if your OS is accepting traffic
+
+What is the use of TAG in EC2
+
+How to encrypt the root device volume : ec2-->copy into AMI-->encrypt
+
+Security Group : Virtual Firewall
+
+1 instance : multiple security groups
+
+SG : No Outbound Rule Stateful, it can only Allow traffic and not denied traffic, and by default nothing is allowed, use NACL to deny specific IP and port
+
+EC@ and EBS on separate AZ?
+
+Magnetic EBS cant be modified once attached
+
+How to move EC2 from one AZ to another
+1. create snapshot-->create volume to another AZ, or create image to another AZ
+
+TO move from one region to another:
+1. copy snapshot to another region
+2. snapshot-->AMI-->copy AMI to another region
+
+SNAPSHOTS exists on S3
+
+snapshots of encrypted volumes are encrypted
+
+You cant share encrypted snapshots
+
+Best practise, if you want to take snapshot of root device ec2, than first stop the instances
+
+Backup an EC2 - snapshot, and AMI
+
+Types of AMI : EBS and Instance Store(ephermal storage)
+
+Use cases for INstance Store AMI:
+instance stores are ephemeral, which makes them perfect for temporary data that changes often or is consistently replicated across your environment(s). additionally, instance store volumes are physically attached to the host and as such, can see significant performance boosts over their EBS counterparts. fwiw, netflix is a big proponent of instance store volumes, as many of their workloads require super fast disk IO.
+
+Can reboot both EBS and Instance store and you will not lose data
+
+Instance store cant be stopped
+
+ELB : no IP address , only DNS
+
+ELB : Application : route/path based routing, host based routing layer 7
+        Network : for extreme performance layer 4 connection level, millions of requests per second 
+        Classic
+        
+Load balancer error : 504 : duw to gateway/application timeout, might be due to web server or database server down
+
+Client(public IPV4) --> ELB(private IPV4) --> EC2(private IPV4)
+Use X-forwaded header to get the info of public IPv4 org name in EC2 behind ELB
+
+Cloud Watch : metrics : EC2 : disk, network, status CPU 
+
+Cloud watch events : to connect various AWS services and trigger accordingly
+determin event --> create rule --> specify action to take if matches
+
+Cloud watch logs : 
+install agent --> cloud watch monitor --> accesss it
+
+CLoud Trail : for auditing purpose, who is using what
+
+if use AWS CLI from ec2 to connect ec2 service with other, it will be security risk, so instead create a IAM Role if you want to authenticate one service to other, but commands will remain the same to connect services internall i.e. AWS CLI
+
+aws s3 cp --recursive ............. --region
+
+ec2 metadata : curl http://169.254.169.254/latest/metdata/public-ipv4
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
 
 
 

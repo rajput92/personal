@@ -1,3 +1,58 @@
+Project 1 :
+
+Jenkins full CI/CD configuration
+Gitlab, Github, Bitbucket mgmt
+Jenkins deployment and pipeline DSL job setup and configuration
+Git Administration, and Git flow
+Manage and maintain RHEL 6 / CentOS 7 servers that run various DevOps systems
+Architecture installation and configuration
+Adminstration of services such as Jira, FreeIPA,
+Jenkins, job setup, maintenance used for build/test/compile/package/deploy pipeline
+Jenkins implementation and configuration resulting in full CI/CD to integration environment on commit
+Apache and Nginx webserver Administration
+Executed continuous improvement of project builds with custom Maven plugins and Atlassian tool set.
+Setup the Jenkins server with complete Maven and vSphere build jobs providing a continuous, automated scheduled QA build environment based on multiple SVN repositories for VMware open virtualization format (ovf) deployments.
+Jenkins installation
+Intrgartion with bitbucket
+Master slave 6 agent installation and configuration
+Integration with LDAP server
+Build steps : source code checout, maven , soanr, artifactory deployment
+Notiffiaction and mesaaging
+
+Project 2:
+
+Integration of Atlassian tools like JIRA, Bamboo, and Bitbucket with each other,
+so that everything will keep on track from commits to build results. 
+Solving merge conflict with DEV team, and taking care of other source code
+management. 
+Creation of Build plans of Java and Angular JS source code in Bamboo, compiling
+it to EAR, JAR and Tar (for angular).
+• Used Maven framework for compilation of Java Source code, supported DEV
+team in solving dependencies issue with pom.xml.
+• Used Sonar Maven plugin for getting Sonar code analysis results, also sometimes
+checked Junit test option in Bamboo as per the DEV team requirement to verify
+and test Junit test cases.
+• Used NPM for compilation of Angular JS artifacts, which will be further converted
+to .tar and deployed to WEB server in htdocs.
+• Integrated Bamboo with Bitbucket, so whenever developer commits code, the
+particular code will trigger and compiled it with JAR, EAR.
+• Deployment plans configured in Bamboo to take artifacts and deployed to IBM
+Websphere server with the help of plugins.
+• Management of Central Maven Artifactory with having options of public, mavensnapshots
+and maven-releases versions.
+• Configured Components, Component Process, Applications, and Application
+Process in IBM UCD for taking artifacts from Bamboo and deployed it to IBM
+Websphere Server. 
+• Environment configuration and adding Servers, Nodes, DMGR details,
+application context root and map modules in IBM UCD and mapping that
+application component to that server for installation.
+• Various script written for file permission, attaching time stamp to artifacts, and for
+creation of .tar artifacts in Shell.
+• Deployed artifacts to Dev, SIT, UAT, PERF, based on release version and
+branches which will be used for testing purpose. 
+
+
+
 Container Image Maintainer
 Orchestration with Docker-Compose
 Deployment with Docker-Machine
@@ -6,29 +61,15 @@ Clustering with AWS ECS
 App migrations to containers
 Production Container Deployments
 Jenkins Docker CI/CD
-
 Jenkins, DSL Deployment as code
-Jenkins full CI/CD configuration
-Gitlab, Github, Bitbucket mgmt
-Git Administration, and Git flow
-
 Deployment of Docker containers for development
 Deployment of Swarm Cluster for Jenkins build tooling
-Jenkins deployment and pipeline DSL job setup and configuration
 Automated deployments of full application stack using Jenkins/Docker
-Manage and maintain RHEL 6 / CentOS 7 servers that run various DevOps systems
-
 Architecture installation and configuration
 Adminstration of services such as Jira, FreeIPA, Docker clustering.
 Python scripting, programming
 Developed Tornado/Django based API for the backend platforms
-Jenkins, job setup, maintenance used for build/test/compile/package/deploy pipeline
 
-Jenkins implementation and configuration resulting in full CI/CD to integration environment on commit
-Apache and Nginx webserver Administration
-
-Executed continuous improvement of project builds with custom Maven plugins and Atlassian tool set.
-Setup the Jenkins server with complete Maven and vSphere build jobs providing a continuous, automated scheduled QA build environment based on multiple SVN repositories for VMware open virtualization format (ovf) deployments.
 
 SUMMARY :
 
@@ -62,12 +103,7 @@ Managed build results in Jenkins and deployed using workflows.
 
 Jenkins:
 
-Jenkins installation
-Intrgartion with bitbucket
-Master slave 6 agent installation and configuration
-Integration with LDAP server
-Build steps : source code checout, maven , soanr, artifactory deployment
-Notiffiaction and mesaaging
+
 
 
 Linux 

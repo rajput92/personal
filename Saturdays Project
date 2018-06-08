@@ -8,6 +8,10 @@ Restrict access to subdirectories of S3 bucket
 
 Apply versioning with the AWS cli, upload the file, update it, delete, try to look into delete marker, restore it
 
+connect to ec2 from aws cli, try to stop start, update security group, add new security group
+
+Encryption, region transfer AMI, snapshot, attching volumes all things from AWS CLI
+
 Take a Spring boot applications, convert it to Docker container:
 https://github.com/PacktPublishing/Spring-Microservices/tree/master/Chapter%202
 
@@ -18,6 +22,44 @@ Apply life cycle policies from AWS CLI
 Apply CDN(cloudfront) with use of S3, EC2, try to apply all the options, get help from stack overflow
 
 You run a meme creation website that stores the original images in S3 and each meme's meta data in DynamoDB. If a meme object is lost, a Lambda function will automatically recreate it using the original file from S3 and the metadata from DynamoDB.
+
+Jenkins Docker INtegration
+
+jenkins agents installation with connection to ssh server using ssh authorised keyys 
+
+deployment spring boot micro services on AWS AELB and use path based routing and host based routing
+
+AWS ELB : delete health check , and try to find ouy issue/logs from aws cli 
+
+lamda function to make web/docker server UP based on cloud watch alarm/cloud watch events
+
+create a cloud watch logs for websphere server sysout logs
+
+creat a list of all AWS cli command which are used daily
+
+
+
+
+If you're doing any sort of development, or building with Maven or Ant, you need to point to the JDK (Java Development Kit) where utilities such as javac (the Java Compiler) reside. Otherwise, you can point to the JRE (Java Runtime Environment).
+
+The JDK contains everything the JRE has and more. If you're just executing Java programs, you can point to either the JRE or the JDK.
+
+
+
+All need to be done from AWS CLI and convert it into cloudformation templates
+
+1. https://github.com/cer/microservices-examples run the spring microservices behind API GATEWAY
+2. Throttle API Requests for Better Throughput
+3. Enable API Caching to Enhance Responsiveness
+4. Trace API Management and Invocation
+5. Secure API Access with Amazon Cognito Federated Identities, Amazon Cognito User Pools, and Amazon API Gateway
+6. LDAP centralised serevr for all authentication.
+7. NODE js spring application, node js deployment in IBM IHS using Lamda, python, s3, cloud watch event, cloud watch logs for IBM IHS server
+8. load balancer traffic api gateway route based traffic between spring boot and node js
+9. CLoudfront apply if possible
+10. Jenkins master slave(6) implmentation, jenkins,bitbucket docker CICD pipeline
+
+
 
 
 

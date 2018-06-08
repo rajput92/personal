@@ -1,6 +1,7 @@
 Where all the external packages which we download, are stored, in which directory?
 
-Why we define enviornment variable in $PATH variable, and how we can run command from current directory?
+Why we define enviornment variable in $
+variable, and how we can run command from current directory?
 
 What is file descriptor?, for IN, OUT, and ERROR?
 
