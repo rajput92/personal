@@ -1,4 +1,4 @@
-	
+
 /var is a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
 
 Among the various subdirectories within /var are /var/cache (contains cached data from application programs), /var/games (contains variable data relating to games in /usr), /var/lib (contains dynamic data libraries and files), /var/lock (contains lock files created by programs to indicate that they are using a particular file or device), /var/log (contains log files), /var/run (contains PIDs and other system information that is valid until the system is booted again) and /var/spool (contains mail, news and printer queues).
@@ -15,6 +15,10 @@ sudo apt-get install \
     curl \
     software-properties-common
     
+f: false tls start
+s: silent mode
+S : show error
+L: location follows redirects
     
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
@@ -349,6 +353,33 @@ services
 networks 
 volumes
 
+version: "3.5"
+services:
+
+web-fe:
+    build: .
+    command: python app.py
+    ports:
+      - target: 5000
+        published: 5000
+    networks:
+      - counter-net
+    volumes:
+      - type: volume
+        source: counter-vol
+        target: /code
+  redis:
+    image: "redis:alpine"
+    networks:
+      counter-net:
+
+networks:
+  counter-net:
+
+volumes:
+  counter-vol:
+
+
 The version key is mandatory, and it’s always the first line at the root of the file. This defines the version of the Compose file format (basically the API). You should normally use the latest version.
 
 The top-level services key is where we define the different application services. The example we’re using defines two services; a web front-end called web-fe, and an in-memory database called redis. Compose will deploy each of these services as its own container.
@@ -400,6 +431,10 @@ If we take another look at the service definition for web-fe, we’ll see that i
 
 Each Docker volume is exposed at a location within the Docker host’s filesystem, as well as a mount point in one or more containers. Use the following docker volume inspect command to find where the volume is exposed on the Docker host.
 
+docker volume inspect counterapp_counter-vol | grep Mount
+
+"Mountpoint": "/var/lib/docker/volumes/counterapp_counter-vol/_data",
+
 Docker Swarm is two things: an enterprise-grade secure cluster of Docker hosts, and an engine for orchestrating microservices apps.
 
 On the clustering front, it groups one or more Docker nodes and lets you manage them as a cluster. Out-of-the-box you get an encrypted distributed cluster store, encrypted networks, mutual TLS, secure cluster join tokens, and a PKI that makes managing and rotating certificates a breeze! And you can non-disruptively add and remove nodes. It’s a beautiful thing!
@@ -414,13 +449,38 @@ Nodes are configured as managers or workers. Managers look after the control pla
 
 The configuration and state of the swarm is held in a distributed etcd database located on all managers. It’s kept in memory and is extremely up-to-date. But the best thing about it is the fact that it requires zero configuration — it’s installed as part of the swarm and just takes care of itself.
 
+Something that’s game changing on the clustering front is the approach to security. TLS is so tightly integrated that it’s impossible to build a swarm without it. In today’s security conscious world, things like this deserve all the props they get! Anyway, swarm uses TLS to encrypt communications, authenticate nodes, and authorize roles. Automatic key rotation is also thrown in as the icing on the cake! And it all happens so smoothly that you wouldn’t even know it was there!
+
+
 On the application orchestration front, the atomic unit of scheduling on a swarm is the service. This is a new object in the API, introduced along with swarm, and is a higher level construct that wraps some advanced features around containers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 When a container is wrapped in a service we call it a task or a replica, and the service construct adds things like scaling, rolling updates, and simple rollbacks.
 
 whats the error means :
 Error response from daemon: This node is not a swarm manager. Worker nodes can't be used to view or modify cluster state. Please run this command on a manager node or promote the current node to a manager.
-
 
 
 Docker has solutions for container-to-container networks, as well as connecting to existing networks and VLANs. The latter is important for containerized apps that need to communicate with functions and services on external systems such as VM’s and physicals.

@@ -1,0 +1,31 @@
+how git add and git commit works together as a workflow
+
+Command to pull all the changes from central to local
+
+WHat is branch in git
+
+Command to create a branch, checkout a branch,  merge into master and when to ue fast forward merge, and is mandatory step before merging 
+
+Command to delete a branch
+
+How to access deleted branch if it was merge previously with other branch
+
+What is the use of git fork
+
+How to configure user locally commit and globally commits using git config
+
+What is --bare flag in git
+
+How to compare files, branches 
+
+what is git stash
+
+how to apply stash , and also how to apply so it can be retain for future purpose
+
+How to work easily with multple stashes and how to select stash
+
+How we can merge stashes with branches
+
+How to ignore files from git
+
+

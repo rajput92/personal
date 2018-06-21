@@ -1,0 +1,162 @@
+Normally a deployment process consists of following steps −
+
+    Check-in the code from all projects in progress into the SVN or source code repository and tag it.
+
+    Download the complete source code from SVN.
+
+    Build the application.
+
+    Store the build output either WAR or EAR file to a common network location.
+
+    Get the file from network and deploy the file to the production site.
+
+    Updated the documentation with date and updated version number of the application.
+    
+maven is framework mostly used for project management and compilation tool, On executing Maven commands, it will look for POM file in Maven; it will run the command on the resources described in the POM.
+
+mvn --version
+
+POM stands for Project Object Model. It is fundamental Unit of Work in Maven. It is an XML file.
+
+POM contains the some of the following configuration information −
+
+project dependencies
+plugins
+goals
+build profiles
+project version
+developers
+mailing list
+
+The three build lifecycles are −
+
+clean:cleans up artifacts created by prior builds.
+
+default (or build):This is used to build the application.
+
+site: generates site documentation for the project.
+
+Following are the phases −
+
+validate − validate the project is correct and all necessary information is available.
+
+compile − compile the source code of the project.
+
+test − test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+
+package − take the compiled code and package it in its distributable format, such as a JAR.
+
+integration-test − process and deploy the package if necessary into an environment where integration tests can be run.
+
+verify − run any checks to verify the package is valid and meets quality criteria.
+
+install − install the package into the local repository, for use as a dependency in other projects locally.
+
+deploy − done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+A goal represents a specific task which contributes to the building and managing of a project.
+
+A Build profile is a set of configuration values which can be used to set or override default values of Maven build.
+
+Per Project − Defined in the project POM file, pom.xml.
+
+Per User − Defined in Maven settings xml file (%USER_HOME%/.m2/settings.xml).
+
+Global − Defined in Maven global settings xml file (%M2_HOME%/conf/settings.xml)
+
+aven repository are of three types: local, central, remote
+
+~/m2./repository.
+
+mvn install
+
+Following is the search pattern −
+
+Step 1 − Search dependency in local repository, if not found, move to step 2 else if found then do the further processing.
+
+Step 2 − Search dependency in central repository, if not found and remote repository/repositories is/are mentioned then move to step 4 else if found, then it is downloaded to local repository for future reference.
+
+Step 3 − If a remote repository has not been mentioned, Maven simply stops the processing and throws error (Unable to find dependency).
+
+Step 4 − Search dependency in remote repository or repositories, if found then it is downloaded to local repository for future reference otherwise Maven as expected stop processing and throws error (Unable to find dependency).
+
+Maven dependency management using concept of Maven Repositories (Local, Central, Remote). Suppose dependency is not available in any of remote repositories and central repository; in such scenarios Maven uses concept of External Dependency.
+
+External dependencies (library jar location) can be configured in pom.xml in same way as other dependencies.
+
+Specify groupId same as name of the library.
+Specify artifactId same as name of the library.
+Specify scope as system.
+Specify system path relative to project location.
+
+SNAPSHOT is a special version that indicates a current development copy. Unlike regular versions, Maven checks for a new SNAPSHOT version in a remote repository for every build.
+
+In case of Version, if Maven once downloaded the mentioned version say data-service:1.0, it will never try to download a newer 1.0 available in repository. To download the updated code, data-service version is be upgraded to 1.1.
+
+In case of SNAPSHOT, Maven will automatically fetch the latest SNAPSHOT (data-service:1.0-SNAPSHOT) everytime app-ui team build their project.
+
+Dependency scope includes dependencies as per the current stage of the build. Various Dependency Scopes are −
+
+compile − This scope indicates that dependency is available in classpath of project. It is default scope.
+
+provided − This scope indicates that dependency is to be provided by JDK or web-Server/Container at runtime.
+
+runtime − This scope indicates that dependency is not required for compilation, but is required during execution.
+
+test − This scope indicates that the dependency is only available for the test compilation and execution phases.
+
+system − This scope indicates that you have to provide the system path.
+
+import − This scope is only used when dependency is of type pom. This scope indicates that the specified POM should be replaced with the dependencies in that POM's <dependencyManagement> section.
+
+{groupId,artifactId,type,classifier}.
+
+<groupId>:<artifactId>:<version>
+
+All POMs inherit from a parent (despite explicitly defined or not). This base POM is known as the Super POM, and contains values inherited by default.
+
+It uses less storage, it makes checking out project quicker, non need for versioning JAR files.
+
+mvn o package.
+
+Using the exclusion element.
+
+Dependency with scope system are always available and are not looked up in repository, they are usually used to tell Maven about dependencies which are provided by the JDK or the VM. Thus, system dependencies are especially useful for resolving dependencies on artifacts which are now provided by the JDK.
+
+Any transitive dependency can be exclude using "exclusion" element. As example, A depends upon B and B depends upon C then A can mark C as excluded.
+
+You can put the clean plugin inside the execution tag in pom.xml file.
+
+set <inherited> to false.
+
+It means that you have executed a plugin multiple times with the same <id>. Provide each <execution> with a unique <id> then it would be ok.
+
+A mojo is a Maven plain Old Java Object. Each mojo is an executable goal in Maven, and a plugin is a distribution of one or more related mojos.
+
+
+Maven installation:
+
+download zip
+
+env varible MAVEN_HOME
+include in path variabel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

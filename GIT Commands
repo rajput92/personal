@@ -1,0 +1,83 @@
+git config --global core.askpass
+
+The git add command moves changes from the working directory to the Git staging area. The staging area is where you prepare a snapshot of a set of changes before committing them to the official history.
+
+The git commit takes the staged snapshot and commits it to the project history. 
+
+Enter the git pull --all command to pull all the changes from Bitbucket. 
+
+A branch represents an independent line of development for your repository. Think of it as a brand-new working directory, staging area, and project history. Before you create any new branches, you automatically start out with the main branch (called master ). 
+
+git branch future-plans
+The repository history remains unchanged. All you get is a new pointer to the current branch.
+
+git checkout future-plans
+
+You can do a fast-forward merge because you have a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move (i.e., “fast-forward”) the current branch tip up to the target branch tip. This effectively combines the histories, since all of the commits reachable from the target branch are now available through the current one.
+
+git checkout master
+git merge future-plans
+
+git branch -d future-plans
+
+When you delete future-plans, you can still access the branch from master using a commit id. For example, if you want to undo the changes added from future-plans, use the commit id you just received to go back to that branch.
+
+When you work with another user's public Bitbucket repository, typically you have read access to the code but not write access. This is where the concept of forking comes in.
+
+Fork the repository to copy it to your own account.
+Clone the forked repository from Bitbucket to your local system.
+Make changes to the local repository.
+Push the changes to your forked repository on Bitbucket.
+Create a pull request from the original repository you forked to add the changes you made.
+Wait for the repository owner to accept or reject your changes.
+
+You will see an error because the first time you push a new branch you created locally you have to designate that branch.
+Push the branch and change using the git push branch command.
+
+git fetch && git checkout test-2
+
+for git init we need to add git remote , so that we can push it to origin repo, if git clone, than remote is already configured as origin
+
+git remote remote_name url
+
+git config --local
+git config --global
+
+git clone repo directory
+
+git clone --branch url
+
+The --bare flag creates a repository that doesn’t have a working directory, making it impossible to edit files and commit changes in that repository. You would create a bare repository to git push and git pull from, but never directly commit to it. Central repositories should always be created as bare repositories because pushing branches to a non-bare repository has the potential to overwrite changes. 
+
+got config : local : project , gloabl : user home direcotry, system : entire OS
+
+git diff: comparing between branches, commits , files
+
+GIT STASH:
+create a new point of working copy just like branches, and than can be merged into present one, cant be pushed to server, if you want to do something else while keeping the present things or staged and unstaged files as it it, you can use stash
+
+git status 
+git stash
+
+git stash pop
+git stash apply
+
+git stash save "add style to our site" : to work easily with mutiple statsh
+
+git stash pop stash@{2} : to select from multple stashes
+
+git stash show
+
+will not work for untracked and ignored files
+
+git stash branch add-stylesheet stash@{1} : creating a branch fr4om stash
+
+git stash drop stash@{1} : cleaning up your stash
+
+
+
+
+
+
+
+

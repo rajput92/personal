@@ -1,0 +1,25 @@
+Before CI :
+
+Developers created different Modules(working for months)-->Integration phase-->Merging of code base(modules)-->various conflicts-->deployment delays-->unhappy clients-->so CI
+
+CI:
+Code merging daily , so no conflicts
+automated build daily
+weekly release in sprints
+so faster feedback
+
+CI -->monitor version control system--> automate build-->compile-->test-->notifies developers
+
+CI --> also code quality-->code coverage-->
+
+CI --> reducing riskk by providing faster feedbck
+       helps in detecting issues faster from integration and regression testing (merging feature to devlop)
+      
+CD --> automate delivery of successfull build code which has passed automated test cases and quality gates, but not for production release,it is the business, rather than IT, that decides the best time to deliver the latest changes.
+
+SO MAIN THINGS CARE FOR CICD:
+
+automated build
+prioritize broken builds
+deployment automated
+High qulaity tests during automated testing

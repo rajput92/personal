@@ -1,12 +1,20 @@
 What are the steps to install Docker ?(4 steps)
 
-How Docker container are run , when we execute command ?
+How to find architecture of linux env : uname -a
+
+What is deafult gateway:
+
+How to  displays network connections for the Transmission Control Protocol (both incoming and outgoing), routing tables, and a number of network interface
+
+How Docker container are run , when we execute command ?try to include OS. rest api, OCI
 
 What are the responsibility of containerd(2) and shim(2)
 
 When you run a new contianer, a new instance of runc generated, TRUE/FALSE
 
 What are the functionality still exists by daemon? (7)
+
+Can you stop a containre and create a new image from it 
 
 What is the location where all images are stored in docker
 
@@ -34,7 +42,7 @@ Suppose there are 2 layers of images with 3 files in each layer, so if you updat
 
 How multiple images manages which leads to efficient in space  and performance
 
-What is --digests of an docker image
+What is --digests of an docker image, and why they have added
 
 Whether each layer of images contains digest or only collective image?
 
@@ -52,7 +60,7 @@ What is hardware virtualization and OS virtualization
 
 What is the only reason for container start time
 
-What is the command to check if docker is active or not
+What is the command to check if docker is active or not, where the command for service/systemctl are stored
 
 When we start the container with /bin/bash command, why did the container also exists if we exist from /bin/bash command
 
@@ -84,9 +92,9 @@ I have tagged image in a first level space format while i am having access to se
 
 Command to retag an image, and will it over write?
 
-How to trouble shoot if container is not available on specific port
+How to trouble shoot if container is not available on specific port(3)
 
-Difference between docker image history and docker image inspect command
+Difference between docker image history(how image build) and docker image inspect command
 
 Please explain how images are build and differnt layers are added 
 
@@ -105,6 +113,30 @@ What is use case for no-install
 What is flag used for tagging image, and which flag is used if you want to mentioned arbitory docker file
 
 What is the use of ENTRYPOINT instruction
+
+What is difference between docker compose and docker stack
+
+what are the top level keys are used in writing docker file, explain each of these
+
+which flag is to use if we want to use customized docker-compose file
+
+Why the name of containre run by docker-compose is suffixed with numbers
+
+when we delete docker compose which services are delted and which are not(volumes and images)
+
+how to access docker volume, which command is used to get location of docker volume
+
+What is the two main uses for docker swarm
+
+
+
+
+
+
+
+
+
+
 
 
 

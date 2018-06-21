@@ -90,6 +90,8 @@ what is the directory where the variable logs, data are stored
 
 IS /usr read-only
 
+what is the difference between /usr/bin and /usr/local/bin
+
 which command is used to get the mountable devices and drives informmation, and which command is used to get the relation between the different mounts
 
 which command is used to get the available disk space on different mount
@@ -218,6 +220,9 @@ What is the use o skeleton directory and where its is located
 
 
 
+
+
+Two types of processes:
 
 
 

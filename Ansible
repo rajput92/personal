@@ -1,0 +1,39 @@
+Why Ansible:
+
+admin --> logging with ssh --> changing configuration of each and evry env
+but if we had same 100's of servers 
+configuration management tool --> chef, puppet, 
+but admin dont want to learn other language to configure --> so simple ansible
+
+ansible deploy configuration withought any software or agent on client server
+
+shell running more than once --> unintended consequences --> but ansible same configuration for 100's times
+
+Difference Between Update and Upgrade. Updates in computer hardware and software are patches of code that are released in order to address certain issues or to activate specific functionalities. ... An upgrade is the act of replacing your product with a newer, and often more superior, version or similar product.
+
+Ansible INSTALLATION :
+
+PREREquiste :
+
+python-level and python-pip needs to be installed
+
+pip install ansible
+
+If you’re running RedHat or CentOS, you need to install EPEL’s RPM before you install Ansible 
+yum install ansible
+
+Need to connect to other machine:
+write down host name in inventory:(/etc/hosts)
+for ansible : /etc/ansible/hosts
+
+for connecting to remote hosts, if ansible_pass is enabled, than it will give error of adding to known hosts, if disabled, than first it will add it and than you ask for password with -k flag
+
+PYTHON HAS TO BE THERE IN REMOTE MACHINE FOR ANSIBLE TO CONNECT
+
+/etc/ansible/hosts : []to use a group name
+[:var] variable for that group
+ansible_sshuser/password
+
+
+
+

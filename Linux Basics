@@ -1,6 +1,24 @@
 /etc/apt , /etc/apk : all are packages repos folders (Answer 1)
 
+HOW TO CHANGE THE JAVA VERSION IN LINUX?
+ # update-alternatives –config java
+
+There are 2 programs which provided ‘java’.
+
+Selection Command
+
+———————————————–
+
+1. /usr/lib/jvm/jre-1.4.2-gcj/bin/java
+
+*+ 2 /usr/lib/jvm/jre-1.6.0-openjdk/bin/java
+
+
 why we define enviornment variable at $PATH - bcz when we type commands, linux first search $PATH, if you want to run command from current directoyry than start with ./ (3)
+
+To set enviornment varibale for user specific all sessions : You can add it to your shell configuration file, e.g. $HOME/.bashrc 
+
+For all the users and sessions : more globally in /etc/environment.
 
 STDIN - keyboard redirection = < file descriptor =0
 STDOUT - keyboard redirection = > file descriptor =1
@@ -93,8 +111,8 @@ Non interactive shell : commands run in backend or through scripts
 
 ■ /etc/profile: This is the generic file that is processed by all users upon login. (System wide variables)(only interactive)
 ■ /etc/bashrc: This file is processed when subshells are started. (System wide command aliases and functions )(both inter and non interactive)
-■ ~/.bash_profile: In this file, user-specific login shell variables can be defined. 
-■ ~/.bashrc: In this user-specific file, subshell variables can be defined.
+■ ~/.bash_profile: In this file, user-specific login shell variables can be defined, user specific env varibles
+■ ~/.bashrc: In this user-specific file, subshell variables can be defined, aliases and functions
 
 As you have seen, in these files a difference is made between a login shell and a subshell. A login shell is the first shell that is opened for a user after the user has logged in. From the login shell, a user may run scripts, which will start a subshell of that login shell. Bash allows for the creation of a different environment in the login shell and in the subshell but to synchronize settings; by default the subshell settings are included when entering a login shell.
 
@@ -300,6 +318,49 @@ To add a file to an archive, you use the -r options. Use for instance tar -rvf /
 
 To update a currently existing archive file, you can use the -u option. So, use tar -uvf /root/homes.tar /home to write newer versions of all files in /home to the archive.
 
+less  Opens the text file in a pager, which allows for easy reading of the text file
+cat   Dumps the contents of the text file on the screen
+head   Shows the first 10 lines of the text file
+tail   Shows the last 10 lines of the text file
+cut   Used to filter specific columns or characters from a text file
+sort   Sorts contents of a text file
+wc   Counts the number of lines, words, and characters in a file
+
+From less, you can use the PageUp and PageDown keys on your keyboard to browse through the file contents. Seen enough? Then you can press q to quit less. Also very useful is that you can easily search for specific contents in less using /sometext for a forward search and ?sometext for a backward search. Repeat the last search by using n. 
+
+Type ps aux | less. This sends the output of the ps aux command (which shows a listing of all processes) to less.
+
+The less utility is useful to read long text files. If a text file is not that long, you are probably better off using cat. This tool just dumps the contents of the text file on the terminal it was started from. This is convenient is the text file is short. If
+
+If a text file contains much information, it can be useful to filter the output a bit. You can use the head and tail utilities to do that. Using head on a text file will show by default the first 10 lines of that file. Using tail on a text file shows the last 10 lines by default. You can adjust the number of lines that are shown by adding -n followed by the number you want to see. So, tail -n 5 /etc/passwd shows the last five lines of the /etc/passwd file.
+
+Another useful option that you can use with tail is -f. This option starts by showing you the last 10 lines of the file you’ve specified, but it refreshes the display as new lines are added to the file. This is convenient for monitoring log files. The command tail -f /var/log/messages is a common command to show in real-time messages that are written to the main log file /var/log/messages.
+
+When combining tail and head, you can do smart things as well. Suppose, for instance, that you want to see line number 11 of the /etc/passwd file. To do that, use head -n 11 /etc/passwd | tail -n 1.
+
+When working with text files, it can be useful to filter out specific fields. Imagine that you need to see a list of all users in the /etc/passwd file. In this file, several fields are defined, of which the first contains the name of the users who are defined. To filter out a specific field, the cut command is useful. To do this, use the -d option to specify the field delimiter followed by -f with the number of the specific field you want to filter out. So, the complete command is cut -d : -f 1 /etc/passwd if you want to filter outthe first field of the /etc/passwd file.
+
+Another very useful command to use on text file is sort. As you can probably guess, this command sorts text. If you type sort /etc/passwd, for instance, the content of the /etc/passwd file is sorted in alphabetic order. You can use the sort command on the output of a command also, as in cut -f 1 -d : /etc/passwd | sort, which sorts the contents of the first column in the /etc/passwd file.
+
+By default, the sort command sorts in alphabetic order. In some cases, that is not convenient because the content that needs sorting may be numeric or in another format. The sort command offers different options to help sorting these specific types of data. Type, for instance, cut -f 2 -d : /etc/passwd | sort -n to sort the second field of the /etc/passwd file in numeric order. It can be useful also to sort in reverse order; if you use the command du -h | sort -rn, you get a list of files sorted with the biggest file in that directory listed first.
+
+You can also use the sort command and specify which column you want to sort. To do this, use sort -k3 -t : /etc/passwd, for instance, which uses the field separator : to sort the third column of the /etc/passwd file.
+
+sort process based on memory and get top 5 results
+
+When working with text files, you sometimes get a large amount of output. Before deciding which approach works best in a specific case, you might want to have an idea about the amount of text you are dealing with. In that case, the wc command is useful. In its output, this command gives three different results: the number of lines, the number of words, and the number of characters.
+
+Now suppose that you are looking for the user anna. In that case, you could use the general regular expression parser grep to look for that specific string in the file /etc/ passwd by using the command grep anna /etc/passwd.
+
+To show only lines that start with the text you are looking for, you can use the regular expression ^
+
+Another regular expression that relates to the position of specific text in a specific line is $, which states that the line ends with some text. For instance, the command grep ash$ /etc/passwd shows all lines in the /etc/passwd file that end with the text ash.
+
+
+
+
+
+
 tail -f /var/log/secure. This opens a trace on the file /var/log/secure, where you can monitor security events in real time.
 
 A convenient alternative to using the Alt+Function key sequences is offered by the chvt command. This command enables you to switch to a different virtual environment directly from the current environment.
@@ -404,6 +465,66 @@ If you insist on modifying the configuration files directly, you should use vipw
 Use, for instance, the command useradd -m -u 1201 -G sales,ops linda to create a user linda who is a member of the groups sales and ops with UID 1201 and add a home directory to the user account as well.
 
 If when creating user accounts you tell your server to add a home directory as well (for instance, by using useradd -m), the content of the “skeleton” directory is copied to the user home directory. The skeleton directory is /etc/skel, and it contains files that are copied to the user home directory at the moment this directory is created
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shell jobs are commands started from the command line. They are associated with the shell that was current when the process was started. Shell jobs are also referred to as interactive processes. 
+
+■ Daemons are processes that provide services. They normally are started when a computer is booted and often (but certainly not in all cases) they are running with root privileges.
+
+use & to run process in background
+
+fg command to make process run in forground
+
+Ctrl+Z to temporarily stop the job. This
+
+Once paused, it can be continued as a background job using the bg command.
+
+Ctrl+C. This stops the current job and removes it from memory.
+
+A related keystroke combination is Ctrl+D, which sends the End Of File (EOF) character to the current job. The result is that the job stops waiting for further input so that it can complete what it was currently doing.
+
+bg 3
+
+So many process--> many individual threadss--> cant manage individual threads-->can manage processes
+
+ps aux(short summary of active processes) | head : kernel threads mentioned by square branckets
+
+ps to get command in processes : ps ef
+
+ps fax : to show parent child relationship
+
+nice -n 5 dd if=/dev/zero of=/dev/null &
+
+renice -n 10 -p 1234
+
+Kill : SIGTERM --> SIGKILL 
+
+kill -9 : SIGKILL
+
+top : process based on consuption
 
 
 

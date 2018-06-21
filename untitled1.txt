@@ -1,44 +1,58 @@
-Theoretical Part:
-
-    Linux Admin - RHCSA 24 chapters
-
-    Docker - DCA 17 chapters
-
-    AWS - Ryan Course 14 chapters
-
-    Networking Basics
-
-    Veracode
-
-    Core JAVA
-
-    Shell scripting
+Core JAVA, Spring Boot, Angular JS
+How JAVA, spring boot, Angular JS compiled
+Maven
+GIT
+Bitbucket
+    Installation
+    Administration
+    Agent SUpport
+Bamboo
+    Installation
+    Administration
+    Agent SUpport
+Jenkins
+Sonar
+Artifactory
+Python
+Udeploy
+Linux
+Docker
+AWS
+    EC2 ECS LAMBDA Beanstalk
+    Codecommit CodeBuild CodeDeploy Codepipeline
+    EMR Elasticsearch Kinesis
+    S3 EFS 
+    Cloudwatch Cloudformation cloudtrail 
+    IAM Cognito
+    RDS Dynamo DB ElasticCache Redshift
+    VPC CloudFront Route 53 APIGateway Direct Connect
     
-    AWS FAQS
+Websphere
+Ansible
+Teraform
+Tomcat
+Nginx
+Nagios
+App server and web server
+Networking CISCO
 
-Implementation Part :
+Script:
 
-        Python - Python Notes, Hackerrank script to automate
+JAVA
+PYTHON
+MAVEN
+SHELL
+CLOUDFORMATION
+TERRAFORM
 
-        Jenkins - Jenkins Book 13 chapters
-        Jira
+Tools:
 
-        stackoverflow
-
-        GIT - GIT COmmands
-
-        Maven - Maven Commands
-
-        IBM Udeploy, Bitbucket, Bamboo, 
-
-        websphere
-
-        Ansible
-
-        Sonar
-
-        Terraform script 
-
-        Cloudforation script to automate
-
-
+Linux
+Docker
+AWS
+Bitbucket
+Bamboo
+Jenkins
+Sonar
+Artifactory
+Udeploy

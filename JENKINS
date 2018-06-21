@@ -1,0 +1,10 @@
+Basic two ways to start jenkins:
+
+Jenkins WEB Start --> run and save JNLP file--> jenkins downloaded --> run on browser
+
+WAR based file --> java -jar jenkins.war (executable WAR file)
+
+Application Tomcat Server --> place jwnkins.war in webapps folder
+
+Configure JDK and Maven --> Manage Jenkins --> Configure SYstem
+

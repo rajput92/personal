@@ -1,0 +1,51 @@
+SQL is a language to operate databases; it includes database creation, deletion, fetching rows, modifying rows, etc.
+
+The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. 
+
+DDL - Data Definition Language
+CREATE ALTER DROP
+DML - Data Manipulation Language
+SELECT, INSERT, UPDATE, DELETE
+DCL - Data Control Language
+GRANT REVOKE
+
+RDBMS stands for Relational Database Management System.
+
+What is table, field(columnn header), record, column, null value, 
+
+SQL Constraints
+
+Constraints are the rules enforced on data columns on a table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.
+
+NOT NULL Constraint − Ensures that a column cannot have a NULL value.
+
+DEFAULT Constraint − Provides a default value for a column when none is specified.
+
+UNIQUE Constraint − Ensures that all the values in a column are different.
+
+PRIMARY Key − Uniquely identifies each row/record in a database table.
+
+FOREIGN Key − Uniquely identifies a row/record in any another database table.
+
+CHECK Constraint − The CHECK constraint ensures that all values in a column satisfy certain conditions.
+
+INDEX − Used to create and retrieve data from the database very quickly.
+
+Database Normalization
+
+Database normalization is the process of efficiently organizing data in a database. There are two reasons of this normalization process −
+
+Eliminating redundant data, for example, storing the same data in more than one table.
+
+Ensuring data dependencies make sense.
+
+Data Integrity
+The following categories of data integrity exist with each RDBMS −
+
+Entity Integrity − There are no duplicate rows in a table.
+
+Domain Integrity − Enforces valid entries for a given column by restricting the type, the format, or the range of values.
+
+Referential integrity − Rows cannot be deleted, which are used by other records.
+
+User-Defined Integrity − Enforces some specific business rules that do not fall into entity, domain or referential integrity.

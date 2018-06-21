@@ -1,0 +1,80 @@
+Steps included in CICD 
+
+what is maven
+
+What is POM
+
+What information does POM contain?
+
+Three build lifecycle for maven
+
+Phases for Maven build lifecycle
+
+PHASES MAVEN
+
+What is a goal in Maven terminology?
+
+What is Build Profile?
+
+What are different types of Build Profiles?
+
+What types of Maven reposito
+
+What is the sequence in which Maven searches for dependency libraries?ry?
+
+What is the default location for your local repository?
+
+What is the command to install JAR file in local repository?
+
+What is the sequence in which Maven searches for dependency libraries?
+
+When does Maven use External Dependency concept?
+
+What are the things you need to define for each external dependency?
+
+What is SNAPSHOT in Maven?
+
+What is difference between Snapshot and Version?
+
+What is dependency scope? Name all the dependency scope. 6
+
+What is the minimal set of information for matching a dependency references against a dependencyManagement section ?
+
+What is a project's fully qualified artifact name?
+
+If you do not define any information, where does your pom inherits that information from?
+
+What are the benefit of storing JARS/external dependencies in local repository instead of remote one?
+
+How can you build your project offline?
+
+How do you exclude dependency?
+
+What is a system dependency?
+
+What is dependency exclusion ?
+
+How can you run the clean plugin automatically during the build?
+
+How to stop the propagation of plugins to child POMs?
+
+What does the "You cannot have two plugin executions with the same (or missing) elements" message mean?
+
+What is a Mojo?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
