@@ -1,5 +1,10 @@
 /etc/apt , /etc/apk : all are packages repos folders (Answer 1)
 
+git installation rhel
+subscription manager
+
+resolev path and env confusion
+
 HOW TO CHANGE THE JAVA VERSION IN LINUX?
  # update-alternatives –config java
 
@@ -16,13 +21,42 @@ Selection Command
 
 why we define enviornment variable at $PATH - bcz when we type commands, linux first search $PATH, if you want to run command from current directoyry than start with ./ (3)
 
-To set enviornment varibale for user specific all sessions : You can add it to your shell configuration file, e.g. $HOME/.bashrc 
+how ssh and sshd works :
+
+ssh_config : ssh client configuration, when we try to ssh into remote,  this files is parsed
+
+sshd_config : ssh daemon configurAtion, when a remote connection is made to host, for incoming requests
+
+if PublicKey authentication YES : ssh connection will look for file at authroised_keys ~/.ssh/ folder
+
+how enviornment var and path var works
+
+/etc/profile-->~/.bash_profile-->~/.bashrc
+
+bashrc : functions and aliases
+
+bash_profile/profile: enviornemnt specific varible
+
+To set enviornment varibale for user specific all sessions : You can add it to your shell configuration file, e.g. $HOME/.bash_profile-->which also call bashrc, so if you write in bashrc, its the same 
 
 For all the users and sessions : more globally in /etc/environment.
 
+HOW HTTPS WORKS :
+
+HTTP --> SSL layer on top of it
+
+1. client hello --> server(check version and other things)--> server respond back hello -----> handshake(connection) occurs btween client and server
+
+2. Now serve has to prove identity as it is https --> cleint checks cert at /etc/ssl/certs --> verify if trusted from SCA's , aatched to domain  to which client calling ---> also sometimes client has to show ssl/certs
+
+3. Key excahnge --> encryption of mesasge between them using single key to which both client and server agreed upon
+
+client --> generate random key using public key which got from /ssl/certs --> send encryption key to server--> decrypted by ssl private key--> https connection occurs--> send mesage --> encrypts--> client decrypts
+
+
 STDIN - keyboard redirection = < file descriptor =0
 STDOUT - keyboard redirection = > file descriptor =1
-STDOUT - keyboard redirection = 2> file descriptor =2
+STDERROR - keyboard redirection = 2> file descriptor =2
 
 So if you run a command, that command would expect input from the keyboard, and it would normally send its output to the monitor of your computer without making a difference between normal output and errors. Some commands, however, are started at the background and not from a current terminal session, so these commands do not have a monitor or console session to send their output to, and they do not listen to keyboard input to accept their standard input. That is where redirection comes in handy.
 
@@ -435,7 +469,7 @@ If just the command su is typed, the username root is implied. But su can be use
 
 When using su, a sub shell is started. This is an environment where you are able to work as the target user account, but environment settings for that user account have not been set. If you need complete access to the entire environment of the target user account, you can use su - to start a login shell. If you start a login shell, all scripts that make up the user environment are processed, which makes you work in an environment that is exactly the same as when logging in as that user.
 
-Instead of using the root user account, unprivileged users can be configured for using administrator permissions on specific tasks by using sudo. When sudo is configured, ordinary users have sudo privileges and to use these privileges, they will start the command using sudo. So, instead of using commands like useradd as the root user, you use an ordinary user account and type sudo useradd.
+Instead of using the root user account, unprivile7.6ged users can be configured for using administrator permissions on specific tasks by using sudo. When sudo is configured, ordinary users have sudo privileges and to use these privileges, they will start the command using sudo. So, instead of using commands like useradd as the root user, you use an ordinary user account and type sudo useradd.
 
 The wheel group is a special user group used on some Unix systems to control access to the su or sudo command, which allows a user to masquerade as another user
 
@@ -529,6 +563,56 @@ top : process based on consuption
 
 
 
+
+
+
+
+
+
+
+
+
+
+NETWORKING :
+
+TCP : Reliable and guranted delivery ssh, smptp mail , web
+UDP : fast and delivery doesnt count Mdia steaming, games update
+
+network card : eth0, eth1 : based on first card detection
+
+card based on firmware, device type, : en: ethernet : wl : WLAN wn: WWAN --> next part is type of adapter : o : onboard s: hotplug spot p: pci location --> next is ID 
+
+eno16777734 : onboard ethernet  p4p1 : PCI slot 4 port 1
+
+socket : endpoint to send and recieve traffic within a node 
+port : ip port combination is open to world which define services--> redirect to socket for specific service 
+
+netstat : show both internate connections and socket connections
+
+netstat -upn/l : internt connection-->programs-->open ports-->listening or not
+
+ip addr show : to show network card connections with ip address
+ip route show : routing of all ips to default gateway : same can be show with the help of netstat -r
+ 
+if  you want to add privet ip address to your device : ip addr  add
+
+use of : ip: non persisten: for persistent changes : use network manager : nm
+
+nm : to add ip, host name
+
+how to setup hostname : etc/hostsname
+
+PROCESSES :
+
+2 types : shell and daemon(started during boot 
+
+bg jobs : not neeeded much user interaction
+
+command: 
+    fg: to make running bg job in fg
+    ctrl+Z: to stop fg job temp. in memory, than use bg to run it in background
+    ctrl+c: to cancel job
+    ctrl+D: to complete the job withought any much further inputs
 
 
 

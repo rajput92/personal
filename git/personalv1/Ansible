@@ -11,6 +11,25 @@ shell running more than once --> unintended consequences --> but ansible same co
 
 Difference Between Update and Upgrade. Updates in computer hardware and software are patches of code that are released in order to address certain issues or to activate specific functionalities. ... An upgrade is the act of replacing your product with a newer, and often more superior, version or similar product.
 
+HOW ANSIBLE WORKS :
+
+Ansible connects to remote machine using ssh--> then pass modules and files which contains commands and script as per yaml script or commands--> modules are nothing but python script-->which will be then executed in remote machines--> remove the temp file from servers
+
+Ansible previous uses paramiko-->but now it uses openssh as it has control persist for newer version--> control persist --> ssh donthave to go through hand shake over and over aging till control persist time out --> which makes openssh fater than paramiko
+
+for more fater ssh --> use accelerated mode--> which uses ssh first --> than use aes keys for futher transaction --> which will run on diff port --> 2 execpetions --> disabled requiretty --> no passwd for sudoers
+
+--- 
+    - hosts: all 
+      accelerate: true ...
+
+Faster OpenSSH in Ansible 1.5+ :
+
+Instead of copying files, running them on the remote server, then removing them, the new method of OpenSSH transfer will send and execute commands for most Ansible modules directly over the SSH connection.
+
+This method of connection is only available in Ansible 1.5+, and it can be enabled by adding pipelining=True
+
+
 Ansible INSTALLATION :
 
 PREREquiste :
@@ -20,6 +39,10 @@ python-level and python-pip needs to be installed
 pip install ansible
 
 If you’re running RedHat or CentOS, you need to install EPEL’s RPM before you install Ansible 
+
+EPEL : extra packages for enterprise linux: provide extra packages 
+yum : yellowdog updater manager : help in installing updating packages from rpm : redhat packge manager or any other package manager
+
 yum install ansible
 
 Need to connect to other machine:
@@ -32,7 +55,149 @@ PYTHON HAS TO BE THERE IN REMOTE MACHINE FOR ANSIBLE TO CONNECT
 
 /etc/ansible/hosts : []to use a group name
 [:var] variable for that group
-ansible_sshuser/password
+ansible_ssh_user/password
+
+Testing Infrastructure --> needs rebuild instant server --> vagrantn provising server and virtual box
+
+- name: Ensure NTP daemon (for time synchronization) is installed. 
+yum: name=ntp state=installed : yum install ntp, also check first if its installed or not
+
+service: name=ntpd state=started enabled=yes : service ntpd start , and also sets to start at reboot
+
+SYSADMIN JOBS :
+• Apply patches and updates via yum, apt, and other package managers. 
+• Check resource usage (disk space, memory, CPU, swap space, network). 
+• Check log files. 
+• Manage system users and groups. 
+• Manage DNS settings, hosts files, etc. 
+• Copy files to and from servers. 
+• Deploy applications or run application maintenance. 
+• Reboot servers. 
+• Manage cron jobs.
+
+ansible_ssh_user=vagrant 
+ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+ansible multi -a "arguments"
+
+ansible always try to connect each server parallely, if you want one by one than use -f 1(to fork only one)
+
+ansible multi -s -m yum -a "name=ntp state=installed"
+
+-s : sudo
+-m : modules
+-a : arguments/commands
+
+How to add manage users and group : module : group: createhome=yes will create a home also for users, generate_ssh_key=yes.
+
+to delet user account : ansible app -s -m user -a "name=johndoe state=absent remove=yes"
+
+copy a file from laocl to server : -m : file : same for fetch:
+ansible multi -m copy -a "src=/etc/hosts dest=/tmp/hosts"
+
+creating a directory : ansible multi -m file -a "dest=/tmp/test mode=644 state=directory" : state=absent" : to delete a directory
+
+
+what is you want to run ansible commands in background, like updates and upgrades : than use 
+
+you can tell Ansible to run the commands asynchronously, and poll the servers to see when the commands finish. When you’re only managing one server, this is not really helpful, but if you have many servers, Ansible starts the command very quickly on all your servers (especially if you set a higher --forks value), then polls the servers for status until they’re all up to date.
+
+    -B <seconds>: the maximum amount of time (in seconds) to let the job run.
+    -P <seconds>: the amount of time (in seconds) to wait between polling the servers for an
+    
+can we use tail command using ansible for running application log analysis : No
+
+use of ansible for log analysis : ansible multi -s -m shell -a "tail /var/log/messages | grep ansible-command | wc -l"
+
+use of cron jobs : ansible multi -s -m cron -a "name='daily-cron-all-servers' hour=4 job='/path/to/daily-script.sh'"
+
+deploymennt of repo to server , where app works with updating repo and than running .sh script, how to do it with ansible:
+-m : git
+ansible app -s -m git -a "repo=git://example.com/path/to/repo.git dest=/opt/myapp update=yes version=1.2.4"
+we need to pass update=yes, in order to update it, if presetn version is 1.2.4 only
+
+ansible app -s -a "/opt/myapp/update.sh"
+
+ansible ad-hoc commands--> shell commands
+playbooks --> ssh scripts
+
+SIMPLE PLAYBOOK TO INSTALL HTTPD AND START :
+
+--- 
+2 - hosts: all 
+3   tasks: 
+4   - name: Install Apache. 
+5     command: yum install --quiet -y httpd httpd-devel 
+6   - name: Copy configuration files. 
+7     command: > 
+8       cp /path/to/config/httpd.conf /etc/httpd/conf/httpd.conf 
+9   - command: > 
+10      cp /path/to/config/httpd-vhosts.conf /etc/httpd/conf/httpd-vhosts.conf 
+11  - name: Start Apache and configure it to run at boot. 
+12     command: service httpd start 
+13  - command: chkconfig httpd on
+
+--- : to initilaize yaml
+- : different stages
+> : to declare second line will longer with space
+
+
+LOGICAL WAY :
+
+1 --- 
+2 - hosts: all 
+3   sudo: yes 
+4   tasks: 
+5   - name: Install Apache. 
+6     yum: name={{ item }} state=present 
+7     with_items: 
+8     - httpd 
+9     - httpd-devel 
+10  - name: Copy configuration files. 
+11    copy: 
+12      src: "{{ item.src }}" 
+13      dest: "{{ item.dest }}" 
+14      owner: root 
+15      group: root 
+16      mode: 0644 
+17     with_items: 
+18     - { 
+19      src: "/path/to/config/httpd.conf", 
+20      dest: "/etc/httpd/conf/httpd.conf" 
+21       } 
+22     - { 
+23      src: "/path/to/config/httpd-vhosts.conf", 
+24      dest: "/etc/httpd/conf/httpd-vhosts.conf"
+25       } 
+26  - name: Make sure Apache is started and configure it to run at boot. 
+27    service: name=httpd state=started enabled=yes
+
+to run all commands in remote using sudo : 
+
+{{items}} : place will be replace by varibales presented in with_items
+
+yum : module : name and state properties
+
+copy : module : src and dest, owner, group, mode properties
+
+service : module : name, state , enable properties
+
+passing comand with sudo, sudo user, sudo passwd : -s -U -K
+
+to install scp : openssh-clients
+
+ansible_ssh_private_key_file= : to use ssh key based autentication 
+
+If you want to play a mandatory task at the end of play --> use handlers--> to call handlers, a notify option is used in tasks--> if  a tasks is skipped due to some reasons--> handlers also skipped--> tasks like restatring service uses handlers
+
+
+
+
+
+
+
+
+
 
 
 

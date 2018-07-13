@@ -8,3 +8,143 @@ Application Tomcat Server --> place jwnkins.war in webapps folder
 
 Configure JDK and Maven --> Manage Jenkins --> Configure SYstem
 
+junit --> test reports are genrated in target/surefire-reports folder in XML format
+
+Publish javadoc--> to find java doc
+
+Invoke Goals :  mvn clean install, mvn javadoc:javadco cobertura
+
+jenkins install linux -- yyum packages --> located in /usr/lin/jenkins--> java -jar jenkins.war file --> to start first time
+
+jenkins build will take much memroy resources, cpu--> so we ahve created separate user and group named jenkin--> will help in analysing resources consumed by groups
+
+where build configuration, plugins, configuration stored --> jenkins home directory-->~/.jenkins
+
+JENKINS_HOME, JENKINS_BASE --> customised jenkins.war and home directoery
+
+if you are running behinf tocat server -> write env varibles in jenkins.xml files
+
+default jenkins.war --> usr/lib/jenins or usr/sahre/jenkins
+default jenins home directory --> var/lib/jenkins
+log files --> var/log/jenkins
+jenkin config parameters like jdk and port --> etc/sysconfig/jenkins
+
+service jenkins start/stop/status
+
+how to run as a standalone --> bu running just war file
+
+behind apache server --> to make jenkins running behine dfirewall, can be aaccess from web url
+
+behind application server --> not able to restart jenkins server directly, neither upgrade
+
+how to make jenkins as a service in linux : write jenkins.service file with some parameters at /etc/systemctl/jenkins.service
+
+jenkins home directory : 
+    users: user list with config.xml file having password and access native user db
+    plugins
+    updates
+    secrets : initial admin password
+    logs : job tasks logs
+    jobs : build working directory
+        build : bbuild history, build logs, 
+        workspace : source code checkout and generated artifacts after compilation, reports of each build with timestamp, archieving artiafcts
+        config.xml : configuration for that project
+        
+jenkins executable is less critical, as it can be reinstalled withought effecting any data
+
+how to upgrade jenkins--> just replace the jenkins.war, and no to make sure no job is running
+    
+jenkins config regarding installation port --> etc folder
+
+jenkins job build system configurstion --> config.xml in jenkins_home directory
+
+Migrating jenkins --> manage jenkins --> load system from disk --> whole jenkins_home direcotry parsed
+
+where to configure git url, jdk ,maven, plugins --> configure global tools configuration
+
+system log : jenkins server logs for trouyble shooting
+
+Tools installation : global tools configuration
+
+
+how to restart jenkins manuallu ---> jenkinsurl/restart
+
+to unistall jenkins --> unisnatsll script from jenkinsbase or 
+
+schedule jobs in jenkins --> cron job --> min. hr. day month. weekday
+
+export import jobs --> tar java-homedir--> untar--> relod config from disk
+
+why cant we login as jenkins user asfter installing jenkins, also user is present in /etc/password :  bcz jenkins user is a service account and service not configure for /bin/bash--> so sudo su -s /bin/bash jenkins
+
+How can I make Jenkins CI with git trigger on pushes to master? --> github-posthook-trigger-->http://yourserver/jenkins/git/notifyCommit?url=<URL of the Git repository>?token=<get token from git to build remotely>
+
+reset security settings command line --> var/lib/jenkins/confix.xml--> security false--> make new entries--> restart jenkins
+
+no html pages, instead txt files --> configure global security--> markup formater --> safe html
+
+Jenkins Host key verification failed --> try to run command manually --> so that new entry happens in known_hosts
+
+How to start jenkins on different port rather than 8080 using command prompt in Windows? --> java -jar -hhtps=
+
+How to install a plugin in Jenkins manually--> download .hpi--> put it in ~/.jenkins/plugins
+
+Show current state of Jenkins build on GitHub repo -- > 1. genrate token in github--< cheecke boxes-->paste it in jenkins github credetials-->test--> post build job--> set build status on github commit
+
+Changing Jenkins build number --> jenkins script console --> Jenkins.instance.getItemByFullName("YourJobName").updateNextBuildNumber(45)
+
+How do I clone a job in jenkins? --> copy existing job
+
+what is discard old build jobs means : two options : 1: delete job based one no. of days2: delete jobs if certain max no. rached
+    its works for deletions of artifacts as well
+
+How to pass variables, that will asked during ongoing builds : this project is parameterized
+
+How to run jobs on specific agents : restrict where the project can be run--> assign agents label
+
+suppose multiple commits at same time, so builds will be in queue : so use quiet period , so jenkins will wait for time after first commit
+
+retry count : make jenkins to check SCM no. of times , to make build starts otherwise than fail
+
+block build from upstream/downstream running : build will be in queu if parent or child running
+
+hwo to checkout specific directory/branch : addtitional behaviour
+
+enable concurrent build for this project : multiple jobs run simultaneously for current project
+
+if you want your build to be run based on some snapshot jar crreation --> Build whenever a SNAPSHOT dependency is built
+
+how to trigger based on some scripts remotely or for github trigger with the help of token:  trigger builds remotely 
+
+BUild env:
+if you run some commadns or sends some files before running your build (both for before build and after build)--> builf trigger --> send files executes command scheckbox
+
+PRE STEPS/POST STEPS: execute windows batch command-->execute shell--> invoke maven targets--> 
+
+jenkins job configuration stored in --> config.xml--> so to migrate--> either copy job folder and rename or JENKINSCLI:
+    list job-->get jobname--> as an xml--> create an job from xml
+
+how to configure jenkins web site root path --> manage jenkins--> copnfigure system
+
+how to stop zombie job in jenkins --> jenkins script console --> Jenkins .instance.getItemByFullName("JobName")
+        .getBuildByNumber(JobNumber)
+        .finish(hudson.model.Result.ABORTED, new java.io.IOException("Aborting build")); 
+        
+Jenkins dead but pid file exists --> mostly error with apache port -> chnage jenkins_ajp_port = 8009 in etc/sysconfig/jenkins
+
+host verification failed when cloning from repo--> so you added into known_hosts--> than also same error--> please check for permission on public and private key for ssh--> is it assign to jenkins
+
+from where you can know directory for jenkins.war folder --> manage jenkins--> system info
+
+Jenkins not executing jobs (pending - waiting for next executor) -> might be due to disk space issue in master 
+
+Jenkins - j_acegi_security_check --> tomact gives error after log in --> please enble security --> jenkins users own db and allow sign up
+
+
+
+
+
+
+
+
+

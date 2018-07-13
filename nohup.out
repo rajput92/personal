@@ -1,0 +1,1031 @@
+[I 07:41:59.646 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 07:41:59.647 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 07:41:59.704 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 07:41:59.704 NotebookApp] 0 active kernels
+[I 07:41:59.704 NotebookApp] The Jupyter Notebook is running at:
+[I 07:41:59.704 NotebookApp] http://localhost:8888/?token=fd84087789ad0a75d47ebc2a9e2a7cca09512bedd4913c38
+[I 07:41:59.704 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:41:59.704 NotebookApp] No web browser found: could not locate runnable browser.
+[C 07:41:59.704 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=fd84087789ad0a75d47ebc2a9e2a7cca09512bedd4913c38
+[E 08:00:46.901 NotebookApp] Exception while loading config file /home/ec2-user/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/ec2-user/.jupyter/jupyter_notebook_config.py", line 2
+        c.IPKernelApp.pylab = 'inline'
+        ^
+    IndentationError: unexpected indent
+[E 08:00:46.905 NotebookApp] Exception while loading config file /home/ec2-user/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/ec2-user/.jupyter/jupyter_notebook_config.py", line 2
+        c.IPKernelApp.pylab = 'inline'
+        ^
+    IndentationError: unexpected indent
+[I 08:00:47.327 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:00:47.357 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 08:00:47.357 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 08:00:47.363 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 08:00:47.363 NotebookApp] 0 active kernels
+[I 08:00:47.363 NotebookApp] The Jupyter Notebook is running at:
+[I 08:00:47.363 NotebookApp] http://localhost:8889/?token=b4effff1ffd23d2560caff0ad31181e2581fc453ff4ef15b
+[I 08:00:47.363 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:00:47.363 NotebookApp] No web browser found: could not locate runnable browser.
+[C 08:00:47.363 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=b4effff1ffd23d2560caff0ad31181e2581fc453ff4ef15b
+[E 08:02:51.506 NotebookApp] Exception while loading config file /home/ec2-user/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/ec2-user/.jupyter/jupyter_notebook_config.py", line 2
+        c.IPKernelApp.pylab = 'inline'
+        ^
+    IndentationError: unexpected indent
+[E 08:02:51.507 NotebookApp] Exception while loading config file /home/ec2-user/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/ec2-user/.jupyter/jupyter_notebook_config.py", line 2
+        c.IPKernelApp.pylab = 'inline'
+        ^
+    IndentationError: unexpected indent
+[I 08:02:51.938 NotebookApp] The port 8888 is already in use, trying another port.
+[I 08:02:51.939 NotebookApp] The port 8889 is already in use, trying another port.
+[I 08:02:51.969 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 08:02:51.969 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 08:02:51.975 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 08:02:51.975 NotebookApp] 0 active kernels
+[I 08:02:51.975 NotebookApp] The Jupyter Notebook is running at:
+[I 08:02:51.975 NotebookApp] http://localhost:8890/?token=ff6a61f6eca36ffeae633de5c1d018cbaace65a3cf3e031d
+[I 08:02:51.975 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:02:51.975 NotebookApp] No web browser found: could not locate runnable browser.
+[C 08:02:51.975 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8890/?token=ff6a61f6eca36ffeae633de5c1d018cbaace65a3cf3e031d
+[I 08:06:36.318 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 08:06:36.318 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 08:06:36.324 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 08:06:36.324 NotebookApp] 0 active kernels
+[I 08:06:36.324 NotebookApp] The Jupyter Notebook is running at:
+[I 08:06:36.324 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 08:06:36.324 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 08:06:59.390 NotebookApp] 302 GET / (122.15.228.208) 0.63ms
+[I 08:06:59.408 NotebookApp] 302 GET /tree? (122.15.228.208) 0.89ms
+[I 08:07:02.809 NotebookApp] 302 POST /login?next=%2Ftree%3F (122.15.228.208) 1.22ms
+[W 08:51:56.811 NotebookApp] SSL Error on 10 ('121.132.205.99', 35466): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:35:55.963 NotebookApp] SSL Error on 10 ('212.116.169.156', 37822): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:35:57.940 NotebookApp] SSL Error on 10 ('212.116.169.156', 37747): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 13:25:56.845 NotebookApp] received signal 15, stopping
+[I 13:25:56.848 NotebookApp] Shutting down 0 kernels
+[I 17:03:06.459 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 17:03:06.459 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 17:03:06.468 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 17:03:06.468 NotebookApp] 0 active kernels
+[I 17:03:06.469 NotebookApp] The Jupyter Notebook is running at:
+[I 17:03:06.469 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 17:03:06.469 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 17:03:22.060 NotebookApp] 302 GET /edit/git/personalv1/Docker%20Installation (49.35.83.61) 1.58ms
+[I 17:03:31.520 NotebookApp] 302 POST /login?next=%2Fedit%2Fgit%2Fpersonalv1%2FDocker%2520Installation (49.35.83.61) 1.24ms
+[I 17:06:56.415 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:07:25.242 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:07:25.436 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:07:25.621 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:07:25.743 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:07:25.791 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 17:29:05.862 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 17:29:06.090 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 17:29:06.187 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 20:00:31.514 NotebookApp] SSL Error on 10 ('196.20.238.18', 49151): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:15:08.710 NotebookApp] SSL Error on 10 ('113.174.78.124', 42629): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:43.161 NotebookApp] SSL Error on 10 ('189.234.162.34', 54494): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:27:28.703 NotebookApp] SSL Error on 10 ('62.105.135.217', 44218): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:42:24.240 NotebookApp] SSL Error on 10 ('106.165.24.51', 53249): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:48:10.940 NotebookApp] SSL Error on 10 ('209.17.96.2', 36036): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:31:44.925 NotebookApp] SSL Error on 10 ('177.11.143.95', 35443): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:35:08.548 NotebookApp] SSL Error on 10 ('77.242.28.32', 52987): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:35:08.821 NotebookApp] SSL Error on 10 ('77.242.28.32', 53369): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:22:56.125 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:23:43.095 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:31:01.586 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:31:33.225 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:24.832 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:25.052 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:25.248 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:25.460 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:25.659 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 04:33:25.873 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 05:24:52.484 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:41:50.764 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 05:41:51.286 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 05:41:51.641 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 05:44:15.439 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:44:15.562 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:44:15.748 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:44:15.962 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 06:16:15.740 NotebookApp] SSL Error on 12 ('138.97.137.58', 1404): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:16:22.012 NotebookApp] SSL Error on 13 ('138.97.137.58', 1455): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:16:25.927 NotebookApp] SSL Error on 13 ('138.97.137.58', 1529): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:40:41.669 NotebookApp] SSL Error on 10 ('178.61.49.29', 46120): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:28:02.567 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:02.720 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:22.309 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:22.557 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:22.756 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:22.962 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:23.130 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:23.339 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:28:59.879 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:29:16.843 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:29:17.018 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:29:17.219 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:29:17.369 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:29:21.434 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:30:25.600 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 08:53:11.931 NotebookApp] SSL Error on 10 ('46.165.243.209', 47486): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:39:27.936 NotebookApp] SSL Error on 10 ('189.14.231.89', 33743): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:25:05.879 NotebookApp] SSL Error on 10 ('193.104.27.139', 53070): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:25:06.702 NotebookApp] SSL Error on 10 ('193.104.27.139', 53084): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:00:15.430 NotebookApp] SSL Error on 10 ('109.120.217.201', 59901): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:14:01.674 NotebookApp] SSL Error on 10 ('115.95.34.254', 49232): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:55:01.104 NotebookApp] SSL Error on 10 ('104.218.190.35', 39066): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:47:11.586 NotebookApp] SSL Error on 10 ('193.194.102.231', 55628): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:16:23.553 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 13:23:03.449 NotebookApp] Creating new file in /git/personalv1
+[I 13:28:08.366 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:08.618 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:08.799 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:08.978 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:09.265 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:09.372 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:09.584 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:28:09.772 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:33:34.845 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:45:56.900 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 13:45:56.992 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 13:45:57.161 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 13:46:12.612 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:47:11.627 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:47:11.717 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:47:11.894 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:47:11.980 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:47:12.124 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 13:49:33.313 NotebookApp] SSL Error on 14 ('5.188.10.146', 34313): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:49:33.598 NotebookApp] SSL Error on 14 ('5.188.10.146', 42806): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:50:59.963 NotebookApp] SSL Error on 14 ('167.62.119.120', 46857): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:57:20.862 NotebookApp] Saving file at /git/personalv1/Maven
+[W 14:02:03.347 NotebookApp] SSL Error on 11 ('58.152.66.194', 37836): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:06:13.758 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:06:13.845 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:06:13.931 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:06:13.967 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:07:41.355 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:07:41.503 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:08:49.595 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:08:49.786 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:16:01.757 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:16:01.848 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:16:01.942 NotebookApp] Saving file at /git/personalv1/Maven
+[I 14:16:02.281 NotebookApp] Saving file at /git/personalv1/Maven
+[W 14:45:57.131 NotebookApp] SSL Error on 10 ('185.198.108.247', 47717): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:52:14.128 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:53:08.795 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:53:09.058 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:53:09.174 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:06:15.866 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 15:06:15.953 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 15:06:16.025 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 15:07:22.645 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 15:07:22.774 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 15:11:31.229 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:15:16.889 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:40.028 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:17:40.103 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:17:40.112 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:17:40.206 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:17:42.286 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:42.451 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:42.615 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:50.912 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:51.078 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:51.369 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:53.470 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:19:02.907 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:21:04.082 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:21:04.187 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:21:04.357 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:21:04.434 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:27:15.372 NotebookApp] Saving file at /git/personalv1/Maven
+[W 15:35:35.727 NotebookApp] SSL Error on 10 ('213.7.221.241', 43065): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:37:01.617 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:37:01.728 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:37:01.820 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:37:02.061 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:37:07.028 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:43:21.438 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:43:21.523 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:43:21.605 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:43:21.609 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:43:26.572 NotebookApp] Saving file at /git/personalv1/INTERVIEW QUESTIONS
+[I 15:47:02.444 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 17:24:46.669 NotebookApp] SSL Error on 10 ('110.142.142.164', 36180): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:46:08.817 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:46:39.769 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:48:02.440 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:48:02.695 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:48:07.291 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:53.335 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:53.510 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:53.700 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:53.889 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:54.065 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:54.257 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:55.665 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:52:55.821 NotebookApp] Saving file at /git/personalv1/Maven
+[I 17:59:10.785 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:59:10.875 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:59:11.095 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:59:11.335 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:59:13.756 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 18:16:21.631 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 18:16:24.421 NotebookApp] Saving file at /git/personalv1/Maven
+[I 18:19:41.387 NotebookApp] Saving file at /git/personalv1/Maven
+[W 20:42:11.574 NotebookApp] SSL Error on 10 ('128.140.167.206', 53122): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:51:20.622 NotebookApp] SSL Error on 10 ('190.180.167.176', 49899): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:51:23.750 NotebookApp] SSL Error on 10 ('190.180.167.176', 49907): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:51:27.245 NotebookApp] SSL Error on 10 ('190.180.167.176', 49916): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:53:31.832 NotebookApp] SSL Error on 10 ('54.183.101.31', 39874): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:56:17.446 NotebookApp] 302 GET / (61.246.57.5) 0.53ms
+[I 04:56:17.462 NotebookApp] 302 GET /tree? (61.246.57.5) 0.83ms
+[I 04:56:23.544 NotebookApp] 302 POST /login?next=%2Ftree%3F (61.246.57.5) 1.24ms
+[I 05:04:43.193 NotebookApp] Saving file at /git/personalv1/Maven
+[I 05:22:34.687 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 05:22:34.769 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 05:22:34.908 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 05:22:35.072 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 05:58:23.381 NotebookApp] SSL Error on 10 ('90.63.194.161', 37736): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:06:00.060 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/01-Methods.ipynb is not trusted
+[W 06:06:00.207 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 06:06:01.117 NotebookApp] Kernel started: 4000a336-2a71-4278-b589-301c12cd740d
+[I 06:06:02.441 NotebookApp] Kernel started: f23f7f3b-103b-4266-8972-01dacc7572c8
+[I 06:06:02.475 NotebookApp] Adapting to protocol v5.1 for kernel 4000a336-2a71-4278-b589-301c12cd740d
+[W 06:06:03.164 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/04-Function Practice Exercises - Solutions.ipynb is not trusted
+[I 06:06:03.330 NotebookApp] Adapting to protocol v5.1 for kernel f23f7f3b-103b-4266-8972-01dacc7572c8
+[W 06:06:05.974 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 06:06:06.167 NotebookApp] Kernel started: 8fd6c455-8b17-48aa-8a74-b0b8046e047b
+[W 06:06:06.913 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/06-Nested Statements and Scope.ipynb is not trusted
+[W 06:06:07.067 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/07-args and kwargs.ipynb is not trusted
+[I 06:06:07.113 NotebookApp] Adapting to protocol v5.1 for kernel 8fd6c455-8b17-48aa-8a74-b0b8046e047b
+[W 06:06:08.157 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/08-Functions and Methods Homework.ipynb is not trusted
+[W 06:06:08.690 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/09-Functions and Methods Homework - Solutions.ipynb is not trusted
+[I 06:06:08.712 NotebookApp] Kernel started: 1639a957-59f4-4ec8-8b34-afb5fc7c65ee
+[I 06:06:09.021 NotebookApp] Kernel started: 4bbb75ac-26f6-4c2d-b134-258049ba713f
+[I 06:06:09.059 NotebookApp] Kernel started: 422c6b9f-8101-42b9-b9a2-b16bdbfcab7b
+[I 06:06:10.427 NotebookApp] Kernel started: 6e2fca6a-a740-482b-b269-d818afd02a5e
+[I 06:06:10.520 NotebookApp] Kernel started: f9a0be4e-5e9e-4218-bdc5-1f87bc87ec58
+[I 06:06:10.986 NotebookApp] Adapting to protocol v5.1 for kernel 1639a957-59f4-4ec8-8b34-afb5fc7c65ee
+[I 06:06:11.258 NotebookApp] Kernel started: 0696e2ce-792c-480f-8b76-bab2458f60af
+[I 06:06:12.355 NotebookApp] Adapting to protocol v5.1 for kernel 4bbb75ac-26f6-4c2d-b134-258049ba713f
+[I 06:06:12.418 NotebookApp] Adapting to protocol v5.1 for kernel 422c6b9f-8101-42b9-b9a2-b16bdbfcab7b
+[I 06:06:13.651 NotebookApp] Adapting to protocol v5.1 for kernel 6e2fca6a-a740-482b-b269-d818afd02a5e
+[I 06:06:13.678 NotebookApp] Adapting to protocol v5.1 for kernel f9a0be4e-5e9e-4218-bdc5-1f87bc87ec58
+[I 06:06:13.842 NotebookApp] Adapting to protocol v5.1 for kernel 0696e2ce-792c-480f-8b76-bab2458f60af
+[I 06:11:49.445 NotebookApp] Starting buffering for f9a0be4e-5e9e-4218-bdc5-1f87bc87ec58:98f5b133a2fb45c28d422e1c275efe47
+[I 06:37:05.017 NotebookApp] Kernel shutdown: 4000a336-2a71-4278-b589-301c12cd740d
+[I 06:37:05.260 NotebookApp] Kernel shutdown: 8fd6c455-8b17-48aa-8a74-b0b8046e047b
+[I 06:37:05.469 NotebookApp] Kernel shutdown: f23f7f3b-103b-4266-8972-01dacc7572c8
+[I 06:37:05.678 NotebookApp] Kernel shutdown: 6e2fca6a-a740-482b-b269-d818afd02a5e
+[I 06:37:05.888 NotebookApp] Kernel shutdown: 4bbb75ac-26f6-4c2d-b134-258049ba713f
+[I 06:37:06.098 NotebookApp] Kernel shutdown: 1639a957-59f4-4ec8-8b34-afb5fc7c65ee
+[I 06:37:06.326 NotebookApp] Kernel shutdown: f9a0be4e-5e9e-4218-bdc5-1f87bc87ec58
+[I 06:37:06.557 NotebookApp] Kernel shutdown: 0696e2ce-792c-480f-8b76-bab2458f60af
+[I 06:37:06.765 NotebookApp] Kernel shutdown: 422c6b9f-8101-42b9-b9a2-b16bdbfcab7b
+[I 08:50:32.075 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 08:57:26.466 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:26.734 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:26.900 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:27.102 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:37.084 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:37.233 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:37.424 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:57:39.512 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 08:57:39.676 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 08:58:59.572 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 08:59:51.877 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 08:59:59.010 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:07:31.566 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:09:37.542 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:10:23.318 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:11:24.906 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:11:26.259 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:14:56.775 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:15:42.641 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:15:49.431 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:25:23.733 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:31:00.212 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:31:00.247 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:31:04.819 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:54:45.664 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 09:54:45.790 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 10:33:18.621 NotebookApp] SSL Error on 10 ('119.202.115.138', 42582): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:42:08.547 NotebookApp] SSL Error on 10 ('27.74.227.155', 41602): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:56:38.346 NotebookApp] SSL Error on 10 ('1.222.38.195', 33120): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 12:11:57.693 NotebookApp] Saving file at /git/personalv1/Maven
+[I 12:11:57.760 NotebookApp] Saving file at /git/personalv1/Maven
+[I 12:11:57.790 NotebookApp] Saving file at /git/personalv1/Maven
+[W 12:15:00.542 NotebookApp] SSL Error on 10 ('78.233.222.154', 47153): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:36:00.605 NotebookApp] SSL Error on 10 ('177.22.245.92', 58900): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:59:22.045 NotebookApp] SSL Error on 10 ('27.123.3.202', 33102): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:16:15.430 NotebookApp] Saving file at /git/personalv1/JENKINS
+[C 14:22:15.884 NotebookApp] received signal 15, stopping
+[I 14:22:15.889 NotebookApp] Shutting down 0 kernels
+[I 16:38:24.124 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 16:38:24.124 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 16:38:24.134 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 16:38:24.134 NotebookApp] 0 active kernels
+[I 16:38:24.134 NotebookApp] The Jupyter Notebook is running at:
+[I 16:38:24.134 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 16:38:24.134 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:38:43.923 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:38:44.117 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:56:16.040 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:56:16.201 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:58:18.611 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:58:54.491 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:58:54.650 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 16:58:54.851 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:11:51.380 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:12:40.993 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:12:56.210 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:12:56.310 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:12:56.389 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:13:25.955 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:29:25.396 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:29:25.621 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:29:25.831 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:46:54.381 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:49:39.581 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:52:07.981 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:52:08.155 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:52:08.341 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:52:08.521 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 17:53:41.421 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:53:41.641 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 18:42:24.132 NotebookApp] SSL Error on 10 ('210.219.132.67', 45225): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:26:01.694 NotebookApp] SSL Error on 10 ('114.32.203.96', 35687): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:22:21.283 NotebookApp] SSL Error on 10 ('85.121.125.148', 35584): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:56:33.551 NotebookApp] SSL Error on 10 ('91.211.123.60', 57722): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:56:31.191 NotebookApp] SSL Error on 10 ('46.146.227.12', 56712): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:17:29.068 NotebookApp] SSL Error on 10 ('89.42.80.156', 45356): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:51:56.156 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/01-Methods.ipynb is not trusted
+[I 05:51:56.884 NotebookApp] Kernel started: 0e113cd7-bd79-406f-8ed3-eca2b99bea1a
+[I 05:51:58.245 NotebookApp] Adapting to protocol v5.1 for kernel 0e113cd7-bd79-406f-8ed3-eca2b99bea1a
+[I 05:52:46.457 NotebookApp] Starting buffering for 0e113cd7-bd79-406f-8ed3-eca2b99bea1a:00f4a8447f9e41578cb5f4e6e25eb15f
+[W 05:53:02.893 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/02-Functions.ipynb is not trusted
+[I 05:53:04.949 NotebookApp] Kernel started: fe65ce07-83e6-47a9-819b-5628b9fae7fb
+[I 05:53:05.998 NotebookApp] Adapting to protocol v5.1 for kernel fe65ce07-83e6-47a9-819b-5628b9fae7fb
+[I 05:53:17.442 NotebookApp] Starting buffering for fe65ce07-83e6-47a9-819b-5628b9fae7fb:b59a202263ac49ec88e91d76f660e79c
+[I 05:53:45.662 NotebookApp] Kernel started: 1118533c-c8f4-483b-a021-df1629925fe0
+[I 05:53:46.405 NotebookApp] Adapting to protocol v5.1 for kernel 1118533c-c8f4-483b-a021-df1629925fe0
+[I 06:14:56.390 NotebookApp] Starting buffering for 1118533c-c8f4-483b-a021-df1629925fe0:97c91be58d0a4c0c824e4dbd03bc09b0
+[W 06:15:15.304 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/05-Lambda-Expressions-Map-and-Filter.ipynb is not trusted
+[I 06:15:16.785 NotebookApp] Kernel started: e4b46bcd-4034-4160-b0cb-7758911c7998
+[I 06:15:20.379 NotebookApp] Adapting to protocol v5.1 for kernel e4b46bcd-4034-4160-b0cb-7758911c7998
+[W 06:15:22.935 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/03-Methods and Functions/07-args and kwargs.ipynb is not trusted
+[I 06:15:23.461 NotebookApp] Kernel started: 9948ef81-69a6-4653-8e88-8775dd11f437
+[I 06:15:24.215 NotebookApp] Adapting to protocol v5.1 for kernel 9948ef81-69a6-4653-8e88-8775dd11f437
+[I 06:27:20.843 NotebookApp] Starting buffering for e4b46bcd-4034-4160-b0cb-7758911c7998:6f9435e9dc434ea38b502c5b35eed3d7
+[I 06:27:53.298 NotebookApp] Starting buffering for 9948ef81-69a6-4653-8e88-8775dd11f437:57286fadbba940d185b5d99a803bbfb7
+[I 06:28:08.111 NotebookApp] Kernel shutdown: 0e113cd7-bd79-406f-8ed3-eca2b99bea1a
+[I 06:28:08.319 NotebookApp] Kernel shutdown: fe65ce07-83e6-47a9-819b-5628b9fae7fb
+[I 06:28:08.527 NotebookApp] Kernel shutdown: 1118533c-c8f4-483b-a021-df1629925fe0
+[I 06:28:08.734 NotebookApp] Kernel shutdown: e4b46bcd-4034-4160-b0cb-7758911c7998
+[I 06:28:08.941 NotebookApp] Kernel shutdown: 9948ef81-69a6-4653-8e88-8775dd11f437
+[I 06:37:42.767 NotebookApp] Creating new file in /git/personalv1
+[W 07:02:58.739 NotebookApp] SSL Error on 12 ('128.140.167.206', 59550): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:06:04.848 NotebookApp] Saving file at /git/personalv1/Python
+[I 07:51:01.350 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:51:01.378 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:51:10.802 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[W 08:25:53.684 NotebookApp] SSL Error on 10 ('14.167.113.76', 36252): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:31:50.266 NotebookApp] SSL Error on 10 ('123.222.60.186', 58007): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 12:29:03.686 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:29:03.908 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:29:04.209 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:29:04.286 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:29:04.467 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 14:02:15.853 NotebookApp] SSL Error on 10 ('37.112.60.223', 41549): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:51:15.035 NotebookApp] SSL Error on 10 ('201.3.78.108', 47921): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:41:00.311 NotebookApp] SSL Error on 10 ('119.197.171.183', 56373): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:11:43.337 NotebookApp] SSL Error on 10 ('79.138.73.83', 49291): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:08:03.716 NotebookApp] SSL Error on 10 ('107.170.226.104', 43602): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:31:47.396 NotebookApp] SSL Error on 10 ('168.1.128.35', 40694): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:24:32.515 NotebookApp] SSL Error on 10 ('78.189.193.158', 26612): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:14:18.970 NotebookApp] SSL Error on 10 ('46.146.227.12', 54123): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:51:12.427 NotebookApp] SSL Error on 10 ('185.200.114.2', 60936): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:08:00.556 NotebookApp] 404 GET //libs/js/iframe.js (46.165.243.209) 25.94ms referer=None
+[I 03:26:14.769 NotebookApp] Kernel started: b3787cae-0157-47a0-b67b-a31205e8cfe2
+[I 03:26:16.525 NotebookApp] Adapting to protocol v5.1 for kernel b3787cae-0157-47a0-b67b-a31205e8cfe2
+[I 03:28:14.942 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:30:14.862 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:44:15.463 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:46:15.071 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[W 03:46:19.956 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/09-Built-in Functions/07-Complex.ipynb is not trusted
+[I 03:46:20.377 NotebookApp] Kernel started: 5dc038ba-07aa-4dfb-90ee-234dd7980150
+[I 03:46:21.161 NotebookApp] Adapting to protocol v5.1 for kernel 5dc038ba-07aa-4dfb-90ee-234dd7980150
+[I 03:46:24.776 NotebookApp] Starting buffering for 5dc038ba-07aa-4dfb-90ee-234dd7980150:bd64ee5117a64d0b85369561cd96d377
+[W 03:46:35.353 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/09-Built-in Functions/06-all() and any().ipynb is not trusted
+[I 03:46:35.773 NotebookApp] Kernel started: 0e7fc2cd-2c60-47d7-933e-ddcc84628baf
+[I 03:46:36.589 NotebookApp] Adapting to protocol v5.1 for kernel 0e7fc2cd-2c60-47d7-933e-ddcc84628baf
+[I 03:46:40.592 NotebookApp] Starting buffering for 0e7fc2cd-2c60-47d7-933e-ddcc84628baf:382a5499777b4bb89df34b62c19e383f
+[W 03:46:48.127 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/09-Built-in Functions/02-Reduce.ipynb is not trusted
+[I 03:46:48.690 NotebookApp] Kernel started: 9021032a-cd2d-475b-9e03-e285787bf6b8
+[I 03:46:50.277 NotebookApp] Adapting to protocol v5.1 for kernel 9021032a-cd2d-475b-9e03-e285787bf6b8
+[I 03:47:02.712 NotebookApp] Starting buffering for 9021032a-cd2d-475b-9e03-e285787bf6b8:99d58d6133d6472784141cb1e0fd4cdf
+[W 03:47:43.433 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/11-Python Generators/01-Iterators and Generators.ipynb is not trusted
+[I 03:47:44.480 NotebookApp] Kernel started: f4d15992-c8d4-4f14-bf1f-5b1f43a45474
+[I 03:47:45.323 NotebookApp] Adapting to protocol v5.1 for kernel f4d15992-c8d4-4f14-bf1f-5b1f43a45474
+[I 03:48:15.321 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:50:14.842 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:52:15.341 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:56:14.867 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 03:58:14.862 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 04:00:14.867 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 04:02:14.923 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 04:04:14.903 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 04:05:00.553 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 04:07:06.056 NotebookApp] Starting buffering for f4d15992-c8d4-4f14-bf1f-5b1f43a45474:0dc3898468cc4f589c250342747cfa7a
+[W 04:37:52.972 NotebookApp] SSL Error on 30 ('78.191.234.157', 51486): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:40:29.076 NotebookApp] SSL Error on 30 ('185.230.4.77', 55936): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:48:46.527 NotebookApp] WebSocket ping timeout after 118056 ms.
+[I 05:48:51.531 NotebookApp] Starting buffering for b3787cae-0157-47a0-b67b-a31205e8cfe2:273fe1c2dab64c9186654f40045587ec
+[W 07:27:55.844 NotebookApp] SSL Error on 26 ('27.123.3.202', 48115): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:57:13.743 NotebookApp] SSL Error on 26 ('178.69.175.97', 33012): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:57:29.621 NotebookApp] SSL Error on 26 ('81.22.56.180', 59532): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:55:39.936 NotebookApp] SSL Error on 26 ('186.222.217.190', 44625): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:31:10.217 NotebookApp] SSL Error on 26 ('128.140.167.206', 52366): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:11:18.470 NotebookApp] SSL Error on 26 ('128.140.167.206', 36886): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:57:53.509 NotebookApp] SSL Error on 26 ('113.252.179.78', 41037): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:30:31.584 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 05:55:35.988 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:11:15.643 NotebookApp] Kernel shutdown: f4d15992-c8d4-4f14-bf1f-5b1f43a45474
+[I 06:12:06.428 NotebookApp] Kernel shutdown: 0e7fc2cd-2c60-47d7-933e-ddcc84628baf
+[I 06:12:06.634 NotebookApp] Kernel shutdown: 5dc038ba-07aa-4dfb-90ee-234dd7980150
+[I 06:12:06.840 NotebookApp] Kernel shutdown: 9021032a-cd2d-475b-9e03-e285787bf6b8
+[W 06:26:21.047 NotebookApp] SSL Error on 29 ('78.188.157.126', 35779): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:03:30.040 NotebookApp] SSL Error on 11 ('109.197.190.10', 59694): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:29:11.939 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 07:29:12.255 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 07:29:12.507 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 07:29:12.719 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 09:17:59.623 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 09:56:43.559 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 10:00:53.503 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 10:06:55.365 NotebookApp] SSL Error on 11 ('189.126.62.149', 53036): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:10:06.440 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 10:13:15.890 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 10:40:39.893 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 12:24:35.114 NotebookApp] SSL Error on 11 ('186.251.96.171', 57073): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:16:35.905 NotebookApp] SSL Error on 11 ('222.146.70.182', 42878): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:19:02.191 NotebookApp] SSL Error on 11 ('217.174.61.113', 50278): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:31:54.757 NotebookApp] SSL Error on 11 ('80.245.120.107', 43060): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:06:23.991 NotebookApp] SSL Error on 11 ('2.86.128.156', 52701): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:44:54.852 NotebookApp] SSL Error on 11 ('200.194.48.194', 53429): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:59:45.237 NotebookApp] SSL Error on 11 ('179.220.149.201', 59183): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 16:13:14.169 NotebookApp] Adapting to protocol v5.1 for kernel b3787cae-0157-47a0-b67b-a31205e8cfe2
+[I 16:15:13.687 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:19:13.642 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:35:13.388 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:37:13.392 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:39:13.608 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[W 16:55:57.040 NotebookApp] Notebook git/personalv1/Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/05-Dictionaries.ipynb is not trusted
+[I 16:55:58.036 NotebookApp] Kernel started: a0fa96df-434d-4f66-a729-62c31e049f0b
+[I 16:55:59.220 NotebookApp] Adapting to protocol v5.1 for kernel a0fa96df-434d-4f66-a729-62c31e049f0b
+[I 16:59:13.657 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:59:19.456 NotebookApp] Starting buffering for a0fa96df-434d-4f66-a729-62c31e049f0b:a618a36021174e6c9fa0a8db3c677764
+[I 16:59:24.141 NotebookApp] Kernel shutdown: a0fa96df-434d-4f66-a729-62c31e049f0b
+[I 16:59:42.317 NotebookApp] Kernel started: 24de8867-3632-46d4-94ec-8bbc5f1a5a1d
+[I 16:59:43.120 NotebookApp] Adapting to protocol v5.1 for kernel 24de8867-3632-46d4-94ec-8bbc5f1a5a1d
+[I 17:01:42.632 NotebookApp] Saving file at /git/personalv1/Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/03-Print Formatting with Strings.ipynb
+[I 17:07:42.857 NotebookApp] Saving file at /git/personalv1/Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/03-Print Formatting with Strings.ipynb
+[I 17:45:14.635 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 17:47:14.102 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 17:57:29.520 NotebookApp] Starting buffering for 24de8867-3632-46d4-94ec-8bbc5f1a5a1d:355fdfa9b36c459bb5f66b0c7080b4e5
+[W 17:57:35.816 NotebookApp] delete /git/personalv1/Complete-Python-3-Bootcamp/00-Python Object and Data Structure Basics/03-Print Formatting with Strings.ipynb
+[I 17:57:36.025 NotebookApp] Kernel shutdown: 24de8867-3632-46d4-94ec-8bbc5f1a5a1d
+[I 17:58:09.782 NotebookApp] Starting buffering for b3787cae-0157-47a0-b67b-a31205e8cfe2:a3891da779ee466a88fae901d57db0a6
+[W 19:40:23.977 NotebookApp] SSL Error on 11 ('217.31.186.27', 58048): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:53:54.600 NotebookApp] SSL Error on 11 ('107.170.226.201', 43070): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:29:12.552 NotebookApp] SSL Error on 11 ('81.213.142.236', 60691): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:28:32.023 NotebookApp] SSL Error on 11 ('116.45.216.223', 37011): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:32:18.802 NotebookApp] Kernel shutdown: b3787cae-0157-47a0-b67b-a31205e8cfe2
+[I 05:42:33.155 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 05:51:30.022 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:01:34.710 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 06:03:25.871 NotebookApp] SSL Error on 12 ('168.227.78.11', 45588): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:06:54.855 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:07.017 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:56.009 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:56.214 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:56.429 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:56.607 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:56.885 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:57.088 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:57.273 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:57.463 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:57.658 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:57.866 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:58.049 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:58.271 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:58.829 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:07:59.287 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:08:40.085 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:09:08.509 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:09:08.747 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:09:08.910 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:09:09.046 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 06:56:36.645 NotebookApp] SSL Error on 10 ('85.218.144.89', 55285): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:16:53.827 NotebookApp] SSL Error on 10 ('87.229.64.39', 47989): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:35:59.165 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 08:16:22.465 NotebookApp] SSL Error on 10 ('191.36.211.76', 39768): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:56:17.247 NotebookApp] SSL Error on 10 ('78.191.234.157', 40952): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:58:12.439 NotebookApp] SSL Error on 10 ('47.137.2.250', 54091): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:40:17.641 NotebookApp] SSL Error on 10 ('78.233.222.154', 43340): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:45:39.765 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.423 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.567 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.639 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.667 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.784 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:10.929 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:11.034 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:11.114 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:39.095 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:59:39.284 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:06:54.025 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:06:54.119 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:06:54.123 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:27:13.662 NotebookApp] Kernel started: 14f9bcc3-b0ab-4f7f-89ab-61f25fa5d986
+[I 15:27:15.022 NotebookApp] Adapting to protocol v5.1 for kernel 14f9bcc3-b0ab-4f7f-89ab-61f25fa5d986
+[I 15:29:14.863 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:31:13.873 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:33:14.643 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:35:14.658 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 17:09:57.022 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 17:25:57.464 NotebookApp] SSL Error on 10 ('187.60.149.23', 59642): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:35:23.794 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 17:35:23.869 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 17:47:14.434 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 17:49:15.347 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 17:50:45.239 NotebookApp] Kernel shutdown: 14f9bcc3-b0ab-4f7f-89ab-61f25fa5d986
+[W 19:35:05.341 NotebookApp] SSL Error on 10 ('86.106.8.85', 53974): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:55:51.234 NotebookApp] SSL Error on 10 ('14.226.245.127', 54735): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:43:00.776 NotebookApp] SSL Error on 10 ('189.14.231.89', 54617): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:19:04.737 NotebookApp] SSL Error on 10 ('212.54.101.213', 10587): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:58:30.806 NotebookApp] SSL Error on 10 ('186.53.170.43', 44502): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:18:11.308 NotebookApp] SSL Error on 10 ('196.52.43.112', 40808): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:51:50.849 NotebookApp] SSL Error on 10 ('91.222.142.80', 37285): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:03:55.331 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 07:05:42.162 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 07:08:07.252 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 07:08:07.374 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 07:08:07.521 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 07:08:07.644 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 11:31:25.995 NotebookApp] SSL Error on 10 ('170.246.191.58', 58311): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:58:35.586 NotebookApp] SSL Error on 10 ('77.103.219.77', 42485): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:58:38.008 NotebookApp] SSL Error on 11 ('77.103.219.77', 42474): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:06:28.004 NotebookApp] SSL Error on 10 ('185.222.211.38', 15816): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:13:14.740 NotebookApp] SSL Error on 10 ('191.242.9.100', 37653): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:19:27.630 NotebookApp] SSL Error on 10 ('202.43.154.162', 4012): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:19:28.426 NotebookApp] SSL Error on 10 ('202.43.154.162', 4231): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:19:29.228 NotebookApp] SSL Error on 10 ('202.43.154.162', 4370): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 23:19:30.035 NotebookApp] SSL Error on 10 ('202.43.154.162', 4503): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 01:01:15.945 NotebookApp] SSL Error on 10 ('189.127.16.231', 40801): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:23:46.600 NotebookApp] SSL Error on 13 ('201.148.254.65', 34092): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:12:07.443 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:17:45.128 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:17:45.183 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:20:21.286 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:20:21.455 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:20:21.721 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:35:52.265 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:44:30.928 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:19.341 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:25.571 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:25.800 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:25.998 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:26.153 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:45:26.344 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:48:58.169 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:50:01.239 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:50:01.274 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 06:21:55.350 NotebookApp] SSL Error on 10 ('93.174.95.106', 43115): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:45:00.488 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:56:37.303 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 08:56:37.362 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 09:02:08.905 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 09:15:07.679 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 09:34:24.930 NotebookApp] SSL Error on 11 ('176.223.61.102', 46816): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:37:37.423 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:39:02.488 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:39:23.193 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:39:43.503 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:42:09.038 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:42:09.233 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:42:09.463 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:42:56.608 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:42:56.728 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:45:11.228 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:46:53.268 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:46:53.388 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:46:53.558 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:55:37.472 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:57:28.913 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 11:58:38.587 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 12:00:16.542 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 12:00:16.722 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 12:00:16.882 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 12:01:27.692 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 12:01:27.872 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[W 12:30:29.121 NotebookApp] SSL Error on 10 ('124.121.176.181', 38834): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 12:34:02.758 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:34:02.816 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:34:02.895 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:34:02.912 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:34:45.038 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:34:45.185 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:50:49.744 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:50:49.750 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:50:49.862 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 13:11:09.758 NotebookApp] SSL Error on 10 ('188.27.17.81', 33206): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:28:50.827 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:28:50.971 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:28:50.977 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:28:50.984 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:30:01.540 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:30:02.349 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:31:23.556 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:32:30.529 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:33:38.640 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:34:11.507 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:35:34.529 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:35:34.676 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:36:24.114 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 13:36:24.346 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 15:05:43.298 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:07:46.839 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:07:47.030 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:07:47.234 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:08:53.586 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:10:42.735 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:10:42.850 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:10:43.870 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:16:45.667 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:16:45.772 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:16:45.930 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:56.500 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:17:56.597 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:18:57.447 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:18:57.545 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:26:04.394 NotebookApp] Kernel started: d76c761a-6186-4da3-b40f-b08b07cac5f7
+[I 15:26:05.776 NotebookApp] Adapting to protocol v5.1 for kernel d76c761a-6186-4da3-b40f-b08b07cac5f7
+[I 15:28:04.613 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:30:04.613 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:32:04.577 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:34:05.518 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:49:16.192 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:49:16.274 NotebookApp] Saving file at /git/personalv1/Maven
+[I 15:49:16.317 NotebookApp] Saving file at /git/personalv1/Maven
+[I 16:09:16.747 NotebookApp] Saving file at /git/personalv1/Python
+[W 16:14:08.831 NotebookApp] Replacing stale connection: d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[I 16:14:13.832 NotebookApp] Starting buffering for d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[I 16:14:13.833 NotebookApp] Adapting to protocol v5.1 for kernel d76c761a-6186-4da3-b40f-b08b07cac5f7
+[I 16:14:13.833 NotebookApp] Restoring connection for d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[W 16:14:16.847 NotebookApp] Replacing stale connection: d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[I 16:14:21.849 NotebookApp] Starting buffering for d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[I 16:14:21.849 NotebookApp] Adapting to protocol v5.1 for kernel d76c761a-6186-4da3-b40f-b08b07cac5f7
+[I 16:14:21.850 NotebookApp] Restoring connection for d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[W 16:16:22.455 NotebookApp] SSL Error on 10 ('185.230.4.77', 46424): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 16:43:48.835 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:45:46.367 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:48:31.168 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:48:31.385 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:48:31.583 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:48:31.765 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:50:10.112 NotebookApp] Saving file at /git/personalv1/Python
+[I 16:55:19.565 NotebookApp] Saving file at /git/personalv1/Python
+[I 17:30:32.547 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 17:30:34.153 NotebookApp] Saving file at /git/personalv1/Python
+[I 17:30:35.457 NotebookApp] Starting buffering for d76c761a-6186-4da3-b40f-b08b07cac5f7:d1bbd1942a0f419e9ac9d4121bdbcab6
+[I 17:30:39.122 NotebookApp] Saving file at /git/personalv1/Maven
+[W 00:26:42.455 NotebookApp] SSL Error on 10 ('2.86.143.57', 59634): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:52:08.060 NotebookApp] SSL Error on 10 ('79.118.133.143', 37695): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:38:18.055 NotebookApp] SSL Error on 10 ('95.144.201.217', 47771): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:51:07.341 NotebookApp] SSL Error on 10 ('212.5.152.13', 55765): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 01:59:00.527 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 01:59:53.547 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 04:46:37.217 NotebookApp] SSL Error on 10 ('61.72.190.13', 50054): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:25:32.502 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:25:32.617 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 05:25:32.738 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[W 07:13:43.464 NotebookApp] SSL Error on 10 ('176.115.65.127', 50847): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:31:09.405 NotebookApp] SSL Error on 10 ('168.1.128.54', 56176): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:11:21.113 NotebookApp] SSL Error on 10 ('79.11.234.142', 55854): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:28.472 NotebookApp] SSL Error on 10 ('89.29.208.209', 48956): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:57:59.218 NotebookApp] SSL Error on 10 ('101.127.239.228', 50620): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:55:12.623 NotebookApp] SSL Error on 10 ('62.105.135.217', 52937): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:48:55.121 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:48:55.382 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:48:55.591 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 16:54:38.078 NotebookApp] SSL Error on 10 ('185.112.164.149', 37567): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:55:37.922 NotebookApp] SSL Error on 10 ('84.52.67.126', 54111): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:55:56.778 NotebookApp] SSL Error on 10 ('88.246.248.252', 59983): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:15:07.322 NotebookApp] SSL Error on 10 ('217.115.112.184', 383): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:17:05.803 NotebookApp] SSL Error on 10 ('88.201.155.36', 39115): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:59:26.936 NotebookApp] SSL Error on 10 ('162.243.132.162', 54268): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:29:44.121 NotebookApp] SSL Error on 10 ('196.20.238.12', 39969): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:56:53.029 NotebookApp] SSL Error on 10 ('203.177.173.46', 49691): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:15:06.402 NotebookApp] SSL Error on 10 ('123.21.171.151', 54448): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:56:43.177 NotebookApp] SSL Error on 10 ('178.205.145.242', 41721): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:59:09.827 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:59:26.607 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:59:26.876 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:59:27.098 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:59:27.276 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:59:43.216 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[C 16:00:59.922 NotebookApp] received signal 15, stopping
+[I 16:00:59.923 NotebookApp] Shutting down 1 kernel
+[I 16:01:00.023 NotebookApp] Kernel shutdown: d76c761a-6186-4da3-b40f-b08b07cac5f7
+[I 07:40:15.996 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 07:40:15.997 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 07:40:16.006 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 07:40:16.006 NotebookApp] 0 active kernels
+[I 07:40:16.006 NotebookApp] The Jupyter Notebook is running at:
+[I 07:40:16.006 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 07:40:16.006 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 07:40:36.994 NotebookApp] 302 GET / (157.33.178.6) 0.63ms
+[I 07:40:37.144 NotebookApp] 302 GET /tree? (157.33.178.6) 1.04ms
+[I 07:40:40.914 NotebookApp] 302 POST /login?next=%2Ftree%3F (157.33.178.6) 1.26ms
+[I 07:49:25.411 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:25.517 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:25.597 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:25.677 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:25.786 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.007 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.151 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.297 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.461 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.637 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:26.831 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:27.017 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:49:27.206 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:59:24.131 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:59:24.206 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:59:24.286 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:59:24.348 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 07:59:24.553 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 10:44:21.093 NotebookApp] SSL Error on 10 ('183.103.127.5', 52103): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:27:00.093 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:27:00.287 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:28:34.851 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:28:34.994 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:28:35.247 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:29:52.757 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:29:52.926 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:29:53.116 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:31:13.376 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:31:13.546 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:33:52.594 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:35:58.958 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:35:59.148 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:38:39.322 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 11:38:39.483 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:14:35.764 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:24:37.024 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:24:37.113 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:31:34.568 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:31:34.644 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:33:03.407 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:33:03.504 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:33:24.090 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:33:24.153 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:35:06.977 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:44:55.964 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:44:56.061 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:44:56.122 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 12:44:56.145 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 13:04:00.153 NotebookApp] SSL Error on 10 ('116.100.104.211', 35618): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:45:07.775 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 14:45:07.776 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 14:45:07.786 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 14:45:07.786 NotebookApp] 0 active kernels
+[I 14:45:07.786 NotebookApp] The Jupyter Notebook is running at:
+[I 14:45:07.786 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 14:45:07.786 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:08:55.618 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 16:17:23.478 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 16:17:23.578 NotebookApp] Saving file at /git/personalv1/SDLC
+[W 18:47:39.090 NotebookApp] SSL Error on 10 ('104.218.190.35', 52075): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 03:31:01.861 NotebookApp] 302 GET /tree/git/personalv1 (61.246.57.5) 0.94ms
+[I 03:31:04.935 NotebookApp] 302 POST /login?next=%2Ftree%2Fgit%2Fpersonalv1 (61.246.57.5) 1.21ms
+[I 03:34:35.018 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:34:35.249 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:34:35.429 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:34:35.634 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:38:16.037 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:38:16.294 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:38:16.483 NotebookApp] Saving file at /git/personalv1/SDLC
+[I 03:39:03.747 NotebookApp] Saving file at /git/personalv1/Udeploy
+[I 03:39:03.982 NotebookApp] Saving file at /git/personalv1/Udeploy
+[I 04:00:30.957 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 04:14:22.095 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 04:14:22.152 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 04:14:22.354 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 05:08:48.806 NotebookApp] SSL Error on 10 ('195.223.58.180', 57450): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:12:48.846 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:15:54.721 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:15:56.795 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:15:57.005 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:26:03.790 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:26:36.586 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:28:00.276 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:28:00.422 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:28:52.051 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:28:52.278 NotebookApp] Saving file at /git/personalv1/JENKINS
+[I 06:28:52.510 NotebookApp] Saving file at /git/personalv1/JENKINS
+[W 11:41:57.633 NotebookApp] SSL Error on 12 ('183.103.127.5', 55668): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:41:58.049 NotebookApp] SSL Error on 12 ('183.103.127.5', 55654): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:05:45.520 NotebookApp] SSL Error on 10 ('58.182.227.109', 36569): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:35:19.138 NotebookApp] SSL Error on 10 ('175.138.75.162', 44224): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:46:54.673 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:47:55.454 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:47:55.627 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:47:55.810 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:48:05.173 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:48:05.326 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 05:48:05.507 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[W 06:16:36.723 NotebookApp] SSL Error on 10 ('83.209.227.100', 54078): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:54:42.122 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 06:54:42.158 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 06:54:42.334 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[W 08:27:56.169 NotebookApp] SSL Error on 10 ('175.139.1.127', 51998): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:48:17.293 NotebookApp] SSL Error on 10 ('191.114.11.44', 60138): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 09:12:18.156 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:17:50.325 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:17:50.377 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:17:50.577 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:20.055 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:20.110 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:20.301 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:20.504 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:28.660 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:28.813 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:29.017 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:24:29.182 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:35:04.112 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:35:04.248 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:35:04.435 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:35:04.594 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[I 09:35:04.762 NotebookApp] Saving file at /git/personalv1/Docker Installation
+[W 10:46:08.309 NotebookApp] SSL Error on 11 ('218.212.86.45', 45940): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:24:24.804 NotebookApp] SSL Error on 10 ('93.91.115.117', 36450): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:45:39.819 NotebookApp] SSL Error on 10 ('46.27.254.188', 47176): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:23:44.292 NotebookApp] SSL Error on 10 ('192.241.194.55', 33150): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:41:37.447 NotebookApp] Creating new file in /git/personalv1
+[W 08:16:44.904 NotebookApp] SSL Error on 10 ('85.105.174.241', 43497): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:49:44.954 NotebookApp] SSL Error on 10 ('116.88.117.184', 34666): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:32:27.086 NotebookApp] SSL Error on 10 ('14.226.245.127', 43301): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:32:29.197 NotebookApp] SSL Error on 10 ('14.226.245.127', 43290): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:11:46.024 NotebookApp] SSL Error on 10 ('80.179.255.78', 47285): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:08:50.842 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:08:50.925 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:08:50.938 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 15:11:28.464 NotebookApp] SSL Error on 11 ('27.125.169.159', 55835): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:13:14.627 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:22:17.192 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:22:17.277 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:22:17.423 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:22:19.589 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:25:22.164 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:26:12.091 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:26:18.171 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:26:22.868 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 15:26:27.426 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 17:45:10.097 NotebookApp] SSL Error on 10 ('79.77.153.61', 43768): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:33:23.982 NotebookApp] SSL Error on 10 ('196.20.238.12', 48566): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:30:22.665 NotebookApp] SSL Error on 10 ('99.58.98.196', 48300): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:15:32.591 NotebookApp] SSL Error on 10 ('116.197.224.228', 57897): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:15:23.470 NotebookApp] SSL Error on 10 ('81.82.245.83', 18056): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:45:00.998 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 07:07:03.435 NotebookApp] SSL Error on 10 ('196.52.43.128', 37720): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:13:58.440 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 10:18:39.289 NotebookApp] SSL Error on 10 ('88.132.175.225', 7949): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:44:27.180 NotebookApp] SSL Error on 10 ('62.105.135.217', 41930): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:45:24.392 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 13:45:24.434 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:04:42.364 NotebookApp] Kernel started: 7cad814e-a8a8-4da0-9b92-af17125d999f
+[I 14:04:43.894 NotebookApp] Adapting to protocol v5.1 for kernel 7cad814e-a8a8-4da0-9b92-af17125d999f
+[I 14:06:42.384 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:08:42.403 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:12:43.097 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:14:42.369 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:16:42.428 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:22:42.520 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:24:43.335 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:30:42.516 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:34:42.439 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:36:42.433 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:38:42.502 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:40:42.435 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:42:42.441 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:44:42.476 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:48:42.455 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:50:42.460 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 14:52:42.472 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:18:42.580 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:20:42.512 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:22:42.509 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:24:42.526 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:26:42.536 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:28:42.541 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:30:42.563 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:32:42.519 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:34:42.549 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:36:42.518 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[W 15:46:39.056 NotebookApp] SSL Error on 10 ('5.101.40.90', 94): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 15:46:42.682 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:48:42.578 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 15:58:42.687 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:00:42.616 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:02:42.601 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:04:42.591 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:06:42.627 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:10:42.615 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:12:42.618 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:16:42.631 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:18:42.609 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 16:20:42.662 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[W 18:40:24.909 NotebookApp] SSL Error on 10 ('62.105.135.217', 50167): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:08:06.698 NotebookApp] SSL Error on 10 ('59.125.224.242', 42624): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 19:30:03.343 NotebookApp] Starting buffering for 7cad814e-a8a8-4da0-9b92-af17125d999f:8babd60431d84cff87c0f2398bfd10e8
+[W 00:23:53.631 NotebookApp] SSL Error on 10 ('54.146.35.136', 54852): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:28:48.688 NotebookApp] SSL Error on 10 ('89.29.161.251', 37961): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:08:02.887 NotebookApp] SSL Error on 10 ('185.114.81.163', 50856): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:15:40.933 NotebookApp] Adapting to protocol v5.1 for kernel 7cad814e-a8a8-4da0-9b92-af17125d999f
+[I 06:17:40.719 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:19:40.850 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:21:40.710 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:23:40.745 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:25:40.717 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:27:40.752 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:29:40.770 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:31:40.799 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:33:40.741 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:35:40.880 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:37:40.779 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:43:40.776 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:45:40.821 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:47:40.824 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:51:40.946 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:53:40.791 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:57:40.813 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:59:40.828 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 07:01:40.847 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 07:02:32.361 NotebookApp] Starting buffering for 7cad814e-a8a8-4da0-9b92-af17125d999f:49a96a23845844008e398ea502df5bd4
+[I 07:02:49.616 NotebookApp] Adapting to protocol v5.1 for kernel 7cad814e-a8a8-4da0-9b92-af17125d999f
+[I 07:34:09.555 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 07:34:09.634 NotebookApp] Saving file at /git/personalv1/GIT Commands
+[I 07:34:09.842 NotebookApp] Saving file at /git/personalv1/GIT Commands

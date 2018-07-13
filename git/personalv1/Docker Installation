@@ -3,6 +3,14 @@
 
 Among the various subdirectories within /var are /var/cache (contains cached data from application programs), /var/games (contains variable data relating to games in /usr), /var/lib (contains dynamic data libraries and files), /var/lock (contains lock files created by programs to indicate that they are using a particular file or device), /var/log (contains log files), /var/run (contains PIDs and other system information that is valid until the system is booted again) and /var/spool (contains mail, news and printer queues).
 
+_D fuse operation permited : means docker is runing withought admin right, pass --privileged ffor that
+
+docker run -d -it --privileged ContainerId /usr/sbin/init
+
+/usr/sbin/init : start systemctl
+
+netstat -tulpn | grep :22 : to look for open ports
+
 Steps to install Docker:
 
 1. Download pakages for docker, apt-transport https(need to enable repository to connect with https), ca-certificates
@@ -499,6 +507,33 @@ The CNM is the design specification. It outlines the fundamental building blocks
 libenetwork is a real-world implementation of the CNM, and is used by Docker. It’s written in Go, and implements the core components outlined in the CNM. 
 
 Drivers extend the model by implementing specific network topologies such as VXLAN-based overlay networks.
+
+
+
+
+
+
+
+How to get a Docker container's IP address from the host? --> docker inspect | grep ipaddress
+
+sometimes its shows docker cant connect to daemon , while daemon is running --> so mostly your user has no access over docker daemon
+
+How to copy docker images from one host to another without via repository? --> docker save -o and docker load -i
+
+Networks in Docker : 
+
+single host bridge network: dafult network when you create containers
+
+command to know what are networks adapter availabel : docker network ls
+
+comand to know detailed info about networks adapter : docker network inspect bridge
+
+what is name of brdge apapdter to which docker host is connected to linux host bridge adapter : docker0
+
+command to create a network : --> docker network --create -d driver_name network_name
+
+
+
 
 
 

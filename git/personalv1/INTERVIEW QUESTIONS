@@ -1,0 +1,4 @@
+LILO : linux boot loader in memory and start the os, llilo can be configured to load other OS, its like an boot manager, also a code snippet whixh load PC bios
+
+pr -I60 : to print 60 lines of files
+head -60

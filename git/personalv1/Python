@@ -1,0 +1,20 @@
+READING AND WRITING FILES :
+
+how to join folder name name to make a path : os.path.join
+
+get current working directory : os .getcwd
+
+change directory : os.chdir
+
+make directory : os.makedirs
+
+os.path.basename(): curent file/folder
+
+os.path.dirname(): path to that folder
+
+os.path.splt(): to split into tuple base and dir
+
+get size and list dir in python : os.path.getsize() os.listdir
+
+how to get total  size of any directory --> for loop-->lisdir-->getsize-->os.path.join --> ++counter
+

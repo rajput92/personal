@@ -3,10 +3,26 @@ Before CI :
 Developers created different Modules(working for months)-->Integration phase-->Merging of code base(modules)-->various conflicts-->deployment delays-->unhappy clients-->so CI
 
 CI:
+1) daily merging code, solving conflicts and compilation issues
+2) automation for unit testing
+3) lesser chnages for integration testing
+4) lesser bugs during regrerssion
+
 Code merging daily , so no conflicts
 automated build daily
 weekly release in sprints
 so faster feedback
+
+CD:
+1) lesser for every release, which makes end-user to learn faster
+2) faster deployment due to CI, which leads to faster feedback
+3) automates deployment in more than one server at a time
+
+
+CD --> each release is smaller with less changes, so easier to test
+    easier for end-users to learn
+    faster deployment as less changes
+    
 
 CI -->monitor version control system--> automate build-->compile-->test-->notifies developers
 
@@ -23,3 +39,48 @@ automated build
 prioritize broken builds
 deployment automated
 High qulaity tests during automated testing
+
+
+LEVELS OF TESTING :
+
+Functional :
+     Unit tests : done by developer of individual source code, but now automated with CI using Maven
+     Integration test : The testing of combined parts of an application to determine if they function correctly together 
+     SIT system testing : tests the system as a whole. Once all the components are integrated, the application as a whole is tested rigorously to see that it meets Quality Standards.
+     regression : change in one module, has not to effect other modules, code merging and automated build helps a lot here
+     UAT acceptence testing :  Quality Assurance Team who will gauge whether the application meets the intended specifications and satisfies the client’s requirements.
+     
+     
+Non Functional :
+    PERF performance : It is mostly used to identify any bottlenecks or performance issues rather than finding the bugs in software, like network delay, datbase transaction, load balancing between servers
+        load and stress tesing
+    Security Testing : Confidentiality Authentication Authorization Software is secure against known and unknown vulnerabilities 
+    usability testing : Memorability Satisfaction Ease of use 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     

@@ -4228,3 +4228,172 @@ Resource temporarily unavailable (/tmp/build/80754af9/zeromq_1510168618813/work/
 [I 15:30:05.306 NotebookApp] Saving file at /practise.ipynb
 [I 15:32:05.306 NotebookApp] Saving file at /practise.ipynb
 [W 15:35:38.837 NotebookApp] SSL Error on 10 ('73.106.104.153', 37320): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:48:13.951 NotebookApp] Starting buffering for 291a345a-2ec1-426c-bff0-e0fc8ca10a4a:d263fdb6eee8402d8148a3e84c957bc7
+[W 19:11:10.927 NotebookApp] SSL Error on 10 ('77.164.157.171', 52753): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:16:09.763 NotebookApp] SSL Error on 10 ('218.2.33.64', 39276): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:00:21.166 NotebookApp] SSL Error on 10 ('71.239.58.84', 44212): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:19:07.406 NotebookApp] SSL Error on 10 ('158.85.81.126', 57223): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:53:14.846 NotebookApp] SSL Error on 10 ('124.163.246.19', 51889): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:15:54.521 NotebookApp] SSL Error on 10 ('80.245.120.107', 49861): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:52:29.565 NotebookApp] 404 GET /edit/Ansible (122.15.228.208): File does not exist: Ansible
+[W 04:52:29.573 NotebookApp] 404 GET /edit/Ansible (122.15.228.208) 8.78ms referer=None
+[I 04:52:36.221 NotebookApp] 302 GET / (122.15.228.208) 0.53ms
+[W 05:08:08.015 NotebookApp] SSL Error on 10 ('185.141.39.191', 56267): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:11:52.151 NotebookApp] Saving file at /git/personalv1/Maven
+[I 08:14:04.100 NotebookApp] Saving file at /git/personalv1/Maven
+[W 09:52:25.498 NotebookApp] SSL Error on 10 ('213.7.221.241', 48446): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:35:48.234 NotebookApp] SSL Error on 10 ('110.3.28.75', 50186): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:22:36.549 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 11:22:36.702 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 11:22:36.905 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 11:22:37.089 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 11:22:37.281 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 11:22:37.448 NotebookApp] Saving file at /git/personalv1/Linux Basics
+[I 14:16:12.925 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:16:47.120 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:37:05.376 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:37:06.874 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 14:45:52.404 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 15:07:29.658 NotebookApp] SSL Error on 10 ('14.233.242.115', 40947): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:49:37.375 NotebookApp] SSL Error on 10 ('176.240.201.18', 58471): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:49:40.585 NotebookApp] SSL Error on 10 ('176.240.201.18', 58472): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:49:42.857 NotebookApp] SSL Error on 10 ('176.240.201.18', 58475): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:49:52.530 NotebookApp] SSL Error on 10 ('176.240.201.18', 58487): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:50:11.411 NotebookApp] SSL Error on 10 ('176.240.201.18', 58497): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:28:38.367 NotebookApp] SSL Error on 10 ('89.23.167.202', 54346): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:29:57.177 NotebookApp] SSL Error on 10 ('187.217.250.238', 35087): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:08:33.532 NotebookApp] SSL Error on 10 ('54.167.74.170', 38942): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:34:50.861 NotebookApp] SSL Error on 10 ('192.241.194.55', 35314): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:38:27.911 NotebookApp] SSL Error on 10 ('85.105.174.241', 56056): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:07:41.895 NotebookApp] SSL Error on 10 ('118.150.148.49', 43679): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:09:27.197 NotebookApp] SSL Error on 10 ('83.110.103.61', 39363): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:10:10.954 NotebookApp] SSL Error on 10 ('100.14.195.206', 46251): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:46:59.039 NotebookApp] SSL Error on 10 ('165.228.71.105', 34790): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:12:23.007 NotebookApp] SSL Error on 10 ('58.182.227.109', 55353): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:30:38.454 NotebookApp] SSL Error on 10 ('42.188.127.175', 45504): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:17:35.565 NotebookApp] SSL Error on 10 ('178.189.178.178', 39201): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:17:40.637 NotebookApp] SSL Error on 10 ('178.189.178.178', 39197): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:21:50.437 NotebookApp] SSL Error on 10 ('80.245.120.107', 59625): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:31:22.095 NotebookApp] SSL Error on 10 ('193.111.2.153', 58865): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:10:25.688 NotebookApp] SSL Error on 10 ('167.60.65.16', 53922): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:21:38.982 NotebookApp] Kernel started: a711771a-a3c8-499c-9c18-c65a14472972
+[I 06:21:39.923 NotebookApp] Adapting to protocol v5.1 for kernel a711771a-a3c8-499c-9c18-c65a14472972
+[I 06:23:39.932 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[I 06:27:39.036 NotebookApp] Saving file at /git/personalv1/practise.ipynb
+[W 07:42:07.906 NotebookApp] SSL Error on 10 ('128.140.167.206', 37594): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:27:41.481 NotebookApp] Saving file at /git/personalv1/Maven
+[W 10:00:39.926 NotebookApp] WebSocket ping timeout after 119784 ms.
+[I 10:00:44.927 NotebookApp] Starting buffering for a711771a-a3c8-499c-9c18-c65a14472972:1c8faf29078f491380316554786843e5
+[I 10:02:26.344 NotebookApp] Adapting to protocol v5.1 for kernel a711771a-a3c8-499c-9c18-c65a14472972
+[I 10:02:26.344 NotebookApp] Restoring connection for a711771a-a3c8-499c-9c18-c65a14472972:1c8faf29078f491380316554786843e5
+[I 10:11:12.900 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:11:12.980 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:11:13.060 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:22.257 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:22.260 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:22.377 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:57.212 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:57.432 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:57.612 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:57.802 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:57.972 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:22:58.158 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:24:28.412 NotebookApp] Saving file at /git/personalv1/Maven
+[I 10:24:40.768 NotebookApp] Saving file at /git/personalv1/Maven
+[W 10:31:36.892 NotebookApp] SSL Error on 15 ('185.89.180.69', 48411): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:18:48.875 NotebookApp] Saving file at /git/personalv1/Maven
+[I 11:18:49.060 NotebookApp] Saving file at /git/personalv1/Maven
+[I 11:18:49.295 NotebookApp] Saving file at /git/personalv1/Maven
+[W 11:38:17.421 NotebookApp] SSL Error on 15 ('167.60.14.22', 38125): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:08:56.346 NotebookApp] WebSocket ping timeout after 119864 ms.
+[I 13:09:01.348 NotebookApp] Starting buffering for a711771a-a3c8-499c-9c18-c65a14472972:1c8faf29078f491380316554786843e5
+[W 13:47:42.768 NotebookApp] SSL Error on 10 ('220.247.3.184', 49131): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:51:07.189 NotebookApp] SSL Error on 10 ('191.243.36.116', 37252): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:24:18.147 NotebookApp] SSL Error on 10 ('59.189.109.50', 46720): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:22:16.616 NotebookApp] SSL Error on 10 ('193.34.174.160', 46137): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:50:32.498 NotebookApp] SSL Error on 10 ('95.250.15.84', 63535): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:37:09.638 NotebookApp] SSL Error on 10 ('92.246.207.227', 58516): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:05:34.090 NotebookApp] SSL Error on 10 ('27.123.3.202', 51938): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:15:40.885 NotebookApp] SSL Error on 10 ('71.6.135.131', 56117): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:13:35.679 NotebookApp] SSL Error on 10 ('89.23.167.202', 50070): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:26:41.799 NotebookApp] SSL Error on 10 ('5.15.229.186', 60861): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:12:29.462 NotebookApp] SSL Error on 10 ('218.2.33.64', 53527): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:00.460 NotebookApp] SSL Error on 10 ('139.162.239.172', 32828): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:00.820 NotebookApp] SSL Error on 10 ('139.162.239.172', 32902): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:01.188 NotebookApp] SSL Error on 10 ('139.162.239.172', 32990): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:01.436 NotebookApp] SSL Error on 10 ('139.162.239.172', 33050): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:01.806 NotebookApp] SSL Error on 10 ('139.162.239.172', 33100): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:02.065 NotebookApp] SSL Error on 10 ('139.162.239.172', 33200): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:02.313 NotebookApp] SSL Error on 10 ('139.162.239.172', 33250): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:02.672 NotebookApp] SSL Error on 10 ('139.162.239.172', 33304): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:02.927 NotebookApp] SSL Error on 10 ('139.162.239.172', 33378): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:03.174 NotebookApp] SSL Error on 10 ('139.162.239.172', 33412): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:03.423 NotebookApp] SSL Error on 10 ('139.162.239.172', 33454): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:03.670 NotebookApp] SSL Error on 10 ('139.162.239.172', 33496): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:03.918 NotebookApp] SSL Error on 10 ('139.162.239.172', 33536): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:04.170 NotebookApp] SSL Error on 10 ('139.162.239.172', 33586): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:31:04.530 NotebookApp] SSL Error on 10 ('139.162.239.172', 33630): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:31:07.165 NotebookApp] Malformed HTTP message from 139.162.239.172: Malformed HTTP request line
+[I 10:31:07.879 NotebookApp] 302 GET / (139.162.239.172) 0.60ms
+[W 11:36:32.419 NotebookApp] SSL Error on 10 ('94.9.251.239', 47304): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:54:44.920 NotebookApp] SSL Error on 10 ('187.63.213.46', 49502): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:18:48.388 NotebookApp] SSL Error on 10 ('190.93.5.124', 59394): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:03:55.558 NotebookApp] SSL Error on 10 ('82.85.180.68', 57852): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:06:21.244 NotebookApp] SSL Error on 10 ('181.40.67.18', 34431): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:27:49.559 NotebookApp] SSL Error on 10 ('14.226.245.127', 32877): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:20:01.657 NotebookApp] SSL Error on 10 ('202.156.201.193', 53516): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:35:51.057 NotebookApp] SSL Error on 10 ('123.21.146.83', 56600): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:57:31.481 NotebookApp] SSL Error on 10 ('46.39.41.46', 57011): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:14:39.243 NotebookApp] SSL Error on 10 ('128.140.167.206', 56801): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:16.545 NotebookApp] SSL Error on 10 ('201.184.3.143', 40450): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:38:06.172 NotebookApp] 302 GET /edit/git/personalv1/ (122.15.228.208) 0.51ms
+[W 05:38:06.189 NotebookApp] 404 GET /edit/git/personalv1 (122.15.228.208): File does not exist: git/personalv1
+[W 05:38:06.190 NotebookApp] 404 GET /edit/git/personalv1 (122.15.228.208) 1.46ms referer=None
+[W 05:38:10.995 NotebookApp] 404 GET /edit/git (122.15.228.208): File does not exist: git
+[W 05:38:10.996 NotebookApp] 404 GET /edit/git (122.15.228.208) 1.68ms referer=None
+[W 07:15:08.193 NotebookApp] SSL Error on 10 ('110.159.97.186', 43534): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:09:56.229 NotebookApp] SSL Error on 10 ('1.222.38.195', 50382): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:24:31.285 NotebookApp] SSL Error on 10 ('61.72.190.72', 48660): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:58:39.882 NotebookApp] SSL Error on 10 ('2.50.201.170', 39898): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:28:57.155 NotebookApp] SSL Error on 10 ('1.36.224.239', 52180): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:36:10.307 NotebookApp] SSL Error on 10 ('36.72.72.245', 55370): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:07:07.379 NotebookApp] SSL Error on 10 ('105.155.14.33', 38225): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:23:14.840 NotebookApp] SSL Error on 10 ('69.246.211.162', 46809): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:48:44.835 NotebookApp] SSL Error on 10 ('223.255.127.166', 53751): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:21:29.265 NotebookApp] SSL Error on 10 ('193.231.188.31', 53666): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:53:30.402 NotebookApp] SSL Error on 10 ('91.147.224.197', 56297): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:04:39.474 NotebookApp] SSL Error on 10 ('217.172.211.226', 55411): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:37:20.957 NotebookApp] SSL Error on 10 ('176.100.217.63', 42432): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:55:42.924 NotebookApp] SSL Error on 10 ('46.177.188.222', 55728): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:44:09.534 NotebookApp] SSL Error on 10 ('185.198.108.247', 43826): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:04:38.056 NotebookApp] SSL Error on 10 ('194.33.75.102', 60117): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:09:14.701 NotebookApp] SSL Error on 10 ('46.235.70.155', 54641): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:29:48.798 NotebookApp] SSL Error on 10 ('163.23.234.230', 60438): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:24:39.570 NotebookApp] SSL Error on 10 ('101.235.30.239', 51464): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:50:15.804 NotebookApp] SSL Error on 10 ('119.167.12.11', 58314): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:04:49.249 NotebookApp] SSL Error on 10 ('173.56.79.39', 38783): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 04:58:59.700 NotebookApp] 302 GET /edit/git/personalv1/ (122.15.228.208) 0.53ms
+[W 04:58:59.716 NotebookApp] 404 GET /edit/git/personalv1 (122.15.228.208): File does not exist: git/personalv1
+[W 04:58:59.717 NotebookApp] 404 GET /edit/git/personalv1 (122.15.228.208) 1.40ms referer=None
+[W 06:32:38.440 NotebookApp] SSL Error on 10 ('5.101.40.78', 946): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 06:41:27.883 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 06:41:27.938 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 08:25:12.313 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 08:26:23.551 NotebookApp] Saving file at /git/personalv1/Ansible
+[I 08:29:18.035 NotebookApp] Saving file at /git/personalv1/Ansible
+[W 12:48:32.535 NotebookApp] SSL Error on 10 ('89.208.11.120', 53783): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:55:22.029 NotebookApp] SSL Error on 10 ('218.2.33.64', 41534): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:13:12.938 NotebookApp] SSL Error on 10 ('93.174.95.106', 37529): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:26:58.225 NotebookApp] SSL Error on 10 ('107.170.228.136', 46556): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:26:39.411 NotebookApp] SSL Error on 10 ('89.23.167.202', 47519): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:30:41.723 NotebookApp] SSL Error on 10 ('112.109.19.22', 58843): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:19:55.054 NotebookApp] SSL Error on 10 ('169.54.244.93', 59258): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:25:53.055 NotebookApp] SSL Error on 15 ('178.189.167.27', 50635): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:25:56.038 NotebookApp] SSL Error on 10 ('178.189.167.27', 50618): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:55.947 NotebookApp] SSL Error on 10 ('65.87.253.180', 53228): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:10:56.774 NotebookApp] SSL Error on 10 ('177.129.167.27', 43652): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:15:03.217 NotebookApp] SSL Error on 10 ('78.233.222.154', 40879): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[C 06:25:57.275 NotebookApp] received signal 15, stopping
+[I 06:25:57.285 NotebookApp] Shutting down 2 kernels
+[I 06:25:57.286 NotebookApp] Kernel shutdown: 291a345a-2ec1-426c-bff0-e0fc8ca10a4a
+[I 06:25:57.288 NotebookApp] Kernel shutdown: a711771a-a3c8-499c-9c18-c65a14472972

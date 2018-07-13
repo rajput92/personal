@@ -63,6 +63,206 @@ mvn install -P profile_name : to install package with Profile_name configuration
 
 PHASE IS A DIFFERENT THING AND GOAL IS DIFFERENT
 
+HoW MAVEN HELPS :
+
+Build automation CI part
+project modularizatin 
+dependency management
+Source code qulaity checkout
+Acceptance testing
+deployment automation
+
+EACH OF THE BUILD PASES/ GOALS ARE MAVEN PLUGINS, SO GOALS ARE WRITTEN IN PLUGINS ONLY
+
+PROJECT EXAMPLE :
+
+DemoApp --> packagin pom : so will install pom in local repo
+DemoAppSubMOdule --> packagin war
+DemoAppSubWAR --> packagin war
+
+maven clean install :
+--- maven-clean-plugin:3.0.0:clean (default-clean) @ DemoApp ---
+--- maven-install-plugin:2.5.2:install (default-install) @ DemoApp --- : copying artifact to local m2 repo 
+
+Building Blazebit Persistence Java EE Sample 1.0-SNAPSHOT
+--- maven-clean-plugin:3.0.0:clean (default-clean) @ DemoAppSubModule --- : delteting target folder
+--- maven-resources-plugin:3.0.2:resources (default-resources) @ DemoAppSubModule ---
+--- maven-compiler-plugin:3.7.0:compile (default-compile) @ DemoAppSubModule ---
+Compiling 10 source files to /home/ec2-user/DemoApp/DemoAppSubModule/target/classes
+--- maven-resources-plugin:3.0.2:testResources (default-testResources) @ DemoAppSubModule ---
+--- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ DemoAppSubModule ---
+ Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/ec2-user/DemoApp/DemoAppSubModule/target/test-classes
+--- maven-war-plugin:3.1.0:war (default-war) @ DemoAppSubModule ---
+--- maven-install-plugin:2.5.2:install (default-install) @ DemoAppSubModule --- : copying war to local repo into group id, artifact id, version, package war and pom
+
+Also whatever dependencies which were mentioned in pom.xml with gorupID, artifact id are downloaded and stored into local m2 repo 
+
+How dependency solved in maven compilation: with the help of scopes: scopes tells maven when to download and look for dependency, 
+
+SCOPES:
+
+compile : default, during compilation in classpaths
+provided : JDK or env will provide during runtime
+runtime : runtime at classpaths
+test : for test compilation
+system : always available 
+import : import as specified in pom from other moduels
+
+In Multi-modular projects, dependencies can be defined in the parent POM files and can be subsequently inherited by child POM files as and when required.
+
+The following is an example to show a Multi-modular project having a MySQL dependency. 
+The parent POM would contain the complete definition of the 
+dependency: 
+<dependencyManagement> 
+<dependencies> 
+<dependency> 
+<groupId>mysql</groupId> 
+<artifactId>mysql-connector-java</artifactId> 
+<version>5.1.2</version> 
+</dependency> <dependencies> 
+</dependencyManagement> 
+
+example of import dependecy
+All child modules that require MySQL would only include a stub dependency definition: 
+
+<dependency> 
+<groupId>mysql</groupId> 
+<artifactId>mysql-connector-java</artifactId> 
+</dependency> 
+
+There will be no version conflicts between multiple child modules having the same dependencies.
+
+System dependencies are not looked for in the repository. For them, we need to specify the path to the JAR: 
+
+<dependencies> <dependency> 
+<groupId>sun.jdk</groupId> 
+<artifactId>tools</artifactId> 
+<version>1.5.0</version> 
+<scope>system</scope> 
+<systemPath>${java.home}/../lib/tools.jar</systemPath> 
+</dependency> 
+</dependencies>
+
+Source code quality chaecks : standards which need to be follow for source code compilation
+
+SONAR INTEGRATION WITH MAVEN in POM.XML , AND TEST WITH JENKINS and code analysis reports
+
+TDD :
+
+test cases are written in testcase.java file, 
+mvn test --> comile testcase.java--> call junit plugin to test having test scope--> generate reports in target folder
+
+The Maven Surefire plugin has a test goal bound to the test phase of the build lifecycle. This executes all tests under the <project_base_dir>/src/test/java folder with filenames matching
+
+JUNIT is a dependecy, whcih is downloaded during test phase which is needed for mavne-surefire plugin
+
+Integration test is also done by maven sure filre plugin. maven fail safe plugin
+
+DEploy to remote server, :
+
+<distributionManagement> 
+<repository> 
+<id>srirangan.repository</id> 
+<name>MyPrivateRepository</name> 
+<url>...</url> </repository> 
+</distributionManagement>
+
+URL can be any remote url , the whole package with group id , artifact id, is copied to url
+
+But we need to edit server part with username and password in settings.xml in both 
+
+<server> 
+<id>srirangan.repository</id> 
+<username>srirangan</username>
+
+
+TO USE SSH to copy :
+
+<distributionManagement> 
+<repository> 
+<id>sri-ssh-repository</id> 
+<url>scpexe://....</url> 
+</repository> 
+</distributionManagement> 
+
+<build> 
+<extensions> 
+<extension> 
+<groupId>org.apache.maven.wagon</groupId> 
+<artifactId>wagon-ssh-external</artifactId>
+<version>1.0-beta-6</version>
+</extension> 
+</extensions> 
+</build>
+
+SETTINGS.XML:
+
+PARTS:
+    localrepopath
+    offline : to use only local repo
+    proxies
+    server : to contact with remote server 
+    mirror : to download artifacts from remote central maven repo
+    profiles
+    
+developer --> manually downloading dependecy which are not in maven central repo--> so they buil developer central repo--> artifatory in athem
+
+add the same in mirror with url and password
+
+TEAM INTEGRATION MAVEN : enterprise projects are generally executed by a team of programmers in an organization. Teams may consist of developers and contributors. Teams can be onsite, offshore, or distributed, which is a mix of onsite and offshore team members.
+
+The team information setup consists of: 
+Licenses 
+Organization 
+Developers 
+Contributors
+ 
+ mavn install -o : to run any command in offline mode or make changes in settings.xml file
+ 
+ mavn site : for genrating reports and JAVA docs
+ 
+ 
+ 
+ The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path  : add runtime apache tomcat 
+ 
+When maven says “resolution will not be reattempted until the update interval of MyRepo has elapsed”, where is that interval specified? : error when we try to download from 3 party repo --> run command with -U
+
+No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK? : might be in enclipse java_home is configured in jre
+
+Force maven update : if maven crashed : mvn clean install -U : only snapshots version
+
+snapshot --> The difference between a "real" version and a snapshot version is that snapshots might get updates. That means that downloading 1.0-SNAPSHOT today might give a different file than downloading it yesterday or tomorrow.
+
+How to solve “Plugin execution not covered by lifecycle configuration” for Spring Data Maven Builds --> 
+
+How to add local jar files to a Maven project? -- > install jar manually-->  mvn install:install-file
+   -Dfile=<path-to-file>
+   -DgroupId=<group-id>
+   -DartifactId=<artifact-id>
+   -Dversion=<version>
+   -Dpackaging=<packaging>
+   -DgeneratePom=true
+   
+Updating version numbers of modules in a multi-module Maven project : mvn versions:set -DnewVersion=2.50.1-SNAPSHOT, mvn versions:revert, mvn versions:commit
+
+Maven packaging without test (skip tests) : Run maven with -Dmaven.test.skip=true
+
+
+'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing : <version> tag is missing
+
+what is maven artiafct : a packge file, jar, war, with group id, artifact id
+
+Hosting a Maven repository on github--> creat a separate bracnh in github for maven repo--> point the same thing in setings.xml-->server
+
+Maven does not find JUnit tests to run --> syntax for test case file might be incorrect--> or configure maven surefire plugin to match new patern
+
+
+ 
+
+
+
+
 
 
 

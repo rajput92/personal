@@ -22,6 +22,8 @@ git branch -d future-plans
 
 When you delete future-plans, you can still access the branch from master using a commit id. For example, if you want to undo the changes added from future-plans, use the commit id you just received to go back to that branch.
 
+branch from commit id : git branch justin a9c146a09505837ec03b || git checkout -b justin a9c146a09505837ec03b
+
 When you work with another user's public Bitbucket repository, typically you have read access to the code but not write access. This is where the concept of forking comes in.
 
 Fork the repository to copy it to your own account.
@@ -75,6 +77,50 @@ git stash branch add-stylesheet stash@{1} : creating a branch fr4om stash
 git stash drop stash@{1} : cleaning up your stash
 
 
+why use git stash : want to switch to another version of work and also want to keep stagged and unstaggedd changes as it is, for branches, all the changes has to be stagged
+
+git ref --> refers to latest commit
+git head --> checked out commit
+
+git fetch --> fetch the comit from remote and make it stagged not commit--> /rfs/remote/origin
+
+git pull --> fetrch the commit and merger/comit the stagged changes
+
+
+git tree ---> unstagged --> stagged --> project hostory
+
+git revert --> make a new commit with the changes removedd from specified commit in git revert commitid command--> makes removed commit not orphaned and deletedd --> it remais in project history
+
+git reset --> move head and refs to that commit--> make the after commits orphned and delted after ran garbafge collctory
+
+git checout : head is moved to that commit and refs is to latest commit
+
+delete a remote branch : git push -d remote-nmae branch-name
+
+how to change commit msg --> --ammend option : than how in remote --> change in local than --force-push that branch tpo remotte
+
+how to undo git add before commit --> git reset file/nothing --> will remove stagged changes
+
+how to rename local git branch --> git branch -m oldnamen newname : -m : move
+
+to remove untracked from current git working directory --> git clean -f -d
+
+check out remote nrach --> git fetch and git checout --> no pull and check--> merge conflict--> overwrite files
+
+overwrite local files with git pull -->so dont wnat mergw conflict--> git fetch--> git reset refs/remote/head/master
+
+I.e. How can I go from this
+
+master A - B - C - D - E
+to this?
+
+newbranch     C - D - E
+             /
+master A - B 
+
+git branch from master--> git reset head/3--> maske master 3 comits back
+
+to make Git “forget” about a file that was tracked but is now in .gitignore? --> nned to remove from git index --> git rm -cached filename
 
 
 
