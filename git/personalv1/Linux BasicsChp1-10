@@ -53,6 +53,19 @@ HTTP --> SSL layer on top of it
 
 client --> generate random key using public key which got from /ssl/certs --> send encryption key to server--> decrypted by ssl private key--> https connection occurs--> send mesage --> encrypts--> client decrypts
 
+if some applications stop working --> find--> logs folder--> tail -f/n logs ---> debug it
+
+How to increase disk space --> lvextend
+How :--> first find different physical partitions --> df -h --> second find logival volumes(dev/sda2:dev/mapper/cetos-root & dev/mapper/var)-->pvs to find actual size of logival volume --> lvextend to extend logiavl vaolumes-->still df- h will not update--> lvs to see size of all logical volumes --> than according to file system used --> you need to use xfs_grofs or resize2fs
+
+Applications loads hike --> top -->cpu+memory utilization--> top -u
+    iotop--> for disk input/output utilization(disk read/write)
+ 
+Now how to find load and than select which application taking high load and than kill it --> uptime --> ps axjf -->ps aux --> kil -9 process name
+
+how to recover accidentley deleted files in linux --> install scalpel --> find the partiition on which files are deleted --> scalpel dev/sda6 -o onanother partition
+
+aureport --> for auditing purpose --> -x : executsble events -u : user events --success --failed
 
 STDIN - keyboard redirection = < file descriptor =0
 STDOUT - keyboard redirection = > file descriptor =1

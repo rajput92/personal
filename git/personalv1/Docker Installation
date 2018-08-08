@@ -493,26 +493,7 @@ Error response from daemon: This node is not a swarm manager. Worker nodes can't
 
 Docker has solutions for container-to-container networks, as well as connecting to existing networks and VLANs. The latter is important for containerized apps that need to communicate with functions and services on external systems such as VM’s and physicals.
 
-Docker networking is based on an open-source pluggable architecture called the Container Network Model (CNM). libnetwork is Docker’s real-world implementation of the CNM, and it provides all of Docker’s core networking capabilities. Drivers plug in to libnetwork to provide specific network topologies.
-
 To create a smooth out-of-the-box experience, Docker ships with a set of native drivers that deal with the most common networking requirements.
-
-At the highest level, Docker networking comprises three major components:
-The Container Network Model (CNM) 
-libnetwork 
-Drivers
-
-The CNM is the design specification. It outlines the fundamental building blocks of a Docker network. 
-
-libenetwork is a real-world implementation of the CNM, and is used by Docker. It’s written in Go, and implements the core components outlined in the CNM. 
-
-Drivers extend the model by implementing specific network topologies such as VXLAN-based overlay networks.
-
-
-
-
-
-
 
 How to get a Docker container's IP address from the host? --> docker inspect | grep ipaddress
 
@@ -530,7 +511,36 @@ comand to know detailed info about networks adapter : docker network inspect bri
 
 what is name of brdge apapdter to which docker host is connected to linux host bridge adapter : docker0
 
-command to create a network : --> docker network --create -d driver_name network_name
+command to create a network : --> docker network create -d bridge localnet
+
+docker0(linux host adapter)-->bridge(adapter for docker containers)
+
+what if you want to connect Mysql running on localhost and nginx running on doker contianer --> try to user -net=host for nginx container --> so that they connect to each other with localhost ports only, and no need for port forwarding configuraations
+
+for bridge mode --> u need to bind-address in mysql configurations, and mysql has to work or make connections on that IP adress only
+
+difference bwteeen ENTRYPOINT and CMD : entrypoint --> default appliccations need to be run
+CMD--> command that run for deafult applications running at entrypoint
+
+How to explore docker container file systems: with the help of docker exec or open an port with ssh in container
+
+How to pass env. varibles to cdocker container --> with the help -e flag
+
+mount host directory in docker container --> -v host:container
+
+Exposing a port to live contianre --> as if now not possible--> but you can try to use IPTAbles to forward port from container to host
+
+force docker for clean build instead from cache --> --no-cache flag
+
+differnece between ADD and COPY : add can be use for adding URL also
+
+daemon logs for docker --> var/log/messages
+
+
+
+
+
+
 
 
 

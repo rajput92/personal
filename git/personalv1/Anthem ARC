@@ -36,3 +36,15 @@ Python scripting
 rela projects
 
 
+
+APIGATEWAY
+LOADBALANCER
+ASG
+BEANSTALK
+EC2
+LAMBDA
+S3
+CLOUDFRONT
+ECS
+
+

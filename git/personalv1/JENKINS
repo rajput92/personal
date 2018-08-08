@@ -1,6 +1,15 @@
 Basic two ways to start jenkins:
 
-Jenkins WEB Start --> run and save JNLP file--> jenkins downloaded --> run on browser
+Jenkins disadvantages :
+
+Jenkins doesn’t allow one developer to see the commits done by another team member, readily. This makes tracking the overall release progress a rather difficult job for larger projects. This can cause a lot of trouble to the release manager.
+
+Jenkins doesn’t provide any analytics (there are plugins but they are not enough) on the end-to-end deployment cycle. This again goes back to the lack of overall tracking that contributes to the lack of analytics as well.
+
+While Jenkins is indeed a powerful and useful tool, managing a Jenkins server needs special attention and many times, a dedicated developer. This adds man hours to the project and pushes up the overall project cost as well.
+
+
+Jenkins WEB Start --> run and save JNLP(Java Network Launching Protocol) file--> jenkins downloaded --> run on browser
 
 WAR based file --> java -jar jenkins.war (executable WAR file)
 
@@ -140,9 +149,70 @@ Jenkins not executing jobs (pending - waiting for next executor) -> might be due
 
 Jenkins - j_acegi_security_check --> tomact gives error after log in --> please enble security --> jenkins users own db and allow sign up
 
+scp from remote to host and host to remote both side possible
 
+a slave.jar is running on slave when you connect jenkins master with slave
 
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. ... Swap space can be a dedicated swap partition (recommended), a swap file, or a combination of swap partitions and swap files.
 
+i nned to run dhclient everytime when i boot the server : make an entry in etc/rc.d/rc.local , and make it executable, it will be run during startup
+
+rc.d : run commands .d : directory
+
+How to pass variables from one build to other --> parent build --> trigger/call build on other projects in a any pre/post build steps--> Child build--> parameterized build
+
+two types of pipeline:
+   DECLARITIVE
+   SCRIPTED : mostly used on specific agents 
+   
+HOW TO CREATE PIPELINE PROJECT:
+    UI - > pipline script
+    JEnkinsfile from SCM
+    
+HOW to genrate pipeline with various selections from jenkins UI options --> 8080/pipeline-syntax --> snippet generator
+
+AGENT DIRECTIVE :
+
+   agent none
+   agent any
+   agent { label 'my-defined-label' }
+   agent { node { label 'labelName' } } same as above but we can also allow custom workspace
+SUPPOSE YOU WANT TO RUN THE PIPELINE WITH GIVEN CONTAINER, SO : agent { docker 'maven:3-alpine' }
+   agent {
+    docker {
+        image 'maven:3-alpine'
+        label 'my-defined-label'
+        args  '-v /tmp:/tmp'
+TO USE DOKERFILE< SAME AS ABOVE IMPLEMENTATIOn
+
+COMMON USE OF SPECIFIC AGENT is WITH CUSTOM WORKSPCE:
+    agent {
+    node {
+        label 'my-defined-label'
+        customWorkspace '/some/other/path'
+    }
+}
+
+MAKE COMMAND IS SCANNING MAKE FILE, WHERE CONFIGURATION IS WRITTEN HOW PROGRAM CONNECTED, SO MAKE WILL RECOMPILE WHOLE PROGRAM ACCORDINGLY
+
+How you can call jenkins build from outside jenkins : --> Rest api call with POST method
+curl -X POST JENKINS_URL/job/JOB_NAME/build --> but then will show error if CSRF(Prevent Cross Site Request Forgery exploits) enabled--> than need to be pass crumbled request for successfull passing parameters
+
+How to get uaer api token from jenkins for any user--> jenkins-->people-->username-->api token show
+
+How to change Dashboard view in jenkins ---> jenkins --> configure asystem--> new view--> like pipeline view-->dasboard view
+
+what is the difference between REfspec and branch build --> refspec is used when you want to cheout specific branches--> while branch build will build the code from branch you specified after cloning
+
+how to use git clone so that it cant clone git history of the project which saves disk and space --> use shallow clone from advanced git clone options
+
+to checkout only specific folder --> advacennd clone options-->path of the reference repo to use during clone
+
+How to authenticate jenkins from private Github repo--> means if you want just specifc repo to be authenticated with jenkins--> use GITHUB DEPLOY KEYS
+
+GITHUB--> REPO--> SETTINGS--> DEPLOY KEYS--> add a public key from jenkins server
+
+If for above req. Jenkins user not possible, than how to use ssh keys --> generate ssh from another location--> in ssh/config configure try to point out the location of public GITHUB deploy keys--> 
 
 
 

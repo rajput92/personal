@@ -1,0 +1,179 @@
+JENKINSFILE
+
+DOCKERFILE
+    DOCKERFILE
+    DOCKERCOMPOSE
+
+ANSIBLE PLAYBOOK
+
+PYTHON :
+Working with Linux system configuration.
+Monitoring alerts using python
+System health checks using python
+Managing cron using python.
+PYTHON TAKE EXAMPLES FROM LINUXACADEMY
+
+CHEF COOKBOOK
+
+BASIC CICD ARCH:
+
+           START                
+           SCM COMMIT
+           REPO BRANCH NAME  STAGE 1                       STAGE 2                 STAGE 3                     STAGE 4
+DEV TEAM : WORKFLOW START-->SCM CHECKOUT              -->Build/launch-------------->TEST---------------------->DEPLOY
+                            COLLECT DEPENDENT REPOS --     Docker                 
+                                                Parallel-->Build launch Module 1    UNIT TEST Module 1
+                                                running -->Build launch Module 2    INTEGRATION TEST Module 2  
+                                                                                    SMOKE TEST Module 3
+                                                                                   
+STAGES GENERATE BUILD REPORT --> the same you saw in JFROGG ARTIFACTORY
+STAGE 3 : TEST RESULTS from all the plans 
+
+JENKINS BASIC SCRIPT:
+pipeline {
+    agent any : here any is type: can be docker, label
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello world!' 
+            }
+        }
+    }
+}
+
+PIPELINE EXAMPLE : https://jenkins.io/doc/pipeline/examples/
+
+STEPS: USE DOCKER as an agent
+    1. Maven Build
+    2. Maven TEST
+    3. deploy
+
+pipeline {
+    agent {
+        docker {
+            image 'maven:3-alpine'
+            args '-v /root/.m2:/root/.m2'
+        }
+    }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'mvn -B -DskipTests clean package'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
+        stage('Deliver') { 
+            steps {
+                sh './jenkins/scripts/deliver.sh' 
+            }
+        }
+    }
+}
+
+ANSIBLE SCRIPT :
+
+DEPLOYMENT OF APPLICATION TO SERVER WITH CHECKOUT FROM GIT WITH SUDO ACCESS:
+ ansible host -m git -a "repo="" dest="' update="" version="" "
+ ansible host -a " "/.sh"
+ 
+INSTALLATION OF APACHE SERVER WITH SERVICE RUNNING OB BOOT WITH SUDO ACCESS:
+
+STESP :
+    1.install httpd http-devel
+    2.copy config files
+    3.service hhtpd start
+---
+- hosts:all
+  sudo:yes
+  tasks:
+  - name: Intslla Apache
+    yum: name={{items}} state=present
+    with_items:
+    - httpd
+    - httpd-devel
+  - name: copy config files
+    copy: 
+      src:{{item.src}} 
+      dest:{{items.dest}}
+    with_items:
+    -{
+      src="path/to/conf/httpd.conf"
+      dest="etc/httpd/conf/httpd.conf"
+     }
+    -{
+      src="path/to/conf/httpd-vhosts.conf"
+      dest="etc/httpd/conf/httpd-vhosts.conf"
+     }
+   - name: SATRTING SERVICE and run as boot
+      service: name=httpd state=started enabled=yes
+    
+DOCKERFIEL TO INSTALL NODE APPLICATIONS:
+STEPS:
+    1.base image
+    2.install nodejs and npm-nodejs
+    3.copy src current to docker container
+    4.run npm installl from source directory
+    5.start the applications:
+FROM alpine
+LABEL maintainer="nigelpoulton@hotmail.com"
+RUN apk add --update nodejs nodejs-npm
+COPY . /src
+WORKDIR /src
+RUN npm install
+EXPOSE 8080
+ENTRYPOINT ["node", "./app.js"]
+
+DOCKER COMMANDS:
+ADD : allows src while copy not
+are likely to get surprised someday when you mean to copy keep_this_archive_intact.tar.gz into your container, but instead you spray the contents onto your filesystem.
+CMD
+ENTRYPOINT
+ENV
+EXPOSE
+FROM
+MAINTAINER
+RUN
+USER
+VOLUME
+WORKDIR
+
+DOCKER COMPOSE YML
+STEPS:
+    1.WE APP : build an image, mount volume, attach network, and command to run
+    2.DB : run an image,mount volume, attach network
+
+version: "3.5"
+services:
+web-fe:
+    build: .
+    command: python app.py
+    ports:
+      - target: 5000
+        published: 5000
+    networks:
+      - counter-net
+    volumes:
+      - type: volume
+        source: counter-vol
+        target: /code
+  redis:
+    image: "redis:alpine"
+    networks:
+      counter-net:
+networks:
+  counter-net:
+volumes:
+  counter-vol:
+
+
+
+

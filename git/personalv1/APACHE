@@ -1,0 +1,9 @@
+TWO TYPES OF INSTALLTION
+
+yum intall httpd httpd-devel
+
+from sourc with make: advantages:
+    we can .configure and manage httpd folder intallation dir., package lib path
+    make
+    su 
+    make install

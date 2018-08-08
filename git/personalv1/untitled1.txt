@@ -1,43 +1,45 @@
-ACCENTURE :
-
-Must Have Skills :DevOps
-Good To Have Skills :
-Java API for RESTful Web Services (JAX-RS)
-
-Job Requirements : Responsibilities: 
-1	Must to have DevOps tools like Jenkins, Git, Maven, Sonar 
-3 Must to have Docker knowledge 
-4	Good to have Kubernetes knowledge 
-5	Good to have MySQL 
-6	Good to have Shell script and automation 
-Professional Experience: 
-1	DevOps background having 
-2 years of experience and exposure of linux
 
 
-Skills : DevOps 
-Good to Have Skills : Java API for RESTful Web Services (JAX-RS) 
-
-Job Requirements : 
-Responsibilities: 
-1	Must to have good Hands-on on Linux Server Administration 
-2	Must to have hands-on Experience on build, design and deploying applications on any Cloud Platform, preferably AWS Amazon Web Services, Azure, Vmware 
-3	Must to have working Knowledge of deploying and running applications on Containers, preferably Docker , Working Knowledge on any Configuration Management Tools, preferably Ansible, SCM tools like GIT Great Scripting skills, preferably: Shell/Bash Scripting, Python, Perl 
-4	Good to have knowledge on Kubernetes Knowledge on Code Analysis tools like SonarQube 
-5	Good to have knowledge on any of the monitoring tools: Nagios, Check_mk, Graylog, ELK and any other SaaS monitoring tool
-
-DIFF BETW SNAP AND RELEASE
-
+JENKINS --> BE A MASTER https://jenkins.io/doc/book/pipeline/
+JENKINS FILE/GROOVY
+DOCKERFILE
+DOCKER --> BE A MASTER
+ANSIBLE
+ANSIBLE SCRIPT
+Mesos
+Python
+Groovy
+SHELL
+CHEF -->
+Kubernates --> https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
+IPTABLES
+NGINX --> BE A MASTER
+TOMCAT --> BE A MASTER
+CARE FOR PROD DEPLOYMENT
 GIT
-MAVEN
-PYTHON     PROGRAMMING INTERVIEW QUESTIONS
-JENKINS   
-ANSIBLE ;
-LINUX RHCSA DUmps
+MAven
+AWS Whole end to end
+Linux 24 chapters
+
+SYSADMIN JOBS :
+• Apply patches and updates via yum, apt, and other package managers. 
+• Check resource usage (disk space, memory, CPU, swap space, network). 
+• Check log files. 
+• Manage system users and groups. 
+• Manage DNS settings, hosts files, etc. 
+• Copy files to and from servers. 
+• Deploy applications or run application maintenance. 
+• Reboot servers. 
+• Manage cron jobs.
+
+TRY TO CONVERT INTO PYTHON SCRIPTS
+
+ARCH : jenkins-->docker
+        jenkins-->ansible
+        jenkins-->docker-->ansible
+
 
 MERITS AND DEMERITS
-
-https://shashanksrinfo.blogspot.com/2018/06/devops-interview-questions.html?m=1
 
 CDRM PDF
 
@@ -49,30 +51,7 @@ jenkins-->docker-->ansible
 LAMBDA Serverless case scenario
 
 
-Automate deployment of angular applications with the help of Bitbucket, Lambda, Python, and S3 in IBM IHS server in EC2 .
-Bamboo Docker CI/CD
-Implemented Multi Stage Build in Docker to get artifact with base image as Jenkins and deploying it to IBM WebSphere.. 
-Deployment of Docker containers for development.
-Jenkins installation and Integration with Bitbucket 
-Administration and Installation of services such as JIRA, Open LDAP. 
-Installed 6 slave Jenkins agents on Cent OS servers to equally balance load of builds
 
-
-
-
-
-
-
-
-
-Maven
-GIT
-Jenkins
-Docker whole book
-Ansible
-Tomcat
-Nginx
-AWS
     EC2 ECS LAMBDA Beanstalk
     Codecommit CodeBuild CodeDeploy Codepipeline
     EMR Elasticsearch Kinesis
@@ -81,24 +60,8 @@ AWS
     IAM Cognito
     RDS Dynamo DB ElasticCache Redshift
     VPC CloudFront Route 53 APIGateway Direct Connect3
-Python chp 8-10, interview questions
-Linux till 24  
-    
-Bitbucket
-Bamboo
-Sonar
-Artifactory
-Udeploy
-Core JAVA, Spring Boot, Angular JS
-How JAVA, spring boot, Angular JS compiled
-CDRM
-Websphere
-Nagios
-App server and web server
-Networking CISCO
-Database Knowledge
-Teraform.
 
+    
 
 jenkins-->maven-->sonar-->artifactory-->udeploy-->docker-->websphere-->ansible
 
@@ -107,27 +70,6 @@ jenkins-->ansible case scenario
 docker-->ansible
 jenkins-->docker-->ansible
 LAMBDA Serverless case scenario
-
-Script:
-
-JAVA
-PYTHON
-MAVEN
-SHELL
-CLOUDFORMATION
-TERRAFORM
-
-Tools:
-
-Linux
-Docker
-AWS
-Bitbucket
-Bamboo
-Jenkins
-Sonar
-Artifactory
-Udeploy
 
 
 

@@ -1,0 +1,11 @@
+MANAGING SOFTWARE PACKAGES :
+
+Where the repo for software packages are stored : etc/yum.repo.d
+
+To tell os which repo need to used and from its need to downloaded : .repo file
+Attribuets :
+    [label]
+    baseurl
+    mirrorlist
+    gpgcheck
+    gpgkeyfile : path

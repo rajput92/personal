@@ -190,15 +190,198 @@ ansible_ssh_private_key_file= : to use ssh key based autentication
 
 If you want to play a mandatory task at the end of play --> use handlers--> to call handlers, a notify option is used in tasks--> if  a tasks is skipped due to some reasons--> handlers also skipped--> tasks like restatring service uses handlers
 
+What if you want to call common plabooks from other playbooks, call variabled, tasks, organise tasks and playbooks: 3 WAYS:
+    INCLUDE
+    IMPORTS
+    ROLES
+    
+IMPORTS:
+
+Before 2.4: import_playbook
+
+AFTER 2.4 :
+
+IMPORTS: pre-procesed : when you want to use long list of static tasks 
+INCLUDES: ran at runtime during execution : when you want to run some list of tasks based on condition of running playbook
+
+HOW TO DEFINE :
+-tasks:
+ import_tasks: comon_tasks.yml wp_user=tummy
+ or 
+ include_tasks: common_tasks.yml
+
+INCLUDE TASKS TO CONNECT WITH USER WITH SSH KEY:
+-tasks:
+ include_tasks:wp_install.yml
+ vars:
+   wp_user:me
+   ssh_keys:
+   -"{{lookup(file, /id_rsa.pub)}}
+
+ALSO CAN BE USED WITH HANDLERS:
+    suppose you want to mandatory restart application in almost every applications configurationdeployment:
+-handlers:
+    include_tasks:restart_task.yml
+    
+    
+ROLES: use to import an execute tasks, vars, metadata, handlers, files, templates
+
+ROLES HAS A SPECIFIC DIRECTORY STRUCTURE TO EXECUTE --> EACH DIRECTORY HAS A MAIN.YML FILE:
+    -tasks
+    -handlers
+    -files
+    -templates
+    -vars
+    -default
+    -meta
+Mandotroy to include any of folders, and executed in a similar manner
+
+EXAMPLE :
+---
+-hosts: webservers
+ roles:
+    -common
+    -webserver
 
 
+EXECUTION OF TASKS IF ROLES WAS ASIGNED IN PLAYBOOK:
+1.predefine tasks
+2.handlers if called
+3. roles : first dependecy tasks if mentioned in meta/main.yml
+4.post define tasks
+5.handlers
+
+ALSO CAN USE import and include to execute role with the tasks
+
+- import_role:
+      name: example
+  - include_role:
+      name: example
+      
+conditionally import a role and execute it’s tasks:
+- hosts: webservers
+  tasks:
+  - include_role:
+      name: some_role
+    when: "ansible_os_family == 'RedHat'"
+    
+IF YOU WANT TO ASSIGN EXTERNAL VARS AND TAGS ALOG WITH ROLES:
+use import or include_role
+- hosts: webservers
+  tasks:
+  - import_role:
+      name: foo
+    tags:
+    - bar
+    - baz
+    
+    
+ROLE DUPLICATION AND EXECUTION:
+
+-tasks:
+    roles:
+        foo
+        foo : NOT ALLOWED
+ALLOWED ONLY :
+1. declared with different parameters
+2. allow_duplicates:true in roles/meta/main.yml
+
+ROLE DEPENDENICES EXAMPLE WITH DUPLICATES ROLES
+ROLE CAR:
+    -tasks
+    -meta:
+        main.yml:
+            dependencies:
+            - role: wheel
+               vars:
+                n:1
+            - role: wheel
+               vars:
+                n:2
+            - role: wheel
+               vars:
+                n:3
+ROLE WHEEL:
+    -tasks
+    -meta:
+        main.yml:
+            dependencies:
+            - role: tire
+            - role: brake
+ROLE TIRE:
+    -tasks
+    -meta:
+        main.yml:
+            allow_duplicate=true
+ROLE BRAKE:
+    -tasks
+    -meta:
+        main.yml:
+            allow_duplicate=true
+            
+SO EXECUTION:
+    TIRE -1
+    BRAKE-1
+    WHEEL-1
+    TIRE -2
+    BRAKE-2
+    WHEEL-1
+    TIRE-3
+    BRAKE-3
+    WHEEL-3
+    
+    CAR
 
 
+Everytime for a new connection you are getting known hosts error if password is enabled--> so first we have to add manually each server to known_hosys, so how to avoid --> two options
+1. ansible_host_key_checking = false in inventory 
+2. ansible_host_key_checking = false in ansible.cfg in /etc/ansible/ansible.cfg or ~/.ansible/ansible.cfg
 
+OR
 
+Run one time playbook with having options to add all servers in inventory to known hosts:
+- name: Write the new ec2 instance host key to known hosts
+  connection: local           (local ansible inerpretor)
+  shell: "ssh-keyscan -H {{ inventory_hostname }} >> ~/.ssh/known_hosts"
+  
+  
+How to make ansible playbook run locally 
+hosts:127.0.0.1
+connection:local
+what if you want to run just single tasks out of whole playbook in a local machine
+ - name: check out a git repository
+    local_action: git repo=git://foosball.example.org/path/to/repo.git dest=/local/path
+    
+How to pass variable while running ansible playbbok command:
+ansible-playbook release.yml --extra-vars "version=1.23.45 other_variable=foo"
 
+Move/rename a file if file exists:
 
+- name: stat foo
+  stat: path=/path/to/foo
+  register: foo_stat
 
+- name: Move foo to bar
+  command: mv /path/to/foo /path/to/bar
+  when: foo_stat.stat.exists
+  
 
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

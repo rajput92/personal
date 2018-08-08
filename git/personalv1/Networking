@@ -1,0 +1,24 @@
+Networks types:
+
+class A (range 1-126): 31 bits -- 2^31 IP addresses --> 
+    8 bits : network address : 1 bit is 0 --> so 2^7 = 128 n/w add. (range : 1-126)
+    24 : Host address : 2^24 = 16 M ip add. 
+    
+class B (range 128-191): 30 bits -- 2^30 IP addresses --> 
+    16 bits : network address : first two bit is 10 --> so 2^14 = 16K n/w add. (range : 128-191)
+    16 : Host address : 2^16 = 64k ip add. 
+    
+class C (range 192-223): 29 bits -- 2^29 IP addresses --> 
+    24 bits : network address : first three bit is 110 --> so 2^21 = 2 M n/w add. (range : 192-223)
+    8 : Host address : 2^8 = 256 ip add. 
+   
+class D (range 224-239): 28 bits -- 2^28 IP addresses --> 
+ 
+class E (range 240-255): 28 bits -- 2^28 IP addresses --> 
+
+CASTING --. sending packets between hosts:
+
+UNICAST : sending packets from one host to another  : packets=DATA+Source Add+DEST Add
+
+BROADCAST : sending packets from one to many hosts
+
