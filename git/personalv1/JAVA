@@ -1,0 +1,11 @@
+why do we need type casting: bcz when we assign one data type(with larger memory range) to another data type(smaller range)
+long-->int-->short-->byte
+
+float vs double : float (less mem.) 32 bit double 64 bit--> float 6-7 decimal points double 15-16 decimal points
+by default decimal numb. are double
+ 
+Char : can be assigned as unicode character
+
+operators: + - * / ++ -- == != += -= *= /= && || > < <= >= 
+if(num=5) vs if(num=true) :  difference
+ternary operator : ? true:false :composed of three parts var=anothervar? value1: value2

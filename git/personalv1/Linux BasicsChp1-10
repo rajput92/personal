@@ -1,5 +1,12 @@
 /etc/apt , /etc/apk : all are packages repos folders (Answer 1)
 
+why you need to run dhclient every time you boot the server:
+bcz in network script/icfg you need to enable boot=yes:
+DEVICE=ethX
+BOOTPROTO=dhcp
+ONBOOT=yes
+HWADDR=XX:XX:XX:XX:XX:XX
+
 git installation rhel
 subscription manager
 

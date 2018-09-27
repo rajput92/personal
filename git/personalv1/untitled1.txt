@@ -1,25 +1,54 @@
+ Kubernetes Udemy all videos
+ Docker whole book
+ docker DCA dumps
+ TCP UDP Concepts and other networking concepts clear
+ linux networking IP tables(1-24 again)
+ AWS SA and Sysops
+ Python scripting for AWS and Linux
+ 
+
+
+JD for JAVA:
+
+Jenkins
+Octopus
+Maven
+Git/GitHub
+CHEF/Ansible/Puppet
+Docker/Kubernetes
+Jira
+
+SHELL
+AWS Whole end to end
+Kubernates --> https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
+Chef
+Chef cookbook
+Linux 24 chapters
 
 
 JENKINS --> BE A MASTER https://jenkins.io/doc/book/pipeline/
 JENKINS FILE/GROOVY
-DOCKERFILE
+DOCKERFILE/docker compose
 DOCKER --> BE A MASTER
+docker swarm
 ANSIBLE
 ANSIBLE SCRIPT
-Mesos
 Python
 Groovy
-SHELL
-CHEF -->
-Kubernates --> https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
 IPTABLES
 NGINX --> BE A MASTER
 TOMCAT --> BE A MASTER
 CARE FOR PROD DEPLOYMENT
 GIT
 MAven
-AWS Whole end to end
-Linux 24 chapters
+Sonar
+
+
+Mesos
+
+Pyhton-->machine learnin-->mit ocw
+
+
 
 SYSADMIN JOBS :
 • Apply patches and updates via yum, apt, and other package managers. 
@@ -75,7 +104,15 @@ LAMBDA Serverless case scenario
 
 
 
+JD for JAVA:
 
+Jenkins
+Octopus
+Maven
+Git/GitHub
+CHEF/Ansible/Puppet
+Docker/Kubernetes
+Jira
 
 
 

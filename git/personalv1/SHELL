@@ -1,0 +1,40 @@
+$# : no. of character
+' ' : echo just as it is, doesn't allow referencing/evaluation of a variable
+"" : evaluate the variable and print the string 
+for col in $colors /// where colors="red white green"
+, : to tranform first into small ,,    $[var,,]   y=((x=10, 10/5) : will take the last
+(()) : evaluation of any arthmetic 
+; : to write more than one commands in single line
+\ : escape character
+let : command for arthmetic exp
+` ` : single reverse quote : to assign output of something as a variable input
+: : represensts nothing, so how to make some file emplty with this and how we can use in if else condition
+! : represents NOT, used in conditional statement
+** : for squares and cubes
+? : use in conditional statement, to assign output to a variable : var2=$((var1<20?1:0))
+
+if you want output of multiple files to one file using cat
+how to create loop without loop
+how to creat array and stored in variable
+how to shoe curent directory and previous directory with echo
+how to convert one no. system to another  echo $((2#111))
+
+if [ "$var1" -gt 0]; then echo "YES"; else echo "NO"; fi
+colors="red white green"
+for col in $colors  OR for col in "$colors"
+do; echo $col
+done
+
+SCRIPTS:
+Archiving user and lock account :
+1. read from parameters
+2. what is more than one user in parameter
+3. to prompt during running script
+
+Rename all files in a folder with date
+
+File operators :  -e -d, -f, -r, -s, -w, -x, etc
+
+Accept unlimited argument 
+
+Write an backup script with function

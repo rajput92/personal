@@ -1,0 +1,47 @@
+Minikube :single node kubernetes cluster
+Kubectl : cli to connect with kubernetes
+Pods : like docker compose --> multiple continer 
+Service : combination of one type of pods 
+
+kubectl run : like docker container run --> will pull the image and create a pod with single container
+kubectl expose : will make running pods to service
+
+SERVICE :
+why u need this : suppose you have microservices with front end and backend and if PODs are scaled up and down, than how we can track connections between pods, as IP changes during scaling, so that's why service came into picture
+
+service is a logical set of pods: we need to just specify the selector label in yml file, which will be take care the connections between pods
+
+for kubernative applications : it offers simple endpoints api, so whenever pods get changed, it got changed
+for non: virtual ip bridge available
+
+kube-proxy : will be responsible for managing IPtables for routable traffic between services and pods
+
+suppose you have pods with different ports open, than you how you can manegg with kubernets service --> give the target port as name in pods and assign the target port as string in service --> this will give more flexibity of using same pods with different ports
+
+Also you can select service without selector , where SERVICE ENDPOINTS are not generated so you can your endpoints with IP, so able to manage containre outside Kubernetes
+
+kubectle get pods
+kubectl describe pod ............
+kubectl delete pod .........
+kubectl create -f .............../yml
+kubectl scale --replicas=4 -f ......../yml
+kubectl get rc
+kubectl scale --replicas rc/......
+
+kubectl get deployments
+kubectl get rs
+kubectl get pods --show-label
+kubectl set image deployment/.........
+kubectl edit .....
+
+Replication set : advanced of RC : we can put condition of env. like dev, prod, qa
+Deployment : RS is used, it will make sure to make pods to desired state as mentioned in yml, also have more features
+create a deployment
+update
+roling updates, we can go to any version of app with zero downtime
+pause/resume a deployment(to make changes only on certain %)
+
+
+
+
+

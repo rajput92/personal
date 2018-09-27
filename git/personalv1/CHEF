@@ -1,4 +1,71 @@
-CHEF CLIENT : TEST KITCHEN, CHEF SOLO, COOKBOOKS 
+Chef workstation -- > server --> nodes
 
-CHEF SERVRE : ON PREMISE SERVER, CHEF ZERO, ROLES, DATA BAGS ENV, KNIFE
+workstation --> development of recepies and cookbooks
 
+server --> just as cluster to pass on recepies and cookbooks and nodes
+
+nodes --> client on which reciepes need to bve installed
+
+no chef server for windows--> yes chef client on windows
+
+chef sdk --> download rpm file from chef.io and install it with rpm -Uvh
+
+recepie --> a file to implement configuration
+bundled of recepies --> cookbooks
+
+chef-apply hello.rb --> to apply configuration 
+
+hello.rb :
+
+file 'motd' do 
+    content "hello world"     /// action : delete
+end
+
+installation of basic apache server :
+
+package "apache2" do
+    action :instaled
+end
+
+service "apache2" do
+    action :started enabled
+end
+
+file "/var/www/html/index.html" do
+    contents ""
+end
+
+how to generate cookbook : cheg genrate cookbook "nameof the cokkbook"
+
+folder structture :
+
+    -chef ingnore
+    -metadat.rb
+    -policyfile
+    -readme
+    -recepies
+        -default.rb
+    -spec
+        -spec_helper.rb
+        unit
+            -reciepes
+                -default.rb
+    -test
+        integration
+            default
+                serverspec
+                    default_spec.rb
+            helpers
+                serverspec
+                        spec_helper.rb
+ chef-client  --loca-mode --runlist 'recepie[name]'
+ 
+ runlist : list of recepies and cookbook
+ 
+ knife upload cookbook name
+ 
+ knife download cookbook name
+ 
+ knife bootstrap ip_addr --sh_user --ssh_passwd -nodfe _nmae  --runlist[name] : it connects to chef server and from their its will uploaded to chf client
+ 
+ 

@@ -1698,3 +1698,474 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 [W 23:01:42.055 NotebookApp] SSL Error on 10 ('193.238.46.22', 1957): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
 [I 04:56:28.143 NotebookApp] 302 GET /tree/git (61.246.57.5) 0.77ms
 [I 04:56:31.565 NotebookApp] 302 POST /login?next=%2Ftree%2Fgit (61.246.57.5) 1.24ms
+[C 05:54:02.348 NotebookApp] received signal 15, stopping
+[I 05:54:02.348 NotebookApp] Shutting down 0 kernels
+[I 05:33:53.807 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 05:33:53.808 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 05:33:53.817 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 05:33:53.817 NotebookApp] 0 active kernels
+[I 05:33:53.818 NotebookApp] The Jupyter Notebook is running at:
+[I 05:33:53.818 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 05:33:53.818 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:33:57.773 NotebookApp] Interrupted...
+[I 05:33:57.774 NotebookApp] Shutting down 0 kernels
+[I 05:34:16.511 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 05:34:16.511 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 05:34:16.517 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 05:34:16.517 NotebookApp] 0 active kernels
+[I 05:34:16.517 NotebookApp] The Jupyter Notebook is running at:
+[I 05:34:16.517 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 05:34:16.517 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 05:34:19.437 NotebookApp] SSL Error on 10 ('123.63.241.36', 46335): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:19.495 NotebookApp] SSL Error on 10 ('123.63.241.36', 46338): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:19.848 NotebookApp] SSL Error on 10 ('123.63.241.36', 46368): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:19.906 NotebookApp] SSL Error on 10 ('123.63.241.36', 46372): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:29.518 NotebookApp] SSL Error on 10 ('123.63.241.36', 46772): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:29.577 NotebookApp] SSL Error on 10 ('123.63.241.36', 46777): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:29.957 NotebookApp] SSL Error on 10 ('123.63.241.36', 46803): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:30.016 NotebookApp] SSL Error on 10 ('123.63.241.36', 46808): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:41.113 NotebookApp] SSL Error on 10 ('123.63.241.36', 47241): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:41.172 NotebookApp] SSL Error on 10 ('123.63.241.36', 47243): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:41.561 NotebookApp] SSL Error on 10 ('123.63.241.36', 47274): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:41.620 NotebookApp] SSL Error on 10 ('123.63.241.36', 47278): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:42.096 NotebookApp] SSL Error on 10 ('123.63.241.36', 47299): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:42.155 NotebookApp] SSL Error on 10 ('123.63.241.36', 47304): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:42.497 NotebookApp] SSL Error on 10 ('123.63.241.36', 47319): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:34:42.556 NotebookApp] SSL Error on 10 ('123.63.241.36', 47321): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:35:26.212 NotebookApp] 302 GET / (125.22.193.148) 0.58ms
+[I 05:35:26.380 NotebookApp] 302 GET /tree? (125.22.193.148) 1.14ms
+[I 05:35:35.391 NotebookApp] 302 POST /login?next=%2Ftree%3F (125.22.193.148) 1.22ms
+[W 05:40:10.220 NotebookApp] SSL Error on 12 ('182.48.105.210', 61422): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:10:04.929 NotebookApp] SSL Error on 10 ('89.218.73.150', 48223): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:55:10.809 NotebookApp] SSL Error on 10 ('125.64.94.200', 54291): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:01:20.327 NotebookApp] SSL Error on 10 ('168.1.128.61', 34500): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 07:05:44.589 NotebookApp] SSL Error on 10 ('180.51.31.85', 49483): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:55:08.614 NotebookApp] SSL Error on 10 ('221.210.182.146', 3497): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:55:09.596 NotebookApp] SSL Error on 10 ('221.210.182.146', 3697): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:55:10.563 NotebookApp] SSL Error on 10 ('221.210.182.146', 3799): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 08:55:11.548 NotebookApp] SSL Error on 10 ('221.210.182.146', 3842): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:15:47.022 NotebookApp] SSL Error on 10 ('122.228.10.51', 22637): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:32:56.370 NotebookApp] SSL Error on 10 ('185.246.141.53', 38081): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:52:32.225 NotebookApp] SSL Error on 10 ('211.54.55.7', 3499): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:52:32.749 NotebookApp] SSL Error on 10 ('211.54.55.7', 3725): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:52:33.265 NotebookApp] SSL Error on 10 ('211.54.55.7', 3842): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:52:33.782 NotebookApp] SSL Error on 10 ('211.54.55.7', 3881): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 18:12:17.993 NotebookApp] SSL Error on 10 ('92.242.228.125', 54821): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:41:39.684 NotebookApp] SSL Error on 10 ('211.54.55.7', 2261): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:41:40.211 NotebookApp] SSL Error on 10 ('211.54.55.7', 2465): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:41:40.735 NotebookApp] SSL Error on 10 ('211.54.55.7', 2567): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:41:41.267 NotebookApp] SSL Error on 10 ('211.54.55.7', 2609): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 05:54:14.430 NotebookApp] SSL Error on 10 ('213.64.54.171', 47989): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:40:04.139 NotebookApp] SSL Error on 10 ('211.54.55.7', 3509): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:40:04.667 NotebookApp] SSL Error on 10 ('211.54.55.7', 3720): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:40:05.208 NotebookApp] SSL Error on 10 ('211.54.55.7', 3857): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:40:05.727 NotebookApp] SSL Error on 10 ('211.54.55.7', 3912): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[I 16:53:51.947 NotebookApp] 302 GET /tree? (49.35.57.107) 0.82ms
+[I 16:57:44.568 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.35.57.107) 1.15ms
+[W 19:49:53.756 NotebookApp] SSL Error on 10 ('196.52.43.106', 41068): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:33.455 NotebookApp] SSL Error on 10 ('211.54.55.7', 2468): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:33.986 NotebookApp] SSL Error on 10 ('211.54.55.7', 2677): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:34.508 NotebookApp] SSL Error on 10 ('211.54.55.7', 2793): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:39:35.040 NotebookApp] SSL Error on 10 ('211.54.55.7', 2849): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 00:01:00.596 NotebookApp] SSL Error on 10 ('51.38.71.88', 60522): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:39:56.024 NotebookApp] SSL Error on 10 ('211.54.55.7', 1722): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:39:56.560 NotebookApp] SSL Error on 10 ('211.54.55.7', 1862): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:39:57.144 NotebookApp] SSL Error on 10 ('211.54.55.7', 2022): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:39:57.725 NotebookApp] SSL Error on 10 ('211.54.55.7', 2102): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 11:40:04.726 NotebookApp] SSL Error on 10 ('180.9.185.27', 48539): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:06:27.236 NotebookApp] SSL Error on 10 ('86.104.191.57', 42320): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 20:35:38.482 NotebookApp] SSL Error on 10 ('66.85.6.204', 43238): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:27.989 NotebookApp] SSL Error on 10 ('211.54.55.7', 1364): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:28.521 NotebookApp] SSL Error on 10 ('211.54.55.7', 1549): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:39:29.042 NotebookApp] SSL Error on 10 ('211.54.55.7', 1674): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:39:29.558 NotebookApp] SSL Error on 10 ('211.54.55.7', 1718): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 04:34:48.085 NotebookApp] SSL Error on 10 ('199.102.186.176', 57025): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:21:49.897 NotebookApp] SSL Error on 10 ('120.57.0.52', 33631): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:49.204 NotebookApp] SSL Error on 10 ('211.54.55.7', 3535): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:49.737 NotebookApp] SSL Error on 10 ('211.54.55.7', 3714): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:50.263 NotebookApp] SSL Error on 10 ('211.54.55.7', 3825): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:38:50.772 NotebookApp] SSL Error on 10 ('211.54.55.7', 3861): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 10:09:57.937 NotebookApp] SSL Error on 10 ('14.240.177.204', 36250): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 11:47:29.218 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 11:47:29.218 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 11:47:29.224 NotebookApp] Serving notebooks from local directory: /home/ec2-user/.jupyter
+[I 11:47:29.224 NotebookApp] 0 active kernels
+[I 11:47:29.224 NotebookApp] The Jupyter Notebook is running at:
+[I 11:47:29.224 NotebookApp] https://[all ip addresses on your system]:8000/
+[I 11:47:29.224 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:49:26.358 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:49:26.711 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:49:26.901 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:49:27.081 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:50:44.628 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:50:44.841 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:50:45.028 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 11:50:45.209 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:13:16.276 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:13:16.483 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 12:13:16.678 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 13:12:28.488 NotebookApp] SSL Error on 11 ('93.48.83.125', 40017): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:12:28.937 NotebookApp] SSL Error on 10 ('93.48.83.125', 39987): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:31:27.156 NotebookApp] SSL Error on 10 ('173.82.238.48', 20185): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:54:29.875 NotebookApp] SSL Error on 10 ('123.24.14.126', 51314): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:28.555 NotebookApp] SSL Error on 10 ('211.54.55.7', 3293): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:29.075 NotebookApp] SSL Error on 10 ('211.54.55.7', 3496): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:29.609 NotebookApp] SSL Error on 10 ('211.54.55.7', 3612): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:38:30.126 NotebookApp] SSL Error on 10 ('211.54.55.7', 3661): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 01:21:22.924 NotebookApp] SSL Error on 10 ('122.228.10.51', 41903): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:41:12.715 NotebookApp] SSL Error on 10 ('182.55.232.238', 44391): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 08:08:01.182 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:12:22.735 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:12:22.758 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:13:52.860 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:15:06.659 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:15:06.777 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 08:45:21.642 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:04:04.163 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:04:04.247 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:33:11.657 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:33:11.752 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:33:11.930 NotebookApp] Saving file at /git/personalv1/CHEF
+[W 09:38:33.237 NotebookApp] SSL Error on 10 ('211.54.55.7', 1934): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:33.771 NotebookApp] SSL Error on 10 ('211.54.55.7', 2114): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:38:34.289 NotebookApp] SSL Error on 10 ('211.54.55.7', 2296): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:38:34.844 NotebookApp] SSL Error on 10 ('211.54.55.7', 2413): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[I 09:48:50.917 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:48:51.095 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 09:48:51.268 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 10:06:16.785 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 10:06:16.889 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 10:06:17.043 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 10:06:45.896 NotebookApp] Saving file at /git/personalv1/CHEF
+[I 10:06:46.062 NotebookApp] Saving file at /git/personalv1/CHEF
+[W 11:15:55.361 NotebookApp] SSL Error on 10 ('14.141.174.18', 45282): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:14.407 NotebookApp] SSL Error on 10 ('211.54.55.7', 2766): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:14.933 NotebookApp] SSL Error on 10 ('211.54.55.7', 2973): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:15.449 NotebookApp] SSL Error on 10 ('211.54.55.7', 3090): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:38:15.962 NotebookApp] SSL Error on 10 ('211.54.55.7', 3152): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 06:07:42.071 NotebookApp] SSL Error on 10 ('51.15.191.81', 41205): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:41:49.789 NotebookApp] SSL Error on 10 ('80.82.77.33', 36200): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:00:12.948 NotebookApp] SSL Error on 10 ('86.124.67.148', 45002): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:23.120 NotebookApp] SSL Error on 10 ('211.54.55.7', 1656): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:23.637 NotebookApp] SSL Error on 10 ('211.54.55.7', 1833): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:38:24.162 NotebookApp] SSL Error on 10 ('211.54.55.7', 1930): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:38:24.687 NotebookApp] SSL Error on 10 ('211.54.55.7', 2037): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 01:02:58.745 NotebookApp] SSL Error on 10 ('90.178.165.105', 35447): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 01:54:31.819 NotebookApp] SSL Error on 10 ('94.52.2.50', 42093): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:03:49.293 NotebookApp] SSL Error on 10 ('196.52.43.93', 58402): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:34:17.790 NotebookApp] SSL Error on 10 ('58.182.107.166', 57855): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 17:12:51.908 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.057 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.141 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.146 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.171 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.296 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.477 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:12:52.667 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:13:01.687 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:13:01.917 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:13:02.301 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 17:13:02.442 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 14:27:12.483 NotebookApp] SSL Error on 10 ('50.116.56.144', 35704): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:12.976 NotebookApp] SSL Error on 10 ('50.116.56.144', 35858): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:13.468 NotebookApp] SSL Error on 10 ('50.116.56.144', 35986): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:13.868 NotebookApp] SSL Error on 10 ('50.116.56.144', 36108): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:14.360 NotebookApp] SSL Error on 10 ('50.116.56.144', 36240): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:14.844 NotebookApp] SSL Error on 10 ('50.116.56.144', 36668): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:15.337 NotebookApp] SSL Error on 10 ('50.116.56.144', 36822): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:15.822 NotebookApp] SSL Error on 10 ('50.116.56.144', 36962): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:16.211 NotebookApp] SSL Error on 10 ('50.116.56.144', 37172): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:16.592 NotebookApp] SSL Error on 10 ('50.116.56.144', 37436): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:16.984 NotebookApp] SSL Error on 10 ('50.116.56.144', 37620): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:17.481 NotebookApp] SSL Error on 10 ('50.116.56.144', 37782): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:17.974 NotebookApp] SSL Error on 10 ('50.116.56.144', 38024): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:18.366 NotebookApp] SSL Error on 10 ('50.116.56.144', 38258): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:27:18.854 NotebookApp] SSL Error on 10 ('50.116.56.144', 38384): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:27:21.943 NotebookApp] Malformed HTTP message from 50.116.56.144: Malformed HTTP request line
+[I 14:27:22.918 NotebookApp] 302 GET / (50.116.56.144) 0.60ms
+[I 16:41:14.568 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 18:06:09.522 NotebookApp] SSL Error on 10 ('209.17.96.186', 36288): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:49:51.743 NotebookApp] SSL Error on 10 ('54.245.6.21', 52012): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 16:21:19.746 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 16:21:19.906 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:18:54.688 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:23:45.525 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:30:43.179 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:31:00.781 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:35:32.840 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:35:33.042 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:35:33.217 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:35:33.370 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 17:35:33.540 NotebookApp] Saving file at /git/personalv1/SHELL
+[W 04:01:37.887 NotebookApp] SSL Error on 10 ('173.82.168.148', 33896): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:48:09.592 NotebookApp] SSL Error on 10 ('202.43.154.162', 1678): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:48:10.348 NotebookApp] SSL Error on 10 ('202.43.154.162', 2072): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:48:11.134 NotebookApp] SSL Error on 10 ('202.43.154.162', 2291): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 10:48:11.933 NotebookApp] SSL Error on 10 ('202.43.154.162', 2401): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 16:55:52.779 NotebookApp] SSL Error on 10 ('45.249.94.214', 3529): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:55:52.963 NotebookApp] SSL Error on 10 ('45.249.94.214', 3540): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:55:53.178 NotebookApp] SSL Error on 10 ('45.249.94.214', 3557): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 16:55:53.430 NotebookApp] SSL Error on 10 ('45.249.94.214', 3586): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 21:34:21.992 NotebookApp] SSL Error on 10 ('189.234.121.145', 41956): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:06:55.299 NotebookApp] SSL Error on 10 ('202.43.154.162', 3987): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:06:56.104 NotebookApp] SSL Error on 10 ('202.43.154.162', 4308): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:06:56.936 NotebookApp] SSL Error on 10 ('202.43.154.162', 4615): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 16:06:57.730 NotebookApp] SSL Error on 10 ('202.43.154.162', 4843): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 19:54:03.520 NotebookApp] SSL Error on 10 ('45.249.94.214', 2942): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:54:39.478 NotebookApp] SSL Error on 10 ('45.249.94.214', 2121): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 19:54:43.565 NotebookApp] SSL Error on 10 ('45.249.94.214', 2528): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 05:16:23.983 NotebookApp] SSL Error on 10 ('36.73.155.255', 35351): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:00:59.195 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 07:00:59.251 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 07:00:59.322 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 08:56:54.940 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 08:56:55.113 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 08:56:55.335 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 08:56:55.499 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:19:05.612 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:19:05.730 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:19:06.210 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:32:32.026 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:32:32.122 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:32:32.296 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 09:32:33.789 NotebookApp] Saving file at /git/personalv1/SHELL
+[W 10:23:25.897 NotebookApp] SSL Error on 10 ('122.164.33.185', 53112): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:49:37.605 NotebookApp] SSL Error on 10 ('122.228.10.51', 40271): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:13:47.457 NotebookApp] SSL Error on 10 ('209.17.96.90', 34648): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:01:11.223 NotebookApp] SSL Error on 10 ('45.249.94.214', 1416): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:01:41.297 NotebookApp] SSL Error on 10 ('45.249.94.214', 1148): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 13:01:44.401 NotebookApp] SSL Error on 10 ('45.249.94.214', 1189): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 14:36:40.879 NotebookApp] SSL Error on 10 ('124.197.107.166', 35150): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:43:53.378 NotebookApp] SSL Error on 10 ('58.65.163.189', 61543): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 21:29:20.858 NotebookApp] SSL Error on 10 ('123.176.10.27', 59671): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:32:47.354 NotebookApp] SSL Error on 10 ('5.188.210.12', 23986): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:37:23.377 NotebookApp] SSL Error on 10 ('5.188.210.12', 16636): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:30:21.915 NotebookApp] SSL Error on 10 ('71.6.146.185', 57111): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:27:09.889 NotebookApp] SSL Error on 10 ('202.43.154.162', 2000): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:27:10.473 NotebookApp] SSL Error on 10 ('202.43.154.162', 2208): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:27:11.060 NotebookApp] SSL Error on 10 ('202.43.154.162', 2405): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 04:27:11.664 NotebookApp] SSL Error on 10 ('202.43.154.162', 2539): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 04:38:18.041 NotebookApp] SSL Error on 10 ('122.228.10.51', 19017): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:09:52.052 NotebookApp] SSL Error on 10 ('194.68.167.31', 43300): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:57:53.046 NotebookApp] SSL Error on 10 ('202.43.154.162', 4830): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:57:53.869 NotebookApp] SSL Error on 10 ('202.43.154.162', 1266): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:57:54.686 NotebookApp] SSL Error on 10 ('202.43.154.162', 1523): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 15:57:55.499 NotebookApp] SSL Error on 10 ('202.43.154.162', 1695): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 03:33:45.519 NotebookApp] SSL Error on 10 ('202.43.154.162', 4197): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:46.145 NotebookApp] SSL Error on 10 ('202.43.154.162', 4465): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:33:46.762 NotebookApp] SSL Error on 10 ('202.43.154.162', 4781): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 03:33:47.373 NotebookApp] SSL Error on 10 ('202.43.154.162', 4884): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 12:18:10.658 NotebookApp] SSL Error on 10 ('185.222.211.18', 1703): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:07:45.270 NotebookApp] SSL Error on 10 ('202.43.154.162', 4623): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:07:46.084 NotebookApp] SSL Error on 10 ('202.43.154.162', 4872): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:07:46.930 NotebookApp] SSL Error on 10 ('202.43.154.162', 1069): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 15:07:47.780 NotebookApp] SSL Error on 10 ('202.43.154.162', 1259): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 01:57:26.020 NotebookApp] SSL Error on 10 ('209.17.96.178', 60766): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:40:15.780 NotebookApp] SSL Error on 10 ('202.43.154.162', 2292): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:40:16.366 NotebookApp] SSL Error on 10 ('202.43.154.162', 2597): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:40:16.983 NotebookApp] SSL Error on 10 ('202.43.154.162', 2772): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 02:40:17.572 NotebookApp] SSL Error on 10 ('202.43.154.162', 2917): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 04:24:31.166 NotebookApp] SSL Error on 10 ('71.6.146.185', 46804): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:15:31.707 NotebookApp] SSL Error on 10 ('185.222.211.18', 1511): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 23:57:14.446 NotebookApp] SSL Error on 10 ('62.45.219.35', 3589): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:56:15.015 NotebookApp] SSL Error on 10 ('98.19.49.76', 56699): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 18:19:35.922 NotebookApp] SSL Error on 10 ('107.170.212.111', 44150): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:47:11.205 NotebookApp] SSL Error on 10 ('202.43.154.162', 4770): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:47:11.828 NotebookApp] SSL Error on 10 ('202.43.154.162', 1426): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 10:47:12.435 NotebookApp] SSL Error on 10 ('202.43.154.162', 1861): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 10:47:13.057 NotebookApp] SSL Error on 10 ('202.43.154.162', 2238): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 11:05:08.285 NotebookApp] SSL Error on 10 ('14.161.253.115', 40351): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:53:58.486 NotebookApp] SSL Error on 10 ('209.17.96.194', 42766): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:48:06.469 NotebookApp] SSL Error on 10 ('139.162.79.87', 44294): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:48:06.748 NotebookApp] SSL Error on 10 ('139.162.79.87', 44926): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:48:07.005 NotebookApp] SSL Error on 10 ('139.162.79.87', 45352): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:48:27.540 NotebookApp] SSL Error on 10 ('139.162.79.87', 49318): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 03:22:16.051 NotebookApp] 302 GET / (113.10.152.196) 0.49ms
+[I 03:22:16.239 NotebookApp] 302 GET /tree (113.10.152.196) 0.85ms
+[W 22:20:14.989 NotebookApp] SSL Error on 10 ('122.228.10.51', 24258): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:23:26.251 NotebookApp] SSL Error on 10 ('209.17.96.162', 59524): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:48:05.832 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 14:57:38.159 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 14:57:38.284 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 14:57:38.470 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 14:57:38.639 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 14:57:48.299 NotebookApp] Saving file at /git/personalv1/SHELL
+[W 16:23:02.199 NotebookApp] SSL Error on 10 ('202.43.154.162', 2886): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:23:03.016 NotebookApp] SSL Error on 10 ('202.43.154.162', 3918): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 16:23:03.824 NotebookApp] SSL Error on 10 ('202.43.154.162', 1410): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 16:23:04.632 NotebookApp] SSL Error on 10 ('202.43.154.162', 1995): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 18:15:25.314 NotebookApp] SSL Error on 10 ('54.227.25.221', 49240): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 21:49:08.494 NotebookApp] Saving file at /git/personalv1/SHELL
+[W 22:17:14.009 NotebookApp] SSL Error on 10 ('185.156.177.2', 58178): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:17:14.252 NotebookApp] SSL Error on 10 ('185.156.177.2', 59039): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 02:50:07.832 NotebookApp] SSL Error on 10 ('5.101.40.90', 1554): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 10:16:08.960 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 10:16:09.042 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 10:16:09.116 NotebookApp] Saving file at /git/personalv1/SHELL
+[I 10:16:09.375 NotebookApp] Saving file at /git/personalv1/SHELL
+[W 12:55:29.509 NotebookApp] SSL Error on 10 ('202.43.154.162', 3530): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:55:30.129 NotebookApp] SSL Error on 10 ('202.43.154.162', 4861): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:55:30.757 NotebookApp] SSL Error on 10 ('202.43.154.162', 2362): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 12:55:31.364 NotebookApp] SSL Error on 10 ('202.43.154.162', 3329): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 13:35:47.621 NotebookApp] SSL Error on 10 ('185.156.177.36', 49920): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:35:47.865 NotebookApp] SSL Error on 10 ('185.156.177.36', 50366): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:31:14.429 NotebookApp] SSL Error on 10 ('94.204.189.188', 43420): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:24:08.347 NotebookApp] SSL Error on 10 ('139.162.79.87', 58524): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:24:08.606 NotebookApp] SSL Error on 10 ('139.162.79.87', 59006): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:24:08.863 NotebookApp] SSL Error on 10 ('139.162.79.87', 59148): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:24:29.387 NotebookApp] SSL Error on 10 ('139.162.79.87', 37076): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:46:51.758 NotebookApp] SSL Error on 10 ('202.43.154.162', 2497): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:46:52.342 NotebookApp] SSL Error on 10 ('202.43.154.162', 4837): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:46:52.949 NotebookApp] SSL Error on 10 ('202.43.154.162', 2502): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:46:53.550 NotebookApp] SSL Error on 10 ('202.43.154.162', 4754): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[I 12:28:24.408 NotebookApp] 302 GET / (199.247.31.119) 0.55ms
+[I 12:28:25.142 NotebookApp] 302 GET /tree? (199.247.31.119) 0.92ms
+[W 00:24:03.699 NotebookApp] SSL Error on 10 ('218.212.138.187', 41871): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:44:27.705 NotebookApp] SSL Error on 10 ('202.43.154.162', 1747): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:44:28.299 NotebookApp] SSL Error on 10 ('202.43.154.162', 2630): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:44:28.900 NotebookApp] SSL Error on 10 ('202.43.154.162', 3700): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 06:44:29.515 NotebookApp] SSL Error on 10 ('202.43.154.162', 4578): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 11:28:02.328 NotebookApp] SSL Error on 10 ('139.162.79.87', 56734): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:28:02.609 NotebookApp] SSL Error on 10 ('139.162.79.87', 57242): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:28:02.874 NotebookApp] SSL Error on 10 ('139.162.79.87', 57856): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:28:23.397 NotebookApp] SSL Error on 10 ('139.162.79.87', 35698): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:43:59.724 NotebookApp] SSL Error on 10 ('202.43.154.162', 2921): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:44:00.543 NotebookApp] SSL Error on 10 ('202.43.154.162', 3842): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 03:44:04.396 NotebookApp] SSL Error on 10 ('202.43.154.162', 3953): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 03:44:05.449 NotebookApp] SSL Error on 10 ('202.43.154.162', 4381): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 04:53:32.100 NotebookApp] SSL Error on 10 ('218.250.6.5', 45885): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:59:31.137 NotebookApp] SSL Error on 10 ('209.17.96.138', 38722): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:38:20.700 NotebookApp] SSL Error on 10 ('122.228.10.51', 62650): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:51:10.187 NotebookApp] SSL Error on 10 ('202.43.154.162', 4908): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:51:10.779 NotebookApp] SSL Error on 10 ('202.43.154.162', 1415): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:51:11.368 NotebookApp] SSL Error on 10 ('202.43.154.162', 1872): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 00:51:11.956 NotebookApp] SSL Error on 10 ('202.43.154.162', 2373): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 22:05:23.755 NotebookApp] SSL Error on 10 ('202.43.154.162', 3892): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:05:24.371 NotebookApp] SSL Error on 10 ('202.43.154.162', 4836): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:05:24.963 NotebookApp] SSL Error on 10 ('202.43.154.162', 1687): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 22:05:25.542 NotebookApp] SSL Error on 10 ('202.43.154.162', 2584): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 23:39:27.079 NotebookApp] SSL Error on 10 ('82.221.105.6', 53375): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:48:40.862 NotebookApp] SSL Error on 10 ('168.235.93.142', 44326): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:15:39.642 NotebookApp] SSL Error on 10 ('202.43.154.162', 4492): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:15:40.462 NotebookApp] SSL Error on 10 ('202.43.154.162', 2033): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:15:41.283 NotebookApp] SSL Error on 10 ('202.43.154.162', 3176): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 19:15:42.101 NotebookApp] SSL Error on 10 ('202.43.154.162', 4372): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 09:47:36.749 NotebookApp] SSL Error on 10 ('139.162.79.87', 52736): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:47:37.403 NotebookApp] SSL Error on 10 ('139.162.79.87', 54016): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:47:37.669 NotebookApp] SSL Error on 10 ('139.162.79.87', 54798): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:47:58.195 NotebookApp] SSL Error on 10 ('139.162.79.87', 41122): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 19:20:54.406 NotebookApp] SSL Error on 10 ('2.108.95.93', 43784): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:25:21.044 NotebookApp] SSL Error on 10 ('209.17.96.154', 54842): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:24:59.200 NotebookApp] Creating new file in /git/personalv1
+[I 07:27:55.981 NotebookApp] Saving file at /git/personalv1/JAVA
+[I 07:59:50.107 NotebookApp] Saving file at /git/personalv1/JAVA
+[I 08:27:34.830 NotebookApp] Saving file at /git/personalv1/JAVA
+[I 12:09:00.002 NotebookApp] Saving file at /git/personalv1/JAVA
+[W 22:03:30.233 NotebookApp] SSL Error on 10 ('202.43.154.162', 4332): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:03:30.827 NotebookApp] SSL Error on 10 ('202.43.154.162', 2764): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:03:31.427 NotebookApp] SSL Error on 10 ('202.43.154.162', 2855): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 22:03:31.554 NotebookApp] SSL Error on 10 ('202.43.154.162', 1104): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:03:32.018 NotebookApp] SSL Error on 10 ('202.43.154.162', 4886): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 22:03:32.144 NotebookApp] SSL Error on 10 ('202.43.154.162', 1616): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 22:03:32.733 NotebookApp] SSL Error on 10 ('202.43.154.162', 3152): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 22:03:33.327 NotebookApp] SSL Error on 10 ('202.43.154.162', 2079): [SSL: NO_SHARED_CIPHER] no shared cipher (_ssl.c:777)
+[W 08:53:00.425 NotebookApp] SSL Error on 10 ('5.199.133.132', 49412): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:53:00.662 NotebookApp] SSL Error on 10 ('5.199.133.132', 49517): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:53:00.900 NotebookApp] SSL Error on 10 ('5.199.133.132', 49587): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:07:21.654 NotebookApp] SSL Error on 10 ('77.37.135.20', 42072): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 15:27:44.080 NotebookApp] SSL Error on 10 ('58.153.214.58', 33015): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:09:01.992 NotebookApp] SSL Error on 11 ('185.53.91.66', 60838): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:09:02.463 NotebookApp] 404 GET /cgi/webcgi (185.53.91.66) 16.75ms referer=None
+[W 09:33:10.837 NotebookApp] SSL Error on 10 ('149.28.82.81', 60634): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 05:51:19.946 NotebookApp] 302 GET /edit/git/personalv1/GIT%20Commands (61.246.57.5) 0.87ms
+[I 05:51:24.399 NotebookApp] 302 POST /login?next=%2Fedit%2Fgit%2Fpersonalv1%2FGIT%2520Commands (61.246.57.5) 1.82ms
+[W 09:31:47.655 NotebookApp] SSL Error on 10 ('209.17.97.10', 58442): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:08:58.604 NotebookApp] SSL Error on 10 ('120.89.95.130', 57738): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:29:23.984 NotebookApp] SSL Error on 10 ('139.162.79.87', 34812): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:29:24.253 NotebookApp] SSL Error on 10 ('139.162.79.87', 35220): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:29:24.529 NotebookApp] SSL Error on 10 ('139.162.79.87', 35652): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 14:29:45.062 NotebookApp] SSL Error on 10 ('139.162.79.87', 38734): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:03:24.472 NotebookApp] SSL Error on 10 ('185.156.177.2', 42891): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 17:03:24.714 NotebookApp] SSL Error on 10 ('185.156.177.2', 43610): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:03:06.717 NotebookApp] SSL Error on 10 ('139.162.79.87', 37018): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:03:06.982 NotebookApp] SSL Error on 10 ('139.162.79.87', 37402): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:03:07.255 NotebookApp] SSL Error on 10 ('139.162.79.87', 37774): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 08:03:27.781 NotebookApp] SSL Error on 10 ('139.162.79.87', 38648): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:32:12.528 NotebookApp] SSL Error on 10 ('54.186.133.139', 44122): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 06:59:21.943 NotebookApp] SSL Error on 10 ('62.4.14.206', 36133): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 12:41:01.733 NotebookApp] SSL Error on 10 ('209.17.96.186', 39646): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:17:14.887 NotebookApp] SSL Error on 10 ('139.162.79.87', 49876): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:17:15.141 NotebookApp] SSL Error on 10 ('139.162.79.87', 50232): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:17:15.397 NotebookApp] SSL Error on 10 ('139.162.79.87', 50526): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 05:17:35.930 NotebookApp] SSL Error on 10 ('139.162.79.87', 46382): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 07:25:19.584 NotebookApp] 302 GET /edit/git/personalv1/JAVA (49.35.102.239) 0.78ms
+[I 07:25:23.174 NotebookApp] 302 POST /login?next=%2Fedit%2Fgit%2Fpersonalv1%2FJAVA (49.35.102.239) 1.26ms
+[I 13:22:15.210 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[I 13:22:15.484 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[I 13:22:15.724 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[I 13:22:15.863 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[I 13:22:16.014 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[I 13:22:16.192 NotebookApp] Saving file at /git/personalv1/Linux BasicsChp1-10
+[W 01:11:45.718 NotebookApp] SSL Error on 10 ('72.79.42.106', 42646): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:36:27.177 NotebookApp] SSL Error on 10 ('37.70.57.217', 60224): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 09:36:29.002 NotebookApp] SSL Error on 10 ('37.70.57.217', 60221): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 09:54:47.138 NotebookApp] 302 GET / (164.52.24.172) 0.50ms
+[W 11:47:52.474 NotebookApp] SSL Error on 10 ('185.92.73.112', 33552): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 11:47:52.717 NotebookApp] SSL Error on 10 ('185.92.73.112', 34157): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 14:48:39.879 NotebookApp] Creating new file in /git/personalv1
+[I 14:50:19.205 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 13:33:20.055 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[W 13:53:11.534 NotebookApp] SSL Error on 12 ('139.162.79.87', 55212): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:53:11.785 NotebookApp] SSL Error on 12 ('139.162.79.87', 55476): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:53:12.040 NotebookApp] SSL Error on 12 ('139.162.79.87', 55762): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 13:53:32.555 NotebookApp] SSL Error on 12 ('139.162.79.87', 47690): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 13:59:32.426 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:07:01.325 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:07:01.415 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:15:45.346 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 14:34:05.991 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:35:49.862 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:35:50.007 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:35:50.202 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:36:13.681 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:36:13.857 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:37:36.276 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:38:03.807 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:38:03.967 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:38:04.152 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 14:38:04.327 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 15:01:42.428 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 15:01:46.708 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 15:07:50.536 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 15:09:00.494 NotebookApp] Saving file at /git/personalv1/untitled1.txt
+[I 15:10:12.925 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 16:58:46.999 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 17:02:38.534 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[I 18:06:22.329 NotebookApp] Saving file at /git/personalv1/Kubernetes
+[W 23:45:11.918 NotebookApp] SSL Error on 10 ('209.17.97.26', 56466): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 04:26:39.988 NotebookApp] SSL Error on 10 ('34.223.219.142', 54121): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:10.593 NotebookApp] SSL Error on 10 ('208.100.26.231', 36878): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:11.022 NotebookApp] SSL Error on 10 ('208.100.26.231', 37030): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:11.443 NotebookApp] SSL Error on 10 ('208.100.26.231', 37154): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:11.874 NotebookApp] SSL Error on 10 ('208.100.26.231', 37283): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:12.298 NotebookApp] SSL Error on 10 ('208.100.26.231', 37407): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:12.726 NotebookApp] SSL Error on 10 ('208.100.26.231', 37532): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:13.156 NotebookApp] SSL Error on 10 ('208.100.26.231', 37663): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:13.580 NotebookApp] SSL Error on 10 ('208.100.26.231', 37793): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:14.011 NotebookApp] SSL Error on 10 ('208.100.26.231', 37937): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:14.449 NotebookApp] SSL Error on 10 ('208.100.26.231', 38049): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:14.874 NotebookApp] SSL Error on 10 ('208.100.26.231', 38179): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:42:15.290 NotebookApp] SSL Error on 10 ('208.100.26.231', 38331): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 00:42:22.162 NotebookApp] Malformed HTTP message from 208.100.26.231: Malformed HTTP request line
+[I 00:42:23.013 NotebookApp] 302 GET / (208.100.26.231) 0.66ms
+[I 00:44:04.511 NotebookApp] 302 GET / (208.100.26.231) 0.61ms
+[W 00:44:04.514 NotebookApp] 404 GET /nmaplowercheck1538009043 (208.100.26.231) 2.33ms referer=None
+[W 00:44:05.417 NotebookApp] 404 GET /HNAP1 (208.100.26.231) 1.84ms referer=None
+[I 00:44:05.466 NotebookApp] 302 GET / (208.100.26.231) 0.39ms
+[W 00:44:05.467 NotebookApp] 404 GET /evox/about (208.100.26.231) 1.41ms referer=None
+[W 00:44:05.964 NotebookApp] SSL Error on 10 ('208.100.26.231', 48126): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:44:05.966 NotebookApp] SSL Error on 12 ('208.100.26.231', 48127): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[W 00:44:07.817 NotebookApp] 403 POST /sdk (208.100.26.231): '_xsrf' argument missing from POST
+[W 00:44:07.819 NotebookApp] 403 POST /sdk (208.100.26.231) 2.30ms referer=None
+[W 00:44:10.976 NotebookApp] SSL Error on 11 ('208.100.26.231', 48129): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:777)
+[I 00:44:41.881 NotebookApp] 302 GET / (208.100.26.231) 0.50ms
